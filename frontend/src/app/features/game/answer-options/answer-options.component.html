@@ -1,0 +1,21 @@
+<div class="answer-grid">
+  @for (option of options; track option; let i = $index) {
+    <button
+      class="answer-btn"
+      [class]="'answer-btn--' + getOptionState(option)"
+      [disabled]="disabled"
+      (click)="selectOption(option)"
+      type="button"
+    >
+      <span class="option-label">{{ optionLabels[i] }}</span>
+      <span class="option-text">{{ option }}</span>
+      <span class="option-icon">
+        @switch (getOptionState(option)) {
+          @case ('correct') { ✅ }
+          @case ('wrong') { ❌ }
+          @default { }
+        }
+      </span>
+    </button>
+  }
+</div>

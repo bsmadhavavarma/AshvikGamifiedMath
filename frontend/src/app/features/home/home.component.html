@@ -1,0 +1,93 @@
+<div class="home-page">
+  <div class="home-container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-emoji">🌟</div>
+      <h1 class="hero-title">Ashvik's Math Adventure</h1>
+      <p class="hero-subtitle">✨ Practice makes perfect! ✨</p>
+      <p class="hero-description">
+        Master percentages, earn coins, and climb the leaderboard!
+      </p>
+    </div>
+
+    <!-- Login Card -->
+    <div class="login-card">
+      <h2 class="card-title">Who's Playing? 🎮</h2>
+
+      <!-- Avatar Selection -->
+      <div class="avatar-section">
+        <p class="section-label">Choose your avatar:</p>
+        <div class="avatar-grid">
+          @for (avatar of avatars; track avatar.code) {
+            <button
+              class="avatar-btn"
+              [class.selected]="selectedAvatar() === avatar.code"
+              (click)="selectAvatar(avatar.code)"
+              [attr.aria-label]="avatar.label"
+              type="button"
+            >
+              <span class="avatar-emoji">{{ avatar.code }}</span>
+              <span class="avatar-label">{{ avatar.label }}</span>
+            </button>
+          }
+        </div>
+      </div>
+
+      <!-- Name Input -->
+      <div class="name-section">
+        <label class="section-label" for="playerName">Your name:</label>
+        <div class="input-wrapper">
+          <span class="input-icon">{{ selectedAvatar() }}</span>
+          <input
+            id="playerName"
+            class="name-input"
+            type="text"
+            placeholder="Enter your name..."
+            [(ngModel)]="nameValue"
+            maxlength="20"
+            autocomplete="off"
+            (keyup.enter)="onSubmit()"
+          />
+        </div>
+        @if (errorMessage()) {
+          <p class="error-message">⚠️ {{ errorMessage() }}</p>
+        }
+      </div>
+
+      <!-- Submit Button -->
+      <button
+        class="start-btn"
+        (click)="onSubmit()"
+        [disabled]="isLoading()"
+        type="button"
+      >
+        @if (isLoading()) {
+          <span class="btn-spinner">⏳</span>
+          <span>Creating adventure...</span>
+        } @else {
+          <span>🚀 Start Adventure!</span>
+        }
+      </button>
+    </div>
+
+    <!-- Features Preview -->
+    <div class="features">
+      <div class="feature-item">
+        <span class="feature-icon">🧮</span>
+        <span class="feature-text">Percentages</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🪙</span>
+        <span class="feature-text">Earn Coins</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔥</span>
+        <span class="feature-text">Build Streaks</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🏆</span>
+        <span class="feature-text">Leaderboard</span>
+      </div>
+    </div>
+  </div>
+</div>

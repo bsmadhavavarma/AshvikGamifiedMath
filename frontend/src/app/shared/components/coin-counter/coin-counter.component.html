@@ -1,0 +1,7 @@
+<div class="coin-counter">
+  <span class="coin-icon">🪙</span>
+  <span class="coin-value">{{ _displayCoins() }}</span>
+  @if (_showPop()) {
+    <span class="coin-pop">+{{ _popDelta() }}</span>
+  }
+</div>

@@ -1,0 +1,24 @@
+<div class="question-card">
+  @if (question) {
+    <div class="question-meta">
+      <span class="question-number">Question {{ questionNumber }} of {{ totalQuestions }}</span>
+      <span class="question-module">🧮 Percentages</span>
+    </div>
+
+    <div class="question-text-wrapper">
+      <p class="question-text">{{ question.questionText }}</p>
+    </div>
+
+    @if (question.hintText) {
+      <div class="hint-box">
+        <span class="hint-icon">💡</span>
+        <span class="hint-text">Hint: {{ question.hintText }}</span>
+      </div>
+    }
+  } @else {
+    <div class="question-loading">
+      <div class="loading-spinner">⏳</div>
+      <p>Loading question...</p>
+    </div>
+  }
+</div>

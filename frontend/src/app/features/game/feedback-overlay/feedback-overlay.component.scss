@@ -1,0 +1,134 @@
+.feedback-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 0 1rem 1rem;
+  animation: slideUp 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.feedback-card {
+  border-radius: 24px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+  box-shadow: 0 -4px 32px rgba(0, 0, 0, 0.15);
+
+  .feedback-overlay.correct & {
+    background: linear-gradient(135deg, #d5f5e3 0%, #a9dfbf 100%);
+    border: 3px solid #27ae60;
+  }
+
+  .feedback-overlay.wrong & {
+    background: linear-gradient(135deg, #fde8e8 0%, #f5c6c6 100%);
+    border: 3px solid #e74c3c;
+  }
+}
+
+.feedback-mascot {
+  font-size: 2.5rem;
+  line-height: 1;
+  animation: mascotBounce 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.feedback-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+
+  .feedback-overlay.correct & {
+    color: #145a32;
+  }
+
+  .feedback-overlay.wrong & {
+    color: #7b241c;
+  }
+}
+
+.coins-earned {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 217, 61, 0.4);
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  border: 2px solid #f9ca24;
+}
+
+.coins-icon {
+  font-size: 1.2rem;
+}
+
+.coins-text {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #6d4c00;
+}
+
+.streak-badge {
+  background: linear-gradient(135deg, #ff6b6b, #ff9f43);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-weight: 800;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+}
+
+.correct-answer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ca-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #7b241c;
+}
+
+.ca-value {
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: #145a32;
+  background: #d5f5e3;
+  border-radius: 8px;
+  padding: 0.15rem 0.5rem;
+}
+
+.explanation {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+  .feedback-overlay.correct & {
+    color: #1e8449;
+  }
+
+  .feedback-overlay.wrong & {
+    color: #922b21;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mascotBounce {
+  0% { transform: scale(0) rotate(-20deg); }
+  60% { transform: scale(1.2) rotate(10deg); }
+  80% { transform: scale(0.9) rotate(-5deg); }
+  100% { transform: scale(1) rotate(0); }
+}

@@ -1,0 +1,14 @@
+[build]
+  builder = "NIXPACKS"
+
+[[services]]
+  name = "ashvik-backend"
+  rootDirectory = "backend"
+  startCommand = "node dist/server.js"
+  healthcheckPath = "/api/v1/health"
+  healthcheckTimeout = 30
+
+[[services]]
+  name = "ashvik-frontend"
+  rootDirectory = "frontend"
+  startCommand = "npx serve dist/ashvik-gamified-math/browser -s -l $PORT"

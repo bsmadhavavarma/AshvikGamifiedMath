@@ -1,0 +1,32 @@
+<nav class="app-nav">
+  <div class="nav-brand">
+    <span class="nav-logo">🌟</span>
+    <a routerLink="/" class="nav-title">Ashvik's Math Adventure</a>
+  </div>
+  <div class="nav-links">
+    @if (playerService.isLoggedIn()) {
+      <a routerLink="/difficulty" routerLinkActive="active" class="nav-link">
+        🎮 Play
+      </a>
+      <a routerLink="/history" routerLinkActive="active" class="nav-link">
+        📜 History
+      </a>
+    }
+    <a routerLink="/leaderboard" routerLinkActive="active" class="nav-link">
+      🏆 Leaderboard
+    </a>
+    @if (playerService.isLoggedIn()) {
+      <div class="nav-player">
+        <span class="nav-avatar">{{ playerService.player()?.avatarCode }}</span>
+        <span class="nav-name">{{ playerService.player()?.displayName }}</span>
+        <button class="nav-logout" (click)="playerService.logout()">
+          Logout
+        </button>
+      </div>
+    }
+  </div>
+</nav>
+
+<main class="app-main">
+  <router-outlet></router-outlet>
+</main>

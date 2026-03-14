@@ -1,0 +1,16 @@
+<div class="star-rating">
+  <div class="stars">
+    @for (star of stars(); track star.index) {
+      <span
+        class="star"
+        [class.star--filled]="star.filled"
+        [class.star--empty]="!star.filled"
+        [style.animation-delay.ms]="star.index * 150"
+      >
+        {{ star.filled ? '⭐' : '☆' }}
+      </span>
+    }
+  </div>
+  <p class="star-message">{{ message() }}</p>
+  <p class="accuracy-label">{{ accuracy }}% Accuracy</p>
+</div>

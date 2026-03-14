@@ -1,0 +1,59 @@
+<div class="game-page">
+  <div class="game-container">
+
+    <!-- Score HUD -->
+    <app-score-hud></app-score-hud>
+
+    <!-- Timer Bar -->
+    <app-timer-bar
+      [durationMs]="timerDurationMs"
+      [active]="timerActive()"
+      (timerExpired)="onTimerExpired()"
+    ></app-timer-bar>
+
+    <!-- Error Message -->
+    @if (errorMessage()) {
+      <div class="error-banner">
+        ⚠️ {{ errorMessage() }}
+      </div>
+    }
+
+    <!-- Loading State -->
+    @if (isLoading()) {
+      <div class="loading-state">
+        <div class="loading-emoji">🧮</div>
+        <p class="loading-text">Getting your question ready...</p>
+      </div>
+    }
+
+    <!-- Question Area -->
+    @if (!isLoading()) {
+      <div class="question-area" [class.answering]="isAnswering()">
+        <!-- Question Card -->
+        <app-question-card
+          [question]="currentQuestion()"
+          [questionNumber]="gameStore$.sequenceNumber()"
+          [totalQuestions]="gameStore$.totalQuestions()"
+        ></app-question-card>
+
+        <!-- Answer Options -->
+        <app-answer-options
+          [options]="currentQuestion()?.options ?? []"
+          [disabled]="isAnswering() || showFeedback()"
+          [correctOption]="feedback()?.correctOption ?? null"
+          [selectedOption]="selectedOption()"
+          (optionSelected)="onOptionSelected($event)"
+        ></app-answer-options>
+      </div>
+
+      <!-- Feedback Overlay (positioned relative to question area) -->
+      <div class="feedback-wrapper" [class.visible]="showFeedback()">
+        <app-feedback-overlay
+          [feedback]="feedback()"
+          [visible]="showFeedback()"
+        ></app-feedback-overlay>
+      </div>
+    }
+
+  </div>
+</div>
