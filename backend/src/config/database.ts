@@ -1,4 +1,4 @@
-import { Pool, QueryResult, QueryResultRow } from 'pg';
+import { Pool, PoolClient, QueryResult, QueryResultRow } from 'pg';
 import { env } from './env';
 import { logger } from './logger';
 
@@ -34,7 +34,7 @@ export async function query<T extends QueryResultRow = QueryResultRow>(
   }
 }
 
-export async function getClient(): Promise<ReturnType<Pool['connect']>> {
+export async function getClient(): Promise<PoolClient> {
   return pool.connect();
 }
 

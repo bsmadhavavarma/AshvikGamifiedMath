@@ -3,7 +3,11 @@ import path from 'path';
 import { pool, query } from '../config/database';
 import { logger } from '../config/logger';
 
-const MIGRATIONS_DIR = path.join(__dirname, 'migrations');
+// SQL files live in src/db/migrations and are not copied by tsc.
+// When running compiled JS from dist/, navigate back to src/db/migrations.
+const MIGRATIONS_DIR = __dirname.includes('/dist/')
+  ? path.resolve(__dirname, '../../src/db/migrations')
+  : path.join(__dirname, 'migrations');
 
 async function ensureMigrationsTable(): Promise<void> {
   await query(`

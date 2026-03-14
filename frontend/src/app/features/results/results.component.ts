@@ -6,7 +6,6 @@ import { GameStore } from '../../state/game.store';
 import { Session } from '../../core/models/session.model';
 import { StarRatingComponent } from '../../shared/components/star-rating/star-rating.component';
 import { ConfettiComponent } from '../../shared/components/confetti/confetti.component';
-import { CoinCounterComponent } from '../../shared/components/coin-counter/coin-counter.component';
 import { SoundService } from '../../core/services/sound.service';
 
 @Component({
@@ -17,7 +16,6 @@ import { SoundService } from '../../core/services/sound.service';
     RouterLink,
     StarRatingComponent,
     ConfettiComponent,
-    CoinCounterComponent,
   ],
   templateUrl: './results.component.html',
   styleUrl: './results.component.scss',
