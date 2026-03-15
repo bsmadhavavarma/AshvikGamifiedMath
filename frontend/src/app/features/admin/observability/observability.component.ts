@@ -118,7 +118,7 @@ export class ObservabilityComponent implements OnInit, OnDestroy {
   }> {
     const tr = this.testResults();
     if (!tr?.testResults) return [];
-    const results: ReturnType<typeof this.allTestCases> = [];
+    const results: Array<{ num: number; suite: string; description: string; expected: string; actual: string; status: 'passed' | 'failed'; duration?: number; failures: string[] }> = [];
     let num = 1;
     for (const suite of tr.testResults) {
       const suiteName = suite.testFilePath?.split('/').pop()?.replace('.test.ts', '') ?? 'Unknown';
