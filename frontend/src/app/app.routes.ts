@@ -1,51 +1,14 @@
 import { Routes } from '@angular/router';
-import { sessionGuard } from './core/guards/session.guard';
+import { authGuard } from './core/guards/auth.guard';
 
 export const routes: Routes = [
-  {
-    path: '',
-    loadComponent: () =>
-      import('./features/home/home.component').then((m) => m.HomeComponent),
-  },
-  {
-    path: 'difficulty',
-    loadComponent: () =>
-      import('./features/difficulty-select/difficulty-select.component').then(
-        (m) => m.DifficultySelectComponent,
-      ),
-    canActivate: [sessionGuard],
-  },
-  {
-    path: 'game/:sessionId',
-    loadComponent: () =>
-      import('./features/game/game.component').then((m) => m.GameComponent),
-    canActivate: [sessionGuard],
-  },
-  {
-    path: 'results/:sessionId',
-    loadComponent: () =>
-      import('./features/results/results.component').then(
-        (m) => m.ResultsComponent,
-      ),
-    canActivate: [sessionGuard],
-  },
-  {
-    path: 'leaderboard',
-    loadComponent: () =>
-      import('./features/leaderboard/leaderboard.component').then(
-        (m) => m.LeaderboardComponent,
-      ),
-  },
-  {
-    path: 'history',
-    loadComponent: () =>
-      import('./features/history/history.component').then(
-        (m) => m.HistoryComponent,
-      ),
-    canActivate: [sessionGuard],
-  },
-  {
-    path: '**',
-    redirectTo: '',
-  },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'login', loadComponent: () => import('./features/login/login.component').then(m => m.LoginComponent) },
+  { path: 'home', canActivate: [authGuard], loadComponent: () => import('./features/home/home.component').then(m => m.HomeComponent) },
+  { path: 'learn/:theme/:level/:subject/:chapter', canActivate: [authGuard], loadComponent: () => import('./features/learn/learn.component').then(m => m.LearnComponent) },
+  { path: 'evaluate/:theme/:level/:subject/:chapter', canActivate: [authGuard], loadComponent: () => import('./features/evaluate/evaluate.component').then(m => m.EvaluateComponent) },
+  { path: 'progress', canActivate: [authGuard], loadComponent: () => import('./features/progress/progress.component').then(m => m.ProgressComponent) },
+  { path: 'admin', loadComponent: () => import('./features/admin/users/admin-users.component').then(m => m.AdminUsersComponent) },
+  { path: 'admin/observability', loadComponent: () => import('./features/admin/observability/observability.component').then(m => m.ObservabilityComponent) },
+  { path: '**', redirectTo: 'login' },
 ];

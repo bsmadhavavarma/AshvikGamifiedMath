@@ -1,0 +1,138 @@
+<div class="admin-container">
+  <header>
+    <h1>🔐 Admin — User Management</h1>
+    <a href="/admin/observability">📊 Observability</a>
+  </header>
+
+  @if (error()) {
+    <div class="error">{{ error() }} <button (click)="error.set('')">✕</button></div>
+  }
+
+  @if (createdPin()) {
+    <div class="pin-alert">
+      ✅ User created! PIN is: <strong>{{ createdPin() }}</strong>
+      <small>Save this — it won't be shown again.</small>
+      <button (click)="createdPin.set('')">Dismiss</button>
+    </div>
+  }
+
+  <div class="actions">
+    <button class="btn-primary" (click)="showCreateForm.set(!showCreateForm())">
+      {{ showCreateForm() ? 'Cancel' : '+ New User' }}
+    </button>
+  </div>
+
+  @if (showCreateForm()) {
+    <div class="form-card">
+      <h3>Create New User</h3>
+      <div class="form-row">
+        <label>Full Name</label>
+        <input [(ngModel)]="createForm.fullName" placeholder="Full name" />
+      </div>
+      <div class="form-row">
+        <label>Display Name (used to login)</label>
+        <input [(ngModel)]="createForm.displayName" placeholder="Short name" />
+      </div>
+      <div class="form-row">
+        <label>Class Level</label>
+        <select [(ngModel)]="createForm.level">
+          @for (l of levels; track l) { <option [value]="l">Class {{ l }}</option> }
+        </select>
+      </div>
+      <div class="form-row">
+        <label>PIN (6 digits — leave blank to auto-generate)</label>
+        <input [(ngModel)]="createForm.pin" placeholder="Auto-generate" maxlength="6" type="text" />
+      </div>
+      <button class="btn-primary" (click)="createUser()">Create User</button>
+    </div>
+  }
+
+  <table class="users-table">
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Display Name</th>
+        <th>Class</th>
+        <th>Joined</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (user of users(); track user.id) {
+        <tr>
+          <td>{{ user.fullName }}</td>
+          <td class="mono">{{ user.displayName }}</td>
+          <td>{{ user.level }}</td>
+          <td>{{ user.createdAt | date:'mediumDate' }}</td>
+          <td class="action-cell">
+            <button class="btn-edit" (click)="openEdit(user)">✏️ Edit</button>
+            <button class="btn-delete" (click)="confirmDelete(user)">🗑 Delete</button>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+<!-- ── Edit Modal ──────────────────────────────────────────────── -->
+@if (editingUser()) {
+  <div class="modal-overlay" (click)="closeEdit()">
+    <div class="modal" (click)="$event.stopPropagation()">
+      @if (editResultPin()) {
+        <div class="pin-alert">
+          🔑 New PIN: <strong>{{ editResultPin() }}</strong>
+          <small>Share this with the user.</small>
+          <button (click)="closeEdit()">Done</button>
+        </div>
+      } @else {
+        <h3>Edit User — {{ editingUser()!.displayName }}</h3>
+        <div class="form-row">
+          <label>Full Name</label>
+          <input [(ngModel)]="editForm.fullName" />
+        </div>
+        <div class="form-row">
+          <label>Display Name (login)</label>
+          <input [(ngModel)]="editForm.displayName" />
+        </div>
+        <div class="form-row">
+          <label>Class Level</label>
+          <select [(ngModel)]="editForm.level">
+            @for (l of levels; track l) { <option [value]="l">Class {{ l }}</option> }
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Reset PIN <span class="hint">(leave blank to auto-generate a new PIN; clear field and save to reset)</span></label>
+          <div class="pin-row">
+            <input [(ngModel)]="editForm.pin" placeholder="New 6-digit PIN or blank to auto-generate" maxlength="6" type="text" class="pin-input" />
+          </div>
+          <small class="muted">Current PIN is not shown (hashed). To keep existing PIN, do not touch this field — but the field must be explicitly cleared if you want a reset.</small>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" (click)="closeEdit()">Cancel</button>
+          <button class="btn-primary" (click)="saveEdit()">Save Changes</button>
+        </div>
+      }
+    </div>
+  </div>
+}
+
+<!-- ── Delete Confirm Modal ────────────────────────────────────── -->
+@if (deletingUser()) {
+  <div class="modal-overlay" (click)="deletingUser.set(null)">
+    <div class="modal modal-danger" (click)="$event.stopPropagation()">
+      <h3>⚠️ Delete User?</h3>
+      <p>You are about to permanently delete <strong>{{ deletingUser()!.displayName }}</strong>.</p>
+      <p class="warning-detail">This will also delete ALL of their data:</p>
+      <ul class="delete-list">
+        <li>All learning sessions</li>
+        <li>All evaluation attempts and AI feedback</li>
+        <li>All progress records</li>
+      </ul>
+      <p class="warning-irreversible">This cannot be undone.</p>
+      <div class="modal-actions">
+        <button class="btn-secondary" (click)="deletingUser.set(null)">Cancel</button>
+        <button class="btn-delete-confirm" (click)="doDelete()">Yes, Delete Everything</button>
+      </div>
+    </div>
+  </div>
+}

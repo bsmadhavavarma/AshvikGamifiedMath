@@ -1,80 +1,75 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, signal, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router, RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
-import { PlayerService } from '../../core/services/player.service';
+import { AuthService } from '../../core/services/auth.service';
+import { ApiService } from '../../core/services/api.service';
 
-const AVATARS = [
-  { code: '🦁', label: 'Lion' },
-  { code: '🐯', label: 'Tiger' },
-  { code: '🦊', label: 'Fox' },
-  { code: '🐻', label: 'Bear' },
-  { code: '🐼', label: 'Panda' },
-  { code: '🐨', label: 'Koala' },
-];
+interface Theme { id: string; name: string; slug: string; description: string; }
+interface Subject { name: string; chapterCount: number; }
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent {
-  private playerService = inject(PlayerService);
+export class HomeComponent implements OnInit {
+  auth = inject(AuthService);
+  private api = inject(ApiService);
   private router = inject(Router);
 
-  protected avatars = AVATARS;
-  protected displayName = signal('');
-  protected selectedAvatar = signal(AVATARS[0].code);
-  protected isLoading = signal(false);
-  protected errorMessage = signal('');
+  themes = signal<Theme[]>([]);
+  subjects = signal<Subject[]>([]);
+  selectedTheme = signal<Theme | null>(null);
+  selectedSubject = signal<Subject | null>(null);
+  selectedChapter = signal(0);
+  editingLevel = signal(false);
+  get newLevel() { return this._newLevel; }
+  private _newLevel = signal(this.auth.currentUser()?.level ?? 1);
+  setNewLevel(v: number) { this._newLevel.set(v); }
 
-  get nameValue(): string {
-    return this.displayName();
+  themeIcons: Record<string, string> = {
+    'quest': '⚔️',
+    'space-explorer': '🚀',
+    'time-traveler': '⏳',
+    'detective': '🔍',
+  };
+
+  ngOnInit() {
+    this.api.get<{ themes: Theme[] }>('/themes').subscribe(r => this.themes.set(r.data.themes));
+    this.loadSubjects();
   }
 
-  set nameValue(val: string) {
-    this.displayName.set(val);
-    this.errorMessage.set('');
+  loadSubjects() {
+    const level = this.auth.currentUser()?.level ?? 1;
+    this.api.get<{ subjects: Subject[] }>(`/ncert/levels/${level}/subjects`).subscribe(r => this.subjects.set(r.data.subjects));
   }
 
-  selectAvatar(code: string): void {
-    this.selectedAvatar.set(code);
+  startLearning() {
+    const theme = this.selectedTheme();
+    const subject = this.selectedSubject();
+    const user = this.auth.currentUser();
+    if (!theme || !subject || !user) return;
+    this.router.navigate(['/learn', theme.slug, user.level, encodeURIComponent(subject.name), this.selectedChapter()]);
   }
 
-  onSubmit(): void {
-    const name = this.displayName().trim();
-
-    if (!name) {
-      this.errorMessage.set('Please enter your name!');
-      return;
-    }
-
-    if (name.length < 2) {
-      this.errorMessage.set('Name must be at least 2 characters!');
-      return;
-    }
-
-    if (name.length > 20) {
-      this.errorMessage.set('Name must be 20 characters or less!');
-      return;
-    }
-
-    this.isLoading.set(true);
-    this.errorMessage.set('');
-
-    this.playerService.createPlayer(name, this.selectedAvatar()).subscribe({
-      next: () => {
-        this.isLoading.set(false);
-        void this.router.navigate(['/difficulty']);
-      },
-      error: (err: unknown) => {
-        this.isLoading.set(false);
-        const message =
-          err instanceof Error ? err.message : 'Failed to create player. Please try again!';
-        this.errorMessage.set(message);
-      },
+  saveLevel() {
+    const userId = this.auth.currentUser()?.id;
+    if (!userId) return;
+    const level = this._newLevel();
+    this.api.patch(`/admin/users/${userId}/level`, { level }).subscribe(() => {
+      this.auth.updateLevel(level);
+      this.editingLevel.set(false);
+      this.loadSubjects();
     });
+  }
+
+  logout() { this.auth.logout(); this.router.navigate(['/login']); }
+
+  chaptersFor(subject: Subject | null): number[] {
+    if (!subject) return [];
+    return Array.from({ length: subject.chapterCount }, (_, i) => i);
   }
 }

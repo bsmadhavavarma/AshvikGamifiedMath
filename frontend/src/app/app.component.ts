@@ -1,14 +1,10 @@
-import { Component, inject } from '@angular/core';
-import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
-import { PlayerService } from './core/services/player.service';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  imports: [RouterOutlet],
+  template: '<router-outlet />',
+  styles: [':host { display: block; }']
 })
-export class AppComponent {
-  protected playerService = inject(PlayerService);
-}
+export class AppComponent {}

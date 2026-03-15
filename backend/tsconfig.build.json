@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "skipLibCheck": true
-  },
-  "exclude": ["node_modules", "dist", "tests/**/*", "**/*.spec.ts", "**/*.test.ts", "jest.config.ts"]
-}

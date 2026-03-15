@@ -1,28 +1,14 @@
-import { z } from 'zod';
+import dotenv from 'dotenv';
+dotenv.config();
 
-const envSchema = z.object({
-  DATABASE_URL: z.string().min(1, 'DATABASE_URL is required'),
-  PORT: z
-    .string()
-    .default('3000')
-    .transform((val) => parseInt(val, 10))
-    .pipe(z.number().int().positive().max(65535)),
-  NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
-  CORS_ORIGIN: z.string().default('http://localhost:3000'),
-  JWT_SECRET: z.string().min(32, 'JWT_SECRET must be at least 32 characters long'),
-});
-
-export type Env = z.infer<typeof envSchema>;
-
-function validateEnv(): Env {
-  const result = envSchema.safeParse(process.env);
-  if (!result.success) {
-    const errors = result.error.errors
-      .map((e) => `  ${e.path.join('.')}: ${e.message}`)
-      .join('\n');
-    throw new Error(`Environment validation failed:\n${errors}`);
-  }
-  return result.data;
-}
-
-export const env = validateEnv();
+export const env = {
+  NODE_ENV: process.env['NODE_ENV'] ?? 'development',
+  PORT: parseInt(process.env['PORT'] ?? '3001', 10),
+  DATABASE_URL: process.env['DATABASE_URL'] ?? 'postgresql://localhost:5432/ai_teacher_evaluator',
+  ANTHROPIC_API_KEY: process.env['ANTHROPIC_API_KEY'] ?? '',
+  NCERT_BASE_PATH: process.env['NCERT_BASE_PATH'] ?? '/Users/madhavavarma/ClaudeCode/NCERT',
+  JWT_SECRET: process.env['JWT_SECRET'] ?? 'dev_secret_change_in_prod',
+  ADMIN_ALLOWED_IPS: (process.env['ADMIN_ALLOWED_IPS'] ?? '127.0.0.1,::1').split(','),
+  isProduction: process.env['NODE_ENV'] === 'production',
+  isDevelopment: process.env['NODE_ENV'] === 'development',
+};

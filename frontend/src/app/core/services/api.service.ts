@@ -1,72 +1,31 @@
 import { Injectable, inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable, map } from 'rxjs';
-import { environment } from '../../../environments/environment';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
-export interface ApiResponse<T> {
-  success: boolean;
-  data: T;
-  message?: string;
-  timestamp: string;
-}
+const API_BASE = 'http://localhost:3001/api';
 
-export interface ApiPaginatedResponse<T> {
-  success: boolean;
-  data: T[];
-  pagination: {
-    page: number;
-    pageSize: number;
-    total: number;
-    totalPages: number;
-    hasNext: boolean;
-    hasPrev: boolean;
-  };
-  timestamp: string;
-}
-
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root' })
 export class ApiService {
   private http = inject(HttpClient);
-  private apiBase = environment.apiBaseUrl;
 
-  get<T>(path: string, params?: Record<string, string | number>): Observable<T> {
-    const options = params
-      ? {
-          params: Object.fromEntries(
-            Object.entries(params).map(([k, v]) => [k, String(v)]),
-          ),
-        }
-      : {};
-    return this.http
-      .get<ApiResponse<T>>(`${this.apiBase}${path}`, options)
-      .pipe(map((res) => res.data));
+  private headers(): HttpHeaders {
+    const userId = localStorage.getItem('userId');
+    return userId ? new HttpHeaders({ 'x-user-id': userId }) : new HttpHeaders();
   }
 
-  getPaginated<T>(
-    path: string,
-    params?: Record<string, string | number>,
-  ): Observable<ApiPaginatedResponse<T>> {
-    const options = params
-      ? {
-          params: Object.fromEntries(
-            Object.entries(params).map(([k, v]) => [k, String(v)]),
-          ),
-        }
-      : {};
-    return this.http.get<ApiPaginatedResponse<T>>(`${this.apiBase}${path}`, options);
+  get<T>(path: string): Observable<{ success: boolean; data: T }> {
+    return this.http.get<{ success: boolean; data: T }>(`${API_BASE}${path}`, { headers: this.headers() });
   }
 
-  post<T>(path: string, body: unknown): Observable<T> {
-    return this.http
-      .post<ApiResponse<T>>(`${this.apiBase}${path}`, body)
-      .pipe(map((res) => res.data));
+  post<T>(path: string, body: unknown): Observable<{ success: boolean; data: T }> {
+    return this.http.post<{ success: boolean; data: T }>(`${API_BASE}${path}`, body, { headers: this.headers() });
   }
 
-  patch<T>(path: string, body: unknown = {}): Observable<T> {
-    return this.http
-      .patch<ApiResponse<T>>(`${this.apiBase}${path}`, body)
-      .pipe(map((res) => res.data));
+  patch<T>(path: string, body: unknown): Observable<{ success: boolean; data: T }> {
+    return this.http.patch<{ success: boolean; data: T }>(`${API_BASE}${path}`, body, { headers: this.headers() });
+  }
+
+  delete<T>(path: string): Observable<{ success: boolean; data: T }> {
+    return this.http.delete<{ success: boolean; data: T }>(`${API_BASE}${path}`, { headers: this.headers() });
   }
 }

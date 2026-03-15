@@ -1,101 +1,46 @@
-import express, { Express, Request, Response, NextFunction } from 'express';
+import express from 'express';
+import cors from 'cors';
 import helmet from 'helmet';
-import { rateLimit } from 'express-rate-limit';
-import pinoHttp from 'pino-http';
-import { corsMiddleware } from './middleware/cors';
-import { errorHandler } from './middleware/error-handler';
-import { logger } from './config/logger';
+import compression from 'compression';
+import rateLimit from 'express-rate-limit';
+import { env } from './config/env';
+import { errorHandler } from './shared/middleware/errorHandler';
+import authRouter from './modules/auth/auth.router';
+import adminRouter from './modules/admin/admin.router';
+import ncertRouter from './modules/ncert/ncert.router';
+import themesRouter from './modules/themes/themes.router';
+import contentRouter from './modules/content/content.router';
+import evaluationRouter from './modules/evaluation/evaluation.router';
+import observabilityRouter from './modules/observability/observability.router';
 
-import healthRouter from './modules/health/health.router';
-import playersRouter from './modules/players/players.router';
-import sessionsRouter from './modules/sessions/sessions.router';
-import questionsRouter from './modules/questions/questions.router';
-import answersRouter from './modules/answers/answers.router';
-import leaderboardRouter from './modules/leaderboard/leaderboard.router';
+const app = express();
 
-export function createApp(): Express {
-  const app = express();
+app.set('trust proxy', 1);
+app.use(helmet());
+app.use(compression());
+app.use(cors({ origin: env.isProduction ? false : '*', credentials: true }));
+app.use(express.json({ limit: '2mb' }));
 
-  // Trust proxy (for rate limiting behind reverse proxies)
-  app.set('trust proxy', 1);
+app.use(rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: env.isProduction ? 200 : 2000,
+  standardHeaders: true,
+  legacyHeaders: false,
+}));
 
-  // Security headers
-  app.use(helmet());
+// Routes
+app.use('/api/auth', authRouter);
+app.use('/api/admin', adminRouter);
+app.use('/api/ncert', ncertRouter);
+app.use('/api/themes', themesRouter);
+app.use('/api/content', contentRouter);
+app.use('/api/evaluation', evaluationRouter);
+app.use('/api/observability', observabilityRouter);
 
-  // CORS
-  app.use(corsMiddleware);
+app.get('/api/health', (_req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
 
-  // HTTP request logging
-  app.use(
-    pinoHttp({
-      logger,
-      customLogLevel: (_req, res) => {
-        if (res.statusCode >= 500) return 'error';
-        if (res.statusCode >= 400) return 'warn';
-        return 'info';
-      },
-    }),
-  );
+app.use(errorHandler);
 
-  // Body parsing
-  app.use(express.json({ limit: '1mb' }));
-  app.use(express.urlencoded({ extended: false }));
-
-  // Global rate limiting
-  const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 200,
-    standardHeaders: true,
-    legacyHeaders: false,
-    message: {
-      success: false,
-      error: {
-        code: 'RATE_LIMIT_EXCEEDED',
-        message: 'Too many requests from this IP, please try again later.',
-      },
-    },
-  });
-  app.use(limiter);
-
-  // Stricter rate limit for answer submission (prevents brute-forcing)
-  const answerLimiter = rateLimit({
-    windowMs: 60 * 1000, // 1 minute
-    max: 60,
-    standardHeaders: true,
-    legacyHeaders: false,
-  });
-
-  // Mount routers
-  app.use('/api/v1/health', healthRouter);
-  app.use('/api/v1/players', playersRouter);
-  app.use('/api/v1/sessions', sessionsRouter);
-
-  // Questions nested under sessions
-  app.use('/api/v1/sessions/:sessionId/questions', questionsRouter);
-
-  // Answers nested under sessions (with stricter rate limit)
-  app.use('/api/v1/sessions/:sessionId', answerLimiter, answersRouter);
-
-  app.use('/api/v1/leaderboard', leaderboardRouter);
-
-  // 404 handler
-  app.use((_req: Request, res: Response): void => {
-    res.status(404).json({
-      success: false,
-      error: {
-        code: 'NOT_FOUND',
-        message: 'The requested resource was not found',
-      },
-      timestamp: new Date().toISOString(),
-    });
-  });
-
-  // Global error handler (must be last)
-  app.use(
-    (err: unknown, req: Request, res: Response, next: NextFunction): void => {
-      errorHandler(err, req, res, next);
-    },
-  );
-
-  return app;
-}
+export default app;

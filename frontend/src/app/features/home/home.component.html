@@ -1,93 +1,79 @@
-<div class="home-page">
-  <div class="home-container">
-    <!-- Hero Section -->
-    <div class="hero">
-      <div class="hero-emoji">🌟</div>
-      <h1 class="hero-title">Ashvik's Math Adventure</h1>
-      <p class="hero-subtitle">✨ Practice makes perfect! ✨</p>
-      <p class="hero-description">
-        Master percentages, earn coins, and climb the leaderboard!
-      </p>
+<div class="home-container">
+  <header>
+    <div class="user-info">
+      <span class="greeting">Hi, {{ auth.currentUser()?.displayName }}! 👋</span>
+      <div class="level-badge">
+        Class {{ auth.currentUser()?.level }}
+        <button class="edit-btn" (click)="editingLevel.set(true)">✏️</button>
+      </div>
     </div>
+    <div class="header-actions">
+      <a routerLink="/progress" class="btn-ghost">📊 My Progress</a>
+      <button class="btn-ghost" (click)="logout()">Logout</button>
+    </div>
+  </header>
 
-    <!-- Login Card -->
-    <div class="login-card">
-      <h2 class="card-title">Who's Playing? 🎮</h2>
-
-      <!-- Avatar Selection -->
-      <div class="avatar-section">
-        <p class="section-label">Choose your avatar:</p>
-        <div class="avatar-grid">
-          @for (avatar of avatars; track avatar.code) {
-            <button
-              class="avatar-btn"
-              [class.selected]="selectedAvatar() === avatar.code"
-              (click)="selectAvatar(avatar.code)"
-              [attr.aria-label]="avatar.label"
-              type="button"
-            >
-              <span class="avatar-emoji">{{ avatar.code }}</span>
-              <span class="avatar-label">{{ avatar.label }}</span>
-            </button>
+  @if (editingLevel()) {
+    <div class="modal-overlay">
+      <div class="modal">
+        <h3>Change your Class level</h3>
+        <select [ngModel]="newLevel()" (ngModelChange)="setNewLevel(+$event)">
+          @for (l of [1,2,3,4,5,6,7,8,9,10,11,12]; track l) {
+            <option [value]="l">Class {{ l }}</option>
           }
+        </select>
+        <div class="modal-actions">
+          <button class="btn-secondary" (click)="editingLevel.set(false)">Cancel</button>
+          <button class="btn-primary" (click)="saveLevel()">Save</button>
         </div>
       </div>
+    </div>
+  }
 
-      <!-- Name Input -->
-      <div class="name-section">
-        <label class="section-label" for="playerName">Your name:</label>
-        <div class="input-wrapper">
-          <span class="input-icon">{{ selectedAvatar() }}</span>
-          <input
-            id="playerName"
-            class="name-input"
-            type="text"
-            placeholder="Enter your name..."
-            [(ngModel)]="nameValue"
-            maxlength="20"
-            autocomplete="off"
-            (keyup.enter)="onSubmit()"
-          />
-        </div>
-        @if (errorMessage()) {
-          <p class="error-message">⚠️ {{ errorMessage() }}</p>
+  <main>
+    <h2>What do you want to learn today?</h2>
+
+    <section class="step">
+      <h3>1. Choose your Adventure Theme</h3>
+      <div class="theme-grid">
+        @for (theme of themes(); track theme.slug) {
+          <div class="theme-card" [class.selected]="selectedTheme()?.slug === theme.slug"
+            (click)="selectedTheme.set(theme)">
+            <div class="theme-icon">{{ themeIcons[theme.slug] || '🎮' }}</div>
+            <strong>{{ theme.name }}</strong>
+            <p>{{ theme.description }}</p>
+          </div>
         }
       </div>
+    </section>
 
-      <!-- Submit Button -->
-      <button
-        class="start-btn"
-        (click)="onSubmit()"
-        [disabled]="isLoading()"
-        type="button"
-      >
-        @if (isLoading()) {
-          <span class="btn-spinner">⏳</span>
-          <span>Creating adventure...</span>
-        } @else {
-          <span>🚀 Start Adventure!</span>
+    <section class="step" [class.disabled]="!selectedTheme()">
+      <h3>2. Choose Subject</h3>
+      <div class="subject-grid">
+        @for (subject of subjects(); track subject.name) {
+          <div class="subject-card" [class.selected]="selectedSubject()?.name === subject.name"
+            (click)="selectedSubject.set(subject)">
+            {{ subject.name }}
+            <span class="chapter-count">{{ subject.chapterCount }} chapters</span>
+          </div>
         }
-      </button>
-    </div>
+      </div>
+    </section>
 
-    <!-- Features Preview -->
-    <div class="features">
-      <div class="feature-item">
-        <span class="feature-icon">🧮</span>
-        <span class="feature-text">Percentages</span>
+    <section class="step" [class.disabled]="!selectedSubject()">
+      <h3>3. Choose Chapter</h3>
+      <div class="chapter-grid">
+        @for (ch of chaptersFor(selectedSubject()); track ch) {
+          <div class="chapter-card" [class.selected]="selectedChapter() === ch"
+            (click)="selectedChapter.set(ch)">
+            Chapter {{ ch + 1 }}
+          </div>
+        }
       </div>
-      <div class="feature-item">
-        <span class="feature-icon">🪙</span>
-        <span class="feature-text">Earn Coins</span>
-      </div>
-      <div class="feature-item">
-        <span class="feature-icon">🔥</span>
-        <span class="feature-text">Build Streaks</span>
-      </div>
-      <div class="feature-item">
-        <span class="feature-icon">🏆</span>
-        <span class="feature-text">Leaderboard</span>
-      </div>
-    </div>
-  </div>
+    </section>
+
+    <button class="btn-start" [disabled]="!selectedTheme() || !selectedSubject()" (click)="startLearning()">
+      🚀 Begin Adventure!
+    </button>
+  </main>
 </div>

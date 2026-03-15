@@ -1,0 +1,61 @@
+<div class="obs-container">
+  <header>
+    <h1>📊 Observability Dashboard</h1>
+    <div class="links"><a href="/admin">👥 Users</a> <button (click)="load()">🔄 Refresh</button></div>
+  </header>
+
+  @if (error()) { <div class="error">{{ error() }}</div> }
+
+  @if (health()) {
+    @let h = $any(health());
+    <section class="panel">
+      <h2>🖥️ Server Health</h2>
+      <div class="stats-grid">
+        <div class="stat"><label>Status</label><span class="ok">{{ h['status'] }}</span></div>
+        <div class="stat"><label>Uptime</label><span>{{ h['uptime'] }}s</span></div>
+        <div class="stat"><label>Heap Used</label><span>{{ $any(h['memory'])['heapUsedMB'] }} MB</span></div>
+        <div class="stat"><label>Free RAM</label><span>{{ h['freeMemoryMB'] }} MB</span></div>
+        <div class="stat"><label>CPU Cores</label><span>{{ $any(h['cpu'])['cores'] }}</span></div>
+        <div class="stat"><label>Database</label><span class="ok">{{ h['db'] }}</span></div>
+      </div>
+    </section>
+  }
+
+  @if (apiUsage()) {
+    @let u = $any(apiUsage());
+    <section class="panel">
+      <h2>🤖 API Usage</h2>
+      <div class="stats-grid">
+        <div class="stat"><label>Total Calls</label><span>{{ $any(u['totals'])['total_calls'] }}</span></div>
+        <div class="stat"><label>Tokens In</label><span>{{ $any(u['totals'])['total_in'] | number }}</span></div>
+        <div class="stat"><label>Tokens Out</label><span>{{ $any(u['totals'])['total_out'] | number }}</span></div>
+      </div>
+      <h3>By Model</h3>
+      <table>
+        <thead><tr><th>Model</th><th>Calls</th><th>Tokens In</th><th>Tokens Out</th></tr></thead>
+        <tbody>
+          @for (row of $any(u['byModel']); track row) {
+            <tr><td>{{ row.model }}</td><td>{{ row.calls }}</td><td>{{ row.tokens_in | number }}</td><td>{{ row.tokens_out | number }}</td></tr>
+          }
+        </tbody>
+      </table>
+    </section>
+  }
+
+  @if (cache()) {
+    @let c = $any(cache());
+    <section class="panel">
+      <h2>⚡ Content Cache</h2>
+      <p class="hint">Cached = no API call needed. More entries = more savings.</p>
+      <h3>Teaching Content Cached</h3>
+      <table>
+        <thead><tr><th>Class</th><th>Subject</th><th>Theme</th><th>Chapters Cached</th></tr></thead>
+        <tbody>
+          @for (row of $any(c['contentCache']); track row) {
+            <tr><td>{{ row.class_level }}</td><td>{{ row.subject }}</td><td>{{ row.theme_slug }}</td><td>{{ row.chapters_cached }}</td></tr>
+          }
+        </tbody>
+      </table>
+    </section>
+  }
+</div>

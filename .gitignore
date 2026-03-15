@@ -37,3 +37,4 @@ coverage/
 
 # Railway
 .railway/
+.claude/worktrees/

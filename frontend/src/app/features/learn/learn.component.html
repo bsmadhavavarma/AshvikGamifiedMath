@@ -1,0 +1,60 @@
+<div class="learn-container">
+  @if (loading()) {
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>Your AI teacher is preparing the lesson...</p>
+    </div>
+  } @else if (error()) {
+    <div class="error-state">{{ error() }}</div>
+  } @else if (content()) {
+    <header>
+      <button class="btn-back" (click)="goBack()">← Back</button>
+      <div class="chapter-info">
+        <h1>{{ content()!.chapterTitle }}</h1>
+        <span class="cache-badge" [class.cached]="content()!.fromCache">
+          {{ content()!.fromCache ? '⚡ Instant' : '🤖 AI Generated' }}
+        </span>
+      </div>
+      <div class="progress-dots">
+        @for (s of content()!.sections; track $index) {
+          <div class="dot" [class.active]="$index === currentSection()" [class.done]="$index < currentSection()"></div>
+        }
+      </div>
+    </header>
+
+    <main class="section-content">
+      @let section = content()!.sections[currentSection()];
+      @if (section) {
+        <div class="section-card">
+          <h2>{{ section.heading }}</h2>
+          <div class="section-body">{{ section.body }}</div>
+          @if (section.keyPoints.length > 0) {
+            <div class="key-points">
+              <h4>Key Points</h4>
+              <ul>
+                @for (point of section.keyPoints; track point) {
+                  <li>{{ point }}</li>
+                }
+              </ul>
+            </div>
+          }
+        </div>
+      }
+      @if (isLast() && content()!.summary) {
+        <div class="summary-card">
+          <h3>📝 Chapter Summary</h3>
+          <p>{{ content()!.summary }}</p>
+        </div>
+      }
+    </main>
+
+    <footer class="nav-footer">
+      <button class="btn-nav" (click)="prev()" [disabled]="currentSection() === 0">← Previous</button>
+      @if (isLast()) {
+        <button class="btn-evaluate" (click)="goEvaluate()">Take the Challenge! 🎯</button>
+      } @else {
+        <button class="btn-nav btn-next" (click)="next()">Next →</button>
+      }
+    </footer>
+  }
+</div>

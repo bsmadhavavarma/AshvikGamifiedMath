@@ -1,0 +1,57 @@
+<div class="evaluate-container">
+  @if (loading()) {
+    <div class="loading"><div class="spinner"></div><p>Preparing your challenge...</p></div>
+  } @else if (decision()) {
+    <div class="decision-screen" [class]="'action-' + decision()!.action">
+      <div class="decision-icon">{{ decision()!.action === 'complete' ? '🏆' : decision()!.action === 'repeat_chapter' ? '🔄' : '📚' }}</div>
+      <h2>{{ decision()!.action === 'complete' ? 'Chapter Mastered!' : decision()!.action === 'repeat_chapter' ? 'Almost There!' : 'Strengthen Your Foundation' }}</h2>
+      <p>{{ decision()!.message }}</p>
+      <button class="btn-primary" (click)="handleDecision()">Continue →</button>
+    </div>
+  } @else if (evalSet()) {
+    <header>
+      <div class="progress-bar"><div class="progress-fill" [style.width.%]="progress()"></div></div>
+      <span class="q-counter">Question {{ currentQ() + 1 }} of {{ evalSet()!.questions.length }}</span>
+    </header>
+
+    @let q = evalSet()!.questions[currentQ()];
+    <main>
+      @if (q) {
+        <div class="theme-wrapper">{{ q.themeWrapper }}</div>
+        <div class="question-card">
+          <h2>{{ q.question }}</h2>
+
+          @if (q.type === 'mcq' && q.options) {
+            <div class="options-grid">
+              @for (opt of q.options; track opt; let i = $index) {
+                <button class="option-btn" [class.selected]="userAnswer() === opt"
+                  (click)="selectOption(opt)" [disabled]="!!result()">
+                  <span class="option-label">{{ ['A','B','C','D'][i] }}</span> {{ opt }}
+                </button>
+              }
+            </div>
+          } @else {
+            <textarea [ngModel]="userAnswer()" (ngModelChange)="userAnswer.set($event)"
+              [placeholder]="q.type === 'diagram_description' ? 'Describe what you would draw...' : 'Type your answer here...'"
+              [disabled]="!!result()" rows="6"></textarea>
+          }
+        </div>
+
+        @if (result()) {
+          <div class="result-card" [class.correct]="result()!.isCorrect" [class.incorrect]="!result()!.isCorrect">
+            <div class="result-icon">{{ result()!.isCorrect ? '✅' : '❌' }}</div>
+            <div class="result-score">Score: {{ result()!.score }}/100</div>
+            <p class="theme-feedback">{{ result()!.themeFeedback }}</p>
+            <button class="btn-next" (click)="nextQuestion()">
+              {{ currentQ() < evalSet()!.questions.length - 1 ? 'Next Question →' : 'See Results →' }}
+            </button>
+          </div>
+        } @else {
+          <button class="btn-submit" (click)="submitAnswer()" [disabled]="!userAnswer() || submitting()">
+            {{ submitting() ? 'Evaluating...' : 'Submit Answer' }}
+          </button>
+        }
+      }
+    </main>
+  }
+</div>

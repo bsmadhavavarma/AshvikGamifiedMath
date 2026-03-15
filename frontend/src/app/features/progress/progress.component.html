@@ -1,0 +1,24 @@
+<div class="progress-container">
+  <header>
+    <button class="btn-back" (click)="goHome()">← Home</button>
+    <h1>📊 My Learning Progress</h1>
+  </header>
+  <main>
+    @if (progress().length === 0) {
+      <div class="empty">No progress yet. Start learning! 🚀</div>
+    } @else {
+      <div class="progress-grid">
+        @for (item of progress(); track item) {
+          <div class="progress-card" [class]="'status-' + item.status">
+            <div class="status-icon">{{ statusIcon(item.status) }}</div>
+            <div class="info">
+              <div class="subject">Class {{ item.class_level }} — {{ item.subject }}</div>
+              <div class="chapter">Chapter {{ item.chapter_index + 1 }}</div>
+              <div class="score">Best: {{ item.best_score | number:'1.0-0' }}/100 · {{ item.attempts }} attempt{{ item.attempts !== 1 ? 's' : '' }}</div>
+            </div>
+          </div>
+        }
+      </div>
+    }
+  </main>
+</div>
