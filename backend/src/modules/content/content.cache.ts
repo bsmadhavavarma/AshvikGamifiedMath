@@ -9,7 +9,8 @@ export const contentCache = {
       [themeSlug, classLevel, subject, chapterIndex]
     );
     if (!row) return null;
-    return { ...JSON.parse(row.content), chapterTitle: row.chapter_title, fromCache: true };
+    const parsed = typeof row.content === 'string' ? JSON.parse(row.content) : row.content;
+    return { ...parsed, chapterTitle: row.chapter_title, fromCache: true };
   },
 
   async saveTeaching(content: TeachingContent, tokensUsed: number, model: string): Promise<void> {
@@ -30,7 +31,8 @@ export const contentCache = {
       [themeSlug, classLevel, subject, chapterIndex]
     );
     if (!row) return null;
-    return { themeSlug, classLevel, subject, chapterIndex, questions: JSON.parse(row.questions as unknown as string), fromCache: true };
+    const questions = typeof row.questions === 'string' ? JSON.parse(row.questions) : row.questions;
+    return { themeSlug, classLevel, subject, chapterIndex, questions, fromCache: true };
   },
 
   async saveEvaluation(evalSet: EvaluationSet, tokensUsed: number, model: string): Promise<void> {

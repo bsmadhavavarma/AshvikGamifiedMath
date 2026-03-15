@@ -15,7 +15,7 @@ export interface TeachingSection {
   heading: string;
   body: string;
   keyPoints: string[];
-  diagram?: string | null; // inline SVG or null
+  diagram?: string | null; // reserved for future SVG — not currently generated in main JSON
 }
 
 export interface EvaluationQuestion {

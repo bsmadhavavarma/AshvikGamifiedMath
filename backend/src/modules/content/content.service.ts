@@ -14,6 +14,29 @@ async function getTheme(themeSlug: string): Promise<ThemeRow> {
   return row;
 }
 
+function cleanMarkdownForAI(raw: string): string {
+  return raw
+    .split('\n')
+    .filter(line => {
+      const t = line.trim();
+      if (!t) return true; // keep blank lines for spacing
+      // Remove PDF page footer timestamps: "## Chapter 4_Title.indd   74  13/08/2024"
+      if (/\.indd\s+\d/.test(t)) return false;
+      // Remove standalone page numbers
+      if (/^\d{1,3}$/.test(t)) return false;
+      // Remove reprint notices
+      if (/^Reprint\s+\d{4}/.test(t)) return false;
+      // Remove table-border artifacts: ## ||||, ## ___, etc.
+      if (/^##\s*[|_\-]{2,}\s*$/.test(t)) return false;
+      // Remove exercise/question-number-only headings: ## 1.  ## 2.
+      if (/^##\s*\d+\.?\s*$/.test(t)) return false;
+      return true;
+    })
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n') // collapse excess blank lines
+    .trim();
+}
+
 function readChapterContent(classLevel: number, subject: string, chapterIndex: number): string {
   const subjectData = ncertService.getSubject(classLevel, subject);
   if (!subjectData) throw AppError.notFound(`Subject "${subject}" not found for Class ${classLevel}`);
@@ -22,11 +45,12 @@ function readChapterContent(classLevel: number, subject: string, chapterIndex: n
   if (!chapter) throw AppError.notFound(`Chapter ${chapterIndex} not found`);
 
   if (chapter.markdownPath && fs.existsSync(chapter.markdownPath)) {
-    const md = fs.readFileSync(chapter.markdownPath, 'utf8');
-    return md.slice(0, 10000); // ~2.5k tokens — reduced to speed up response
+    const raw = fs.readFileSync(chapter.markdownPath, 'utf8');
+    const cleaned = cleanMarkdownForAI(raw);
+    return cleaned.slice(0, 12000); // ~3k tokens of clean content
   }
 
-  return `Chapter from NCERT Class ${classLevel} ${subject}. Title: ${chapter.title}. PDF available at: ${chapter.pdfPath}`;
+  return `Chapter from NCERT Class ${classLevel} ${subject}. Title: ${chapter.title}.`;
 }
 
 export const contentService = {
@@ -49,34 +73,31 @@ export const contentService = {
 Theme vocabulary: ${JSON.stringify(style['vocabulary'] ?? [])}.
 Tone: ${style['tone'] ?? 'engaging'}.
 Your teaching should feel like a ${theme.name} adventure — immersive, gamified, but educationally accurate.
-Always base your teaching strictly on the provided NCERT content.
-For mathematical or spatial concepts, include a simple SVG diagram in the section's "diagram" field.
-SVG diagrams must be self-contained (inline style only), max 500 chars, use basic shapes.
-Add a CSS keyframe animation when it helps understanding (e.g. showing movement, growth, highlight).`;
+Base your teaching strictly on the provided NCERT content. Explain concepts in your own words clearly.
+Do NOT reproduce raw text from the content — teach it, explain it, make it engaging.`;
 
     const userPrompt = `Teach Class ${classLevel} ${subject} — "${chapter.title}" using the ${theme.name} theme.
 
 NCERT Content:
 ${chapterText}
 
-Return ONLY a JSON object with this exact structure (no markdown fences):
+Return ONLY a valid JSON object (no markdown fences, no extra text):
 {
-  "topics": ["topic 1 name", "topic 2 name"],
+  "topics": ["topic 1", "topic 2", "topic 3"],
   "sections": [
     {
       "heading": "section title",
-      "body": "clear explanation in 3-5 sentences",
-      "keyPoints": ["point1","point2"],
-      "diagram": "<svg ...>...</svg> or null"
+      "body": "2-4 sentences explaining this concept clearly in your own words, themed as a ${theme.name} adventure",
+      "keyPoints": ["key point 1", "key point 2"]
     }
   ],
-  "summary": "one paragraph recap"
+  "summary": "one paragraph recap of the whole chapter"
 }
 Rules:
-- 3-5 sections maximum (keep concise for faster response)
-- topics = a bullet-list of what this chapter covers (extracted from content)
-- diagram: include SVG for geometry, measurements, fractions, shapes, graphs, sequences; null otherwise
-- SVG must use width/height attributes, inline styles, no external references`;
+- 3-5 sections only
+- topics: what this chapter covers (extract from content)
+- body: YOUR explanation, not a copy of the text. Use theme language to make it fun.
+- keyPoints: 2-3 bullet points per section`;
 
     const { text, tokensIn, tokensOut } = await callClaude(
       MODEL.BALANCED, systemPrompt, userPrompt, 'teaching_content', userId, 3000
@@ -84,9 +105,22 @@ Rules:
 
     let parsed: { topics?: string[]; sections: TeachingContent['sections']; summary: string };
     try {
-      parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
+      // Strip markdown fences and any text before the first { or after the last }
+      const jsonText = text.replace(/```json\n?|\n?```/g, '').trim();
+      const start = jsonText.indexOf('{');
+      const end = jsonText.lastIndexOf('}');
+      parsed = JSON.parse(start >= 0 && end > start ? jsonText.slice(start, end + 1) : jsonText);
     } catch {
-      parsed = { topics: [], sections: [{ heading: 'Introduction', body: text, keyPoints: [], diagram: null }], summary: '' };
+      // If JSON parse fails entirely, build minimal sensible content
+      parsed = {
+        topics: [],
+        sections: [{
+          heading: chapter.title,
+          body: `This chapter covers ${chapter.title} from Class ${classLevel} ${subject}. The content is being prepared — please try again or check another chapter.`,
+          keyPoints: [],
+        }],
+        summary: '',
+      };
     }
 
     const content: TeachingContent = {

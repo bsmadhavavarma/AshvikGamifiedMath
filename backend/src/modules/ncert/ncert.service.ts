@@ -39,38 +39,27 @@ function getMarkdownPath(pdfPath: string): string | null {
 function extractChapterTitle(markdownPath: string, fallback: string): string {
   try {
     const content = fs.readFileSync(markdownPath, 'utf8');
-    const lines = content.split('\n');
-    const headingParts: string[] = [];
 
-    // Skip line 0 (# filename). Scan lines 1-30 for title text.
-    for (let i = 1; i < Math.min(lines.length, 30); i++) {
-      const trimmed = lines[i]!.trim();
-      if (!trimmed) continue;
-
-      if (trimmed.startsWith('## ')) {
-        // This is a section heading — grab its text
-        headingParts.push(trimmed.replace(/^##\s+/, ''));
-        break;
-      }
-
-      // ALL_CAPS short line = title fragment (like "PATTERNS IN")
-      if (
-        trimmed === trimmed.toUpperCase() &&
-        trimmed.length > 2 &&
-        trimmed.length < 70 &&
-        /[A-Z]/.test(trimmed) &&
-        !/^\d+$/.test(trimmed)
-      ) {
-        headingParts.push(trimmed);
-      } else if (headingParts.length > 0) {
-        // Non-caps line after we've started collecting — stop
-        break;
-      }
+    // NCERT PDFs embed the chapter title in every page footer as:
+    // "## Chapter N_Title of Chapter.indd   74  13/08/2024   15:33:11"
+    // This is the most reliable source of the actual chapter title.
+    const inddMatch = content.match(/Chapter\s+\d+[_\s]+(.+?)\.indd/);
+    if (inddMatch && inddMatch[1]) {
+      return inddMatch[1].trim();
     }
 
-    if (headingParts.length > 0) {
-      // Title-case the combined parts
-      return headingParts.join(' ').toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+    // Fallback: look for ALL_CAPS lines in first 20 lines (skip line 0 = filename)
+    const lines = content.split('\n').slice(1, 20);
+    const caps: string[] = [];
+    for (const line of lines) {
+      const t = line.trim();
+      if (!t || /^\d+$/.test(t)) continue;
+      if (t === t.toUpperCase() && t.length > 4 && /[A-Z]/.test(t)) {
+        caps.push(t);
+      } else if (caps.length > 0) break;
+    }
+    if (caps.length > 0) {
+      return caps.join(' ').toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
     }
   } catch {
     // ignore
