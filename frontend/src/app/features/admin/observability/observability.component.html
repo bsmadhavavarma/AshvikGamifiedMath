@@ -138,25 +138,29 @@
         </div>
 
         <div class="test-list">
-          @for (tc of allTestCases(); track tc.name) {
+          <div class="test-list-header">
+            <span class="th-num">#</span>
+            <span class="th-desc">Test Description</span>
+            <span class="th-expected">Expected</span>
+            <span class="th-actual">Actual</span>
+            <span class="th-status">Status</span>
+          </div>
+          @for (tc of allTestCases(); track tc.num) {
             <div class="test-item" [class.pass]="tc.status === 'passed'" [class.fail]="tc.status !== 'passed'"
-                 (click)="toggleTest(tc.name)">
+                 (click)="toggleTest(tc.description)">
               <div class="test-row">
-                <span class="test-icon">{{ tc.status === 'passed' ? '✅' : '❌' }}</span>
-                <span class="test-name">{{ tc.name }}</span>
-                <span class="test-suite">{{ tc.suite }}</span>
-                @if (tc.duration) { <span class="test-dur">{{ tc.duration }}ms</span> }
-                <span class="test-expand">{{ expandedTest() === tc.name ? '▲' : '▼' }}</span>
+                <span class="test-num">{{ tc.num }}</span>
+                <span class="test-name">{{ tc.description }}</span>
+                <span class="test-expected">{{ tc.expected }}</span>
+                <span class="test-actual" [class.ok]="tc.status === 'passed'" [class.err]="tc.status !== 'passed'">{{ tc.actual }}</span>
+                <span class="test-status" [class.pass-chip]="tc.status === 'passed'" [class.fail-chip]="tc.status !== 'passed'">
+                  {{ tc.status === 'passed' ? 'PASS' : 'FAIL' }}
+                </span>
               </div>
-              @if (expandedTest() === tc.name) {
+              @if (expandedTest() === tc.description && tc.failures.length > 0) {
                 <div class="test-detail">
-                  <p class="test-desc"><strong>Test:</strong> {{ tc.name }}</p>
-                  <p class="test-desc"><strong>Status:</strong> {{ tc.status }}</p>
-                  @if (tc.failures.length > 0) {
-                    <pre class="test-failure">{{ tc.failures.join('\n') }}</pre>
-                  } @else {
-                    <p class="test-desc ok">All assertions passed.</p>
-                  }
+                  <p class="test-suite-label">Suite: {{ tc.suite }}{{ tc.duration ? ' · ' + tc.duration + 'ms' : '' }}</p>
+                  <pre class="test-failure">{{ tc.failures.join('\n') }}</pre>
                 </div>
               }
             </div>

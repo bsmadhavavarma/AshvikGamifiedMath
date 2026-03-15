@@ -111,14 +111,42 @@ export class ObservabilityComponent implements OnInit, OnDestroy {
     });
   }
 
-  allTestCases(): Array<{ suite: string; name: string; status: string; duration?: number; failures: string[] }> {
+  allTestCases(): Array<{
+    num: number; suite: string; description: string;
+    expected: string; actual: string;
+    status: 'passed' | 'failed'; duration?: number; failures: string[];
+  }> {
     const tr = this.testResults();
     if (!tr?.testResults) return [];
-    const results: Array<{ suite: string; name: string; status: string; duration?: number; failures: string[] }> = [];
+    const results: ReturnType<typeof this.allTestCases> = [];
+    let num = 1;
     for (const suite of tr.testResults) {
-      const suiteName = suite.testFilePath?.split('/').pop() ?? 'Unknown Suite';
+      const suiteName = suite.testFilePath?.split('/').pop()?.replace('.test.ts', '') ?? 'Unknown';
       for (const tc of suite.testResults ?? []) {
-        results.push({ suite: suiteName, name: tc.fullName, status: tc.status, duration: tc.duration, failures: tc.failureMessages ?? [] });
+        const passed = tc.status === 'passed';
+        let expected = 'Test should pass without errors';
+        let actual = passed ? 'All assertions passed' : '';
+
+        if (!passed && tc.failureMessages?.length) {
+          const msg = tc.failureMessages.join('\n');
+          // Parse Jest "Expected: X / Received: Y" format
+          const expMatch = msg.match(/Expected[:\s]+(.+)/);
+          const recMatch = msg.match(/Received[:\s]+(.+)/);
+          if (expMatch) expected = expMatch[1].trim().replace(/"/g, '').slice(0, 120);
+          actual = recMatch ? recMatch[1].trim().replace(/"/g, '').slice(0, 120)
+            : msg.split('\n').find(l => l.trim())?.slice(0, 120) ?? 'Test failed';
+        }
+
+        results.push({
+          num: num++,
+          suite: suiteName,
+          description: tc.fullName,
+          expected,
+          actual,
+          status: passed ? 'passed' : 'failed',
+          duration: tc.duration,
+          failures: tc.failureMessages ?? [],
+        });
       }
     }
     return results;

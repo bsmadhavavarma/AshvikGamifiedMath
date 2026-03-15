@@ -52,12 +52,17 @@ interface Progress { class_level: number; subject: string; chapter_index: number
         <div class="clear-actions">
           <button class="btn-danger-outline" (click)="confirmClearAll()">Clear ALL Data</button>
           <div class="selective-clear">
-            <select [ngModel]="clearLevel" (ngModelChange)="clearLevel = +$event" class="select-sm">
+            <select [ngModel]="clearLevel" (ngModelChange)="onClearLevelChange(+$event)" class="select-sm">
               @for (l of [1,2,3,4,5,6,7,8,9,10,11,12]; track l) {
                 <option [value]="l">Class {{ l }}</option>
               }
             </select>
-            <input [ngModel]="clearSubject" (ngModelChange)="clearSubject = $event" placeholder="Subject name" class="input-sm" />
+            <select [ngModel]="clearSubject" (ngModelChange)="clearSubject = $event" class="select-sm">
+              <option value="">— any subject —</option>
+              @for (s of clearSubjects(); track s) {
+                <option [value]="s">{{ s }}</option>
+              }
+            </select>
             <button class="btn-danger-outline" (click)="confirmClearSubject()">Clear This Subject</button>
           </div>
         </div>
@@ -169,18 +174,24 @@ export class AdminUserDetailComponent implements OnInit {
   confirmMsg = signal('');
   clearLevel = 1;
   clearSubject = '';
+  clearSubjects = signal<string[]>([]);
   private pendingClearLevel?: number;
   private pendingClearSubject?: string;
 
-  // Use ngModel in template — need FormsModule
-  private _clearLevel = 1;
-  get ngClearLevel() { return this._clearLevel; }
-  set ngClearLevel(v: number) { this._clearLevel = v; this.clearLevel = v; }
-  private _clearSubject = '';
-  get ngClearSubject() { return this._clearSubject; }
-  set ngClearSubject(v: string) { this._clearSubject = v; this.clearSubject = v; }
+  ngOnInit() { this.load(); this.loadSubjectsForLevel(1); }
 
-  ngOnInit() { this.load(); }
+  onClearLevelChange(level: number) {
+    this.clearLevel = level;
+    this.clearSubject = '';
+    this.loadSubjectsForLevel(level);
+  }
+
+  loadSubjectsForLevel(level: number) {
+    this.api.get<{ subjects: Array<{ name: string }> }>(`/ncert/levels/${level}/subjects`).subscribe({
+      next: r => this.clearSubjects.set(r.data.subjects.map(s => s.name)),
+      error: () => this.clearSubjects.set([]),
+    });
+  }
 
   load() {
     const id = this.route.snapshot.params['id'];

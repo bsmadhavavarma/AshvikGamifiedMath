@@ -1,7 +1,7 @@
 <div class="home-container">
   <header>
     <div class="user-info">
-      <span class="greeting">Hi, {{ auth.currentUser()?.displayName }}! 👋</span>
+      <span class="greeting">Hi, {{ auth.currentUser()?.displayName }}!</span>
       <div class="level-badge">
         Class {{ auth.currentUser()?.level }}
         <button class="edit-btn" (click)="editingLevel.set(true)">✏️</button>
@@ -34,21 +34,7 @@
     <h2>What do you want to learn today?</h2>
 
     <section class="step">
-      <h3>1. Choose your Adventure Theme</h3>
-      <div class="theme-grid">
-        @for (theme of themes(); track theme.slug) {
-          <div class="theme-card" [class.selected]="selectedTheme()?.slug === theme.slug"
-            (click)="selectedTheme.set(theme)">
-            <div class="theme-icon">{{ themeIcons[theme.slug] || '🎮' }}</div>
-            <strong>{{ theme.name }}</strong>
-            <p>{{ theme.description }}</p>
-          </div>
-        }
-      </div>
-    </section>
-
-    <section class="step" [class.disabled]="!selectedTheme()">
-      <h3>2. Choose Subject</h3>
+      <h3>1. Choose Subject</h3>
       <div class="subject-grid">
         @for (subject of subjects(); track subject.name) {
           <div class="subject-card" [class.selected]="selectedSubject()?.name === subject.name"
@@ -61,7 +47,7 @@
     </section>
 
     <section class="step" [class.disabled]="!selectedSubject()">
-      <h3>3. Choose Chapter</h3>
+      <h3>2. Choose Chapter</h3>
       @if (selectedSubject() && chapters().length === 0) {
         <p class="hint">Loading chapters…</p>
       }
@@ -76,9 +62,9 @@
       </div>
     </section>
 
-    <button class="btn-start" [disabled]="!selectedTheme() || !selectedSubject() || selectedChapter() === null"
+    <button class="btn-start" [disabled]="!selectedSubject() || selectedChapter() === null"
       (click)="startLearning()">
-      🚀 Begin Adventure!
+      🚀 Start Learning!
     </button>
   </main>
 </div>

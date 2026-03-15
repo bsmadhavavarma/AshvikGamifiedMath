@@ -69,12 +69,18 @@ export const contentService = {
     const chapter = subjectData.chapters[chapterIndex]!;
     const style = theme.style_guide;
 
+    const isJuniorClass = classLevel <= 6;
+    const ageNote = isJuniorClass
+      ? `The student is ${classLevel === 6 ? '10-11' : '8-10'} years old. Use very simple everyday language. Avoid jargon. Use real-life examples from daily life in India (food, games, cricket, festivals). Short sentences. Friendly and encouraging tone.`
+      : `The student is in Class ${classLevel}. Use clear, precise language appropriate for their level.`;
+
     const systemPrompt = `You are an AI teacher using the "${theme.name}" theme to teach NCERT content.
+${ageNote}
 Theme vocabulary: ${JSON.stringify(style['vocabulary'] ?? [])}.
 Tone: ${style['tone'] ?? 'engaging'}.
-Your teaching should feel like a ${theme.name} adventure — immersive, gamified, but educationally accurate.
 Base your teaching strictly on the provided NCERT content. Explain concepts in your own words clearly.
-Do NOT reproduce raw text from the content — teach it, explain it, make it engaging.`;
+Do NOT reproduce raw text from the content — teach it, explain it, make it engaging.
+${isJuniorClass ? 'For each concept, give a simple real-life example a child would relate to.' : ''}`;
 
     const userPrompt = `Teach Class ${classLevel} ${subject} — "${chapter.title}" using the ${theme.name} theme.
 
@@ -87,7 +93,7 @@ Return ONLY a valid JSON object (no markdown fences, no extra text):
   "sections": [
     {
       "heading": "section title",
-      "body": "2-4 sentences explaining this concept clearly in your own words, themed as a ${theme.name} adventure",
+      "body": "2-4 sentences explaining this concept clearly in your own words${isJuniorClass ? ', using simple words and a relatable example' : ''}",
       "keyPoints": ["key point 1", "key point 2"]
     }
   ],
@@ -96,7 +102,7 @@ Return ONLY a valid JSON object (no markdown fences, no extra text):
 Rules:
 - 3-5 sections only
 - topics: what this chapter covers (extract from content)
-- body: YOUR explanation, not a copy of the text. Use theme language to make it fun.
+- body: YOUR explanation, not a copy of the text${isJuniorClass ? '. Use simple words a child understands' : ''}.
 - keyPoints: 2-3 bullet points per section`;
 
     const { text, tokensIn, tokensOut } = await callClaude(

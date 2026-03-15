@@ -11,7 +11,8 @@
     "test:integration": "jest --testPathPattern=tests/integration --passWithNoTests --runInBand",
     "test": "npm run test:unit && npm run test:integration",
     "migrate": "tsx src/db/migrate.ts",
-    "pdf:convert": "tsx src/scripts/convertPdfs.ts"
+    "pdf:convert": "tsx src/scripts/convertPdfs.ts",
+    "content:preload": "tsx src/scripts/preloadContent.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

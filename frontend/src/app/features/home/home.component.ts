@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AuthService } from '../../core/services/auth.service';
 import { ApiService } from '../../core/services/api.service';
 
-interface Theme { id: string; name: string; slug: string; description: string; }
 interface Subject { name: string; chapterCount: number; }
 interface Chapter { index: number; title: string; hasMarkdown: boolean; }
+
+const DEFAULT_THEME = 'quest';
 
 @Component({
   selector: 'app-home',
@@ -21,10 +22,8 @@ export class HomeComponent implements OnInit {
   private api = inject(ApiService);
   private router = inject(Router);
 
-  themes = signal<Theme[]>([]);
   subjects = signal<Subject[]>([]);
   chapters = signal<Chapter[]>([]);
-  selectedTheme = signal<Theme | null>(null);
   selectedSubject = signal<Subject | null>(null);
   selectedChapter = signal<Chapter | null>(null);
   editingLevel = signal(false);
@@ -32,17 +31,7 @@ export class HomeComponent implements OnInit {
   private _newLevel = signal(this.auth.currentUser()?.level ?? 1);
   setNewLevel(v: number) { this._newLevel.set(v); }
 
-  themeIcons: Record<string, string> = {
-    'quest': '⚔️',
-    'space-explorer': '🚀',
-    'time-traveler': '⏳',
-    'detective': '🔍',
-  };
-
-  ngOnInit() {
-    this.api.get<{ themes: Theme[] }>('/themes').subscribe(r => this.themes.set(r.data.themes));
-    this.loadSubjects();
-  }
+  ngOnInit() { this.loadSubjects(); }
 
   loadSubjects() {
     const level = this.auth.currentUser()?.level ?? 1;
@@ -59,12 +48,11 @@ export class HomeComponent implements OnInit {
   }
 
   startLearning() {
-    const theme = this.selectedTheme();
     const subject = this.selectedSubject();
     const chapter = this.selectedChapter();
     const user = this.auth.currentUser();
-    if (!theme || !subject || chapter === null || !user) return;
-    this.router.navigate(['/learn', theme.slug, user.level, encodeURIComponent(subject.name), chapter.index]);
+    if (!subject || chapter === null || !user) return;
+    this.router.navigate(['/learn', DEFAULT_THEME, user.level, encodeURIComponent(subject.name), chapter.index]);
   }
 
   saveLevel() {
