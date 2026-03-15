@@ -33,3 +33,12 @@ textarea { width: 100%; padding: 16px; background: rgba(255,255,255,0.06); borde
 .btn-primary { background: linear-gradient(135deg, #4f8ef7, #7c3aed); color: white; }
 
 .decision-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; text-align: center; padding: 40px; .decision-icon { font-size: 80px; margin-bottom: 24px; } h2 { font-size: 2rem; margin-bottom: 16px; } p { font-size: 1.1rem; color: rgba(255,255,255,0.7); max-width: 480px; margin-bottom: 32px; line-height: 1.7; } }
+.slow-warning { background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #f59e0b; padding: 12px 16px; border-radius: 10px; margin-top: 12px; font-size: 0.9rem; animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+.submit-error { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); padding: 16px; border-radius: 12px; color: #fca5a5; margin-top: 16px; }
+.error-state { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; color: #ff8080; gap: 16px; }
+.btn-back { background: none; border: 1px solid rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 8px; cursor: pointer; }
+.btn-back-sm { background: none; border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.6); padding: 6px 14px; border-radius: 8px; cursor: pointer; font-size: 0.85rem; }
+header { display: flex; align-items: center; gap: 16px; padding: 16px 24px; }
+header .progress-bar { flex: 1; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; .progress-fill { height: 100%; background: linear-gradient(90deg,#4f8ef7,#7c3aed); border-radius: 3px; transition: width 0.3s; } }
+header .q-counter { font-size: 0.85rem; color: rgba(255,255,255,0.5); white-space: nowrap; }

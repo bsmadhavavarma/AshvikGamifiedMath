@@ -8,10 +8,16 @@
       <p>{{ decision()!.message }}</p>
       <button class="btn-primary" (click)="handleDecision()">Continue →</button>
     </div>
+  } @else if (submitError() && !evalSet()) {
+    <div class="error-state">
+      <p>{{ submitError() }}</p>
+      <button class="btn-back" (click)="goBack()">← Back to Home</button>
+    </div>
   } @else if (evalSet()) {
     <header>
+      <button class="btn-back-sm" (click)="goBack()">← Home</button>
       <div class="progress-bar"><div class="progress-fill" [style.width.%]="progress()"></div></div>
-      <span class="q-counter">Question {{ currentQ() + 1 }} of {{ evalSet()!.questions.length }}</span>
+      <span class="q-counter">Q {{ currentQ() + 1 }} / {{ evalSet()!.questions.length }}</span>
     </header>
 
     @let q = evalSet()!.questions[currentQ()];
@@ -47,8 +53,17 @@
             </button>
           </div>
         } @else {
+          @if (submitError()) {
+            <div class="submit-error">
+              <p>{{ submitError() }}</p>
+              <button class="btn-back" (click)="goBack()">← Back to Home</button>
+            </div>
+          }
+          @if (submitting() && slowWarning()) {
+            <div class="slow-warning">⏳ Taking longer than expected — still evaluating…</div>
+          }
           <button class="btn-submit" (click)="submitAnswer()" [disabled]="!userAnswer() || submitting()">
-            {{ submitting() ? 'Evaluating...' : 'Submit Answer' }}
+            {{ submitting() ? (slowWarning() ? 'Still evaluating...' : 'Evaluating...') : 'Submit Answer' }}
           </button>
         }
       }

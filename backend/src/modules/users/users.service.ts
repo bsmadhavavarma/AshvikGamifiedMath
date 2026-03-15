@@ -18,7 +18,7 @@ export const usersService = {
     if (!/^\d{6}$/.test(pin)) throw AppError.badRequest('PIN must be exactly 6 digits');
 
     const pinHash = await bcrypt.hash(pin, BCRYPT_ROUNDS);
-    const row = await usersRepository.create(dto.fullName, dto.displayName, dto.level, pinHash);
+    const row = await usersRepository.create(dto.fullName, dto.displayName, dto.level, pinHash, pin);
     return { user: rowToUser(row), pin };
   },
 
@@ -51,17 +51,6 @@ export const usersService = {
     await usersRepository.updatePin(userId, pinHash);
   },
 
-  async findAll(): Promise<User[]> {
-    const rows = await usersRepository.findAll();
-    return rows.map(rowToUser);
-  },
-
-  async findById(id: string): Promise<User> {
-    const row = await usersRepository.findById(id);
-    if (!row) throw AppError.notFound('User not found');
-    return rowToUser(row);
-  },
-
   async adminUpdate(userId: string, dto: { fullName?: string; displayName?: string; level?: number; pin?: string }): Promise<{ user: User; pin?: string }> {
     const existing = await usersRepository.findById(userId);
     if (!existing) throw AppError.notFound('User not found');
@@ -84,12 +73,30 @@ export const usersService = {
       displayName: dto.displayName,
       level: dto.level,
       pinHash,
+      pin: plainPin,
     });
     return { user: rowToUser(row!), pin: plainPin };
+  },
+
+  async findAll(): Promise<User[]> {
+    const rows = await usersRepository.findAll();
+    return rows.map(rowToUser);
+  },
+
+  async findById(id: string): Promise<User> {
+    const row = await usersRepository.findById(id);
+    if (!row) throw AppError.notFound('User not found');
+    return rowToUser(row);
   },
 
   async delete(id: string, dto: UpdateUserDto): Promise<void> {
     void dto;
     await usersRepository.delete(id);
+  },
+
+  async clearUserData(userId: string, classLevel?: number, subject?: string): Promise<void> {
+    const row = await usersRepository.findById(userId);
+    if (!row) throw AppError.notFound('User not found');
+    await usersRepository.clearUserData(userId, classLevel, subject);
   },
 };

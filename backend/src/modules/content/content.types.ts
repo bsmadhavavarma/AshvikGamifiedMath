@@ -1,5 +1,7 @@
 export interface TeachingContent {
   chapterTitle: string;
+  source: { classLevel: number; subject: string; chapterTitle: string; };
+  topics: string[];
   themeSlug: string;
   classLevel: number;
   subject: string;
@@ -13,16 +15,17 @@ export interface TeachingSection {
   heading: string;
   body: string;
   keyPoints: string[];
+  diagram?: string | null; // inline SVG or null
 }
 
 export interface EvaluationQuestion {
   index: number;
   type: 'mcq' | 'short_answer' | 'long_answer' | 'diagram_description';
   question: string;
-  options?: string[];       // MCQ only
-  correctOption?: number;   // MCQ only
-  sampleAnswer?: string;    // for AI evaluation guidance
-  themeWrapper: string;     // e.g. "The wizard asks you:"
+  options?: string[];
+  correctOption?: number;
+  sampleAnswer?: string;
+  themeWrapper: string;
 }
 
 export interface EvaluationSet {

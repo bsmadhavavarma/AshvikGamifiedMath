@@ -7,6 +7,7 @@ import { ApiService } from '../../core/services/api.service';
 
 interface Theme { id: string; name: string; slug: string; description: string; }
 interface Subject { name: string; chapterCount: number; }
+interface Chapter { index: number; title: string; hasMarkdown: boolean; }
 
 @Component({
   selector: 'app-home',
@@ -22,9 +23,10 @@ export class HomeComponent implements OnInit {
 
   themes = signal<Theme[]>([]);
   subjects = signal<Subject[]>([]);
+  chapters = signal<Chapter[]>([]);
   selectedTheme = signal<Theme | null>(null);
   selectedSubject = signal<Subject | null>(null);
-  selectedChapter = signal(0);
+  selectedChapter = signal<Chapter | null>(null);
   editingLevel = signal(false);
   get newLevel() { return this._newLevel; }
   private _newLevel = signal(this.auth.currentUser()?.level ?? 1);
@@ -44,15 +46,25 @@ export class HomeComponent implements OnInit {
 
   loadSubjects() {
     const level = this.auth.currentUser()?.level ?? 1;
-    this.api.get<{ subjects: Subject[] }>(`/ncert/levels/${level}/subjects`).subscribe(r => this.subjects.set(r.data.subjects));
+    this.api.get<{ subjects: Subject[] }>(`/ncert/levels/${level}/subjects`)
+      .subscribe(r => { this.subjects.set(r.data.subjects); this.selectedSubject.set(null); this.chapters.set([]); });
+  }
+
+  selectSubject(subject: Subject) {
+    this.selectedSubject.set(subject);
+    this.selectedChapter.set(null);
+    const level = this.auth.currentUser()?.level ?? 1;
+    this.api.get<{ chapters: Chapter[] }>(`/ncert/levels/${level}/subjects/${encodeURIComponent(subject.name)}/chapters`)
+      .subscribe(r => this.chapters.set(r.data.chapters));
   }
 
   startLearning() {
     const theme = this.selectedTheme();
     const subject = this.selectedSubject();
+    const chapter = this.selectedChapter();
     const user = this.auth.currentUser();
-    if (!theme || !subject || !user) return;
-    this.router.navigate(['/learn', theme.slug, user.level, encodeURIComponent(subject.name), this.selectedChapter()]);
+    if (!theme || !subject || chapter === null || !user) return;
+    this.router.navigate(['/learn', theme.slug, user.level, encodeURIComponent(subject.name), chapter.index]);
   }
 
   saveLevel() {
@@ -67,9 +79,4 @@ export class HomeComponent implements OnInit {
   }
 
   logout() { this.auth.logout(); this.router.navigate(['/login']); }
-
-  chaptersFor(subject: Subject | null): number[] {
-    if (!subject) return [];
-    return Array.from({ length: subject.chapterCount }, (_, i) => i);
-  }
 }

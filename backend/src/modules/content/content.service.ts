@@ -21,13 +21,11 @@ function readChapterContent(classLevel: number, subject: string, chapterIndex: n
   const chapter = subjectData.chapters[chapterIndex];
   if (!chapter) throw AppError.notFound(`Chapter ${chapterIndex} not found`);
 
-  // Prefer markdown (fewer tokens), fall back to note that PDF exists
   if (chapter.markdownPath && fs.existsSync(chapter.markdownPath)) {
     const md = fs.readFileSync(chapter.markdownPath, 'utf8');
-    return md.slice(0, 12000); // cap to ~3k tokens
+    return md.slice(0, 10000); // ~2.5k tokens — reduced to speed up response
   }
 
-  // No markdown yet — return chapter title as minimal context
   return `Chapter from NCERT Class ${classLevel} ${subject}. Title: ${chapter.title}. PDF available at: ${chapter.pdfPath}`;
 }
 
@@ -35,11 +33,9 @@ export const contentService = {
   async getTeachingContent(
     themeSlug: string, classLevel: number, subject: string, chapterIndex: number, userId?: string
   ): Promise<TeachingContent> {
-    // 1. Cache hit → return immediately, no API call
     const cached = await contentCache.getTeaching(themeSlug, classLevel, subject, chapterIndex);
     if (cached) return cached;
 
-    // 2. Cache miss → generate with Claude
     const [theme, chapterText] = await Promise.all([
       getTheme(themeSlug),
       Promise.resolve(readChapterContent(classLevel, subject, chapterIndex)),
@@ -53,35 +49,50 @@ export const contentService = {
 Theme vocabulary: ${JSON.stringify(style['vocabulary'] ?? [])}.
 Tone: ${style['tone'] ?? 'engaging'}.
 Your teaching should feel like a ${theme.name} adventure — immersive, gamified, but educationally accurate.
-Always base your teaching strictly on the provided NCERT content.`;
+Always base your teaching strictly on the provided NCERT content.
+For mathematical or spatial concepts, include a simple SVG diagram in the section's "diagram" field.
+SVG diagrams must be self-contained (inline style only), max 500 chars, use basic shapes.
+Add a CSS keyframe animation when it helps understanding (e.g. showing movement, growth, highlight).`;
 
-    const userPrompt = `Teach Class ${classLevel} ${subject} - ${chapter.title} using the ${theme.name} theme.
+    const userPrompt = `Teach Class ${classLevel} ${subject} — "${chapter.title}" using the ${theme.name} theme.
 
 NCERT Content:
 ${chapterText}
 
-Return a JSON object with this exact structure:
+Return ONLY a JSON object with this exact structure (no markdown fences):
 {
+  "topics": ["topic 1 name", "topic 2 name"],
   "sections": [
-    { "heading": "section title", "body": "detailed explanation", "keyPoints": ["point1","point2"] }
+    {
+      "heading": "section title",
+      "body": "clear explanation in 3-5 sentences",
+      "keyPoints": ["point1","point2"],
+      "diagram": "<svg ...>...</svg> or null"
+    }
   ],
-  "summary": "brief recap"
+  "summary": "one paragraph recap"
 }
-Include 3-5 sections. Make it engaging and themed. Return ONLY valid JSON.`;
+Rules:
+- 3-5 sections maximum (keep concise for faster response)
+- topics = a bullet-list of what this chapter covers (extracted from content)
+- diagram: include SVG for geometry, measurements, fractions, shapes, graphs, sequences; null otherwise
+- SVG must use width/height attributes, inline styles, no external references`;
 
     const { text, tokensIn, tokensOut } = await callClaude(
-      MODEL.BALANCED, systemPrompt, userPrompt, 'teaching_content', userId, 4096
+      MODEL.BALANCED, systemPrompt, userPrompt, 'teaching_content', userId, 3000
     );
 
-    let parsed: { sections: TeachingContent['sections']; summary: string };
+    let parsed: { topics?: string[]; sections: TeachingContent['sections']; summary: string };
     try {
-      parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, ''));
+      parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
     } catch {
-      parsed = { sections: [{ heading: 'Introduction', body: text, keyPoints: [] }], summary: '' };
+      parsed = { topics: [], sections: [{ heading: 'Introduction', body: text, keyPoints: [], diagram: null }], summary: '' };
     }
 
     const content: TeachingContent = {
       chapterTitle: chapter.title,
+      source: { classLevel, subject, chapterTitle: chapter.title },
+      topics: parsed.topics ?? [],
       themeSlug, classLevel, subject, chapterIndex,
       sections: parsed.sections,
       summary: parsed.summary,
@@ -111,46 +122,26 @@ Include 3-5 sections. Make it engaging and themed. Return ONLY valid JSON.`;
 Create varied questions that test genuine understanding of NCERT content.
 Wrap questions in theme language. Tone: ${style['tone'] ?? 'engaging'}.`;
 
-    const userPrompt = `Create evaluation questions for Class ${classLevel} ${subject} - ${chapter.title}.
+    const userPrompt = `Create evaluation questions for Class ${classLevel} ${subject} — "${chapter.title}".
 
 NCERT Content:
 ${chapterText}
 
-Return JSON array with exactly 8 questions (3 MCQ, 3 short_answer, 2 long_answer):
+Return ONLY a JSON array with exactly 6 questions (3 MCQ, 2 short_answer, 1 long_answer):
 [
-  {
-    "index": 0,
-    "type": "mcq",
-    "question": "question text",
-    "themeWrapper": "e.g. The wizard challenges you:",
-    "options": ["A","B","C","D"],
-    "correctOption": 0,
-    "sampleAnswer": "A"
-  },
-  {
-    "index": 1,
-    "type": "short_answer",
-    "question": "question text",
-    "themeWrapper": "themed wrapper",
-    "sampleAnswer": "expected answer"
-  },
-  {
-    "index": 2,
-    "type": "long_answer",
-    "question": "question text",
-    "themeWrapper": "themed wrapper",
-    "sampleAnswer": "detailed expected answer"
-  }
+  { "index":0, "type":"mcq", "question":"...", "themeWrapper":"...", "options":["A","B","C","D"], "correctOption":0, "sampleAnswer":"A" },
+  { "index":1, "type":"short_answer", "question":"...", "themeWrapper":"...", "sampleAnswer":"..." },
+  { "index":2, "type":"long_answer", "question":"...", "themeWrapper":"...", "sampleAnswer":"..." }
 ]
-Return ONLY valid JSON array.`;
+Return ONLY valid JSON array, no markdown fences.`;
 
     const { text, tokensIn, tokensOut } = await callClaude(
-      MODEL.BALANCED, systemPrompt, userPrompt, 'evaluation_generation', userId, 3000
+      MODEL.BALANCED, systemPrompt, userPrompt, 'evaluation_generation', userId, 2000
     );
 
     let questions: EvaluationQuestion[];
     try {
-      questions = JSON.parse(text.replace(/```json\n?|\n?```/g, ''));
+      questions = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
     } catch {
       questions = [];
     }

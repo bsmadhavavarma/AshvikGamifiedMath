@@ -15,10 +15,10 @@ cd "$BASE/frontend" && npx ng build --configuration=production
 # 3. Start backend
 echo "[3/4] Starting backend..."
 cd "$BASE/backend"
-npx tsx src/server.ts &
+npx tsx src/server.ts >> /tmp/aite_backend.log 2>&1 &
 BACKEND_PID=$!
 echo $BACKEND_PID > /tmp/aite_backend.pid
-echo "Backend PID: $BACKEND_PID"
+echo "Backend PID: $BACKEND_PID  (logs: /tmp/aite_backend.log)"
 
 # Wait for backend to be ready
 sleep 2
@@ -26,10 +26,10 @@ sleep 2
 # 4. Start frontend static server
 echo "[4/4] Starting frontend..."
 cd "$BASE/frontend"
-node serve-static.js &
+node serve-static.js >> /tmp/aite_frontend.log 2>&1 &
 FRONTEND_PID=$!
 echo $FRONTEND_PID > /tmp/aite_frontend.pid
-echo "Frontend PID: $FRONTEND_PID"
+echo "Frontend PID: $FRONTEND_PID  (logs: /tmp/aite_frontend.log)"
 
 echo ""
 echo "=== AITeacherEvaluator is running ==="

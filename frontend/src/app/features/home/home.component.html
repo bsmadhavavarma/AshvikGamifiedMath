@@ -52,7 +52,7 @@
       <div class="subject-grid">
         @for (subject of subjects(); track subject.name) {
           <div class="subject-card" [class.selected]="selectedSubject()?.name === subject.name"
-            (click)="selectedSubject.set(subject)">
+            (click)="selectSubject(subject)">
             {{ subject.name }}
             <span class="chapter-count">{{ subject.chapterCount }} chapters</span>
           </div>
@@ -62,17 +62,22 @@
 
     <section class="step" [class.disabled]="!selectedSubject()">
       <h3>3. Choose Chapter</h3>
+      @if (selectedSubject() && chapters().length === 0) {
+        <p class="hint">Loading chapters…</p>
+      }
       <div class="chapter-grid">
-        @for (ch of chaptersFor(selectedSubject()); track ch) {
-          <div class="chapter-card" [class.selected]="selectedChapter() === ch"
+        @for (ch of chapters(); track ch.index) {
+          <div class="chapter-card" [class.selected]="selectedChapter()?.index === ch.index"
             (click)="selectedChapter.set(ch)">
-            Chapter {{ ch + 1 }}
+            <span class="ch-num">Ch {{ ch.index + 1 }}</span>
+            <span class="ch-title">{{ ch.title }}</span>
           </div>
         }
       </div>
     </section>
 
-    <button class="btn-start" [disabled]="!selectedTheme() || !selectedSubject()" (click)="startLearning()">
+    <button class="btn-start" [disabled]="!selectedTheme() || !selectedSubject() || selectedChapter() === null"
+      (click)="startLearning()">
       🚀 Begin Adventure!
     </button>
   </main>

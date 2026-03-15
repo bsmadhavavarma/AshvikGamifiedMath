@@ -16,6 +16,17 @@
     </div>
   }
 
+  <!-- Stats row -->
+  @if (stats()) {
+    <div class="stats-row">
+      <div class="stat-card"><label>Users</label><span>{{ stats()!.users['total'] }}</span></div>
+      <div class="stat-card"><label>Sessions</label><span>{{ stats()!.sessions['total'] }}</span></div>
+      <div class="stat-card"><label>Completed</label><span>{{ stats()!.sessions['completed'] }}</span></div>
+      <div class="stat-card"><label>Chapters Attempted</label><span>{{ stats()!.progress['total'] }}</span></div>
+      <div class="stat-card"><label>API Calls</label><span>{{ stats()!.apiCalls['total'] }}</span></div>
+    </div>
+  }
+
   <div class="actions">
     <button class="btn-primary" (click)="showCreateForm.set(!showCreateForm())">
       {{ showCreateForm() ? 'Cancel' : '+ New User' }}
@@ -53,6 +64,7 @@
         <th>Full Name</th>
         <th>Display Name</th>
         <th>Class</th>
+        <th>PIN</th>
         <th>Joined</th>
         <th>Actions</th>
       </tr>
@@ -63,8 +75,22 @@
           <td>{{ user.fullName }}</td>
           <td class="mono">{{ user.displayName }}</td>
           <td>{{ user.level }}</td>
+          <td class="pin-cell">
+            @if (user.pin) {
+              @if (isPinShown(user.id)) {
+                <span class="pin-value mono">{{ user.pin }}</span>
+                <button class="btn-pin-toggle" (click)="togglePin(user.id)">Hide</button>
+              } @else {
+                <span class="pin-hidden">••••••</span>
+                <button class="btn-pin-toggle" (click)="togglePin(user.id)">Show</button>
+              }
+            } @else {
+              <span class="no-pin">—</span>
+            }
+          </td>
           <td>{{ user.createdAt | date:'mediumDate' }}</td>
           <td class="action-cell">
+            <button class="btn-view" (click)="viewUser(user.id)">📋 View</button>
             <button class="btn-edit" (click)="openEdit(user)">✏️ Edit</button>
             <button class="btn-delete" (click)="confirmDelete(user)">🗑 Delete</button>
           </td>
@@ -101,11 +127,8 @@
           </select>
         </div>
         <div class="form-row">
-          <label>Reset PIN <span class="hint">(leave blank to auto-generate a new PIN; clear field and save to reset)</span></label>
-          <div class="pin-row">
-            <input [(ngModel)]="editForm.pin" placeholder="New 6-digit PIN or blank to auto-generate" maxlength="6" type="text" class="pin-input" />
-          </div>
-          <small class="muted">Current PIN is not shown (hashed). To keep existing PIN, do not touch this field — but the field must be explicitly cleared if you want a reset.</small>
+          <label>Reset PIN <span class="hint">(leave blank to auto-generate; don't touch to keep current PIN)</span></label>
+          <input [(ngModel)]="editForm.pin" placeholder="New 6-digit PIN or blank to auto-generate" maxlength="6" type="text" class="pin-input" />
         </div>
         <div class="modal-actions">
           <button class="btn-secondary" (click)="closeEdit()">Cancel</button>

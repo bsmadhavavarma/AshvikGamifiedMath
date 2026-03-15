@@ -1,9 +1,11 @@
 import { Component, signal, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 import { ApiService } from '../../../core/services/api.service';
 
-interface User { id: string; fullName: string; displayName: string; level: number; createdAt: string; }
+interface User { id: string; fullName: string; displayName: string; level: number; pin?: string; createdAt: string; }
+interface Stats { users: Record<string,string>; sessions: Record<string,string>; progress: Record<string,string>; apiCalls: Record<string,string>; }
 
 @Component({
   selector: 'app-admin-users',
@@ -14,8 +16,11 @@ interface User { id: string; fullName: string; displayName: string; level: numbe
 })
 export class AdminUsersComponent implements OnInit {
   private api = inject(ApiService);
+  private router = inject(Router);
   users = signal<User[]>([]);
+  stats = signal<Stats | null>(null);
   error = signal('');
+  shownPins = signal<Set<string>>(new Set());
 
   // Create form
   showCreateForm = signal(false);
@@ -32,7 +37,7 @@ export class AdminUsersComponent implements OnInit {
 
   levels = [1,2,3,4,5,6,7,8,9,10,11,12];
 
-  ngOnInit() { this.loadUsers(); }
+  ngOnInit() { this.loadUsers(); this.loadStats(); }
 
   loadUsers() {
     this.api.get<{ users: User[] }>('/admin/users').subscribe({
@@ -40,6 +45,20 @@ export class AdminUsersComponent implements OnInit {
       error: () => this.error.set('Admin access only available from localhost'),
     });
   }
+
+  loadStats() {
+    this.api.get<Stats>('/admin/stats').subscribe({ next: r => this.stats.set(r.data) });
+  }
+
+  togglePin(userId: string) {
+    const s = new Set(this.shownPins());
+    s.has(userId) ? s.delete(userId) : s.add(userId);
+    this.shownPins.set(s);
+  }
+
+  isPinShown(userId: string): boolean { return this.shownPins().has(userId); }
+
+  viewUser(id: string) { this.router.navigate(['/admin/users', id]); }
 
   // ── Create ────────────────────────────────────────────────────
   createUser() {

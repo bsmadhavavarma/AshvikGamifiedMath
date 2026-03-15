@@ -56,8 +56,18 @@ header {
   .action-cell { display: flex; gap: 8px; }
 }
 
-.btn-edit { background: rgba(79,142,247,0.15); border: 1px solid rgba(79,142,247,0.3); color: #93c5fd; padding: 6px 14px; border-radius: 6px; cursor: pointer; &:hover { background: rgba(79,142,247,0.25); } }
-.btn-delete { background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; padding: 6px 14px; border-radius: 6px; cursor: pointer; &:hover { background: rgba(239,68,68,0.25); } }
+.stats-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px; }
+.stat-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 16px; label { display: block; font-size: 0.72rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; } span { font-size: 1.6rem; font-weight: 700; color: #4f8ef7; } }
+
+.pin-cell { display: flex; align-items: center; gap: 8px; }
+.pin-value { color: #10b981; letter-spacing: 0.1em; }
+.pin-hidden { color: rgba(255,255,255,0.3); letter-spacing: 0.15em; }
+.no-pin { color: rgba(255,255,255,0.2); }
+.btn-pin-toggle { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.5); padding: 2px 10px; border-radius: 6px; cursor: pointer; font-size: 0.78rem; &:hover { background: rgba(255,255,255,0.1); } }
+
+.btn-view { background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); color: #6ee7b7; padding: 6px 12px; border-radius: 6px; cursor: pointer; &:hover { background: rgba(16,185,129,0.25); } }
+.btn-edit { background: rgba(79,142,247,0.15); border: 1px solid rgba(79,142,247,0.3); color: #93c5fd; padding: 6px 12px; border-radius: 6px; cursor: pointer; &:hover { background: rgba(79,142,247,0.25); } }
+.btn-delete { background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; padding: 6px 12px; border-radius: 6px; cursor: pointer; &:hover { background: rgba(239,68,68,0.25); } }
 
 // ── Modals
 .modal-overlay {

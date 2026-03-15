@@ -6,6 +6,7 @@
 
   @if (error()) { <div class="error">{{ error() }}</div> }
 
+  <!-- ── Server Health ──────────────────────────────────────────── -->
   @if (health()) {
     @let h = $any(health());
     <section class="panel">
@@ -14,13 +15,71 @@
         <div class="stat"><label>Status</label><span class="ok">{{ h['status'] }}</span></div>
         <div class="stat"><label>Uptime</label><span>{{ h['uptime'] }}s</span></div>
         <div class="stat"><label>Heap Used</label><span>{{ $any(h['memory'])['heapUsedMB'] }} MB</span></div>
-        <div class="stat"><label>Free RAM</label><span>{{ h['freeMemoryMB'] }} MB</span></div>
+        <div class="stat"><label>Free RAM</label><span>{{ h['freeMemoryMB'] }} MB / {{ h['totalMemoryMB'] }} MB</span></div>
         <div class="stat"><label>CPU Cores</label><span>{{ $any(h['cpu'])['cores'] }}</span></div>
         <div class="stat"><label>Database</label><span class="ok">{{ h['db'] }}</span></div>
       </div>
     </section>
   }
 
+  <!-- ── Processes ──────────────────────────────────────────────── -->
+  <section class="panel">
+    <div class="panel-header">
+      <h2>⚙️ Running Processes</h2>
+      <div class="panel-actions">
+        <button class="btn-sm" (click)="openLog('backend')">📄 Backend Logs</button>
+        <button class="btn-sm" (click)="openLog('frontend')">📄 Frontend Logs</button>
+        <button class="btn-sm" (click)="loadProcesses()">🔄</button>
+      </div>
+    </div>
+    @if (processes()) {
+      <table class="data-table">
+        <thead><tr><th>PID</th><th>Name</th><th>Role</th><th>CPU%</th><th>MEM%</th><th>Action</th></tr></thead>
+        <tbody>
+          @for (p of $any(processes())['processes']; track p.pid) {
+            <tr [class.app-proc]="p.isAppProcess">
+              <td class="mono">{{ p.pid }}</td>
+              <td>{{ p.name }}</td>
+              <td class="role-col">{{ p.role }}</td>
+              <td>{{ p.cpu }}</td>
+              <td>{{ p.mem }}</td>
+              <td>
+                @if (p.isAppProcess) {
+                  <button class="btn-kill" (click)="killProcess(p.pid)">Kill</button>
+                }
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    } @else {
+      <p class="muted">Loading processes…</p>
+    }
+  </section>
+
+  <!-- ── Log Streaming Tabs ──────────────────────────────────────── -->
+  @if (logTabs().length > 0) {
+    <section class="panel log-panel">
+      <div class="log-tabs">
+        @for (tab of logTabs(); track tab.name) {
+          <button class="log-tab" [class.active]="activeLogTab() === tab.name" (click)="activeLogTab.set(tab.name)">
+            {{ tab.name }} <span class="close-tab" (click)="$event.stopPropagation(); closeLogTab(tab.name)">✕</span>
+          </button>
+        }
+      </div>
+      <div class="log-content">
+        @for (line of activeLogLines(); track $index) {
+          <div class="log-line" [class.log-err]="line.includes('ERROR') || line.includes('error')"
+               [class.log-warn]="line.includes('WARN') || line.includes('warn')">{{ line }}</div>
+        }
+        @if (activeLogLines().length === 0) {
+          <p class="muted">Waiting for log output…</p>
+        }
+      </div>
+    </section>
+  }
+
+  <!-- ── API Usage ──────────────────────────────────────────────── -->
   @if (apiUsage()) {
     @let u = $any(apiUsage());
     <section class="panel">
@@ -29,9 +88,9 @@
         <div class="stat"><label>Total Calls</label><span>{{ $any(u['totals'])['total_calls'] }}</span></div>
         <div class="stat"><label>Tokens In</label><span>{{ $any(u['totals'])['total_in'] | number }}</span></div>
         <div class="stat"><label>Tokens Out</label><span>{{ $any(u['totals'])['total_out'] | number }}</span></div>
+        <div class="stat"><label>Cache Hits</label><span>{{ $any(u['cacheStats'])['hits'] }}</span></div>
       </div>
-      <h3>By Model</h3>
-      <table>
+      <table class="data-table">
         <thead><tr><th>Model</th><th>Calls</th><th>Tokens In</th><th>Tokens Out</th></tr></thead>
         <tbody>
           @for (row of $any(u['byModel']); track row) {
@@ -42,14 +101,14 @@
     </section>
   }
 
+  <!-- ── Content Cache ──────────────────────────────────────────── -->
   @if (cache()) {
     @let c = $any(cache());
     <section class="panel">
       <h2>⚡ Content Cache</h2>
-      <p class="hint">Cached = no API call needed. More entries = more savings.</p>
-      <h3>Teaching Content Cached</h3>
-      <table>
-        <thead><tr><th>Class</th><th>Subject</th><th>Theme</th><th>Chapters Cached</th></tr></thead>
+      <p class="hint">Each cached entry saves an AI API call for that chapter+theme combination.</p>
+      <table class="data-table">
+        <thead><tr><th>Class</th><th>Subject</th><th>Theme</th><th>Teaching Cached</th></tr></thead>
         <tbody>
           @for (row of $any(c['contentCache']); track row) {
             <tr><td>{{ row.class_level }}</td><td>{{ row.subject }}</td><td>{{ row.theme_slug }}</td><td>{{ row.chapters_cached }}</td></tr>
@@ -58,4 +117,55 @@
       </table>
     </section>
   }
+
+  <!-- ── Integration Tests ──────────────────────────────────────── -->
+  <section class="panel">
+    <div class="panel-header">
+      <h2>🧪 Integration Tests</h2>
+      <button class="btn-sm btn-run" (click)="runTests()" [disabled]="testsRunning()">
+        {{ testsRunning() ? '⏳ Running...' : '▶ Run Tests' }}
+      </button>
+    </div>
+
+    @if (testResults()) {
+      @let tr = testResults()!;
+      @if (!tr.ran) {
+        <p class="muted">No test run yet. Click "Run Tests" to start.</p>
+      } @else {
+        <div class="test-meta">
+          Last run: {{ tr.runAt | date:'medium' }} &nbsp;|&nbsp;
+          Exit code: <span [class.ok]="tr.exitCode === 0" [class.err]="tr.exitCode !== 0">{{ tr.exitCode }}</span>
+        </div>
+
+        <div class="test-list">
+          @for (tc of allTestCases(); track tc.name) {
+            <div class="test-item" [class.pass]="tc.status === 'passed'" [class.fail]="tc.status !== 'passed'"
+                 (click)="toggleTest(tc.name)">
+              <div class="test-row">
+                <span class="test-icon">{{ tc.status === 'passed' ? '✅' : '❌' }}</span>
+                <span class="test-name">{{ tc.name }}</span>
+                <span class="test-suite">{{ tc.suite }}</span>
+                @if (tc.duration) { <span class="test-dur">{{ tc.duration }}ms</span> }
+                <span class="test-expand">{{ expandedTest() === tc.name ? '▲' : '▼' }}</span>
+              </div>
+              @if (expandedTest() === tc.name) {
+                <div class="test-detail">
+                  <p class="test-desc"><strong>Test:</strong> {{ tc.name }}</p>
+                  <p class="test-desc"><strong>Status:</strong> {{ tc.status }}</p>
+                  @if (tc.failures.length > 0) {
+                    <pre class="test-failure">{{ tc.failures.join('\n') }}</pre>
+                  } @else {
+                    <p class="test-desc ok">All assertions passed.</p>
+                  }
+                </div>
+              }
+            </div>
+          }
+          @if (allTestCases().length === 0 && tr.ran) {
+            <pre class="raw-output">{{ tr.rawOutput }}</pre>
+          }
+        </div>
+      }
+    }
+  </section>
 </div>

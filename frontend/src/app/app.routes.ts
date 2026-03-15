@@ -9,6 +9,7 @@ export const routes: Routes = [
   { path: 'evaluate/:theme/:level/:subject/:chapter', canActivate: [authGuard], loadComponent: () => import('./features/evaluate/evaluate.component').then(m => m.EvaluateComponent) },
   { path: 'progress', canActivate: [authGuard], loadComponent: () => import('./features/progress/progress.component').then(m => m.ProgressComponent) },
   { path: 'admin', loadComponent: () => import('./features/admin/users/admin-users.component').then(m => m.AdminUsersComponent) },
+  { path: 'admin/users/:id', loadComponent: () => import('./features/admin/users/admin-user-detail.component').then(m => m.AdminUserDetailComponent) },
   { path: 'admin/observability', loadComponent: () => import('./features/admin/observability/observability.component').then(m => m.ObservabilityComponent) },
   { path: '**', redirectTo: 'login' },
 ];
