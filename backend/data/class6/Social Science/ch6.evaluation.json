@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 6,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What does the Sanskrit word 'Veda' mean?",
+      "themeWrapper": "Brave Seeker, before you can claim the Scroll of Ancient Wisdom, you must prove your worth! Answer this: What does the Sanskrit word 'Veda' mean?",
+      "options": [
+        "A) Prayer",
+        "B) Knowledge",
+        "C) Cosmos",
+        "D) Ritual"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Knowledge"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which organisation recognised Vedic chanting as 'a masterpiece of the oral and intangible heritage of humanity' in 2008?",
+      "themeWrapper": "The Oracle of Nations challenges you! Identify the mighty institution that in 2008 bestowed upon Vedic chanting the honour of being a masterpiece of oral and intangible heritage of humanity.",
+      "options": [
+        "A) WHO",
+        "B) UNICEF",
+        "C) UNESCO",
+        "D) UNDP"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) UNESCO"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to the Upanishads, what is the divine essence that resides in every living being and is ultimately one with brahman?",
+      "themeWrapper": "A riddle from the Hall of the Rishis stands between you and victory! According to the Upanishads, what is the divine essence that resides in every being and is ultimately one with brahman?",
+      "options": [
+        "A) Karma",
+        "B) Ātman",
+        "C) Ṛitam",
+        "D) Yajña"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Ātman"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is the core message of the Vedic mantra 'ekam sat viprā bahudhā vadanti'? How does this reflect the Vedic worldview about deities?",
+      "themeWrapper": "Warrior of Wisdom, inscribe your answer on the Shield of Truth! Explain the core message of the Vedic mantra 'ekam sat viprā bahudhā vadanti' and describe how it reflects the Vedic worldview about deities.",
+      "sampleAnswer": "The mantra means 'The Existent (supreme reality) is one, but sages give it many names.' This reflects the Vedic worldview that all the gods and goddesses worshipped — such as Indra, Agni, Varuṇa, and Sarasvatī — are not separate beings but different names and forms of one single supreme reality. The rishis and rishikas who composed the hymns saw unity behind the apparent diversity of divine forms, making the Vedic tradition inclusive and philosophically unified."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Describe the story of Nachiketa from the Katha Upanishad. What profound truth did he learn from Yama?",
+      "themeWrapper": "The Quest of Nachiketa is legendary! Brave Scholar, retell the daring journey of Nachiketa into Yama's realm and reveal the immortal truth he brought back to the world of the living.",
+      "sampleAnswer": "In the Katha Upanishad, a man performed a ritual and gave away all his possessions. His son Nachiketa repeatedly asked who he would be given to, angering his father, who declared 'I give you to Yama.' Nachiketa obediently went to Yama's world. He waited patiently and finally met the god of death. His one burning question was: 'What happens after the death of the body?' Yama first tried to avoid answering but was impressed by the boy's persistence. Yama ultimately revealed that the ātman (the true self) is hidden within all living beings — it is never born and never dies; it is immortal. With this profound knowledge, Nachiketa returned to his joyful father."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "India's cultural heritage has been described as an ancient tree with many roots and branches. Explain this idea using examples of the Vedic tradition, the Upanishads, and the emergence of new schools of thought like Buddhism. How do these traditions reflect the values of unity, inquiry, and the search for truth?",
+      "themeWrapper": "Champion of the Grand Quest, you now face the Final Trial! The Tree of Civilisation stands before you with roots deep in time. Using your knowledge of the Vedic tradition, the Upanishads, and the rise of new schools of thought like Buddhism, explain how India's cultural heritage grew from common roots into many branches — all united by the pursuit of truth, unity, and wisdom. Prove yourself worthy of the title 'Guardian of Bharat's Legacy'!",
+      "sampleAnswer": "India's cultural heritage is indeed like an ancient tree with many roots and branches. The roots represent the oldest traditions, the trunk represents the common values shared across traditions, and the branches represent the diverse schools of thought, arts, sciences, and religions that emerged over millennia.\n\nThe Vedic tradition forms one of the deepest roots. The four Vedas — Ṛig Veda, Yajur Veda, Sāma Veda, and Atharva Veda — are among the oldest texts in the world, composed as hymns in early Sanskrit by rishis and rishikas in the Sapta Sindhava region. They were transmitted orally across hundreds of generations with remarkable accuracy, earning UNESCO recognition in 2008. The Vedas celebrated many deities but recognised them as expressions of one supreme reality: 'ekam sat viprā bahudhā vadanti' — the truth is one, sages call it by many names. This reflects the value of unity in diversity.\n\nBuilding upon the Vedas, the Upanishads introduced deeper philosophical concepts like brahman (the universal divine essence), ātman (the individual divine self), karma, and rebirth. The stories of Śhvetaketu, Nachiketa, and the debate between Gārgī and Yājñavalkya all show that inquiry and questioning — by men, women, and children alike — were central values. The message of the Upanishads — that every being is connected through one divine essence — gave rise to prayers like 'sarve bhavantu sukhinah' (May all beings be happy), expressing universal compassion.\n\nNot all thinkers accepted the Vedas. Buddhism, founded by Siddhārtha Gautama (the Buddha), emerged as an independent school of thought. Siddhārtha gave up his royal life after witnessing old age, sickness, and death, and sought the root cause of human suffering. His journey reflects the universal human quest for truth. Buddhism taught compassion, the middle path, and freedom from attachment as the way to end suffering.\n\nTogether, these traditions demonstrate that India's cultural strength lies in its spirit of questioning, the pursuit of truth, the celebration of unity beneath diversity, and a deep concern for the wellbeing of all creatures. This is why Indian culture, though thousands of years old, continues to inspire the world."
+    }
+  ],
+  "fromCache": false
+}

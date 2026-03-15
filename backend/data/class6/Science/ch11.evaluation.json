@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 11,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which star is known as the brightest star in the night sky, found in the constellation Canis Major?",
+      "themeWrapper": "Brave Seeker, to navigate the cosmic quest, you must identify the blazing beacon of the night sky! Which mighty star holds the title of the brightest in the darkness?",
+      "options": [
+        "Polaris",
+        "Betelgeuse",
+        "Sirius",
+        "Aldebaran"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "Sirius"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "The Pole Star (Polaris) is useful for navigation because it:",
+      "themeWrapper": "Champion of the Quest, ancient sailors relied on one heroic star to guide their ships through stormy seas! Why was the Pole Star their trusted ally?",
+      "options": [
+        "It is the brightest star in the sky",
+        "It appears stationary in the North direction",
+        "It is visible from both hemispheres",
+        "It changes colour with the seasons"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "It appears stationary in the North direction"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "How many constellations were officially listed by the International Astronomical Union (IAU), dividing the entire sky into regions?",
+      "themeWrapper": "Valiant Explorer, the great celestial map was divided by the mighty IAU into legendary regions! How many heroic constellations were officially charted to rule the sky?",
+      "options": [
+        "12",
+        "27",
+        "48",
+        "88"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "88"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is light pollution, and how does it affect our ability to observe the night sky?",
+      "themeWrapper": "Courageous Night Watcher, a shadowy enemy dims the stars and weakens the quest for celestial knowledge! Name this foe and explain how it hinders the hero's view of the cosmos.",
+      "sampleAnswer": "Light pollution refers to the presence of excessive artificial light at night time. It reduces the number of stars visible in the night sky by brightening the sky background, making it difficult to see dim stars. In cities where light pollution is high, only a few stars can be seen, whereas in villages or dark areas, a much larger number of stars are visible."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What are constellations, and how were they useful to sailors and travellers in ancient times?",
+      "themeWrapper": "Bold Adventurer, before maps and compasses existed, brave voyagers used the stars as their ultimate guide! Reveal the secret of constellations and how they empowered ancient heroes to find their way.",
+      "sampleAnswer": "Constellations are regions of the sky that include groups of stars forming recognisable patterns. In earlier times, groups of stars forming patterns were called constellations. They were extremely useful for navigation before modern technology or the magnetic compass was invented. Sailors and travellers could identify directions at sea or on land by recognising these star patterns. For example, the Pole Star, part of the Little Dipper constellation, always appears in the North direction and helped travellers find their way. Even today, constellations are used as a backup navigation method in emergencies."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the key constellations mentioned in the chapter — Orion, Canis Major, Taurus, Ursa Major (Big Dipper), and Ursa Minor (Little Dipper) — including their notable stars and the stories or cultural significance associated with them.",
+      "themeWrapper": "Supreme Champion of the Celestial Quest, you must now prove your mastery of the star maps! Describe the legendary constellations of the cosmos — their patterns, their champion stars, and the heroic tales and cultural meanings that different civilisations wove around them across the ages!",
+      "sampleAnswer": "The chapter describes several important constellations:\n\n1. Orion: Orion is often represented as a hunter. It has three stars in the middle that represent the hunter's belt. In Indian astronomy, one of its famous stars is Betelgeuse, known as Ārdrā. People imagine the hunter Orion battling a bull (Taurus), followed by his dog (Canis Major).\n\n2. Canis Major: This constellation follows Orion like a faithful dog. It contains Sirius, which is the brightest star visible in the entire night sky.\n\n3. Taurus: Taurus represents a bull. It contains Aldebaran (known as Rohiṇī in Indian astronomy) and the Pleiades group of stars (known as Kṛittikā in Indian astronomy).\n\n4. Ursa Major (Big Dipper): The Big Dipper is a prominent star pattern lying in the constellation Ursa Major. In India, it is known as Saptaṛiṣhi. Tribes in Central India view the four stars forming a rectangle as a 'grandmother's cot,' while fishermen along the Konkan coast imagine them as a boat.\n\n5. Ursa Minor (Little Dipper): The Little Dipper lies in the constellation Ursa Minor. It contains the Pole Star (Polaris), known as Dhruva tārā in India. The Pole Star appears stationary in the North direction and has been invaluable for navigation in the Northern hemisphere.\n\nThese constellations reflect how different cultures across the world created their own stories and meanings around the same stars, showing both the scientific and cultural importance of observing the night sky."
+    }
+  ],
+  "fromCache": false
+}

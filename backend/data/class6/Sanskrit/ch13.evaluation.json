@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 13,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "भिक्षुकः धनिकात् किम् इच्छति स्म?",
+      "themeWrapper": "⚔️ Quest Challenge: A brave hero must identify the beggar's true desire! What did the भिक्षुकः ask from the धनिकः?",
+      "options": [
+        "A) भोजनम्",
+        "B) प्रभूतं धनम्",
+        "C) वस्त्राणि",
+        "D) गृहम्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) प्रभूतं धनम्"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "श्लोके 'आलस्यं हि मनुष्याणां शरीरस्थो महान् रिपुः' — अत्र आलस्यम् किमिव वर्णितम्?",
+      "themeWrapper": "🏹 Quest Riddle: The ancient verse hides a great truth! What does the शोलकम् compare आलस्यम् to?",
+      "options": [
+        "A) मित्रम्",
+        "B) बन्धुः",
+        "C) महान् रिपुः",
+        "D) सहायकः"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) महान् रिपुः"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "धनिकः भिक्षुकाय सहस्राधिकं रूप्यकाणि दातुम् उक्तवान्, किन्तु भिक्षुकः किम् न दातुम् सम्मतः?",
+      "themeWrapper": "🛡️ Quest Trial: The धनिकः made a strange bargain! What did the भिक्षुकः refuse to give in exchange for wealth?",
+      "options": [
+        "A) तस्य भिक्षापात्रम्",
+        "B) तस्य शरीराङ्गानि",
+        "C) तस्य वस्त्राणि",
+        "D) तस्य गृहम्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) तस्य शरीराङ्गानि"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "भिक्षुकः उद्यमी किमर्थं नासीत्? कथायाः आधारेण द्वे वाक्ये लिखत।",
+      "themeWrapper": "📜 Scroll of Wisdom: A true hero studies the story of the भिक्षुकः! In two sentences, explain why he did not work hard, based on the lesson.",
+      "sampleAnswer": "भिक्षुकः उन्नतः दृढकायः युवकः आसीत् तथापि सः भिक्षाटनं करोति स्म। सः आलस्यात् स्वयं परिश्रमं न करोति स्म, मार्गे मिलतः जनेभ्यः भिक्षां याचति स्म।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "द्वितीया विभक्तेः एकवचने परिवर्तनं कृत्वा वाक्यानि पूरयत — (क) छात्राः (ग्रन्थ) पठन्ति। (ख) जननी (लेखनी) क्रीणाति।",
+      "themeWrapper": "⚗️ Grammar Forge: Use your grammatical power to reshape these words! Convert the bracketed words into द्वितीया विभक्तिः एकवचनम् and complete the sentences.",
+      "sampleAnswer": "(क) छात्राः ग्रन्थं पठन्ति। (ख) जननी लेखनीं क्रीणाति।"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "कथायाः 'आलस्यं हि मनुष्याणां शरीरस्थो महान् रिपुः' इत्यस्याः सारांशं संस्कृते लिखत। धनिकस्य उपदेशः, भिक्षुकस्य परिवर्तनं च उल्लिखत।",
+      "themeWrapper": "🏆 The Grand Quest Finale: O Champion of Knowledge! Prove your mastery by writing a detailed summary in Sanskrit of this chapter. Include the धनिकः's message, the भिक्षुकः's transformation, and the moral of the story. True heroes learn from tales of perseverance!",
+      "sampleAnswer": "एकस्मिन् विशाले ग्रामे कश्चित् भिक्षुकः आसीत्। सः उन्नतः दृढकायः युवकः आसीत् किन्तु सः भिक्षाटनं करोति स्म। एकदा तेन मार्गेण कश्चित् धनिकः आगच्छत्। भिक्षुकः तं धनिकं प्रभूतं धनं याचितवान्। धनिकः तस्य समीपे सहस्राधिकमूल्यकानि वस्तूनि सन्तीति उक्तवान्। सः भिक्षुकाय उपदेशं दत्तवान् — 'सौभाग्येन वयं मानवजन्म प्राप्तवन्तः, अतः सफलतार्थं प्रयत्नं कुरु।' धनिकः भिक्षुकस्य शरीराङ्गानि क्रेतुम् इष्टवान् किन्तु भिक्षुकः निराकृतवान्। एवं भिक्षुकः अवगतवान् यत् तस्य शरीरं बहुमूल्यम् अस्ति। तस्माद् दिनात् सः भिक्षाटनं त्यक्त्वा परिश्रमेण धनार्जनं कृत्वा सौभवं जीवनयापनम् आरब्धवान्। अतः एव उक्तं यत् — आलस्यं हि मनुष्याणां शरीरस्थो महान् रिपुः, नास्ति उद्यमसमो बन्धुः कृत्वा यं नावसीदति।"
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the Quest for Motor Fitness, which of the following best describes what 'Motor Fitness' means?",
+      "themeWrapper": "🏹 QUEST CHALLENGE 1 — The Knowledge Gate: A warrior must know their weapon. Prove you understand the power of Motor Fitness!",
+      "options": [
+        "A) The ability of muscles and nerves to work together effectively, involving coordination, balance, agility, and reaction time",
+        "B) The ability to lift the heaviest weights in the shortest time",
+        "C) The ability to run the fastest distance without stopping",
+        "D) The ability to memorise and follow game rules accurately"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A brave adventurer is about to begin an Obstacle Race. For how long should they perform warm-up exercises before starting the activity?",
+      "themeWrapper": "⚔️ QUEST CHALLENGE 2 — The Preparation Trial: Every champion prepares before battle. How long must the warm-up ritual last?",
+      "options": [
+        "A) 1–2 minutes",
+        "B) 15–20 minutes",
+        "C) 5–10 minutes",
+        "D) 30–40 minutes"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "During the Khel Yatra quest, a hero performs the Quadriceps Stretch. Which part of the body does this stretch primarily target?",
+      "themeWrapper": "🛡️ QUEST CHALLENGE 3 — The Body Map Trial: A true warrior knows every part of their armour. Identify the correct target of this stretch!",
+      "options": [
+        "A) Shoulders and upper back",
+        "B) The front of the thigh (leg muscles), by bending the leg backward toward the hip",
+        "C) The calf muscles at the back of the lower leg",
+        "D) The chest and rear shoulders"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "After completing a heroic Balancing Act challenge, why is it important to cool down? Describe what a proper cool-down involves.",
+      "themeWrapper": "🌟 QUEST CHALLENGE 4 — The Recovery Scroll: A wise hero knows that rest after battle is just as important as the fight. Explain the purpose and method of cooling down!",
+      "sampleAnswer": "Cool-down is important because it brings the body back to a resting state systematically by lowering body temperature and heart rate in a controlled manner. It also helps the warrior calm down, relax, and reflect on their performance. A proper cool-down involves gently stretching the body for 5–10 minutes, performing stretching exercises from head to toe focusing on relaxing the muscles, and including deep breathing exercises for relaxation."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In the game 'Shivam Says', what skills are being tested? Also explain what a player must do when they hear the command 'Shivam says — touch your toes', and what muscle stretch they might feel.",
+      "themeWrapper": "🎯 QUEST CHALLENGE 5 — The Listening Warrior Test: A true hero listens carefully before striking. Decode the rules of 'Shivam Says' and identify the body's response!",
+      "sampleAnswer": "The game 'Shivam Says' tests listening skills and quick reactions. When the teacher commands 'Shivam says — touch your toes', the player must bend forward and touch their toes, then hold that position until the next command is given. While holding this position, the player will feel a stretch in the hamstrings (back of the thigh) and the muscles of the lower back. This activity also helps players become aware of which muscles are being stretched during each movement."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "You are the captain of your fitness quest team. Your team must perform a complete warm-up session before the Obstacle Race. Describe in detail: (a) Why warming up is important, (b) How to warm up step by step, (c) Why stretching is done before and after activity, and (d) Name and describe any THREE stretching exercises your team would perform, including any one variation for each.",
+      "themeWrapper": "👑 FINAL EPIC QUEST — The Grand Fitness Scroll: You are now the Master of Motor Fitness! Write the complete preparation guide for your heroic team before they conquer the Obstacle Race. Show your full knowledge and lead your warriors to victory!",
+      "sampleAnswer": "(a) Importance of Warm-Up: Warming up prepares the body for physical activity by raising the body temperature and heart rate, which improves physical efficiency and performance. It also minimises the risk of injury by warming up the muscles and moving the joints before activity begins.\n\n(b) How to Warm Up Step by Step: For approximately 5–10 minutes, one should begin with progressively light to intense grade exercises related to the sporting activity — such as jogging, shuttle runs, high knee sprints, or activity-specific movements like football kicks. Once the body starts feeling energised, stretching exercises must be performed before beginning the sport.\n\n(c) Why Stretching is Done Before and After Activity: Stretching exercises prepare the body by enabling joints to move through their full range of motion. Pre-stretching (before activity) reduces the risk of injury. Post-stretching (after activity) helps in recovery of the muscles and brings the body back to rest. During stretching, the body should be relaxed, and one should take slow and deep breaths, as flexibility improves when the mind and muscles are relaxed.\n\n(d) Three Stretching Exercises:\n1. Overhead Arm Stretch — Stand straight with feet apart. Raise both arms upward and lock fingers of both hands with palms facing the sky. Push arms upward as far as possible. Variation: Lean forward and backward while keeping arms outstretched.\n2. Floor Touch — Stand straight with feet apart and raise both arms straight upward adjacent to ears. Slowly lean forward and try to touch the floor with both palms without bending the knees. Variation: Stay in the stretch and move palms on the floor forward and backward.\n3. Calf Stretch — Stand in front of a wall at arm's length and place both hands on the wall. Place one foot in front and slightly bend its knee, while keeping the heel of the back leg firmly on the floor. Feel the stretch in the upper calf of the back leg. Variation: Move the back leg further backwards to increase the intensity of the stretch."
+    }
+  ],
+  "fromCache": false
+}

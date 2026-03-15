@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 7,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "When an ice cube is left on a table and melts into water, what does this observation prove?",
+      "themeWrapper": "⚔️ Quest Trial 1 — The Shape-Shifter's Secret: A brave explorer places an ice cube on a table. As it melts, a great truth is revealed. What does this heroic discovery tell us?",
+      "options": [
+        "A) Ice and water are different substances",
+        "B) Ice and water are the same substance in different states",
+        "C) Something is added to ice to make water",
+        "D) Water is heavier than ice"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Ice and water are the same substance in different states"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Water sprinkled on a hot pan disappears quickly. What is the name of the process responsible for this?",
+      "themeWrapper": "⚔️ Quest Trial 2 — The Vanishing Waters: A warrior cook sprinkles water on a blazing pan and watches it vanish. Name the mighty process that claims the water!",
+      "options": [
+        "A) Condensation",
+        "B) Freezing",
+        "C) Evaporation",
+        "D) Melting"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Evaporation"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Water droplets appear on the outer surface of a glass tumbler filled with cold water and ice. Which process best explains this phenomenon?",
+      "themeWrapper": "⚔️ Quest Trial 3 — The Mysterious Dew Riddle: A guild of young heroes notices water appearing on the outside of a cold glass — without any water being poured there. Which mighty process is at work?",
+      "options": [
+        "A) Evaporation of water inside the glass",
+        "B) Seeping of water through the glass walls",
+        "C) Condensation of water vapour present in the surrounding air",
+        "D) Melting of ice inside the glass"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Condensation of water vapour present in the surrounding air"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Aavi and Thirav placed a tablespoon of water on a steel plate and observed it over time. (a) What happened to the water? (b) What did this activity help them conclude about where the water goes?",
+      "themeWrapper": "🗺️ Quest Scroll 4 — The Steel Plate Trial: Two young questers lay water upon a steel plate and watch closely. Describe what fate befell the water and what truth was uncovered in this brave investigation.",
+      "sampleAnswer": "The water on the steel plate disappeared over time. The activity showed that water did not seep through the steel plate because no water appeared on the other side. This proved that the water had converted into water vapour through the process of evaporation and escaped into the air. Therefore, the disappearance of water is due to evaporation, not seeping."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Dew drops are seen on plants more commonly in the morning than during the afternoon. Using your knowledge of condensation, explain why this happens.",
+      "themeWrapper": "🗺️ Quest Scroll 5 — The Dawn Mystery: Every morning, brave adventurers notice sparkling droplets on leaves — yet by afternoon they are gone. Use your mastery of condensation to explain this phenomenon.",
+      "sampleAnswer": "Condensation is the process by which water vapour in the air converts into liquid water droplets when it comes in contact with a cold surface. In the morning, the surfaces of plants are cooler because temperatures drop at night. When the water vapour present in the air touches these cold leaf surfaces, it condenses into water droplets called dew. During the afternoon, the sun heats up the surfaces, so they are no longer cold enough to cause condensation. Also, the existing dew droplets evaporate due to the warmth. This is why dew drops are seen more in the morning."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Water exists in three states — solid (ice), liquid (water), and gas (water vapour). Explain the processes by which water changes from one state to another, giving real-life examples for each change. Also describe how Aavi and Thirav's activities in this chapter helped them understand these changes scientifically.",
+      "themeWrapper": "📜 The Grand Quest — Master of the Three Realms: The ultimate challenge awaits! A legendary hero must demonstrate mastery over all three states of water — the Frozen Realm (ice), the Flowing Realm (water), and the Invisible Realm (water vapour). Describe the transformation journeys between these realms, cite real-world examples, and recount how the young heroes Aavi and Thirav used scientific inquiry to unravel these mysteries.",
+      "sampleAnswer": "Water exists in three states: solid (ice), liquid (water), and gaseous (water vapour). These states are interconvertible through specific processes:\n\n1. Melting (Solid to Liquid): When ice is heated, it melts and converts into liquid water. Real-life example: Ice cubes left on a table at room temperature melt into water. Aavi and Thirav demonstrated this in Activity 8.1 by placing an ice cube in a cup and observing it turn to water, concluding that ice and water are the same substance in different states.\n\n2. Evaporation (Liquid to Gas): When liquid water gains heat, it converts into water vapour. This process is called evaporation and occurs even at room temperature. Real-life examples include: drying of wet clothes, disappearance of water from puddles, drying of a mopped floor, evaporation of sweat from the body, and water sprinkled on a hot pan turning to steam. In Activity 8.2, Aavi and Thirav placed water on a steel plate and observed it disappear without seeping through, concluding it had evaporated.\n\n3. Condensation (Gas to Liquid): When water vapour comes in contact with a cold surface, it converts back into liquid water droplets. This is called condensation. Real-life examples include: dew drops on plants in the morning, water droplets forming on the inner surface of a lid placed over boiling water, and water droplets appearing on the outer surface of a cold glass tumbler. In Activity 8.3, Aavi and Thirav added ice to a glass tumbler and noticed water droplets forming on the outer surface. Through Activity 8.4, they measured the mass increasing over time, providing evidence that water vapour from the surrounding air was condensing on the cold glass surface.\n\n4. Freezing (Liquid to Solid): When water is cooled sufficiently, it converts into ice. Example: water kept in a freezer turns into ice.\n\nThrough their scientific approach of observing, questioning, designing activities, and gathering evidence, Aavi and Thirav showed how systematic inquiry helps uncover the truth about natural phenomena like the water cycle."
+    }
+  ],
+  "fromCache": false
+}

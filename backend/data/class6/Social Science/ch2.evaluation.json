@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following best describes a plateau?",
+      "themeWrapper": "Hero, your quest takes you to a high elevated land! Choose wisely — which description correctly identifies a plateau?",
+      "options": [
+        "A landform with steep slopes, a broad base and a narrow summit",
+        "A landform that rises from surrounding land with a more or less flat surface and often steep sides",
+        "A low-lying flat area usually found near rivers and coasts",
+        "A rounded hill formed by erosion over millions of years"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Bachendri Pal became the first Indian woman to climb Mount Everest in which year?",
+      "themeWrapper": "A legendary warrior scaled the mightiest peak! In which year did Bachendri Pal achieve this heroic feat?",
+      "options": [
+        "1975",
+        "1984",
+        "1990",
+        "2013"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Why is terrace farming practised on mountain slopes?",
+      "themeWrapper": "Brave explorer, mountain farmers have devised a clever strategy! Why do they cut steps into slopes to grow crops?",
+      "options": [
+        "Because mountain soil is more fertile than plains soil",
+        "To make use of steep slopes where regular farming is not possible",
+        "Because it requires less water than farming on flat land",
+        "To protect crops from avalanches and landslides"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any four challenges that people living in mountains may face, and explain briefly why mountains are still considered significant for life and culture.",
+      "themeWrapper": "Valiant quester, the mountain realm is full of both glory and peril! Name four trials mountain dwellers must endure, and explain why brave souls still choose to dwell there.",
+      "sampleAnswer": "Four challenges faced by mountain dwellers include: (1) Avalanches — sudden fall of snow, ice or rocks from a mountainside; (2) Landslides — sudden collapse of earth or rock; (3) Flash floods — sudden local flooding caused by cloudbursts; (4) Heavy snowfall and cold weather making daily life and travel extremely difficult. Uncontrolled tourism also puts pressure on the fragile mountain environment. Despite these challenges, mountains are significant because they are sources of rivers (snowmelt feeds rivers), they offer scenic beauty and tourism opportunities, they provide unique biodiversity (montane forests, diverse fauna), they support herding and terrace farming, and they hold deep religious and cultural importance, with many communities considering mountains sacred."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is montane forest? Name any four trees commonly found in such forests and describe the vegetation found at higher altitudes where trees cannot grow.",
+      "themeWrapper": "Explorer, as you ascend the mountain realm, the forests change around you! Describe the montane forest and the hardy vegetation that survives at the highest altitudes.",
+      "sampleAnswer": "Montane forest is a type of forest that grows in mountainous regions, typically found on mountain slopes. Common trees in montane forests include conifers such as pines, firs, spruce, and deodar. These conifer trees are tall and cone-shaped with thin, pointed leaves, well-adapted to cold mountain conditions. At higher altitudes where the climate becomes too harsh for trees, the tree cover gives way to grasses, mosses, and lichen. Mosses are small green plants without flowers or true roots that spread in a cushion-like cover, while lichens are plant-like organisms that cling to rocks, walls, or trees."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the three major types of landforms. For each landform, explain its physical characteristics, the type of climate and vegetation associated with it, the challenges people face living there, and the opportunities it provides for human life and livelihood.",
+      "themeWrapper": "O Grand Champion of Geography, your ultimate quest requires mastery over all three great realms of the Earth! Describe the mountains, plateaus, and plains in full heroic detail — their forms, their climates, their challenges, and the opportunities they offer to the brave souls who call them home.",
+      "sampleAnswer": "The three major types of landforms are mountains, plateaus, and plains.\n\n1. MOUNTAINS: Mountains are landforms much higher than the surrounding landscape, recognised by a broad base, steep slopes, and a narrow summit. At higher altitudes, mountains are permanently snow-capped; at lower altitudes, snow melts in summer and feeds rivers. Shorter, more rounded versions are called hills. Most mountains belong to ranges like the Himalayas (Asia), the Alps (Europe), and the Andes (South America). The climate is cold, and the vegetation consists of montane forests (pines, firs, spruce, deodar) at lower altitudes, transitioning to grasses, mosses, and lichen at higher altitudes. Fauna includes golden eagles, snow leopards, yaks, ibex, and mountain hares. Challenges include avalanches, landslides, flash floods, heavy snowfall, cold weather, and uncontrolled tourism damaging the fragile ecosystem. Opportunities include terrace farming in valleys, herding, tourism (skiing, hiking, mountaineering, pilgrimages), and cultural significance (mountains are considered sacred by many communities).\n\n2. PLATEAUS: A plateau is a landform that rises from surrounding land with a more or less flat surface and often steep sides. Plateaus can be young or old and vary in height from a few hundred to several thousand metres. Examples include the Tibetan Plateau (the largest and highest in the world) and the Deccan Plateau in India. The flat surface allows for some agriculture and mining. Plateaus often contain mineral resources and support grasslands and forests depending on rainfall. They also offer strategic military and trade advantages due to their elevated position.\n\n3. PLAINS: Plains are flat, low-lying landforms usually formed by river deposits. They have fertile soil, abundant water supply, and a relatively mild climate suitable for large-scale agriculture. Plains support the largest human populations in the world. The Indo-Gangetic Plain in India, for example, is one of the most densely populated regions on Earth. Challenges of plains include flooding, especially near rivers, but overall plains provide the best conditions for farming, transportation, trade, and the development of cities and civilisations."
+    }
+  ],
+  "fromCache": false
+}

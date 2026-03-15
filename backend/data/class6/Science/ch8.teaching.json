@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 9",
+  "source": {
+    "classLevel": 6,
+    "subject": "Science",
+    "chapterTitle": "Chapter 9"
+  },
+  "topics": [
+    "Methods of separating mixtures",
+    "Winnowing, sieving and handpicking",
+    "Sedimentation, decantation and filtration",
+    "Evaporation to separate dissolved substances"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 8,
+  "sections": [
+    {
+      "heading": "⚔️ The Quest Begins — What is a Mixture and Why Separate It?",
+      "body": "Young wizard, imagine your dal has small stones in it — you cannot eat that! When two or more things are mixed together, we call it a mixture. To make food safe and useful, we must use our separation powers to remove the unwanted parts. Think of it like sorting your cricket cards — you keep the good ones and throw away the torn ones!",
+      "keyPoints": [
+        "A mixture is when two or more substances are combined together",
+        "We separate mixtures to make things clean, safe, and useful",
+        "Different mixtures need different separation spells!"
+      ]
+    },
+    {
+      "heading": "🧙 First Spells — Handpicking, Threshing and Winnowing",
+      "body": "Handpicking is the simplest spell — you just use your fingers to pick out unwanted things, like removing black pepper from pulao on your plate! Threshing is when farmers beat wheat stalks against a log to shake the grains loose — like shaking a mango tree to drop its fruits. Winnowing is the wind-power spell — lighter husk flies away in the breeze while heavier grains fall down, just like how light paper flies away when you blow it but a coin stays put.",
+      "keyPoints": [
+        "Handpicking works when unwanted pieces are few and easy to see by size, colour or shape",
+        "Threshing separates grains from stalks by beating them",
+        "Winnowing uses wind to blow away light husk, keeping heavy grains behind"
+      ]
+    },
+    {
+      "heading": "🔮 The Sieving Spell — Separating by Size",
+      "body": "Imagine trying to separate fine atta (flour) from coarse bran — a sieve is your magic tool here! A sieve has tiny holes, so fine flour falls through easily while bigger pieces like bran or small stones stay on top. You have also seen this at construction sites where workers sieve sand to remove pebbles. The secret power of sieving is the difference in size between the two things!",
+      "keyPoints": [
+        "Sieving works when one substance has smaller particles than the other",
+        "Fine particles pass through the holes; bigger particles stay on the sieve",
+        "Used in cooking for flour and also at construction sites for sand"
+      ]
+    },
+    {
+      "heading": "🌊 Water Realm Spells — Sedimentation, Decantation and Filtration",
+      "body": "When you make tea and let it sit quietly, the heavy tea leaves slowly sink to the bottom — this is called sedimentation. Then when you gently pour the tea into a cup leaving the leaves behind, that is decantation. But a few sneaky leaves can still escape! So we use a strainer — this is filtration, the strongest of these three spells. Filtration catches even the tiny bits that decantation misses, just like a net catches fish that slip through your hands!",
+      "keyPoints": [
+        "Sedimentation — heavy particles settle at the bottom of a liquid",
+        "Decantation — carefully pouring off the liquid, leaving settled bits behind",
+        "Filtration — passing the liquid through a strainer or cloth to catch even tiny particles"
+      ]
+    },
+    {
+      "heading": "☀️ The Evaporation Spell — Bringing Back What is Hidden",
+      "body": "Salt hides inside seawater — you cannot see it, but it is there! Farmers pour seawater into shallow pits and let the hot sun do the work. The water slowly disappears into the air as water vapour, and the salt is left behind. This is called evaporation. It is like when you sweat on a hot day playing cricket — the water dries up but a white salty patch stays on your dark shirt!",
+      "keyPoints": [
+        "Evaporation is used to separate a dissolved solid like salt from water",
+        "Heat from the sun or a flame turns water into vapour, leaving the solid behind",
+        "The white patches on dark clothes after sweating are caused by evaporation of sweat"
+      ]
+    }
+  ],
+  "summary": "In this quest, brave young wizards learned that mixtures are all around us — in our food, farms and water — and each mixture needs a special separation spell to make it useful. Handpicking uses our fingers for small amounts, threshing beats grains free from stalks, and winnowing uses wind to blow away light husk. Sieving separates things of different sizes like flour and bran. When liquids are involved, sedimentation lets heavy bits sink, decantation pours the liquid away, and filtration uses a strainer to catch remaining particles. Finally, evaporation uses the power of heat to remove water and reveal hidden dissolved solids like salt. Every method uses one smart idea — the two things being separated must be different in size, weight, or how they behave with water!",
+  "fromCache": false
+}

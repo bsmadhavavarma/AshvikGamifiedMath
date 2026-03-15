@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the fable 'The Raven and the Fox,' what lesson does the poem teach young adventurers?",
+      "themeWrapper": "⚔️ Quest Scroll 1 — The Fable's Hidden Truth: A hero must see through deception. What wisdom does 'The Raven and the Fox' bestow upon those who read it?",
+      "options": [
+        "A) Vanity and flattery lead to foolishness and loss",
+        "B) Ravens are wiser than foxes in all situations",
+        "C) Hard work always defeats cunning",
+        "D) Animals should never trust each other"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) Vanity and flattery lead to foolishness and loss"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which unit in 'Poorvi' contains the story 'A Bottle of Dew,' and what core value does it champion?",
+      "themeWrapper": "🏆 Quest Scroll 2 — The Treasure of Toil: A mighty warrior seeks the unit and its sacred teaching. Which answer unlocks the gate?",
+      "options": [
+        "A) Unit 2 — Friendship; it champions loyalty",
+        "B) Unit 1 — Fables and Folk Tales; it champions hard work and diligence",
+        "C) Unit 3 — Nurturing Nature; it champions ecological balance",
+        "D) Unit 4 — Sports and Wellness; it champions physical fitness"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Unit 1 — Fables and Folk Tales; it champions hard work and diligence"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In Unit 3 'Nurturing Nature,' the piece 'Spices that Heal Us' is written in which format?",
+      "themeWrapper": "🌿 Quest Scroll 3 — The Healer's Message: A messenger carries ancient wisdom about spices. In what form does this heroic message arrive?",
+      "options": [
+        "A) A poem with rhyming stanzas",
+        "B) A dramatic conversation between two children",
+        "C) A letter from a grandmother",
+        "D) A graphic story with illustrations"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) A letter from a grandmother"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "In the story 'The Unlikely Best Friends,' who are the two friends and what important quality does their friendship highlight? Why is their friendship considered 'unlikely'?",
+      "themeWrapper": "🤝 Quest Scroll 4 — The Bond Beyond Boundaries: Two unlikely champions forge an alliance that shakes the world of ordinary expectation. Reveal their names and the power that binds them!",
+      "sampleAnswer": "The two friends are Gajaraj, an elephant, and Buntee, a dog. Their friendship is considered 'unlikely' because an elephant and a dog are very different animals — one is enormous and the other is small. Their bond highlights the importance of empathy, showing that true friendship can blossom between the most unexpected companions and bring joy and fulfillment regardless of differences."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What are the six Curricular Goals (CG) outlined in 'Poorvi'? Name at least four and briefly describe what each one aims to develop in students.",
+      "themeWrapper": "📜 Quest Scroll 5 — The Six Sacred Pillars: The book 'Poorvi' stands on six mighty pillars of learning. Brave learner, name at least four of these pillars and describe the strength each one builds!",
+      "sampleAnswer": "The six Curricular Goals in Poorvi are: CG-1 — Developing independent reading comprehension and summarising skills across various text types. CG-2 — Developing the ability to write about thoughts, feelings, and experiences. CG-3 — Building effective communication skills including questioning, describing, analysing and responding. CG-4 — Exploring different literary devices and forms of literature. CG-5 — Recognising basic linguistic aspects like word and sentence structure for oral and written expression. CG-6 — Appreciating distinctive features of the English language such as phonetics, rhymes, puns, and wordplay games."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The textbook 'Poorvi' is designed around five thematic units covering friendship, nature, sports, fables, and more. How does the book attempt to connect students' real lives, Indian cultural heritage, and 21st-century skills through its themes and content? Use specific examples from at least three units to support your answer.",
+      "themeWrapper": "🗺️ Grand Quest — The Map of Poorvi's Kingdom: You stand before the mightiest challenge! The kingdom of 'Poorvi' was built with purpose — to connect learners to their roots while preparing them for tomorrow's battles. Using evidence from at least three units, chart the full quest this textbook sets before every student. Show how it bridges lived experience, Indian heritage, and modern skills. Write your epic answer worthy of a true scholar-hero!",
+      "sampleAnswer": "Poorvi successfully bridges students' real lives, Indian cultural heritage, and 21st-century skills through its carefully chosen themes and diverse content. In Unit 1 'Fables and Folk Tales,' the book draws on timeless Indian storytelling traditions. The folk tale 'Rama to the Rescue' is sourced from Tamil Nadu, reflecting India's rich regional heritage. The moral lessons of hard work (in 'A Bottle of Dew') and the dangers of vanity (in 'The Raven and the Fox') are universal values that students can relate to their daily lives. In Unit 3 'Nurturing Nature,' the conversation 'Neem Baba' introduces students to the neem tree's many benefits, rooting learning in Indian Knowledge Systems and traditional ecological wisdom. 'Spices that Heal Us,' a letter from a grandmother, highlights the intergenerational passing down of knowledge about natural healing — something students can connect to their own homes and families. This unit also cultivates ecological sensitivity, a vital 21st-century concern. In Unit 2 'Friendship,' the story of Gajaraj and Buntee models empathy and inclusion — social-emotional skills crucial for the modern era. 'The Chair' uses a grandfather-grandson relationship to help students critically distinguish genuine friendship from superficiality, connecting both cultural values (respect for elders, family wisdom) and modern critical thinking. Furthermore, the book integrates cross-cutting themes like gender sensitivity, digital skills, and values across all units, while its activities build the four language skills of listening, speaking, reading, and writing — preparing students holistically for the challenges of the 21st century while keeping them rooted in India's civilisational wealth."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Why did Prabhat avoid playing games he was unsure about winning?",
+      "themeWrapper": "Brave Seeker, before you advance to the next level of the Quest, answer this: Why did Prabhat refuse to enter battles he feared losing?",
+      "options": [
+        "A. He found those games boring",
+        "B. He could not bear the feeling of losing",
+        "C. He was too busy practising badminton",
+        "D. His parents told him not to play"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. He could not bear the feeling of losing"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "How did Prabhat win the badminton match against Surya?",
+      "themeWrapper": "Champion, a shadow looms over this victory — reveal the truth! How did Prabhat claim his triumph over Surya on the badminton court?",
+      "options": [
+        "A. He practised harder than Surya all week",
+        "B. Surya gave up halfway through the match",
+        "C. He secretly changed the scoreboard while Surya was looking elsewhere",
+        "D. The coach declared Prabhat the winner by default"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. He secretly changed the scoreboard while Surya was looking elsewhere"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What important lesson did Prabhat learn by observing Surya over several days?",
+      "themeWrapper": "Quest Hero, every great journey teaches wisdom. What was the greatest truth Prabhat unlocked by watching Surya play day after day?",
+      "options": [
+        "A. Winning every game is the most important thing in sports",
+        "B. You must always keep a scoreboard to improve your game",
+        "C. To enjoy a game, you must focus on the fun and effort, not on winning or losing",
+        "D. Only games you are skilled at are worth playing"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. To enjoy a game, you must focus on the fun and effort, not on winning or losing"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Even though Prabhat won the match, he could not sleep well that night. Why do you think he felt unhappy despite his victory?",
+      "themeWrapper": "Seeker of Truth, even a hollow victory leaves a warrior restless. Explain why Prabhat's triumphant night was filled with unease rather than joy.",
+      "sampleAnswer": "Prabhat could not sleep well because deep down he knew he had cheated to win the match by changing the scoreboard. His win was dishonest, so it did not give him the genuine happiness that a real victory would have brought. Watching Surya remain cheerful and unbothered after losing also made Prabhat question his own attitude towards winning and losing."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "How did Surya's attitude towards games differ from Prabhat's? Give two points from the story to support your answer.",
+      "themeWrapper": "Two warriors, two paths — one seeking glory, the other seeking joy. Describe how Surya's spirit in the arena was different from Prabhat's, using evidence from the story.",
+      "sampleAnswer": "Surya's attitude was very different from Prabhat's in two key ways. First, Surya remained relaxed and joyful during games — he laughed, joked, and smiled even while competing, whereas Prabhat approached every match with great seriousness and tension. Second, Surya did not feel bad after losing; he even played basketball the next day cheerfully despite being poor at it, while Prabhat could not bear losing and would avoid any game he thought he might lose."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The story is titled 'Change of Heart'. Explain how this title is suitable by describing how Prabhat's thinking and behaviour changed from the beginning to the end of the story. What caused this change, and what does the story teach us about sporting spirit?",
+      "themeWrapper": "Grand Champion, you have reached the final trial of the Quest! Unravel the full arc of Prabhat's heroic transformation — from a fearful competitor to a true sportsperson — and reveal the deeper wisdom the story imparts about the spirit of play.",
+      "sampleAnswer": "The title 'Change of Heart' is very suitable because the story shows a complete transformation in Prabhat's attitude towards games and competition. At the beginning, Prabhat was obsessed with winning. He could not accept defeat, avoided games he might lose, and even cheated in his badminton match against Surya by secretly changing the scoreboard. Winning was the only thing that mattered to him, and losing made him feel terrible.\n\nThe change begins when Prabhat cannot sleep after his dishonest win. He sees that Surya, despite losing, is happy and plays basketball the very next day with great enthusiasm even though he is poor at it. Prabhat begins observing Surya closely over several days and notices that Surya enjoys every game — whether he wins or loses — because he plays for the sheer joy of it, not for the score.\n\nThis observation gradually brings about a 'change of heart' in Prabhat. He starts playing hide and seek, jokes while playing badminton, and begins enjoying games for their own sake. By the end, his classmates praise him for his great sporting spirit.\n\nThe story teaches us that true sporting spirit means playing fair, enjoying the game, respecting opponents, and valuing effort over outcome. Winning through cheating brings no real happiness, whereas playing honestly and joyfully enriches our experience and builds character. A genuine sportsperson, like Surya, finds joy in participation itself, which is the true reward of any game."
+    }
+  ],
+  "fromCache": false
+}

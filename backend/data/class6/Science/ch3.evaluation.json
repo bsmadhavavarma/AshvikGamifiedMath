@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following materials is classified as a magnetic material?",
+      "themeWrapper": "⚔️ Quest Challenge I — The Sorting Trial: A brave explorer must choose the right material to forge a magnetic compass. Which of the following will answer the call of the magnet?",
+      "options": [
+        "Wood",
+        "Glass",
+        "Cobalt",
+        "Rubber"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "Cobalt"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A bar magnet is broken into two pieces. What happens to its poles?",
+      "themeWrapper": "⚔️ Quest Challenge II — The Shattered Shield: A legendary magnet-sword is split in battle. What heroic truth governs the fate of its poles?",
+      "options": [
+        "One piece has only the North pole and the other has only the South pole",
+        "Both pieces lose their magnetic properties entirely",
+        "Each piece still has both a North pole and a South pole",
+        "The smaller piece retains only one pole"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "Each piece still has both a North pole and a South pole"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "When a bar magnet is freely suspended by a thread and allowed to come to rest, in which direction does it align itself?",
+      "themeWrapper": "⚔️ Quest Challenge III — The Navigator's Riddle: Reshma's sailors are lost in a storm with no stars visible. A freely suspended magnet is their only hope. Which direction does it faithfully point to guide them home?",
+      "options": [
+        "East-West direction",
+        "North-South direction",
+        "Randomly, with no fixed direction",
+        "It aligns with the direction of the wind"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "North-South direction"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What are lodestones, and why were they significant for sailors in ancient times?",
+      "themeWrapper": "🗺️ Hero's Journal Entry I — The Ancient Relic: The ancient mariners of Kerala possessed a secret stone that guided their ships across vast seas. Uncover the identity and importance of this legendary relic in your quest log.",
+      "sampleAnswer": "Lodestones are naturally occurring magnets discovered in ancient times. They were significant for sailors because their magnetic property allowed them to be used as primitive compasses. A piece of lodestone, when freely suspended, aligns itself in the north-south direction, helping sailors find directions even when the stars were not visible, such as during storms or cloudy nights."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In Activity 4.2, iron filings are spread on a sheet and a bar magnet is placed over them. Describe the observation and explain what it reveals about the poles of a magnet.",
+      "themeWrapper": "🗺️ Hero's Journal Entry II — The Iron Filings Revelation: A young scientist scatters iron filings across a battlefield of paper and lays a bar magnet upon it. What heroic pattern do the filings reveal, and what ancient truth about the magnet's poles does it uncover?",
+      "sampleAnswer": "When a bar magnet is placed over iron filings spread on paper and the paper is tapped, the iron filings do not stick uniformly all over the magnet. Instead, maximum iron filings cluster and stick near the two ends (poles) of the bar magnet, while very few filings are found in the middle region. This reveals that the magnetic force is strongest at the two ends of the magnet, which are called the North pole and the South pole. The poles are the regions of maximum attraction."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe in detail how a simple magnetic compass can be made at home using a magnetised needle, a cork, and water. Also explain the underlying scientific principle that makes a magnetic compass work, and how it helped sailors like those in Reshma's story find directions.",
+      "themeWrapper": "📜 The Grand Quest Scroll — The Compass of Legends: You are the chief navigator aboard Reshma's spice ship, caught in a terrible storm with no stars in the sky. The ancient maps are useless. Your only salvation is to craft a magnetic compass from the materials in the ship's store. Document your heroic construction process, reveal the mighty scientific principle behind your creation, and explain how this instrument shall guide your crew safely to shore.",
+      "sampleAnswer": "**Constructing a Simple Magnetic Compass:**\n\n**Materials needed:** An iron sewing needle, a permanent bar magnet, a small cork piece, a glass bowl, and water.\n\n**Steps:**\n1. Place the iron sewing needle on a flat wooden surface.\n2. Take one pole of the bar magnet and stroke it along the length of the needle from one end to the other. After reaching the other end, lift the magnet up and bring the same pole back to the starting end. Repeat this stroking process 30 to 40 times in the same direction. This process magnetises the needle.\n3. Test the needle by bringing iron filings or small steel pins near it. If they are attracted, the needle has become a magnet.\n4. Insert the magnetised needle horizontally through a small piece of cork.\n5. Fill a glass bowl with water and carefully float the cork in it, ensuring the needle remains above the water level.\n6. Allow the cork with the needle to come to rest freely on the water surface. The needle will align itself in the north-south direction. The compass is now ready.\n\n**Scientific Principle:**\nThe magnetic compass works on the principle that a freely suspended or freely floating magnet always aligns itself in the north-south direction. This happens because the Earth itself behaves like a giant magnet. The Earth's magnetic field interacts with the magnet in the compass needle, causing it to rotate until it aligns with the Earth's magnetic north-south axis. The end pointing north is the North-seeking pole (North pole) of the needle.\n\n**Helping Sailors Find Directions:**\nIn Reshma's story, the sailors faced a storm with an overcast sky, making stars invisible. A magnetic compass would have solved their problem. By placing the compass and waiting for the needle to align, the sailors could identify the north-south direction. Once north is known, all other cardinal directions — South, East, and West — can be determined. This allowed sailors to navigate confidently even without visible stars or landmarks, making the magnetic compass one of the most heroic tools in the history of exploration and trade."
+    }
+  ],
+  "fromCache": false
+}

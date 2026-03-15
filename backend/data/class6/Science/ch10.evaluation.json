@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 10,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What percentage of air is made up of oxygen, the life-giving gas that every hero of survival depends upon?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Breath of Life",
+      "options": [
+        "A. 78%",
+        "B. 1%",
+        "C. 21%",
+        "D. 100%"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. 21%"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "On your quest across the Earth's surface, you discover that most water is found in oceans and seas. Why is this vast ocean water NOT fit for direct use in homes, farms, and industries?",
+      "themeWrapper": "⚔️ Quest Challenge 2 — The Forbidden Waters",
+      "options": [
+        "A. It is too cold",
+        "B. It is saline (salty)",
+        "C. It contains too much oxygen",
+        "D. It flows too fast"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. It is saline (salty)"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "A brave adventurer builds a firki and notices it spinning. Which mighty force of nature is responsible for making the firki rotate?",
+      "themeWrapper": "⚔️ Quest Challenge 3 — The Spinning Relic",
+      "options": [
+        "A. Gravity pulling it down",
+        "B. Sunlight heating it up",
+        "C. Wind (moving air)",
+        "D. Water flowing beneath it"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Wind (moving air)"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any TWO traditional methods or structures used in India for water harvesting, and identify the states where they are commonly found.",
+      "themeWrapper": "🗺️ Quest Scroll 1 — Ancient Wisdom of Water Guardians",
+      "sampleAnswer": "Two traditional water harvesting structures in India are: (1) Stepwells called 'Bawadi' found in Rajasthan — these store rainwater and water seeping from nearby lakes, ponds, and rivers. (2) Stepwells called 'Vav' found in Gujarat — these also harvest and store water to respond to the scarcity of water in these regions. Both are age-old practices that help conserve water."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why can a hero survive without food or water for a few days, but cannot survive without oxygen for even a few minutes? Explain using what you know about the body's need for oxygen.",
+      "themeWrapper": "🗺️ Quest Scroll 2 — The Warrior's Greatest Need",
+      "sampleAnswer": "Our body constantly needs oxygen to perform its vital functions at every moment. When we hold our breath or are deprived of oxygen, the body's functions begin to fail almost immediately. Unlike food and water, which provide energy and hydration that the body can store and use gradually over days, oxygen must be supplied continuously. Without it, body functions stop within minutes, making oxygen the most urgent and critical treasure of nature for survival."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "You are the Guardian of Nature's Treasures. Write a detailed account describing: (a) What the key treasures of nature are and why they are essential for all living beings; (b) How freshwater is distributed on Earth and why freshwater is considered precious; (c) At least THREE ways in which humans waste or pollute water; and (d) At least THREE heroic actions individuals and communities can take to conserve water and protect it from pollution.",
+      "themeWrapper": "📜 Grand Quest — The Guardian's Chronicle of Nature's Treasures",
+      "sampleAnswer": "Nature's treasures are the gifts of the natural world that are essential for the survival and well-being of all living beings. The key treasures include air (especially oxygen), water, sunlight, fertile soil, and the variety of trees and plants that provide food and shelter. Without these treasures, no form of life on Earth would be possible. (a) Air contains oxygen (21%), nitrogen (78%), and other gases. Oxygen is vital because our bodies need it to function — we cannot survive even a few minutes without it. Sunlight provides energy, fertile soil supports plant growth, and trees shelter countless animals, birds, and insects. (b) Water covers about two-thirds of Earth's surface, but most of it is saline (salty) ocean water, which is unfit for drinking, farming, or industrial use. Freshwater is found in ice sheets, snow, rivers, lakes, ponds, and underground. However, much of this freshwater is difficult to access. Only a very small fraction — found in ponds, rivers, lakes, and wells — is easily available. This makes freshwater extremely precious, and shortages exist in many parts of India where people walk long distances to fetch drinking water. (c) Humans waste and pollute water in many ways: (i) Leaving taps running while brushing teeth or washing hands wastes large amounts of water unnecessarily. (ii) Throwing trash, plastic bags, and wrappers into rivers, ponds, and lakes pollutes freshwater sources. (iii) Dumping untreated waste from homes and industries into water bodies makes the water unfit for consumption by any living being. (d) Heroic conservation actions include: (i) Turning off taps when not in use and fixing water leakages immediately to prevent wastage. (ii) Practising rainwater harvesting — collecting and storing rainwater in buildings, homes, schools, or through traditional stepwells like Bawadi and Vav — to make use of every drop that falls. (iii) Recycling water where possible, such as using water from washing vegetables to water plants, so that no drop goes to waste. (iv) Avoiding throwing waste or chemicals into rivers and lakes, and participating in community clean-up efforts to protect freshwater sources for all living beings."
+    }
+  ],
+  "fromCache": false
+}

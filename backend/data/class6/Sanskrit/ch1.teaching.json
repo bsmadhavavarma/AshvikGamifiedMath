@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "Chapter 2",
+  "source": {
+    "classLevel": 6,
+    "subject": "Sanskrit",
+    "chapterTitle": "Chapter 2"
+  },
+  "topics": [
+    "Conjunct Consonants (संयुक्त-व्यञ्जन)",
+    "Breaking Words into Sounds (वर्ण-वियोग)",
+    "Building Words from Sounds (वर्ण-संयोग)"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 1,
+  "sections": [
+    {
+      "heading": "🧙 The Wizard's Spell — What are Conjunct Consonants?",
+      "body": "Young hero, in Sanskrit, when two or more consonants join together without a vowel in between, they form a special combined letter called a संयुक्त-व्यञ्जन (conjunct consonant). Think of it like two cricket players doing a high-five and becoming one super-player! For example, क् + ष = क्ष, just like 'kk' in 'Diksha'. These joined letters are not new letters — they are just a special way of writing two consonants together.",
+      "keyPoints": [
+        "When two or more consonants join without a vowel, they form a conjunct consonant",
+        "Examples: क्ष (k+sh), ज्ञ (j+n), त्र (t+r), द्य (d+y)",
+        "These are not brand new letters — they are combined writing of existing consonants"
+      ]
+    },
+    {
+      "heading": "🔍 The Quest Spell — Famous Conjunct Consonants",
+      "body": "Young wizard, Sanskrit has some very famous conjunct consonants that appear in everyday words! For example, मन्त्र (mantra) uses न्त्र, इन्द्र (Indra) uses न्द्र, and ओष्ठ्य uses ष्ठ्य. You already know these words from Diwali prayers and cricket commentary — now you know their secret letter power! The word क्रीडा (games/sports) uses क्र, just like when we say 'cricket' in Sanskrit class.",
+      "keyPoints": [
+        "Common conjunct consonants: क्र, द्र, प्र, ब्र, त्र, न्त्र, न्द्र",
+        "You already use these in words like मन्त्र, राष्ट्र, विद्या, ज्ञान",
+        "Each conjunct consonant can be split back into its original separate consonants"
+      ]
+    },
+    {
+      "heading": "⚔️ Breaking the Dragon — वर्ण-वियोग (Splitting Words into Sounds)",
+      "body": "Every great hero learns to break the dragon into smaller parts to defeat it! In Sanskrit, we learn to split any word into its individual sounds — this is called वर्ण-वियोग. For example, रामः = र् + आ + म् + अ + ः. It is just like breaking a laddoo into its ingredients — besan, sugar, ghee — to understand what is inside! This skill helps you read and write any Sanskrit word correctly.",
+      "keyPoints": [
+        "वर्ण-वियोग means splitting a word into its individual letter-sounds",
+        "Example: मातृ = म् + आ + त् + ऋ + र् + अ + म्",
+        "Every vowel and consonant is written separately, including special sounds like visarga (ः) and anusvara (ं)"
+      ]
+    },
+    {
+      "heading": "🏆 Building the Realm — वर्ण-संयोग (Joining Sounds to Make Words)",
+      "body": "Now the real mastery begins! After learning to break words, you also learn to build them — this is वर्ण-संयोग. You are given the individual sounds and you join them to make a full word, like assembling a rangoli piece by piece. For example, ह् + इ + म् + आ + ल् + अ + य् + अ + ः = हिमालयः. This is like building a LEGO model — each block is one sound, and together they make something beautiful!",
+      "keyPoints": [
+        "वर्ण-संयोग means joining individual sounds to form a complete word",
+        "Example: क् + अ + न् + द् + उ + क् + अ + ः = कन्दुकः (ball)",
+        "Practising both splitting and joining builds your power over the Sanskrit language"
+      ]
+    },
+    {
+      "heading": "📖 The Realm of Words — शब्दार्थ (Word Meanings)",
+      "body": "A true hero knows the meaning of every spell! This chapter also teaches you the meaning of many Sanskrit words used in the exercises. For example, उष्ट्रः means camel (ऊँट), राष्ट्रम् means nation (देश), संगणकम् means computer, and कन्दुकः means ball (गेंद). These are real words used in daily life — some you already know from Hindi! Learning their Sanskrit form gives you extra power in your quest.",
+      "keyPoints": [
+        "Many Sanskrit words connect to Hindi and everyday life — like कन्दुकः for ball and संगणकम् for computer",
+        "Words like जाह्नवी (Ganga), सप्तर्षयः (seven sages), and वज्रम् (diamond/Indra's weapon) connect to Indian stories and festivals",
+        "Knowing word meanings helps you understand and use Sanskrit in real sentences"
+      ]
+    }
+  ],
+  "summary": "In this chapter, young hero, you have gained the power of Conjunct Consonants — the special joined letters of Sanskrit called संयुक्त-व्यञ्जन, like क्ष, त्र, ज्ञ, and न्द्र, which are formed when two consonants meet without a vowel. You also learned the twin spells of वर्ण-वियोग (breaking any word into its individual sounds, like splitting a laddoo into ingredients) and वर्ण-संयोग (building words by joining sounds together, like assembling a rangoli). Finally, you collected the meanings of many powerful Sanskrit words — from राष्ट्रम् (nation) to कन्दुकः (ball) — that connect Sanskrit to your everyday Indian life. With these skills, you are now ready to read, write, and understand Sanskrit words like a true wizard of language!",
+  "fromCache": false
+}

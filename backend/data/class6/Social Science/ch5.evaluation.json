@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is NOT listed as a characteristic of a 'civilisation' as defined in the chapter?",
+      "themeWrapper": "Brave Seeker, to unlock the gates of ancient knowledge, answer this: Which of the following is NOT listed as a characteristic of a 'civilisation' as defined in the chapter?",
+      "options": [
+        "A. Some form of government and administration",
+        "B. A standing army for military conquest",
+        "C. Some form of writing",
+        "D. A productive agriculture"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "The Sarasvatī River mentioned in the Ṛig Veda is known today by which combined name?",
+      "themeWrapper": "Quest Champion, trace the path of the lost river! The Sarasvatī River mentioned in the Ṛig Veda is known today by which combined name?",
+      "options": [
+        "A. Yamuna-Ganga River",
+        "B. Ghaggar-Hakra River",
+        "C. Sindhu-Indus River",
+        "D. Rann-Kutch River"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Why is the term 'Indus Valley civilisation' now considered obsolete by archaeologists?",
+      "themeWrapper": "Mighty Explorer, the ancient scrolls reveal a great truth — why is the term 'Indus Valley civilisation' now considered obsolete by archaeologists?",
+      "options": [
+        "A. Because Mohenjo-daro was never actually part of the Indus Valley",
+        "B. Because the civilisation was later proven to be located only in Pakistan",
+        "C. Because the civilisation extended far beyond the Indus region, including the Sarasvatī basin and Gujarat",
+        "D. Because the Indus River dried up before the civilisation began"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe the two distinct parts found in most Harappan cities and explain what each part was likely used for.",
+      "themeWrapper": "Valiant Historian, the ancient cities hold their secrets! Describe the two distinct parts found in most Harappan cities and explain what each part was likely used for.",
+      "sampleAnswer": "Most Harappan cities had an 'upper town' and a 'lower town'. The upper town was likely where the local elite — rulers, officials, and priests — lived. The lower town was where common people lived. The cities were also generally surrounded by fortifications (massive protective walls)."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What made Dholavira's water management system especially remarkable? Mention at least two specific features.",
+      "themeWrapper": "Heroic Quest-Seeker, uncover the engineering marvels of Dholavira! What made its water management system especially remarkable? Mention at least two specific features.",
+      "sampleAnswer": "Dholavira's water management was remarkable for several reasons. First, it had at least six large reservoirs built with stones or cut directly into the rock, with the largest measuring 73 metres in length. Second, most of these reservoirs were connected through underground drains for efficient water harvesting and distribution. This shows advanced planning and engineering skill."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The scholar B.B. Lal described Harappan society as one of 'mutual accommodation' rather than 'exploitation'. Using evidence from the chapter about town-planning, construction quality, and water management, explain whether you agree with this view and why.",
+      "themeWrapper": "Grand Quest Hero, the greatest challenge awaits! The scholar B.B. Lal described Harappan society as one of 'mutual accommodation' rather than 'exploitation'. Using evidence from the chapter about town-planning, construction quality, and water management, explain whether you agree with this view and why.",
+      "sampleAnswer": "B.B. Lal's view that Harappan society was built on 'mutual accommodation' rather than 'exploitation' finds strong support in the evidence provided in the chapter. First, regarding construction quality, the chapter notes that 'the quality of construction was the same for small and big houses', suggesting that all members of society — not just the elite — had access to well-built homes. This indicates that the gap between rich and poor was not extreme. Second, in town-planning, wide streets oriented to cardinal directions and a well-organised division between the upper and lower towns show careful planning for the entire community, not just the privileged few. Third, the water management system — with individual bathrooms in most homes, hundreds of brick wells in Mohenjo-daro, and elaborate interconnected reservoirs in Dholavira — shows that access to clean water was available to citizens broadly. Public infrastructure like the drainage network also benefited the whole population. These features collectively suggest that Harappan governance and society were focused on collective well-being and shared resources, which supports the idea of 'mutual accommodation'. While there were clearly elite groups living in the upper town, the overall evidence points to a society that invested in the welfare of all its people, making Lal's characterisation reasonable and well-supported."
+    }
+  ],
+  "fromCache": false
+}

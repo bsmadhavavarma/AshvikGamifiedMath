@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 4,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the Ek Bharat, Shreshtha Bharat programme, what did Renu say was the bond that all people of Bharat share?",
+      "themeWrapper": "A brave questioner stands at the gates of Unity. Answer this challenge: In the Ek Bharat, Shreshtha Bharat programme, what did Renu say was the bond that all people of Bharat share?",
+      "options": [
+        "A. They all speak the same language",
+        "B. They all belong to one nation and share unity in diversity",
+        "C. They all celebrate the same festivals",
+        "D. They all practise the same folk art"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. They all belong to one nation and share unity in diversity"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the Dhokra metal craft from Odisha, why does the wax come out of the small openings during the process?",
+      "themeWrapper": "A riddle of fire and metal blocks your path, young hero! Solve it: In the Dhokra metal craft from Odisha, why does the wax come out of the small openings during the process?",
+      "options": [
+        "A. Because the clay dissolves in water",
+        "B. Because the brass scrap absorbs the wax",
+        "C. Because the wax melts when the figure is put in the fire",
+        "D. Because the wax is scraped off by hand"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Because the wax melts when the figure is put in the fire"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following correctly describes the material used to join the separately carved pieces of a Kondapalli toy?",
+      "themeWrapper": "The quest for ancient crafts demands sharp knowledge! Identify the correct answer: Which of the following correctly describes the material used to join the separately carved pieces of a Kondapalli toy?",
+      "options": [
+        "A. A paste made of rice flour and water",
+        "B. A paste called makku, made of tamarind seed powder and sawdust",
+        "C. A paste made of clay and geru",
+        "D. A paste made of wax and brass"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. A paste called makku, made of tamarind seed powder and sawdust"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe the Aipan folk art of Uttarakhand. On what occasions is it made, what materials are used, and who makes it?",
+      "themeWrapper": "A scroll of cultural heritage has been discovered! Prove your understanding by describing the Aipan folk art of Uttarakhand — on what occasions is it made, what materials are used, and who makes it?",
+      "sampleAnswer": "Aipan is a folk art from Uttarakhand that is drawn on family functions and festivals. It is made using white rice flour paste on brick-red walls coloured with geru. It is created on floors and walls of puja rooms and outside the main door of the home. The women in the family make this art. The designs are beautiful, mathematical, and are based on cultural traditions and observations of nature."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Use sequence words (First, After that, Next, Finally) to describe the steps involved in making coconut shell craft as explained by Chitra from Kerala.",
+      "themeWrapper": "Hero, your mission is to reconstruct the path of a craftsperson! Use sequence words to describe the steps involved in making coconut shell craft as explained by Chitra from Kerala.",
+      "sampleAnswer": "First, the outside and inside of a brown coconut shell are cleaned. After that, it is made smooth using sandpaper or a machine. Next, it is given the desired shape and made stable by fixing a base under it. Finally, it is polished using wood polish to make it shine. Items like bowls and jewellery are made from these shells, and it is a biodegradable craft."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The passage about Bharat and the stories of the four young speakers together celebrate India's unity in diversity. Based on the chapter, explain what 'unity in diversity' means, and how the art forms shared by Aakansha, Priyaranjan, Chitra, and Balamurali are examples of this idea. Also mention what responsibilities we have as inhabitants of this great land.",
+      "themeWrapper": "The greatest quest of all begins now, champion! Draw upon all the wisdom from this chapter and answer: What does 'unity in diversity' mean, how do the four art forms from different states demonstrate this, and what responsibilities do we hold as proud inhabitants of Bharat?",
+      "sampleAnswer": "Unity in diversity means that although people across Bharat belong to different states, speak different languages, and follow different customs, they are all united as one nation. The opening passage explains that the people of Bharat live in unison, presenting unity in diversity to the world. The four young speakers perfectly illustrate this idea. Aakansha from Uttarakhand shares Aipan, a folk art using rice flour paste, reflecting mountain traditions. Priyaranjan from Odisha describes the 4000-year-old Dhokra metal craft of his tribe, showing ancient skills passed down through generations. Chitra from Kerala explains the eco-friendly coconut shell craft, using natural resources unique to her region. Balamurali from Andhra Pradesh talks about the 400-year-old Kondapalli toy-making tradition rooted in folk stories and rural life. Each art form is different in its materials, process, and cultural meaning, yet together they show how every corner of Bharat has something unique and precious to offer. As inhabitants of this great land, our responsibility is to respect and preserve these traditions, learn about each other's cultures, and continue working hard to ensure that Bharat prospers and is respected globally."
+    }
+  ],
+  "fromCache": false
+}

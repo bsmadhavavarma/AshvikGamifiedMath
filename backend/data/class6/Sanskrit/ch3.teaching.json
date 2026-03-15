@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 4",
+  "source": {
+    "classLevel": 6,
+    "subject": "Sanskrit",
+    "chapterTitle": "Chapter 4"
+  },
+  "topics": [
+    "Introducing yourself in Sanskrit",
+    "Names and professions of people",
+    "Pronouns: I, We two, We all, You, You two, You all",
+    "Masculine and feminine forms of professions"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 3,
+  "sections": [
+    {
+      "heading": "🧙 The Quest Begins — Who Are You?",
+      "body": "Every hero on a quest must first introduce themselves! In Sanskrit, when you want to say 'My name is...', you say 'मम नाम ___।' and when you say 'I am a student', you say 'अहं छात्रः।' (for a boy) or 'अहं छात्रा।' (for a girl). Think of it like filling your quest registration form — name and identity first! Just like in cricket, a player announces themselves before batting.",
+      "keyPoints": [
+        "मम नाम = My name is (like saying 'Mera naam hai')",
+        "अहम् = I (used for yourself — boy or girl)",
+        "Boy says छात्रः, Girl says छात्रा for 'student'"
+      ]
+    },
+    {
+      "heading": "⚔️ The Realm of Professions — Who Does What?",
+      "body": "In this quest realm, you meet many heroes with different powers — a doctor (चिकित्सकः), a teacher (शिक्षकः), a soldier (सैनिकः), a journalist (पत्रकारः), a policeman (आरक्षकः), and even a computer engineer (तन्त्रजः)! Each profession has a masculine form (for boys) and a feminine form (for girls). Just like during Diwali, your family has different roles — someone makes sweets, someone lights diyas — everyone has a special job!",
+      "keyPoints": [
+        "Boy doctor = चिकित्सकः, Girl doctor = चिकित्सका",
+        "Boy teacher = शिक्षकः, Girl teacher = शिक्षिका",
+        "Sanskrit changes the word ending to show if it is a boy or a girl"
+      ]
+    },
+    {
+      "heading": "🐉 Slaying the Dragon of Pronouns — I, We, You!",
+      "body": "The trickiest dragon in this quest is learning the Sanskrit pronouns! For 'I' say अहम्, for 'we two' say आवाम्, and for 'all of us' say वयम्. For 'you' say त्वम्, for 'you two' say युवाम्, and for 'all of you' say यूयम्. Think of a cricket team — one batsman says 'I am batting', two openers say 'we two are batting', the whole team says 'we all are ready'!",
+      "keyPoints": [
+        "अहम् = I, आवाम् = We two, वयम् = We all",
+        "त्वम् = You, युवाम् = You two, यूयम् = You all",
+        "Sanskrit has a special 'dual' form for exactly TWO people — unique power!"
+      ]
+    },
+    {
+      "heading": "🔮 The Spell of 'Ast' — Using Is/Are in Sanskrit",
+      "body": "Now here is a magic spell — the verb 'to be' (is/are) changes depending on who you are talking about! If YOU are saying something about yourself, use अस्मि (asmi) meaning 'I am'. For two people, use स्वः (svah), and for a group, use स्मः (smah). It is like in a school roll call — one student says 'present', two say 'present both', the whole class responds together! The word changes to match the person.",
+      "keyPoints": [
+        "अहम् ___ अस्मि = I am ___ (one person speaking about self)",
+        "आवाम् ___ स्वः = We two are ___ (two people)",
+        "वयम् ___ स्मः = We all are ___ (a group)"
+      ]
+    },
+    {
+      "heading": "✨ Mastery Unlocked — The Writing Rule of अनुस्वार",
+      "body": "Here is a special wizard's writing rule — when the sound 'म्' comes before a consonant or at the end of a word, we write it as a small dot on top called अनुस्वार (like अं instead of अम्). For example, 'अहम्' becomes 'अहं' and 'वयम्' becomes 'वयं'. It is like a shortcut code that Sanskrit wizards use to write faster — just like how we write '&' instead of 'and' in notes!",
+      "keyPoints": [
+        "म् before a consonant becomes ं (a dot on top — called अनुस्वार)",
+        "Example: अहम् = अहं, वयम् = वयं",
+        "This makes writing quicker and neater in Sanskrit"
+      ]
+    }
+  ],
+  "summary": "In Chapter 4 'अहं च त्वं च', young quest heroes learn how to introduce themselves in Sanskrit using 'मम नाम' and 'अहम्'. They discover the magical realm of professions — doctors, soldiers, teachers, dancers and more — and learn that each word changes its ending based on whether it refers to a boy or a girl. The biggest power unlocked in this chapter is the set of pronouns: अहम् (I), आवाम् (we two), वयम् (we all), त्वम् (you), युवाम् (you two), and यूयम् (you all) — Sanskrit uniquely has special words for exactly two people! Heroes also master the 'is/are' verb forms and a neat writing spell called अनुस्वार. With these spells, any young wizard can proudly say who they are and what they do — in beautiful Sanskrit!",
+  "fromCache": false
+}

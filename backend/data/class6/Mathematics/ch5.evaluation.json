@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "A rectangular field has a length of 150 m and a breadth of 120 m. If fencing costs ₹40 per metre, what is the total cost of fencing the field?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Fencing Fortress: A brave kingdom must fence its rectangular land to protect it from invaders. Calculate the total cost of the mission!",
+      "options": [
+        "₹21,600",
+        "₹43,200",
+        "₹10,800",
+        "₹36,000"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A piece of wire is bent into a rectangle of length 5 cm and breadth 3 cm. The same wire is then straightened and re-bent into a square. What is the length of each side of the square?",
+      "themeWrapper": "⚔️ Quest Challenge 2 — The Shape-Shifting Relic: A magical wire used by an ancient hero can shift between forms. Discover the side length of the square it creates!",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "3 cm",
+        "8 cm"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "A floor is 5 m long and 4 m wide. A square carpet of side 3 m is placed on it. What is the area of the floor that remains uncarpeted?",
+      "themeWrapper": "⚔️ Quest Challenge 3 — The Unclaimed Territory: The hero has laid a magical carpet across part of the throne room floor. Determine how much territory remains uncovered!",
+      "options": [
+        "9 sq m",
+        "20 sq m",
+        "11 sq m",
+        "16 sq m"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "A heroic farmer has a rectangular field 230 m long and 160 m wide. He wants to fence it with 3 rounds of rope. What is the total length of rope needed? Show all steps of your calculation.",
+      "themeWrapper": "🗺️ Quest Mission 4 — The Triple-Bound Realm: The guardian farmer must secure his realm with three complete rounds of rope. Calculate the total length required to complete this heroic task!",
+      "sampleAnswer": "Perimeter of the rectangular field = 2 × (length + breadth) = 2 × (230 + 160) = 2 × 390 = 780 m. For 3 rounds of rope, total length = 3 × 780 = 2340 m."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "A rectangular coconut grove is 100 m long and 50 m wide. Each coconut tree requires 25 sq m of space. What is the maximum number of trees that can be planted in this grove? Also, if a warrior runs 4 complete rounds around this grove, what total distance does she cover?",
+      "themeWrapper": "🗺️ Quest Mission 5 — The Grove of Strength: Deep in the warrior's kingdom lies a coconut grove that fuels the army. Calculate both the maximum number of trees and the total distance run by the brave warrior!",
+      "sampleAnswer": "Area of the grove = 100 × 50 = 5000 sq m. Maximum number of trees = 5000 ÷ 25 = 200 trees. Perimeter of the grove = 2 × (100 + 50) = 2 × 150 = 300 m. Distance covered in 4 rounds = 4 × 300 = 1200 m."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "A piece of land is 12 m long and 10 m wide. Four square flower beds, each of side 4 m, are placed in the four corners of the land. (a) Find the area of the whole land. (b) Find the area of all four flower beds combined. (c) Find the area of the remaining part of the land. (d) If a warrior runs 5 full rounds around the outer boundary of this land, what total distance does she cover? (e) Explain in your own words the difference between perimeter and area using this problem as an example.",
+      "themeWrapper": "🏆 Final Boss Quest — The Garden of the Realm: The great ruler of the kingdom plans a magnificent garden with flower beds at each corner of a vast land. You, the hero-mathematician, must calculate every dimension of this royal plan — and explain your heroic reasoning to the kingdom's court!",
+      "sampleAnswer": "(a) Area of the whole land = length × width = 12 m × 10 m = 120 sq m. (b) Area of one square flower bed = 4 × 4 = 16 sq m. Area of four flower beds = 4 × 16 = 64 sq m. (c) Area of remaining land = 120 − 64 = 56 sq m. (d) Perimeter of the land = 2 × (12 + 10) = 2 × 22 = 44 m. Distance covered in 5 rounds = 5 × 44 = 220 m. (e) Perimeter is the total distance around the outer boundary of a figure — it is a measure of length (in metres). In this problem, the perimeter of the land is 44 m, which tells us how long the fence around it would be. Area, on the other hand, is the amount of flat region enclosed within a boundary — it is measured in square units (sq m). The area of the land is 120 sq m, telling us how much surface the land covers. So perimeter measures 'how far around' while area measures 'how much space inside'."
+    }
+  ],
+  "fromCache": false
+}

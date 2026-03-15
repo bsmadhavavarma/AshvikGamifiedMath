@@ -1,0 +1,68 @@
+{
+  "chapterTitle": "Number Play",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "Number Play"
+  },
+  "topics": [
+    "Numbers tell stories around us",
+    "Supercells and number patterns",
+    "Palindromes and digit magic",
+    "Kaprekar's magic number",
+    "Mental math and digit play"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 2,
+  "sections": [
+    {
+      "heading": "🧙 The Wizard's First Spell — Numbers That Speak!",
+      "body": "Imagine five friends standing in a line at your school ground — all different heights, like players in a cricket team. Each friend looks at their neighbours and says a number: '0' if no neighbour is taller, '1' if one neighbour is taller, and '2' if both neighbours are taller. The tallest person in the middle will always say '0' because nobody next to them is taller! This quest teaches us that numbers are not just for counting — they can describe the world around us.",
+      "keyPoints": [
+        "A child at the end of the line can say at most '1' because they have only one neighbour",
+        "The tallest child in the group will always say '0' — nobody beside them is taller",
+        "Numbers can describe real situations, like heights of friends standing in a line"
+      ]
+    },
+    {
+      "heading": "🐉 Defeating the Dragon — Supercell Powers!",
+      "body": "Think of a row of boxes, each holding a number, like houses in your colony. A box becomes a SUPERCELL — a powerful hero cell — if its number is bigger than all its neighbours on the left and right. It is like the biggest shop on a street that is grander than both shops beside it. If a cell is at the corner, it only needs to beat one neighbour to become a supercell. The largest number in any table will always be a supercell!",
+      "keyPoints": [
+        "A supercell is a number that is greater than all its neighbouring cells",
+        "Corner or edge cells have fewer neighbours, so they become supercells more easily",
+        "The largest number in a table is always a supercell; the smallest number can never be one"
+      ]
+    },
+    {
+      "heading": "🔮 The Palindrome Spell — Numbers That Mirror Themselves!",
+      "body": "You know how the word 'MADAM' reads the same forwards and backwards? Some numbers do the same magic! Numbers like 121, 848, and 1331 read the same from left to right and right to left — these are called palindromes. There is an exciting quest you can try: take any number, reverse its digits, add them together, and keep repeating. Most of the time, you will land on a palindrome! For example, 47 plus 74 equals 121 — a palindrome in just one step!",
+      "keyPoints": [
+        "A palindrome number reads the same forwards and backwards, like 575 or 1221",
+        "You can make palindromes by reversing a number and adding it to the original, again and again",
+        "The digit sum of a number is found by adding all its digits together — like 68 gives 6+8=14"
+      ]
+    },
+    {
+      "heading": "⚡ Kaprekar's Legendary Quest — The Magic Number 6174!",
+      "body": "A maths teacher from Maharashtra named Kaprekar discovered an incredible number spell! Take any 4-digit number with at least two different digits — say your favourite cricket score 3825. Arrange its digits to make the biggest number (8532) and the smallest number (2358), then subtract. Keep repeating this with each new answer. No matter what 4-digit number you start with, you will always reach the magical number 6174! It is like every path in a quest leads to the same treasure chest.",
+      "keyPoints": [
+        "Pick any 4-digit number, make the largest and smallest numbers from its digits, then subtract",
+        "Keep repeating these steps and you will always reach 6174 — the Kaprekar Constant",
+        "6174 is special because when you apply the same steps to it, it gives back 6174 itself"
+      ]
+    },
+    {
+      "heading": "🌟 The Realm of Mental Math — Patterns Everywhere!",
+      "body": "Numbers hide secret patterns all around us — in clocks, calendars, and even how we count! On a 12-hour clock, a time like 10:10 or 4:44 looks like a pattern. Dates like 11/02/2011 are palindromes — they read the same forwards and backwards! When we train our minds to spot these patterns, we become number wizards who can calculate fast without even using a pen. Just like a cricket player who memorises ball patterns, you can master number patterns too!",
+      "keyPoints": [
+        "Clock times and calendar dates can form patterns and palindromes we can spot in daily life",
+        "Counting how many times a digit like '7' appears from 1 to 100 builds strong number sense",
+        "Spotting patterns in numbers helps us do mental math faster and smarter"
+      ]
+    }
+  ],
+  "summary": "In this epic quest through the realm of Number Play, young wizards discovered that numbers are powerful tools beyond just counting! We learned how numbers describe real situations like heights of friends in a line, and how supercells are special numbers that rule over their neighbours. We cast the palindrome spell — finding numbers that mirror themselves — and practised the reverse-and-add trick. We unlocked the legendary Kaprekar Constant 6174, a magic number that every 4-digit number leads to. Finally, we explored patterns hidden in clocks, calendars, and digit sums, building the mental math powers every number wizard needs. Numbers are not just symbols — they are keys to secret patterns waiting to be discovered!",
+  "fromCache": false
+}

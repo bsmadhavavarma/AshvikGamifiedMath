@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 6,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "गीते 'वयम्' इति शब्दः केषां कृते प्रयुक्तः?",
+      "themeWrapper": "O Brave Seeker! In the Quest of knowledge, answer this: In the song 'शूरा वयं धीरा वयम्', for whom is the word 'वयम्' used?",
+      "options": [
+        "A) देवानां कृते",
+        "B) भारतीयानां कृते",
+        "C) बालकानां कृते",
+        "D) शत्रूणां कृते"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) भारतीयानां कृते"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "अस्य गीतस्य प्रणेता (रचनाकारः) कः अस्ति?",
+      "themeWrapper": "Hero of Learning! Your quest deepens — who is the great poet who composed the patriotic song 'शूरा वयं धीरा वयम्'?",
+      "options": [
+        "A) स्वामी विवेकानन्दः",
+        "B) श्रीधरः भास्करः वरवेकरः",
+        "C) महर्षिः अरविन्दः",
+        "D) मदनमोहनः मालवीयः"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) श्रीधरः भास्करः वरवेकरः"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "'अस्मद्' प्रथमा विभक्तिः बहुवचनम् किम् अस्ति?",
+      "themeWrapper": "Warrior of Grammar! On your quest through the fortress of Sanskrit pronouns, identify: What is the Prathama Vibhakti Bahuvachana form of 'अस्मद्'?",
+      "options": [
+        "A) अहम्",
+        "B) आवाम्",
+        "C) वयम्",
+        "D) तवम्"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) वयम्"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "गीतस्य आधारेण — (क) वयं कीदृशमानसाः स्मः? (ख) वयं विजयार्जिनः कुत्र यामः?",
+      "themeWrapper": "Seeker of Truth! Your quest takes you to the heart of the patriotic song. Answer these two challenges based on the poem: What kind of minds do 'we' have, and where do 'we' march seeking victory?",
+      "sampleAnswer": "(क) वयं दृढमानसाः स्मः — अर्थात् हमारे मन दृढ़ (determined) हैं। (ख) वयं विजयार्जिनः समराङ्गणं यामः — अर्थात् हम विजय पाने के लिए युद्धक्षेत्र में जाते हैं।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "'तद्', 'एतद्' और 'अस्मद्' शब्दों के प्रथमा विभक्ति के तीनों वचनों के रूप लिखिए (पुंलिङ्गम् के लिए)।",
+      "themeWrapper": "Champion of the Sanskrit Quest! Prove your mastery over pronoun declensions — write the Prathama Vibhakti forms (Ekavachana, Dvivachana, Bahuvachana) of 'तद्', 'एतद्', and 'अस्मद्' in the masculine gender.",
+      "sampleAnswer": "तद् (पुंलिङ्गम्): सः, तौ, ते। एतद् (पुंलिङ्गम्): एषः, एतौ, एते। अस्मद् (त्रिषु लिङ्गेषु समान): अहम्, आवाम्, वयम्।"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "'शूरा वयं धीरा वयम्' इस गीत का भावार्थ अपने शब्दों में लिखिए। गीत में भारतीयों के कौन-कौन से गुण बताए गए हैं? कम से कम पाँच गुणों का उल्लेख कीजिए।",
+      "themeWrapper": "O Grand Hero of the Sanskrit Quest! You have journeyed far. Now face the ultimate challenge — write the meaning (भावार्थ) of the patriotic song 'शूरा वयं धीरा वयम्' in your own words, and name at least five noble qualities of Indians described in this glorious hymn. Prove that you are worthy of the title of a True Scholar!",
+      "sampleAnswer": "भावार्थ: इस गीत में सभी भारतीय अपनी वीरता, धैर्य और शक्ति का गुणगान करते हैं। वे कहते हैं कि हम सब शूर, वीर और धीर हैं। हम गुणशाली और बलशाली हैं तथा सदा विजय पाने वाले हैं। हमारे मन दृढ़ हैं, हम लोभ से रहित हैं और साहस से युक्त हैं। हम भारतवासी उत्तम भाव से जन-सेवा करते हैं और सबका शुभ चिंतन करते हैं। हमारे हृदय में धन की अधिक कामना, सुख की वासना और कपट का भाव नहीं है। हम तेजस्वी और ऊर्जावान होकर दृढ़ता से कार्य करते हैं। हम निर्भय होकर युद्धक्षेत्र में नीतिपूर्वक विजय की इच्छा रखते हैं। अंत में हम भगवान से प्रार्थना करते हैं कि वे हमें सभी कार्यों में उज्जवल और शुभ विजय प्रदान करें। पाँच प्रमुख गुण: (१) दृढमानसाः — दृढ़ मनोबल वाले, (२) गतलालसाः — लोभ से रहित, (३) प्रियसाहसाः — साहसी, (४) जनसेवकाः — जनसेवा करने वाले, (५) गतभीतयः — निर्भय।"
+    }
+  ],
+  "fromCache": false
+}

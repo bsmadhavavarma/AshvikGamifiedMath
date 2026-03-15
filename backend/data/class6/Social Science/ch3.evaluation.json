@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What does the abbreviation 'CE' stand for in the context of historical timelines?",
+      "themeWrapper": "Brave Seeker of Time, to navigate the ancient timeline you must first decode its language! What does 'CE' mean?",
+      "options": [
+        "Christian Era",
+        "Common Era",
+        "Calendar Era",
+        "Current Epoch"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which type of scientist studies the past by digging up remains such as tools, pots, bones, and parts of houses left behind by people and animals?",
+      "themeWrapper": "A Quest Hero must know their allies! Which brave scholar digs into the earth itself to uncover the secrets of the past?",
+      "options": [
+        "Geologist",
+        "Palaeontologist",
+        "Anthropologist",
+        "Archaeologist"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "If we are in the year 2024 CE and Buddha was born in approximately 560 BCE, how many years ago was Buddha born?",
+      "themeWrapper": "The Oracle of Time challenges you! Using your knowledge of the Gregorian calendar's special rule, calculate how many years ago the enlightened one arrived in this world!",
+      "options": [
+        "2583 years ago",
+        "2584 years ago",
+        "1464 years ago",
+        "2560 years ago"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is a 'panchanga' and how is it used in India? Name any two types of information it provides.",
+      "themeWrapper": "Quest Seeker, the ancient wisdom of Indian timekeeping holds great power! Describe the mighty panchanga and reveal at least two secrets it holds within its pages.",
+      "sampleAnswer": "A panchanga is a traditional Indian book of tables that uses the positions of the sun and the moon to define months of the year. It lists days of each month along with astronomical data. Two types of information it provides are: (1) predictions of solar and lunar eclipses, sunrise and sunset times, and (2) dates and timings of festivals, along with weather predictions for the year."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why do historians gather information from as many sources as possible when studying the past, and what challenge do they face when sources give contradictory information?",
+      "themeWrapper": "A true Quest Hero never relies on a single map! Explain why historians consult multiple sources and what heroic challenge arises when those sources do not agree with each other.",
+      "sampleAnswer": "Historians gather information from as many sources as possible because each source is like a piece of a jigsaw puzzle — together they help re-create a more complete and accurate picture of the past. Sometimes sources confirm each other (the pieces match), which strengthens the historical account. However, when sources give contradictory information (the pieces don't match), historians face the challenge of deciding which source is more reliable and trustworthy in order to determine what most likely happened in the past."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the various categories of sources that historians use to reconstruct history. Explain with examples how at least four different types of sources contribute to our understanding of the past. Also explain why no single source is considered sufficient on its own.",
+      "themeWrapper": "Grand Champion of the Quest, you stand before the Hall of History! To unlock its greatest treasure, you must demonstrate your mastery: describe the many categories of historical sources, give examples of at least four, and explain why historians must weave them all together rather than relying on just one scroll or artefact.",
+      "sampleAnswer": "Historians use a wide variety of sources to reconstruct the past, broadly classified as Archaeological Sources, Literary Sources, Artistic Sources, Oral Sources, Inscriptions, and Foreign Accounts.\n\n1. Archaeological Sources: These include excavations of mounds, habitations, burials, tools, weapons, pottery, toys, figurines, ornaments, and human or animal remains. For example, excavating an ancient settlement can reveal the kinds of tools people used, what they ate (through burnt grains and bones), and how they built their homes. Coins found in excavations can tell us about rulers and trade.\n\n2. Literary Sources: These include manuscripts, the Vedas, Itihasas, poems and plays, historical texts, travelogues, and collections of stories. For instance, travelogues written by foreign visitors to India describe the society, rulers, and customs they observed, giving us an outsider's perspective on Indian history.\n\n3. Inscriptions: Inscriptions are writings carved on stone, copper plates, or other durable materials. They can record the achievements of rulers, land grants, religious dedications, and important events. They are studied by experts called epigraphists.\n\n4. Artistic Sources: Paintings, sculptures, and panels found on the walls of caves, temples, or monuments tell us about the religious beliefs, clothing, lifestyle, and important events of the people who created them.\n\n5. Oral Sources: Folklore, songs, and oral traditions passed down through generations preserve memories of the past that may not have been written down.\n\nNo single source is considered sufficient on its own because each source provides only a partial view of the past — like one piece of a jigsaw puzzle. Some pieces may be missing entirely. Moreover, sources can sometimes contradict each other, requiring historians to carefully weigh the evidence. Scientific studies of ancient climates, genetics, and materials have also begun supplementing traditional sources, adding further depth. By combining multiple sources, historians can build a more complete, balanced, and reliable picture of history."
+    }
+  ],
+  "fromCache": false
+}

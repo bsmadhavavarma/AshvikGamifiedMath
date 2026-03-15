@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 7,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the 'People of India' project conducted by the Anthropological Survey of India, how many languages were counted across the country?",
+      "themeWrapper": "brave questioner, to map the linguistic landscape of our great land, you must answer truly",
+      "options": [
+        "A. 225 languages using 15 scripts",
+        "B. 325 languages using 25 scripts",
+        "C. 425 languages using 35 scripts",
+        "D. 125 languages using 10 scripts"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. 325 languages using 25 scripts"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following festivals celebrated around January 14 marks the beginning of the harvest season in many parts of India and is known as 'Magh Bihu' in one region?",
+      "themeWrapper": "hero of the harvest quest, identify the festival that unites the land in joy under many names",
+      "options": [
+        "A. Diwali",
+        "B. Makara Sankranti",
+        "C. Holi",
+        "D. Navratri"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. Makara Sankranti"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "The Pañchatantra, a collection of stories at least 2,200 years old, originally written in which language, has been adapted into how many languages approximately?",
+      "themeWrapper": "seeker of ancient stories, prove your knowledge of the great tale-treasury that conquered the world",
+      "options": [
+        "A. Tamil; 30 languages",
+        "B. Pali; 40 languages",
+        "C. Sanskrit; more than 50 languages",
+        "D. Hindi; 25 languages"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Sanskrit; more than 50 languages"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "How does the example of the sari illustrate the concept of 'unity in diversity'? Explain with at least two specific points.",
+      "themeWrapper": "champion of cultural wisdom, unravel the threads of unity woven into India's most iconic garment",
+      "sampleAnswer": "The sari illustrates unity in diversity in the following ways: First, the sari is a single unstitched piece of cloth (unity) worn across most parts of India, yet it comes in hundreds of varieties such as Banarasi, Kanjivaram, Paithani, and Patan Patola, each unique to its region (diversity). Second, the same sari is made from different fabrics — cotton, silk, or synthetic — and is worn in many different styles depending on the region or community, showing how one garment can take countless forms. Third, the designs, colours, and weaving methods vary enormously, yet the basic concept of a draped length of cloth remains consistent throughout India. Thus, the sari perfectly embodies the idea that many different forms can arise from one common tradition."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why are rice, wheat, millets, and pulses called 'staple grains' in India? How do they represent unity in the country's food diversity?",
+      "themeWrapper": "noble guardian of India's fields, explain how the humble grain becomes the bond that feeds a billion hearts",
+      "sampleAnswer": "Staple grains are called so because they form the basic and most essential part of the diet for most Indians. Rice, wheat, barley, millets such as bajra, jowar, and ragi, and pulses such as various dals, rajma, and grams are consumed across almost every region of India. They represent unity because the same core ingredients are used throughout the country, even though the dishes prepared from them vary enormously from region to region. For example, rice is eaten in the south as idli or dosa, in the east as plain rice with fish curry, and in the north as pulao or khichdi. Thus, the same staple grains (unity) are combined in countless ways to create the vast diversity of Indian cuisine."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "How do the Rāmāyaṇa and the Mahābhārata serve as powerful examples of 'unity in diversity' in Indian literature and culture? Discuss with reference to their spread across languages, communities, and tribal traditions.",
+      "themeWrapper": "great epic hero of this quest, tell the saga of how two ancient poems became the living soul of an entire civilisation, binding its many peoples into one",
+      "sampleAnswer": "The Rāmāyaṇa and the Mahābhārata are India's two greatest epics and serve as outstanding examples of unity in diversity in literature and culture. Written originally in Sanskrit, together they would fill about 7,000 pages. The Mahābhārata narrates how the Pāṇḍavas, with Kṛiṣhṇa's help, fight the Kauravas to recover their kingdom, while the Rāmāyaṇa tells the story of Rāma defeating the demon Rāvaṇa to rescue his wife Sītā. Both epics focus on the theme of re-establishing dharma and ask deep questions about right and wrong.\n\nThese epics represent unity because they are known and cherished across the entire country, forming a shared cultural foundation. Yet they also represent diversity because over more than two millennia, they have been translated, adapted, and retold in countless regional languages and folk traditions. A scholar surveying Tamil Nadu alone found about a hundred versions of the Mahābhārata in folklore forms, illustrating the extraordinary variety of adaptations.\n\nFurthermore, tribal communities across India — such as the Bhils, Gonds, and Mundas — have their own oral versions of these epics and have preserved legends connecting their own histories to the stories. The Irula tribals of the Nilgiris, for example, maintain a shrine with a carved stone called 'Pañcha Pāṇḍavar' to commemorate the Pāṇḍavas' passage through their area. Tribes of northeast India and Himalayan regions, including Kashmir, also have their own versions.\n\nIn this way, the 'one' story of the epics has become 'many' across languages, regions, and communities, perfectly embodying the principle of unity in diversity. They show how a shared narrative tradition can accommodate immense local variation while keeping the essential spirit alive throughout the nation."
+    }
+  ],
+  "fromCache": false
+}

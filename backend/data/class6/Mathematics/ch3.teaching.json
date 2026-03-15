@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "Data Handling and Presentation",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "Data Handling and Presentation"
+  },
+  "topics": [
+    "What is Data and How to Collect It",
+    "Organising Data with Tally Marks",
+    "Pictographs — Showing Data with Pictures"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 3,
+  "sections": [
+    {
+      "heading": "🧙 The Wizard's First Spell — What is Data?",
+      "body": "Every hero on a quest needs information to make good decisions. Data is exactly that — a collection of facts, numbers, or observations that tells us something useful. For example, if you ask your friends 'What is your favourite sweet — jalebi or gulab jamun?' and write down all their answers, that list IS data! Navya and Naresh used this power to find out the most popular game in their class by simply asking every student and writing it down.",
+      "keyPoints": [
+        "Data is any collection of facts, numbers, or observations that gives us information.",
+        "To find an answer we do not already know — like the most popular game — we must go out and COLLECT data.",
+        "Some questions like 'What is the capital of India?' do not need data collection because the answer already exists!"
+      ]
+    },
+    {
+      "heading": "⚔️ Organising the Realm — Tally Marks and Frequency",
+      "body": "Collecting data is only step one. A long messy list is hard to understand — just like a dragon's cave that is full of clutter! We use tally marks to organise data neatly. Imagine your teacher asks the class which sweet they want for New Year — jalebi, barfi, or rasgulla. For every student who says 'jalebi', the teacher draws one line (|). When the count reaches 5, a diagonal line is drawn through the four lines to make a bundle of five. The total count for each item is called its FREQUENCY.",
+      "keyPoints": [
+        "Tally marks help us count quickly without confusion — every 5th mark crosses the previous four, making counting easy.",
+        "The frequency of an item is simply how many times it appears or how many people chose it.",
+        "Arranging data in order (like shoe sizes from smallest to biggest) makes it very easy to spot the largest, smallest, and most common values."
+      ]
+    },
+    {
+      "heading": "🐉 Slaying the Dragon of Confusion — Pictographs",
+      "body": "Now for the most powerful spell in our quest — the pictograph! Instead of numbers, we use little pictures or symbols to show data. It is like drawing small cricket balls to show how many students play cricket. One quick look and you understand everything! For example, if one picture of a moon (🌙) stands for 10 children, and we see 5 moons next to 'Always sleeps 9 hours', that means 5 × 10 = 50 children always sleep well.",
+      "keyPoints": [
+        "A pictograph uses pictures or symbols to represent data — one symbol can stand for 1, 5, 10, or any number of things.",
+        "Every pictograph must have a KEY (like 🌙 = 10 children) so the reader knows what each symbol means.",
+        "Pictographs are great for quick comparisons, but they get tricky when numbers are large or not exact multiples of the key — like showing 33 students when each symbol equals 10."
+      ]
+    },
+    {
+      "heading": "🏆 Mastery Unlocked — Choosing the Right Scale",
+      "body": "A true data wizard knows that choosing the right scale for a pictograph is a real superpower! If 30 students are present in a class and you draw one symbol per student, you will need 30 symbols — that takes forever, like running 30 laps on a cricket field! So smart heroes like Jarina chose 1 symbol = 5 students, and Sangita chose 1 symbol = 10 students. A half symbol can be used to show half the value of a full symbol.",
+      "keyPoints": [
+        "When data numbers are large, choose a bigger scale (like 1 symbol = 10) to save time and space.",
+        "A half-picture can represent half the scale value — for example, half a moon = 5 if full moon = 10.",
+        "If the data number cannot be shown exactly with your scale (like 33 with a scale of 10), the pictograph becomes difficult — plan your scale carefully!"
+      ]
+    },
+    {
+      "heading": "🌟 The Quest Reward — Why Data Handling Matters",
+      "body": "Every quest has a reward, and here the reward is WISDOM! When we collect, organise, and present data well, we can make smart decisions. Shri Nilesh used a tally table to buy the right sweets for his class — no guessing needed! When you can read a pictograph or a tally table in seconds, you have earned the power to understand the world around you — from cricket scores to election results to favourite Diwali sweets!",
+      "keyPoints": [
+        "Well-organised data helps us make correct decisions — like buying the right number of sweets or planning a class trip.",
+        "Pictographs and tally tables each have strengths — tally tables are precise, pictographs are fast and visual.",
+        "Data handling is a life skill used every day — in shops, schools, hospitals, and even during cricket matches!"
+      ]
+    }
+  ],
+  "summary": "In this quest, young data wizards discovered that DATA is any collection of facts or numbers that gives us useful information — like favourite games or shoe sizes. First, we learn to COLLECT data by asking questions and observing. Then we ORGANISE it using tally marks, where every group of five is bundled together, and the total count is called frequency. Arranging data in order (ascending or descending) makes it easy to find the biggest, smallest, and most common values. Finally, we master PICTOGRAPHS — a heroic way to show data using pictures and symbols, where a KEY tells us what each symbol stands for. Choosing the right scale for a pictograph is a key skill — too small a scale and it takes forever, too large and you cannot show the exact numbers. With these three powers — collecting, organising, and presenting — every student can handle data like a true champion!",
+  "fromCache": false
+}

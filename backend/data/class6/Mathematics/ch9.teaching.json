@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "The Other Side of Zero",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "The Other Side of Zero"
+  },
+  "topics": [
+    "Negative numbers and what they mean",
+    "The number line on both sides of zero",
+    "Adding and subtracting positive and negative numbers",
+    "Comparing integers"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 9,
+  "sections": [
+    {
+      "heading": "⚔️ The Quest Begins — Numbers Beyond Zero!",
+      "body": "You already know numbers like 1, 2, 3 and fractions like one-half. But wait — there is a whole hidden realm of numbers on the OTHER side of zero! Just like in cricket when a team goes below the target score, or when it gets colder than zero degrees in Shimla in winter, we need numbers that go below zero. These are called negative numbers, and they are your new power in this quest!",
+      "keyPoints": [
+        "Numbers to the right of zero on a number line are positive (like +1, +2, +3)",
+        "Numbers to the left of zero are negative (like -1, -2, -3)",
+        "Zero is special — it is neither positive nor negative"
+      ]
+    },
+    {
+      "heading": "🏰 Bela's Building — Your Map to the Integer Realm",
+      "body": "Imagine a big fun building like a mall in your city. The ground floor is Floor 0 — like the entrance of a big mall where you first walk in. Floors above the ground are positive: +1, +2, +3. Floors below the ground are negative: -1, -2, -3. A lift with a '+' button goes up and a '-' button goes down. Pressing '+3' means going up 3 floors, and pressing '-2' means going down 2 floors — just like going from the food court up to the games zone!",
+      "keyPoints": [
+        "Positive floors are above ground — you press '+' to reach them",
+        "Negative floors are below ground — you press '-' to reach them",
+        "Floor 0 is the starting point, just like your home base in a game"
+      ]
+    },
+    {
+      "heading": "🧙 The Addition Spell — Moving Through Floors",
+      "body": "Adding integers is like combining button presses in the lift. If you start at Floor +1 (Food Court) and press +2, you reach Floor +3 (Book Store). The spell is: Starting Floor + Movement = Target Floor. Even if you accidentally press the wrong button, you can fix it! If you press +3 by mistake, just press -3 to come back to zero — this is called the inverse, like an 'undo' power in a video game.",
+      "keyPoints": [
+        "Adding a positive number moves you UP the floors",
+        "Adding a negative number moves you DOWN the floors",
+        "The inverse of +3 is -3, and together they bring you back to zero"
+      ]
+    },
+    {
+      "heading": "🐉 The Subtraction Dragon — Finding the Missing Move",
+      "body": "Subtraction here is like asking: 'What button do I press to get from one floor to another?' If you are on Floor +2 and want to reach Floor +5, you need to press +3 — so (+5) minus (+2) equals +3. Think of it like this: your friend is at the swings in the park and you are at the slide — how many steps does your friend need to walk to reach you? That difference is subtraction! Target Floor minus Starting Floor tells you the exact button to press.",
+      "keyPoints": [
+        "Subtraction finds the movement needed between two floors",
+        "Target Floor - Starting Floor = Button to press",
+        "The answer can be positive (go up) or negative (go down)"
+      ]
+    },
+    {
+      "heading": "🏆 Comparing Integers — Who is on the Lower Floor?",
+      "body": "In the building, the lower the floor, the smaller the number. Floor -4 is lower than Floor -3, so -4 is less than -3. This surprises many young wizards! In real life, think of temperature — if it is -10 degrees in Leh and -3 degrees in Delhi in winter, Leh is colder because -10 is smaller than -3. All negative numbers are less than zero, and all positive numbers are greater than zero.",
+      "keyPoints": [
+        "On the number line, numbers to the left are always smaller",
+        "Negative numbers are less than zero; positive numbers are greater than zero",
+        "Even between two negative numbers, the one further left (more negative) is smaller"
+      ]
+    }
+  ],
+  "summary": "In this quest, you discovered the hidden realm of integers — numbers on BOTH sides of zero! You learned that positive numbers like +1, +2, +3 live to the right of zero, and negative numbers like -1, -2, -3 live to the left. Using Bela's Building of Fun as your map, you mastered how the lift moves up with '+' and down with '-', helping you add and subtract integers like a true wizard. You also learned that every number has an inverse that brings it back to zero, and that comparing integers is as simple as checking which floor is higher or lower. You now hold the power of integers — a mighty spell that opens the door to the full number line!",
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 10,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is the three-tier structure of the Panchayati Raj system, from bottom to top?",
+      "themeWrapper": "Brave Quester, name the three levels of the Panchayati Raj fortress, from its foundation to its highest tower!",
+      "options": [
+        "A) Gram Panchayat → Panchayat Samiti → Zila Parishad",
+        "B) Zila Parishad → Panchayat Samiti → Gram Panchayat",
+        "C) Gram Panchayat → Zila Parishad → Panchayat Samiti",
+        "D) Panchayat Samiti → Gram Panchayat → Zila Parishad"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Who maintains the land records of villagers and sometimes keeps generations-old maps in many parts of India?",
+      "themeWrapper": "Hero, which keeper of ancient scrolls guards the land records of the village realm?",
+      "options": [
+        "A) Sarpanch",
+        "B) Panchayat Secretary",
+        "C) Patwari",
+        "D) Block Development Officer"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which ancient text, written by Kauṭilya approximately 2,300 years ago, described a layered administrative structure from the village to the regional capital?",
+      "themeWrapper": "Seeker of ancient wisdom, which legendary scroll from the past described governance from village to kingdom?",
+      "options": [
+        "A) Rigveda",
+        "B) Arthaśhāstra",
+        "C) Manusmriti",
+        "D) Panchatantra"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is the Gram Sabha, and what role does it play in electing the Gram Panchayat?",
+      "themeWrapper": "Courageous Quester, describe the great assembly of the village realm — who forms it and what power does it wield?",
+      "sampleAnswer": "The Gram Sabha is a group of all adult voters enrolled from a village or group of neighbouring villages. It is the foundation of the Panchayati Raj system. Members of the Gram Sabha directly elect the members of the Gram Panchayat. Men and women of the Gram Sabha discuss all matters related to their area and take decisions together. The Gram Sabha also elects the head of the Gram Panchayat, known as the Sarpanch or Pradhan."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Describe any two initiatives taken by Gram Panchayats to make themselves child-friendly, with examples from the chapter.",
+      "themeWrapper": "Champion of the young, recount two heroic deeds performed by Gram Panchayats to protect and empower the children of the village!",
+      "sampleAnswer": "First, the Sangkhu Radhu Khandu Gram Panchayat in West Sikkim built compound walls around schools to make them safer for children and constructed kitchens to ensure hygienic midday meals. Second, Bal Panchayats in Maharashtra worked to eliminate child labour and child marriage by convincing parents to send children back to school instead of putting them to work or arranging early marriages. These efforts show how Gram Panchayats can actively protect children's rights and wellbeing."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the importance of the Panchayati Raj system in Indian democracy. In your answer, discuss its structure, functions, and the special provisions made for disadvantaged sections of society and women.",
+      "themeWrapper": "Grand Hero of Governance, your greatest quest awaits! Unveil the full might of the Panchayati Raj system — its structure, its duties, and why it is the shield of democracy for every Indian village!",
+      "sampleAnswer": "The Panchayati Raj system is the cornerstone of grassroots democracy in India. Since nearly two-thirds of India's 1.4 billion people live in rural areas spread across approximately 600,000 villages, governing this vast population effectively requires a decentralised system that brings governance close to the people.\n\nStructure: The Panchayati Raj operates through a three-tier system. At the base is the Gram Panchayat at the village level, above it is the Panchayat Samiti at the block level, and at the top is the Zila Parishad at the district level. This pyramid ensures that governance covers every aspect of rural life.\n\nFunctions: The Gram Panchayat addresses immediate local needs such as water supply for fields, road repair, school maintenance, resolving land disputes, and implementing government schemes. The Panchayat Samiti acts as a link between the village and district levels, coordinating development plans and facilitating funds for projects like the Pradhan Mantri Gram Sadak Yojana. The Zila Parishad oversees development across the entire district, covering agriculture, housing, roads, water resources, education, healthcare, social welfare, and cultural activities.\n\nSpecial Provisions: The system reserves at least one-third of seats for women, ensuring their active participation in governance. This has led to many women becoming Sarpanchs, as seen in the example of Vandana Bahadur Maida from Madhya Pradesh. Special provisions also exist for disadvantaged sections of society so their voices are heard. Child-Friendly Panchayat initiatives through Bal Sabhas and Bal Panchayats ensure even children can participate in local governance.\n\nIn conclusion, the Panchayati Raj system strengthens Indian democracy by empowering ordinary citizens — including women, children, and marginalised communities — to participate actively in decisions that shape their daily lives, making self-governance a reality at the grassroots level."
+    }
+  ],
+  "fromCache": false
+}

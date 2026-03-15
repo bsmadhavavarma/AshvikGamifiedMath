@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 7,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "जपापुष्पस्य वर्णः कः अस्ति?",
+      "themeWrapper": "O Brave Scholar! Answer this quest to unlock the garden's secrets — what colour is the Hibiscus flower according to the lesson?",
+      "options": [
+        "A) हरितः",
+        "B) रक्तः",
+        "C) नीलः",
+        "D) पीतः"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) रक्तः"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "चित्रवर्णाः शुकाः कुत्र दृश्यन्ते इति आचार्यः अवदत्?",
+      "themeWrapper": "Valiant Seeker! The teacher spoke of colourful parrots — where did he say they are usually seen? Choose the path of truth!",
+      "options": [
+        "A) उद्याने",
+        "B) विद्यालये",
+        "C) चिड़ियाघरे (जन्तुशालायाम्)",
+        "D) गृहे"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) चिड़ियाघरे (जन्तुशालायाम्)"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "पाठस्य अनुसारेण 'महान् चित्रकारः' कः अस्ति?",
+      "themeWrapper": "Hero of Knowledge! The greatest quest of this lesson leads to one answer — who is called the 'Great Painter' by all the students together?",
+      "options": [
+        "A) आचार्यः",
+        "B) श्रद्धा",
+        "C) मञ्जुलः",
+        "D) परमेश्वरः"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D) परमेश्वरः"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "मञ्जुलस्य उद्याने कति-कति वर्णानां पाटलपुष्पाणि सन्ति? पाठाधारेण लिखत।",
+      "themeWrapper": "Courageous Learner! Venture into Manjul's garden and list the colours of roses described in the lesson. Your accuracy shall earn you glory!",
+      "sampleAnswer": "मञ्जुलस्य उद्याने पीतवर्णानि, श्वेतवर्णानि, नीललोहितवर्णानि (जामुनी), केसरवर्णानि च पाटलपुष्पाणि सन्ति। अर्थात् चतुर्णां वर्णानां पाटलपुष्पाणि तस्य उद्याने विद्यन्ते।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "काकस्य तथा पिकस्य वर्णः कः? श्रद्धायाः इष्टवर्णः कः आसीत् इति अपि लिखत।",
+      "themeWrapper": "Swift and Sharp Warrior of Words! Recall the classroom conversation — identify the colours of the crow and cuckoo, and name Shraddha's favourite colour to complete your mission!",
+      "sampleAnswer": "काकस्य वर्णः कृष्णः अस्ति। पिकस्य (कोकिलस्य) वर्णः अपि कृष्णः एव अस्ति। श्रद्धायाः इष्टवर्णः हरितः आसीत्, यतः सा सर्वत्र हरितं रूपम् एव पश्यति स्म।"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "पाठे 'सः एव महान् चित्रकारः' इति पाठस्य मुख्यभावः कः? प्रकृतौ विद्यमानाः वर्णाः एव संसारं सुन्दरं कुर्वन्तीति आचार्यः कथम् अवदत्? विस्तरेण लिखत।",
+      "themeWrapper": "O Champion of Sanskrit! This is the Final Quest — the greatest challenge of this chapter! Explain the central message of the lesson: how does the variety of colours in nature make life beautiful, and who is the ultimate artist behind it all? Write a detailed and heroic answer worthy of a true scholar!",
+      "sampleAnswer": "पाठस्य मुख्यभावः अयम् अस्ति यत् प्रकृतौ विद्यमानाः विविधाः वर्णाः संसारं सुन्दरं मनोरमं च कुर्वन्ति। आचार्यः शिक्षकः छात्रान् उद्यानं प्रति नीत्वा पुष्पाणि, पर्णानि, पक्षिणः, जन्तवः च दर्शयति। हरितानि पर्णानि, रक्तानि जपापुष्पाणि, श्वेतः हंसः, कृष्णः काकः, नीलपीतरक्ताः चित्रशुकाः — एते सर्वे विविधवर्णैः जीवनं आनन्दमयं कुर्वन्ति। मञ्जुलः इन्द्रधनुषः विषये वदति यत् तत्र सप्त वर्णाः भवन्ति। आचार्यः कथयति — 'वर्णाः एव अस्माकं जीवनम् अपि मनोरमं भवति।' अन्ते सर्वे छात्राः एकस्वरेण उच्चैः वदन्ति — 'परमेश्वरः, परमेश्वरः।' आचार्यः अपि समर्थयति — 'सः एव महान् चित्रकारः।' अर्थात् ईश्वरः एव समस्तस्य सृष्टेः महान् चित्रकारः अस्ति यः प्रकृत्याः प्रतिवस्तुनि विचित्रान् वर्णान् योजयति। एतेन पाठेन बालकाः प्रकृतिं आदरेण द्रष्टुं तथा ईश्वरस्य महिमानं अनुभवितुं प्रेरिताः भवन्ति।"
+    }
+  ],
+  "fromCache": false
+}

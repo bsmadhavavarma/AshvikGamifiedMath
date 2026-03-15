@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "Prime Time",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "Prime Time"
+  },
+  "topics": [
+    "Common Multiples and Common Factors",
+    "Prime Numbers",
+    "Composite Numbers and the Sieve of Eratosthenes"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 4,
+  "sections": [
+    {
+      "heading": "🍛 The Idli-Vada Quest — Common Multiples",
+      "body": "Imagine you are a wizard sitting in a circle with friends, playing the Idli-Vada game! You say 'idli' for every multiple of 3 — like 3, 6, 9, 12 — and 'vada' for every multiple of 5 — like 5, 10, 15, 20. Now here is the magic spell: when a number is a multiple of BOTH 3 and 5, you shout 'idli-vada'! The first such number is 15, then 30, then 45. These special numbers that belong to BOTH groups are called common multiples — they are like the treasure chest in our quest!",
+      "keyPoints": [
+        "A common multiple is a number that is a multiple of two different numbers at the same time — like 15 is a multiple of both 3 and 5",
+        "In the Idli-Vada game, 'idli-vada' numbers are always the common multiples of 3 and 5: 15, 30, 45, 60...",
+        "The first 'idli-vada' call happens at 15, and then repeats every 15 steps"
+      ]
+    },
+    {
+      "heading": "🏆 The Jump Jackpot — Common Factors",
+      "body": "Now enter the realm of Jumpy and Grumpy! Grumpy hides treasure on a number — say 24 — and Jumpy must pick a jump size to land exactly on it. If Jumpy jumps in steps of 4, he lands on 4, 8, 12, 16, 20, 24 — treasure found! The jump sizes that land perfectly on 24 are its factors: 1, 2, 3, 4, 6, 8, 12, 24. But when Grumpy hides TWO treasures — say on 14 and 36 — Jumpy needs a jump size that divides BOTH numbers. Those are called common factors. For 14 and 36, the common factors are 1 and 2, so Jumpy must jump in steps of 1 or 2 to grab both treasures!",
+      "keyPoints": [
+        "Factors of a number are the jump sizes that land exactly on that number — for example, factors of 24 are 1, 2, 3, 4, 6, 8, 12, 24",
+        "Common factors are numbers that divide two different numbers exactly — like 1 and 2 are common factors of 14 and 36",
+        "To find common factors, list all factors of both numbers and look for the ones that appear in both lists"
+      ]
+    },
+    {
+      "heading": "⚡ Prime Numbers — The Power Warriors",
+      "body": "Think of arranging laddoos in a rectangular box. If you have 12 laddoos, you can arrange them in many ways — 2 rows of 6, 3 rows of 4, 4 rows of 3. But if you have 7 laddoos, there is only ONE way — 1 row of 7! Numbers like 7 that can only be arranged in one single row are called PRIME numbers. They have exactly two factors — 1 and the number itself. Prime numbers are like the most powerful warriors in our quest — 2, 3, 5, 7, 11, 13, 17, 19 — they cannot be broken down into smaller equal groups. The number 1 is special — it is neither prime nor composite, it stands alone!",
+      "keyPoints": [
+        "A prime number has exactly two factors — 1 and itself — for example, 7's only factors are 1 and 7",
+        "2 is the only even prime number — all other even numbers can be divided by 2, so they are not prime",
+        "The number 1 is neither prime nor composite — it is in its own special category"
+      ]
+    },
+    {
+      "heading": "🧱 Composite Numbers — The Breakable Ones",
+      "body": "Numbers like 12, 15, 20, and 100 have MORE than two factors — they can be broken into smaller equal groups, just like breaking a big dosa into smaller pieces! These are called composite numbers. For example, 12 has factors 1, 2, 3, 4, 6, and 12 — six factors in total! Think of it this way: in cricket, a composite score like 12 runs can be made in many ways — four 3s, two 6s, three 4s — but a prime score like 7 can only be one boundary and a 3, with no other equal split!",
+      "keyPoints": [
+        "A composite number has more than two factors — like 12 which has factors 1, 2, 3, 4, 6, and 12",
+        "Every composite number can be broken down using prime numbers as building blocks",
+        "First few composite numbers are 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20"
+      ]
+    },
+    {
+      "heading": "🔮 The Sieve of Eratosthenes — The Wizard's Spell",
+      "body": "About 2200 years ago, a Greek wizard-mathematician named Eratosthenes discovered a magical spell to find ALL prime numbers! Write numbers 1 to 100. Cross out 1 — it is neither prime nor composite. Circle 2, then cross out ALL multiples of 2 like 4, 6, 8. Then circle 3 and cross out all multiples of 3. Then circle 5 and cross out its multiples. Keep going! At the end, every circled number is a prime and every crossed-out number is composite. It is like using a sieve — a strainer — where composite numbers fall through and primes stay behind. This is your ultimate weapon in the Prime Time quest!",
+      "keyPoints": [
+        "The Sieve of Eratosthenes is a step-by-step method to find all prime numbers by crossing out multiples",
+        "You only need to circle a number and cross out its multiples — if a number is not crossed out, it must be prime",
+        "There are 25 prime numbers between 1 and 100 — the sieve reveals all of them"
+      ]
+    }
+  ],
+  "summary": "Welcome back, young hero — you have completed the Prime Time quest! You learned that common multiples are numbers that appear in the multiplication tables of two different numbers at the same time, just like shouting idli-vada in the game. You discovered that factors are the jump sizes that land exactly on a number, and common factors divide two numbers perfectly. You unlocked the power of prime numbers — the mighty warriors with exactly two factors — and saw how composite numbers can be broken into smaller pieces. Finally, you mastered the ancient wizard spell called the Sieve of Eratosthenes to find all primes up to 100. Remember: prime numbers are the building blocks of all numbers, and mathematicians are still discovering their secrets even today — maybe one day YOU will too!",
+  "fromCache": false
+}

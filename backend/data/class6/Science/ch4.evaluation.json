@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 4,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Why did Deepa and her friends get different measurements when measuring the table using their handspans?",
+      "themeWrapper": "Quest of the Measuring Heroes: The five young adventurers attempted to measure the great classroom table using their handspans — but their scrolls showed different numbers! What was the flaw in their quest?",
+      "options": [
+        "A) They measured different tables",
+        "B) The handspans of different people are of different sizes",
+        "C) They counted their handspans incorrectly",
+        "D) The table changed its length each time"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) The handspans of different people are of different sizes"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A brave warrior's scale has a broken zero end. She starts measuring a sword from the 2.0 cm mark and the other end reads 14.6 cm. What is the true length of the sword?",
+      "themeWrapper": "Trial of the Broken Scale: Even a damaged measuring relic can reveal truth — if the warrior knows the correct technique. Calculate the sword's length!",
+      "options": [
+        "A) 14.6 cm",
+        "B) 16.6 cm",
+        "C) 12.6 cm",
+        "D) 12.0 cm"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) 12.6 cm"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following is the SI unit of length, used across the realm by all measuring heroes to ensure consistency?",
+      "themeWrapper": "Decree of the Universal Standard: The great council of nations forged one supreme unit of length so that no two heroes would ever disagree in their measurements. Name that sacred unit!",
+      "options": [
+        "A) Centimetre",
+        "B) Kilometre",
+        "C) Metre",
+        "D) Millimetre"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Metre"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Explain why ancient body-part units like angula, handspan, and foot were replaced by standard units. What heroic problem did standard units solve?",
+      "themeWrapper": "Scroll of the Ancient Measures: For centuries, heroes used fingers, feet, and arms to measure the world — yet conflict and confusion reigned across the lands. What mighty solution did the world's nations forge together, and why was it necessary?",
+      "sampleAnswer": "Body-part units like handspan, angula, and foot vary from person to person, leading to inconsistent and confusing measurements. When people from different regions or countries traded or travelled, these differences caused misunderstandings. To solve this, countries came together and adopted the International System of Units (SI units), where the SI unit of length is the metre. This ensures that measurements made by different people anywhere in the world remain the same and can be compared accurately."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Anish wants to measure the curved arch of his verandah decorated with string lights. He does not have a flexible tape. What alternative method can he use, and what must he do after that?",
+      "themeWrapper": "The Curved Path Challenge: The verandah arch presents a winding mystery that a straight scale cannot conquer alone. Guide young Anish through the two-step strategy to measure the curved length and claim victory!",
+      "sampleAnswer": "Anish can use a thread to measure the curved arch. He should place the thread carefully along the entire length of the curved arch, following its curve exactly. He should then mark the point on the thread where the arch ends, or cut the thread at that point. After that, he can straighten the thread and measure its length using a metre scale. This gives the length of the curved arch."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe in detail: (a) How should a scale be correctly placed to measure an object's length? (b) What is the correct position of the eye while reading a measurement? (c) How is a measurement correctly expressed — with an example? Why is each of these steps important for a true and accurate measurement?",
+      "themeWrapper": "The Grand Trial of Accurate Measurement: Every great hero of science must master the sacred three-step ritual of correct measurement before venturing into the field. Prove your mastery by describing each step with precision and explaining why failing even one step can lead your quest astray!",
+      "sampleAnswer": "(a) Correct Placement of the Scale: The scale must be placed in contact with the object along its length. It should lie flat and straight alongside the object, with the zero mark (or any other clear mark if the zero is broken or damaged) aligned with one end of the object. Incorrect placement — such as keeping the scale at an angle or not touching the object — will give a wrong measurement. If the scale has a broken zero end, start from any other clear marking (e.g., 1.0 cm) and subtract it from the reading at the other end to find the true length.\n\n(b) Correct Position of the Eye (Avoiding Parallax Error): The eye must be positioned directly above the point being read on the scale — that is, the eye should be vertically above the tip of the object being measured. If the eye is positioned to the left or right of the marking, the reading will appear shifted, causing what is known as a parallax error. This means the recorded measurement will be slightly more or less than the actual length.\n\n(c) Correct Expression of Measurement: A measurement must always be written as two parts — a number and a unit. For example, if a pencil is 12 cm long, it must be written as '12 cm' and not just '12'. Writing only the number without a unit makes the measurement meaningless, because '12' alone could mean 12 mm, 12 metres, or 12 km — all very different lengths. The unit symbol should be in lowercase (e.g., cm, m, km), should not be followed by a full stop (unless at the end of a sentence), and a space should be left between the number and the unit.\n\nEach of these steps is critical because even a small error in placement, eye position, or recording can lead to incorrect conclusions in science and everyday life."
+    }
+  ],
+  "fromCache": false
+}

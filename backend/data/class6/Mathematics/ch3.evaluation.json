@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In Shri Nilesh's tally table, the tally marks for Gulab Jamun show 9 students. If each sweet costs ₹5, how much money does Shri Nilesh need to spend on Gulab Jamun alone?",
+      "themeWrapper": "⚔️ Quest Challenge — The Treasure of Knowledge: A brave scholar must calculate the correct coins needed for the feast. Which answer shall unlock the treasure chest?",
+      "options": [
+        "₹40",
+        "₹45",
+        "₹50",
+        "₹35"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "₹45"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In a pictograph where one symbol represents 10 children, Nand Kishor drew 2 full symbols and one half symbol for the 'Sometimes' category. What is the total number of children in this category?",
+      "themeWrapper": "🗺️ Quest Riddle — The Map of Many Students: A hero must decode the ancient pictograph to count the warriors who 'sometimes' rested. What is the correct count?",
+      "options": [
+        "20",
+        "15",
+        "25",
+        "30"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "25"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Sushri Sandhya arranged shoe sizes in ascending order and found: 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7. How many students wear shoe sizes larger than 4?",
+      "themeWrapper": "🏹 Quest Puzzle — The Footprints of the Fellowship: A ranger must count all companions whose footprints are larger than size 4. Which number is correct?",
+      "options": [
+        "10",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "14"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Sangita used one symbol to represent 10 students in her pictograph but struggled with classes having 25 and 35 students. Explain the challenge she faced and how she solved it. Also, what problem would remain if a class had 33 students?",
+      "themeWrapper": "📜 Scroll of Wisdom — The Pictograph Dilemma: A young cartographer faces a mighty challenge in mapping the warriors of each battalion. Inscribe your answer on this sacred scroll to help her complete the quest!",
+      "sampleAnswer": "Sangita's challenge was that 25 and 35 are not exact multiples of 10, so she could not represent them using only whole symbols. She solved this by using a half symbol to represent 5 students, allowing her to show 25 as 2 full + 1 half symbols and 35 as 3 full + 1 half symbols. However, if a class had 33 students, she would still face a problem because 33 cannot be evenly split into multiples of 10 and 5. She would need to either change her scale or accept an approximation, making the pictograph inaccurate."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Pari is trying to decide whether she needs to collect data to answer the following questions: (a) What is the most popular TV show among her classmates? (b) What is the capital of India? For each question, state whether data collection is needed and give a reason why.",
+      "themeWrapper": "🔍 Quest Clue — The Oracle's Two Questions: Two riddles lie before the young seeker. For each, she must decide — does she need to venture out and gather evidence, or does the answer already exist in the scrolls of known knowledge? Prove your wisdom!",
+      "sampleAnswer": "(a) For finding the most popular TV show among classmates, Pari DOES need to collect data. This information is not available anywhere and will differ from class to class. She must survey her classmates to find out each person's preference and then tally the results. (b) For the capital of India, Pari does NOT need to collect data. This is a known, fixed fact — New Delhi is the capital of India — and can be found in any textbook or reference source without any survey or observation."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Navya and Naresh collected data on the favourite games of their 30 classmates. The games mentioned were: Kabaddi (7 students), Hockey (8 students), Satoliya/Pittu (6 students), Football (4 students), Cricket (5 students). (a) Organise this data into a tally table with frequencies. (b) Create a pictograph using one symbol to represent 2 students. (c) Identify the most and least popular games. (d) Explain TWO advantages of using a pictograph over a raw list of names to represent this data.",
+      "themeWrapper": "🏆 The Grand Quest — The Champion of Champions: Heroes Navya and Naresh have returned from their survey of the kingdom's favourite games. Now, brave mathematician, you must forge this raw data into organised knowledge using the sacred tools of tally tables and pictographs. Your four-part mission, should you choose to accept it, will earn you the highest honour in the Hall of Data Wisdom!",
+      "sampleAnswer": "(a) Tally Table:\nGame | Tally Marks | Number of Students\nKabaddi | |||| || | 7\nHockey | |||| ||| | 8\nSatoliya | |||| | | 6\nFootball | |||| | 4\nCricket | |||| | 5\nTotal: 30 students\n\n(b) Pictograph (1 symbol = 2 students):\nKabaddi: 3.5 symbols\nHockey: 4 symbols\nSatoliya: 3 symbols\nFootball: 2 symbols\nCricket: 2.5 symbols\n(Each symbol represents 2 students; half symbols are used for odd numbers.)\n\n(c) Most popular game: Hockey (8 students). Least popular game: Football (4 students).\n\n(d) Two advantages of a pictograph over a raw list:\n1. Quick visual understanding — A pictograph allows anyone to compare the popularity of games at a glance, without counting names one by one. The longer row of symbols immediately shows which game is most popular.\n2. Organised and clear presentation — The raw list is unordered and confusing. A pictograph groups all responses by category, making it easy to see the frequency of each game and draw comparisons between them efficiently."
+    }
+  ],
+  "fromCache": false
+}

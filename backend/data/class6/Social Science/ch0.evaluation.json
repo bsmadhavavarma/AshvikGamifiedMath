@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is NOT one of the three important components of a map?",
+      "themeWrapper": "⚔️ Quest Challenge I — The Map-Reader's Trial: A brave explorer must master the tools of navigation. Choose the answer that does NOT belong among the sacred components of a map!",
+      "options": [
+        "A) Distance",
+        "B) Direction",
+        "C) Colour",
+        "D) Symbols"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Colour"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Social Science uses a multidisciplinary approach. Which of the following subjects is NOT listed as a subdiscipline of Social Science in the chapter?",
+      "themeWrapper": "⚔️ Quest Challenge II — The Scholar's Identification Trial: The hero must identify the impostor among the disciplines of Social Science. Choose wisely!",
+      "options": [
+        "A) Archaeology",
+        "B) Anthropology",
+        "C) Astronomy",
+        "D) Psychology"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Astronomy"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to the chapter, why is studying geography more important than simply using a map on a mobile phone?",
+      "themeWrapper": "⚔️ Quest Challenge III — The Sage's Riddle: A wise sage asks the hero — why must one learn geography beyond what a glowing screen can show? Reveal the deeper truth!",
+      "options": [
+        "A) Because mobile phones have inaccurate maps",
+        "B) Because geography explains how geographical features have shaped entire civilisations and gives India its unique identity",
+        "C) Because geography teaches students how to draw maps by hand",
+        "D) Because mobile phones are not available everywhere in India"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Because geography explains how geographical features have shaped entire civilisations and gives India its unique identity"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name the five broad themes used in the Social Science textbook 'Exploring Society: India and Beyond' and write one sentence explaining the purpose of Theme B — Tapestry of the Past.",
+      "themeWrapper": "📜 Quest Scroll I — The Five Pillars of Knowledge: The ancient temple has five pillars, each holding up a great truth. Name all five and reveal what secrets the second pillar — the Tapestry of the Past — guards for those who seek it!",
+      "sampleAnswer": "The five themes are: Theme A — India and the World: Land and the People; Theme B — Tapestry of the Past; Theme C — Our Cultural Heritage and Knowledge Traditions; Theme D — Governance and Democracy; Theme E — Economic Life Around Us. Theme B focuses on India's past to help us understand the present, learn from historical mistakes, and understand our identity and where we come from."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is a map and what is an atlas? Name and briefly describe the three types of maps mentioned in the chapter.",
+      "themeWrapper": "📜 Quest Scroll II — The Cartographer's Knowledge: The legendary cartographer challenges the young hero — can you define the tools of navigation and describe the three great kinds of maps used by explorers across the ages?",
+      "sampleAnswer": "A map is a representation or drawing of some area viewed from the top — it could be a small area like a village or a large one like the whole world. An atlas is a book or collection of maps. The three types of maps are: (1) Physical maps — show natural features like mountains, oceans, and rivers; (2) Political maps — show countries, states, boundaries, cities, and capitals; (3) Thematic maps — show a specific kind of information, such as climate or population distribution."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The chapter opens by asking us to look at a picture and ask questions about water, roads, people's activities, history, and future. Using this as a starting point, explain why asking the 'right questions' is central to the study of Social Science. In your answer, discuss what Social Science is, why it is studied, and how its multidisciplinary nature helps us understand the world better.",
+      "themeWrapper": "🏆 The Grand Quest — The Hero's Reckoning: The final trial is upon you, young hero! The Council of Sages has gathered and poses the greatest challenge: You must explain, with the full power of your understanding, why the art of questioning lies at the heart of Social Science — and how this mighty discipline, with all its many branches working together, prepares humanity to face the challenges of this age and build a better future. Speak boldly and completely!",
+      "sampleAnswer": "Social Science is the study of human society and the world we live in. It aims to help us understand diverse and complex human societies so that we can solve problems, live in peace, and protect the Earth. The chapter emphasises that asking the right questions is the first step toward finding the right answers — for example, asking 'Where does the water in the lake come from?' opens up questions about geography, governance, and community life all at once. Social Science is different from sciences like physics or chemistry because human society is too diverse for fixed procedures and results. It includes many subdisciplines such as geography, history, political science, economics, sociology, anthropology, archaeology, and psychology. Rather than studying these separately, the textbook brings them together under five broad themes, which is called a multidisciplinary approach. This means, for example, that a chapter on geography might include ancient Tamil poetry, and a chapter on economics might discuss festivals and the concept of sevā. This enriches our perspective because real life constantly mixes many elements together. Ultimately, Social Science uses knowledge of the past to make sense of the present and prepare us for a better future — making it both an exploration and an adventure."
+    }
+  ],
+  "fromCache": false
+}

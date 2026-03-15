@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 5",
+  "source": {
+    "classLevel": 6,
+    "subject": "Sanskrit",
+    "chapterTitle": "Chapter 5"
+  },
+  "topics": [
+    "Counting numbers 1 to 50 in Sanskrit",
+    "A fun song about numbers",
+    "Ten directions in Sanskrit",
+    "Famous groups of numbers from Indian culture"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 4,
+  "sections": [
+    {
+      "heading": "The Quest Begins — Counting in Sanskrit!",
+      "body": "Young wizard, your quest starts here! Just like you count runs in cricket — one, two, three — Sanskrit has its own magical spells for numbers. From 1 (ekam) to 10 (dasha), these are your first weapons. Think of it like learning the first 10 steps to climb a big mountain. एकम् means 1, द्वे means 2, तीणि means 3, चत्वारि means 4, पञ्च means 5 — just like counting your fingers on one hand!",
+      "keyPoints": [
+        "Sanskrit numbers 1-10: एकम्, द्वे, तीणि, चत्वारि, पञ्च, षट्, सप्त, अष्ट, नव, दश",
+        "These number spells are the base of all counting up to 50 and beyond",
+        "Eleven is एकादश (ek + dash = 1 + 10), just like adding blocks!"
+      ]
+    },
+    {
+      "heading": "The Number Song — A Wizard's Chant!",
+      "body": "Every great wizard uses a chant, and this chapter has a beautiful Sanskrit song about numbers! The song talks about 7 days in a week (सप्त वासराः), 2 eyes in every living being (द्वे नयने), 9 planets in the sky (नव ग्रहाः), and 10 directions (दश दिशाः). Imagine singing this song during morning assembly — it teaches you numbers AND amazing facts about our world at the same time!",
+      "keyPoints": [
+        "The song uses real facts — 7 days, 2 eyes, 9 planets, 10 directions — to teach numbers",
+        "सप्त means 7, नव means 9, दश means 10 — remember these like festival numbers!",
+        "Singing numbers is like a magic spell that helps you remember them forever"
+      ]
+    },
+    {
+      "heading": "Ten Directions — The Realm of Disha!",
+      "body": "In our realm, we normally know 4 directions — North, South, East, West. But in Sanskrit, there are 10 directions! These include the 4 main ones, 4 corner directions (like Northeast = ईशान दिशा), plus ऊर्ध्वम् meaning 'above' (like the sky) and अधः meaning 'below' (like the ground under your feet). Next time you fly a kite, remember — the kite goes ऊर्ध्वम् and the thread goes अधः!",
+      "keyPoints": [
+        "Sanskrit recognises 10 directions — 4 main, 4 corner, 1 above, 1 below",
+        "ऊर्ध्वम् = above (sky), अधः = below (ground) — easy to remember!",
+        "Corner directions like ईशान (NE) and नैऋत्य (SW) are used in Indian traditions like Vastu"
+      ]
+    },
+    {
+      "heading": "Famous Number Groups — India's Cultural Power!",
+      "body": "Did you know numbers have special meaning in Indian culture? This chapter reveals amazing number groups! For example, पञ्च (5) tastes exist — sweet, sour, salty, bitter, spicy, and astringent (that is 6 = षट् रसाः!). सप्त (7) great sages are called Saptarishi — like 7 superheroes of wisdom. नव (9) planets move in the sky. These are not just numbers — they are the hidden powers of our ancient realm!",
+      "keyPoints": [
+        "एकम् = one Brahma (the creator), द्वे = two paths of the sun (Uttarayan and Dakshinayan)",
+        "सप्त ऋषयः = 7 great sages, नव ग्रहाः = 9 planets, दश दिशाः = 10 directions",
+        "Learning these groups helps you connect Sanskrit numbers to real Indian culture and festivals"
+      ]
+    },
+    {
+      "heading": "Numbers 11 to 50 — Unlocking Greater Mastery!",
+      "body": "Now that you know 1 to 10, the quest continues to bigger numbers! From 11 to 50, Sanskrit numbers follow a clever pattern — like building with blocks. Eleven is एकादश (one + ten), twenty is विंशतिः, thirty is त्रिंशत्, forty is चत्वारिंशत्, and fifty is पञ्चाशत्. It is just like in Hindi — gyarah, barah, tera — the pattern keeps going! A true number wizard masters all 50!",
+      "keyPoints": [
+        "Numbers 11-19 end in 'dash' (दश), like एकादश (11), द्वादश (12), त्रयोदश (13)",
+        "20 = विंशतिः, 30 = त्रिंशत्, 40 = चत्वारिंशत्, 50 = पञ्चाशत्",
+        "The pattern is like Lego blocks — base number + group number = new number!"
+      ]
+    }
+  ],
+  "summary": "In Chapter 5, young Sanskrit heroes go on a quest to master number counting (संख्यागणना) from 1 to 50! The chapter starts with a classroom scene where students learn to count in Sanskrit through a beautiful song. The song cleverly uses real facts — 7 days in a week, 2 eyes, 9 planets, 10 directions — to make number spells easy and fun. You also discover the 10 directions of our realm, including above (ऊर्ध्वम्) and below (अधः), and explore amazing cultural number groups like the 7 sages and 9 planets. Finally, you unlock the full power of numbers from 11 to 50 using clever patterns, just like adding blocks together. By the end of this quest, every young wizard can count confidently in Sanskrit and connect numbers to the magic of Indian culture!",
+  "fromCache": false
+}

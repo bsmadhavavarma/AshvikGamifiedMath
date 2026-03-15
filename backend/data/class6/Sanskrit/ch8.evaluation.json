@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 8,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "माजार्याः कति शावकाः सन्ति ?",
+      "themeWrapper": "🗡️ QUEST CHALLENGE I — O Brave Scholar, answer swiftly! How many kittens does the cat in the story have?",
+      "options": [
+        "A. त्रयः",
+        "B. चत्वारः",
+        "C. पञ्च",
+        "D. द्वौ"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. चत्वारः"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "'अतिथिदेवो भव' — इति वचनं कुतः अस्ति ?",
+      "themeWrapper": "🏹 QUEST CHALLENGE II — Mighty Seeker of Wisdom, identify the sacred source of this great saying!",
+      "options": [
+        "A. वेदेभ्यः",
+        "B. उपनिषदः",
+        "C. रामायणात्",
+        "D. महाभारतात्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. उपनिषदः"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "राधिका माजार्यै किं ददाति ?",
+      "themeWrapper": "🛡️ QUEST CHALLENGE III — Fearless Hero, recall the act of hospitality shown to the cat! What does Radhika give her?",
+      "options": [
+        "A. जलम्",
+        "B. फलम्",
+        "C. क्षीरम्",
+        "D. अन्नम्"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. क्षीरम्"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "माजार्याः शावकानां नामानि किमर्थम् विशिष्टानि सन्ति ? तेषां नामानि लिखत।",
+      "themeWrapper": "⚔️ QUEST TASK I — Valiant Learner, prove your understanding! Write the names of the four kittens and explain briefly why Radhika named them so.",
+      "sampleAnswer": "माजार्याः चत्वारः शावकाः सन्ति — निवी, मृदी, शबलः, भीमः च। राधिका तेषां नामकरणे तेषां आकृतिम् / स्वभावम् अनुसरति। निवी आकृत्या सुन्दरी, मृदी स्पर्शेन कोमला, शबलः चित्रवर्णः, भीमः तु किञ्चित् स्थूलः अस्ति।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "'अत्र', 'तत्र', 'सर्वत्र', 'अन्यत्र' — एतानि अव्ययपदानि सन्ति। एतैः पदैः एकैकं वाक्यं रचयत।",
+      "themeWrapper": "🌟 QUEST TASK II — O Linguistic Warrior, wield the power of Avyaya words! Forge one sentence each with these indeclinable words.",
+      "sampleAnswer": "अत्र — अत्र एकः बालकः अस्ति। तत्र — तत्र देवालयः अस्ति। सर्वत्र — परमेश्वरः सर्वत्र अस्ति। अन्यत्र — नगरम् अन्यत्र अस्ति।"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "पाठ 'अतिथिदेवो भव' के आधार पर भारतीय संस्कृति में अतिथि-सेवा के महत्त्व को स्पष्ट कीजिए। राधिका और उसकी पितामही के उदाहरण से यह भाव किस प्रकार प्रकट होता है ?",
+      "themeWrapper": "🏆 THE GRAND QUEST — Greatest Scholar, now demonstrate the full depth of your wisdom! Explain the cultural significance of guest-service as revealed through this heroic tale of Radhika and her grandmother.",
+      "sampleAnswer": "भारतीय संस्कृति में 'अतिथिदेवो भव' की अवधारणा अत्यन्त महत्त्वपूर्ण है। यह वचन उपनिषद् से लिया गया है। इसका अर्थ है — अतिथि हमारे देवता के समान है, अतः उसकी सेवा देव-पूजा के समान है। पञ्चमहायज्ञों में अतिथि-सेवा का स्थान है।\n\nइस पाठ में राधिका की पितामही प्रतिदिन 'अतिथिदेवो भव' का पाठ करती है। वह राधिका को भी यही सिखाती है। रोचक बात यह है कि उनके घर के विशिष्ट अतिथि माजारी (बिल्ली) और उसके चार शावक हैं। पितामही उन्हें नाम से जानती है, उन्हें दूध देती है और उनसे प्रेम करती है।\n\nइस प्रकार यह पाठ यह संदेश देता है कि हमारे देश में केवल मनुष्य ही नहीं, अपितु पशु-पक्षी भी अतिथि रूप में प्रेम के पात्र होते हैं। अतिथि-सेवा का भाव सभी प्राणियों के प्रति होना चाहिए। यही भारतीय संस्कृति की महानता है।"
+    }
+  ],
+  "fromCache": false
+}

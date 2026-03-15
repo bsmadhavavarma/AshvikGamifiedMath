@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the traditional game 'Ice Water', what must a frozen player's teammate say while touching them to unfreeze them?",
+      "themeWrapper": "🗺️ QUEST CHALLENGE — First Trial of the Khel Yatra: A frozen warrior blocks the path! What is the magic word a hero must speak while touching their frozen ally to set them free?",
+      "options": [
+        "A. Fire",
+        "B. Water",
+        "C. Ice",
+        "D. Go"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the game of Seven Stones, if the striking team yells the game's name BEFORE all the stones are stacked back, what happens?",
+      "themeWrapper": "🏆 QUEST CHALLENGE — Trial of Strategy at the Stone Tower: A team of brave players attempts to claim victory too early! What is the consequence of their hasty battle cry before the tower is rebuilt?",
+      "options": [
+        "A. They earn double points",
+        "B. The full striking team is declared out",
+        "C. The game restarts from the beginning",
+        "D. Only the player who yelled is out"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the primary purpose of Aerobic Exercises as described in Unit 1?",
+      "themeWrapper": "⚔️ QUEST CHALLENGE — Trial of the Endurance Path: A young hero wishes to build a body of great stamina and a heart of iron! Which sacred truth about Aerobic Exercises will guide their training?",
+      "options": [
+        "A. They decrease heart rate and slow breathing",
+        "B. They increase heart rate and breathing for long periods, promoting heart health and endurance",
+        "C. They are only meant for relaxation and cooling down",
+        "D. They build muscles by using heavy weights"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe how the game 'Follow Me' is played and explain one important social value it teaches players.",
+      "themeWrapper": "📜 QUEST SCROLL — Riddle of the Mirror Warriors: A wise elder of the Khel Yatra asks you to unravel the secrets of the 'Follow Me' game. Describe how it is played and name one great value it forges within a warrior's character.",
+      "sampleAnswer": "In 'Follow Me,' one player is selected to demonstrate a movement — such as animal walks, body rolls, jumps, or balancing on one leg — and all other players must imitate that movement, acting as a mirror image. After a set time, roles are switched so everyone gets a chance to lead. One important social value it teaches is respecting each other's performances, as players must observe and honour the movements shown by their peers, building emotional and social bonds through shared play."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Seven Stones is known by many different names across India. Name any THREE of those names and explain one element — agility, strategy, or teamwork — that makes this game special.",
+      "themeWrapper": "🗺️ QUEST SCROLL — The Map of the Ancient Game: The Khel Yatra map reveals a legendary game played across the entire land under many names! Name three of those names and explain one heroic quality this game demands of its players.",
+      "sampleAnswer": "Seven Stones is known by names such as Satolia, Lagori, Pitthu, and Norgoloi across different regions of India. One element that makes this game special is teamwork — after the stack is struck, all teammates must work together swiftly to rebuild the pile of stones before any of them gets hit by the fielding team's ball and shout the game's name together, requiring strong cooperation and coordination among all members of the striking team."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Unit 1 of Physical Education teaches that regular physical activity benefits us physically, mentally, and socially. Using examples of at least THREE activities or games from Unit 1, explain how each activity contributes to one of these three areas of well-being. Also describe what 'Safety First' means in the context of physical play.",
+      "themeWrapper": "🏆 THE GRAND QUEST — The Trial of the Three Pillars: To complete the Khel Yatra and become a true champion of well-being, a young hero must demonstrate wisdom across THREE realms — the Physical, the Mental, and the Social. Using the lessons of Unit 1, prove your mastery! Explain how three different games or activities strengthen these three pillars, and reveal the code of 'Safety First' that every true warrior of play must uphold.",
+      "sampleAnswer": "Unit 1 of Physical Education shows that regular physical activity strengthens us in three important ways — physically, mentally, and socially.\n\n1. Physical Well-being — Aerobic Exercises: Aerobic exercises increase the heart rate and breathing over extended periods, which promotes heart health and builds endurance. The unit states that 'bones and muscles grow stronger if you exercise regularly and eat healthy food.' Over time, regular aerobic activity also reduces panting because the lungs and cardiovascular system become more efficient at supplying oxygen to the body.\n\n2. Mental Well-being — Seven Stones: The game of Seven Stones combines agility and strategy, keeping players mentally alert and focused. The unit highlights that 'playing helps you to be active and stress free.' Engaging in such games distracts young minds from stress and builds confidence as players solve problems quickly under pressure, for example deciding when to stack stones and when to run.\n\n3. Social Well-being — Ice Water: Ice Water is described as 'a traditional game of togetherness' where players rescue frozen teammates by touching them and saying 'water.' This builds a sense of teamwork, empathy, and mutual support. Similarly, the Follow Me game teaches players to respect each other's performances and follow rules, while Hula Hoop Jump encourages players to appreciate their teammates' efforts and be genuinely happy for each other's achievements.\n\nSafety First means that while playing, every student must take care to avoid injuries, stay safe in the play environment, and ensure a healthy space for everyone. This includes warming up before activities, cooling down after them, playing by the rules, and treating opponents with fairness and respect — because a true champion protects both themselves and their fellow players."
+    }
+  ],
+  "fromCache": false
+}

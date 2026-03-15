@@ -1,0 +1,68 @@
+{
+  "chapterTitle": "Chapter 1",
+  "source": {
+    "classLevel": 6,
+    "subject": "Sanskrit",
+    "chapterTitle": "Chapter 1"
+  },
+  "topics": [
+    "Vowels and Consonants (Svaras and Vyanjanas)",
+    "Types of Vowels",
+    "Types of Consonants",
+    "How letters are pronounced (Places of Articulation)",
+    "Matras - joining vowels with consonants"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 0,
+  "sections": [
+    {
+      "heading": "🗡️ Quest Begins: The Two Mighty Clans — Svaras and Vyanjanas",
+      "body": "In the magical realm of Sanskrit, all letters belong to two great clans — Svaras (vowels) and Vyanjanas (consonants). Svaras are the powerful warriors who can stand alone and make a complete sound, just like how you can shout 'A!' or 'E!' all by yourself. Vyanjanas are like helpers — they need a Svara friend to make their sound complete. For example, 'क' alone is just 'क्', but add 'अ' and it becomes 'क' — the spell is complete!",
+      "keyPoints": [
+        "Svaras (vowels) can be pronounced on their own — like अ, इ, उ, ए, ओ",
+        "Vyanjanas (consonants) always need a vowel's help to make their full sound",
+        "This is the first power you unlock on your Sanskrit quest!"
+      ]
+    },
+    {
+      "heading": "⚡ The Vowel Wizards: Short, Long and Special",
+      "body": "Svaras have different powers based on how long you hold their sound. A Hrasva (short) vowel lasts for one beat — like saying 'a' quickly. A Dirgha (long) vowel lasts two beats — like saying 'aa' slowly. Think of it like clapping — one clap or two claps! There are also special Sandhyakshara vowels like ए, ऐ, ओ, औ which are born when two vowels meet and join together — just like when two cricket teams merge into one super team!",
+      "keyPoints": [
+        "Hrasva = short vowel (1 beat) — like अ, इ, उ",
+        "Dirgha = long vowel (2 beats) — like आ, ई, ऊ",
+        "Sandhyakshara vowels like ए, ओ, ऐ, औ are formed by combining two vowels"
+      ]
+    },
+    {
+      "heading": "🐉 The Consonant Dragon Clans: Five Varga Groups",
+      "body": "The Vyanjanas (consonants) are divided into five brave groups called Vargas — just like five houses in a school! Each Varga has five letters. The groups are क-varga, च-varga, ट-varga, त-varga, and प-varga. Besides these five groups, there are also special consonants — Antastha (like य, र, ल, व), Ushma (like श, ष, स, ह), and the mysterious Ayogavaha letters अं and अः, which are neither vowels nor consonants but need a vowel before them to exist!",
+      "keyPoints": [
+        "Five main consonant groups: क, च, ट, त, प — each with 5 letters",
+        "Antastha consonants (य, र, ल, व) are called 'half-vowels' because they live between vowels and consonants",
+        "Ushma consonants (श, ष, स, ह) release hot air when spoken — like steam from hot chai!"
+      ]
+    },
+    {
+      "heading": "🏰 The Six Realm Gates: Places of Articulation",
+      "body": "Every letter in Sanskrit is born at a special place inside your mouth or nose — these are called Ucchaaran Sthana (places of articulation). There are six gates: Kantha (throat), Talu (palate/roof of mouth), Murdha (top of mouth), Danta (teeth), Oshtha (lips), and Nasika (nose). For example, when you say 'प' or 'ब', your lips touch — that is the Oshtha gate! When you say 'क', it comes from deep in your throat — the Kantha gate. It is like each letter has its own home castle!",
+      "keyPoints": [
+        "Kantha (throat) — अ, आ, क-varga letters like क, ख, ग, घ",
+        "Oshtha (lips) — उ, ऊ, प-varga letters like प, फ, ब, भ, म",
+        "Nasika (nose) — special nasal sounds like ङ, ञ, ण, न, म and anusvara अं"
+      ]
+    },
+    {
+      "heading": "✨ The Matra Spell: Joining Vowels to Consonants",
+      "body": "When a vowel joins a consonant, it transforms into a Matra — a special written form that attaches to the consonant. This is like a magical fusion spell! For example, क + आ = का, क + इ = कि, क + उ = कु. Every consonant can be combined with every vowel using these Matras. This is how we write and read most Sanskrit words — it is your mastery key to unlock the full alphabet realm!",
+      "keyPoints": [
+        "Matras are the written forms of vowels when joined with consonants",
+        "Example: क + ई = की, just like wearing a different costume!",
+        "Practising Matras with all five Varga groups gives you full power over the Sanskrit alphabet"
+      ]
+    }
+  ],
+  "summary": "In this first chapter of your Sanskrit quest, you have discovered the two great letter clans — Svaras (vowels) and Vyanjanas (consonants). You learned that vowels can stand alone, while consonants need a vowel partner. Vowels have short and long forms, and some special vowels are born when two vowels combine. Consonants are grouped into five brave Varga clans, plus special groups like Antastha and Ushma. You also explored the six magical gates inside your mouth and nose where each sound is born — from the deep throat to the lips. Finally, you mastered the Matra spell that joins vowels to consonants to form real words. You have now unlocked the first great power on your Sanskrit quest — the complete Varnamala!",
+  "fromCache": false
+}

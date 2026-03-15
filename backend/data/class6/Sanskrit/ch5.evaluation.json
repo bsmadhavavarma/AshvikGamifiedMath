@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "सन्दीपः प्रतिदिनं प्रातः कति वादने उत्तिष्ठति?",
+      "themeWrapper": "🏹 Quest Challenge 1: O brave learner, the first gate of knowledge stands before you! Sandip follows a heroic daily routine — at what hour does he rise each morning to begin his quest?",
+      "options": [
+        "A. सार्ध-पञ्चवादने (५:३०)",
+        "B. पञ्चवादने (५:००)",
+        "C. सप्तवादने (७:००)",
+        "D. षड्वादने (६:००)"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. पञ्चवादने (५:००)"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "सन्दीपः सार्ध-सप्तवादने (७:३०) किं करोति?",
+      "themeWrapper": "🛡️ Quest Challenge 2: The hero's morning march continues! At seven-thirty, our champion performs a vital act of sustenance. Which deed does he accomplish at this hour?",
+      "options": [
+        "A. विद्यालयं गच्छति",
+        "B. स्नानं करोति",
+        "C. प्रातराशं करोति",
+        "D. प्रार्थनां करोति"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. प्रातराशं करोति"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "सन्दीपः प्रातः भूमेः वन्दनं कृत्वा कौ नमति?",
+      "themeWrapper": "⚔️ Quest Challenge 3: After saluting the earth itself, our young warrior bows to two most important pillars of his life. Who are these noble figures he honours first?",
+      "options": [
+        "A. गुरुं च मित्रम्",
+        "B. मातापितरौ",
+        "C. देवं च राजानम्",
+        "D. भ्रातरं च भगिनीम्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. मातापितरौ"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "सन्दीपस्य दिनचर्यायां पञ्चवादनात् अष्टवादनपर्यन्तं कानि कानि कार्याणि सन्ति? पञ्च कार्याणि संस्कृतेन लिखत।",
+      "themeWrapper": "📜 Quest Scroll 4: O valiant scholar, unroll the scroll of Sandip's heroic morning! List five noble deeds he performs from 5:00 AM to 8:00 AM in Sanskrit, proving your command of his daily quest.",
+      "sampleAnswer": "१. पञ्चवादने उत्तिष्ठति। २. सपाद-पञ्चवादने शौचं करोति, मुखप्रक्षालनं दन्तधावनं च करोति। ३. सार्ध-पञ्चवादने सूर्यनमस्कारं योगासनं च करोति। ४. षड्वादने स्वाध्यायं करोति। ५. सार्ध-षड्वादने परिसरं स्वच्छं करोति। ६. पादोन-सप्तवादने स्नानं करोति। ७. सप्तवादने प्रार्थनां गीतापाठं च करोति। ८. सार्ध-सप्तवादने प्रातराशं करोति। ९. अष्टवादने विद्यालयं गच्छति।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "निम्नलिखितयोः समययोः संस्कृते नामानि लिखत — (क) ०५:१५ (ख) ०६:४५",
+      "themeWrapper": "🕐 Quest Scroll 5: The ancient sundials of India measured time with great wisdom! O time-keeper of knowledge, decode these two time-stamps and write them in Sanskrit words as a true scholar would.",
+      "sampleAnswer": "(क) ०५:१५ = सपाद-पञ्चवादनम् (पाँच बजकर पन्द्रह मिनट) (ख) ०६:४५ = पादोन-सप्तवादनम् (सात बजने में पन्द्रह मिनट)"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "सन्दीपस्य दिनचर्यां पठित्वा तव दिनचर्यां संस्कृते सरलवाक्यैः लिखत। न्यूनातिन्यूनं षट् वाक्यानि लिखत। तव दिनचर्यायां शिष्टाचारस्य कानि तत्त्वानि सन्ति, तदपि वर्णयत।",
+      "themeWrapper": "🌟 FINAL QUEST — The Grand Chronicle: O champion of learning, you have studied the heroic daily routine of Sandip. Now forge your own legend! Write your own daily routine in simple Sanskrit sentences (at least six), and describe which values of शिष्टाचार (good conduct) you practise each day. This is your moment to prove worthy of the Scholar's Crown!",
+      "sampleAnswer": "अहं प्रातः षड्वादने उत्तिष्ठामि। प्रथमं भूमेः वन्दनं करोमि, मातापितरौ च नमामि। ततः उषःपानं करोमि। अहं सपाद-षड्वादने शौचं मुखप्रक्षालनं च करोमि। सार्ध-षड्वादने योगासनं करोमि। सप्तवादने स्वाध्यायं करोमि। सार्ध-सप्तवादने प्रातराशं करोमि। अष्टवादने विद्यालयं गच्छामि। शिष्टाचारः — अहं प्रतिदिनं मातृपितृभक्तिं करोमि, गुरुवन्दनं करोमि, सर्वेषु मैत्रीभावं रक्षामि, समयपालनं करोमि, परिसरं स्वच्छं करोमि। एते सर्वे शिष्टाचारस्य महत्त्वपूर्णाः अंशाः सन्ति।"
+    }
+  ],
+  "fromCache": false
+}

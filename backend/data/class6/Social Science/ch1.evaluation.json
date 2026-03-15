@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which ocean ranks as the largest of all five oceans on Earth?",
+      "themeWrapper": "Brave Explorer, your first quest begins! Identify the mightiest ocean that dominates our blue planet:",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Southern Ocean"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Approximately what fraction of the Earth's surface is covered by water?",
+      "themeWrapper": "Champion of Knowledge, the map of the world lies before you! Declare the true proportion of water covering our globe:",
+      "options": [
+        "One-half",
+        "One-fourth",
+        "Three-fourths",
+        "Two-thirds"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is a tsunami and what typically causes it?",
+      "themeWrapper": "Heroic Defender, the ocean unleashes its fury! Choose the correct description of this fearsome natural disaster:",
+      "options": [
+        "A violent storm caused by strong winds over warm oceans",
+        "A huge powerful wave generally caused by a strong earthquake or volcanic eruption at the ocean floor",
+        "A sudden rise in ocean water levels due to melting glaciers",
+        "A rapid ocean current that disrupts marine life and coastal weather"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why is the Earth called the 'blue planet', and why is there still concern about water scarcity despite the vast amounts of water present on Earth?",
+      "themeWrapper": "Seeker of Truth, your quest demands wisdom! Explain the paradox of our water-rich yet water-scarce world to earn your next honour.",
+      "sampleAnswer": "The Earth is called the 'blue planet' because about three-fourths of its surface is covered with water, making it appear mostly blue from outer space. Despite this abundance, water scarcity exists because most of the Earth's water is found in oceans as saltwater, which is unfit for consumption by most land animals including humans. Freshwater, which is suitable for drinking and agriculture, makes up only a very small proportion and is found in glaciers, rivers, lakes, the atmosphere, and as groundwater. Overuse, pollution, and unequal distribution further intensify the scarcity of usable freshwater."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why do geographers sometimes count continents differently, and what is the most widely used count of continents today?",
+      "themeWrapper": "Courageous Cartographer, the lands of the world shift before your eyes! Explain why the count of continents is not always the same and which count rules supreme.",
+      "sampleAnswer": "Geographers count continents differently because some large landmasses can be viewed either as one continent or as two, depending on historical, cultural, and geographical perspectives. For example, Europe and Asia form a single landmass but are often treated as two separate continents due to their very different historical and cultural developments; together they are sometimes called 'Eurasia'. Similarly, North America and South America can be counted as one or two, and Africa and Eurasia are sometimes combined. This leads to counts ranging from four to seven continents. In practice, the most widely used count is seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe in detail how oceans impact life on Earth, covering their role in supporting marine biodiversity, influencing climate and agriculture through monsoons, and posing threats through natural disasters such as cyclones and tsunamis. Also mention how humans have organised themselves to manage such ocean-related disasters.",
+      "themeWrapper": "Grand Champion of the Quest, you have reached the final and greatest challenge! Demonstrate your mastery by composing a heroic account of the ocean's mighty influence — its gifts, its dangers, and humanity's brave response — to claim the highest honour of this chapter.",
+      "sampleAnswer": "Oceans cover almost three-fourths of the Earth's surface and play a tremendously vital role in shaping life on our planet. \n\n**Supporting Marine Biodiversity:** The oceans are teeming with life at every level, from the sunlit surface to the mysterious deep. Marine flora includes tiny algae and various seaweeds, while marine fauna ranges from thousands of species of colourful fish, dolphins, and whales to countless deep-sea creatures. Coral reefs provide habitat to an extraordinary diversity of species. Since the oceans are interconnected, seawater flows constantly across all five oceans, allowing many species to exist across multiple ocean regions.\n\n**Influence on Climate and Agriculture:** Oceans play a crucial role in regulating the Earth's climate. The white clouds visible in photographs of the Earth from space originate over oceans and carry moisture to the continents. In India, the monsoon rains — vital for agriculture and all life — originate in the ocean. Without adequate monsoon rainfall, crops would fail and water sources would dry up, threatening millions of lives.\n\n**Natural Disasters:** Despite their life-giving properties, oceans can also be sources of great destruction. Cyclones are violent storms with extreme rainfall and powerful winds that originate over warm ocean waters and cause widespread damage to coastal regions. Tsunamis are enormous, powerful waves generally triggered by strong earthquakes or volcanic eruptions on the ocean floor. They can travel thousands of kilometres and submerge entire coastal areas. A devastating example was the tsunami of 26 December 2004, triggered by an earthquake in Indonesia, which struck India and 13 other countries around the Indian Ocean. Over two lakh people lost their lives. India's Andaman and Nicobar Islands and the coasts of Tamil Nadu and Kerala were severely affected.\n\n**Human Response and Disaster Management:** Recognising the destructive potential of ocean-born disasters, nations have come together to create early warning systems. The Indian Ocean Tsunami Warning System, to which India and many other countries contribute, helps detect tsunamis before they strike, enabling evacuation and protective measures. Within India, the National Disaster Management Authority is responsible for coordinating responses to all kinds of disasters. This reflects humanity's determination to understand, respect, and guard against the awesome power of the ocean."
+    }
+  ],
+  "fromCache": false
+}

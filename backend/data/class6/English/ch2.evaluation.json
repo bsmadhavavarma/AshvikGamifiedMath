@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is the Sanskrit name given to the neem tree that means 'the one who cures diseases'?",
+      "themeWrapper": "Brave Questor, your first trial begins! Identify the ancient Sanskrit name of Neem Baba that carries the meaning 'the one who cures diseases':",
+      "options": [
+        "Nimba",
+        "Arishta",
+        "Nimbaca",
+        "Nimori"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Arishta"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "According to Neem Baba, what happens when neem seed powder is mixed in water and sprayed on plants?",
+      "themeWrapper": "The second challenge arrives, hero! Among these choices, which mighty effect does neem seed powder spray have on crops, as revealed by Neem Baba?",
+      "options": [
+        "It makes crops grow faster",
+        "It prevents locusts from eating them",
+        "It adds nutrients to the soil",
+        "It attracts helpful birds to the farm"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "It prevents locusts from eating them"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In the poem 'What a Bird Thought', what did the bird think the world was made of when it was in its nest with its mother?",
+      "themeWrapper": "The third quest calls upon your reading powers, warrior! In the poem 'What a Bird Thought', what material did the young bird believe made up its entire world while nestled beside its mother?",
+      "options": [
+        "Blue shell",
+        "Straw",
+        "Leaves",
+        "Feathers"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Straw"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why did the doctor advise Amber's family to put neem leaves on the bed of her brother who had measles? Give two reasons from the text.",
+      "themeWrapper": "Courageous learner, this quest demands deeper thinking! Explain why the doctor's wisdom led the family to use neem leaves for Amber's brother suffering from measles. Provide two reasons from the chapter.",
+      "sampleAnswer": "The doctor advised using neem leaves because: (1) Neem leaves have chemical properties that destroy germs, preventing germs from breeding on the skin. (2) Measles cause itching all over the body, and neem leaves provide comfort and relief from this itching."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is personification? Find one example of personification from the chapter 'Neem Baba' and explain it.",
+      "themeWrapper": "Hero of language, a linguistic quest awaits you! Identify the figure of speech called personification, then find a shining example from 'Neem Baba' and explain how it works.",
+      "sampleAnswer": "Personification is a figure of speech in which non-living things or animals are given human qualities or are spoken to as if they were human beings. In 'Neem Baba', Amber speaks to the neem tree as if it were a person — she greets it with 'Namaste' and has a full conversation with it. The tree responds, shares its history, and even blesses Amber at the end, all of which are human actions given to a tree."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The poem 'What a Bird Thought' describes how the bird's understanding of the world grew as it moved from its egg, to its nest, and finally beyond the tree. Trace this journey stanza by stanza and explain what lesson about learning and growing up this poem teaches us.",
+      "themeWrapper": "Greatest of all quests now stands before you, champion! The poem 'What a Bird Thought' holds a profound lesson within its feathered verses. Trace the brave little bird's journey of discovery from stanza to stanza and reveal the deeper truth about knowledge, growth, and the boundless world that this poem teaches all young learners.",
+      "sampleAnswer": "In the first stanza, the bird lives inside an egg — a tiny, enclosed blue shell. At this stage, it believes the entire world is small, round, and made of pale blue shell. This represents a newborn's extremely limited understanding of the world around it. In the second stanza, the bird moves to a straw nest beside its mother. Now it thinks the world is made of straw and feels safe and comfortable. This stage represents early childhood, when a child's world is defined by home and family. In the third stanza, the bird flutters out of the nest for the first time and sees leaves everywhere. It then believes the world is made of leaves and realises it had been 'very blind' before. This represents the expansion of knowledge when one steps beyond their comfort zone. In the final stanza, the bird flies beyond the tree as a grown adult capable of 'grown-up labours'. Now it honestly admits that it does not know how the world is made — and neither do its neighbours. The lesson this poem teaches is that true wisdom comes with humility. As we learn more, we realise how much more there is still to discover. Growing up means expanding our horizons, but also understanding that the world is too vast and complex for anyone to claim complete knowledge of it."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 9,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is NOT a characteristic of living beings?",
+      "themeWrapper": "Brave Explorer, before you can complete your Quest to distinguish the living from the non-living, answer this challenge: Which of the following is NOT a characteristic of living beings?",
+      "options": [
+        "A) Reproduction",
+        "B) Respiration",
+        "C) Casting a shadow",
+        "D) Excretion"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Casting a shadow"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In Activity 10.2, which pot (with bean seeds) would most likely show successful germination after 15 days?",
+      "themeWrapper": "Seeker of Secrets, a mystical garden holds four pots of bean seeds under different conditions. Your Quest is to identify which pot will reward the adventurer with successfully germinated seeds!",
+      "options": [
+        "A) Pot A — no water, kept in direct sunlight",
+        "B) Pot B — excess water, kept in direct sunlight",
+        "C) Pot C — moist soil, kept in the dark",
+        "D) Pot D — moist soil, kept in direct sunlight"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D) Pot D — moist soil, kept in direct sunlight"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "The touch-me-not (chhui-mui) plant folds its leaves when touched. What is the scientific term for the 'touch' that causes this response in the plant?",
+      "themeWrapper": "Champion of Knowledge, a mystical plant guards the path on your Quest. It reacts to something and blocks your way. What do we call the 'something' — the event or thing — that caused the plant to respond?",
+      "options": [
+        "A) Excretion",
+        "B) Stimulus",
+        "C) Germination",
+        "D) Reproduction"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Stimulus"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Explain why a car is considered non-living even though it can move. Name two characteristics of living beings that a car lacks.",
+      "themeWrapper": "Valiant Questioner, you encounter a mighty moving machine on your journey. Your challenge is to prove why this roaring car is NOT a living being. Explain your heroic reasoning by naming two characteristics of living beings that the car does not possess.",
+      "sampleAnswer": "A car is considered non-living because movement alone cannot be the deciding factor for life. Unlike living beings, a car does not grow — it cannot increase in size on its own. It also does not reproduce, meaning it cannot produce new cars by itself. Additionally, a car does not respire, excrete, or respond to stimuli the way living beings do. It requires an external fuel source and human operation to move, whereas living beings move using their own internal processes."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Drosera is described as an insectivorous plant. How does it trap insects, and what does this tell us about movement in plants?",
+      "themeWrapper": "Fearless Explorer, deep in the jungle of knowledge lies a plant that hunts! Your Quest is to describe how Drosera, the insectivorous plant, traps its prey — and reveal what this tells us about the nature of movement in plants.",
+      "sampleAnswer": "Drosera has saucer-shaped leaves covered with many hair-like projections of unequal length. These projections have sticky ends. When an insect enters the saucer, the hairs move inward and trap the insect using their sticky ends. This shows us that even though plants do not move from one place to another like animals, they are still capable of movement. Plants can show localised movements in response to stimuli, which confirms that movement — in some form — is indeed a characteristic of all living beings, including plants."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "List and explain all the essential characteristics of living beings discussed in the chapter. For each characteristic, give one example from the animal world and one from the plant world.",
+      "themeWrapper": "Greatest Champion of the Living World Quest, you have reached the Final Trial! To claim the Crown of Understanding, you must prove your mastery: List and explain ALL the essential characteristics that separate living beings from non-living things. For each characteristic, present one heroic example from the animal kingdom and one from the plant kingdom. Only a true Scholar-Warrior can complete this ultimate challenge!",
+      "sampleAnswer": "The essential characteristics of living beings are as follows:\n\n1. Movement: Living beings show movement. Animals move from place to place — for example, a dog runs and walks. Plants also show movement, though they do not change location. For instance, the Drosera plant moves its hair-like projections inward to trap insects, and the touch-me-not plant folds its leaves when touched.\n\n2. Growth: All living beings grow and increase in size over time. A child grows and cannot fit into clothes worn four years ago. Similarly, a seed grows into a plant and then a large tree.\n\n3. Nutrition (Need for Food): Living beings require food for energy and growth. Animals like cows eat grass and other food. Plants prepare their own food through photosynthesis using sunlight, water, and carbon dioxide.\n\n4. Respiration: All living beings respire to obtain energy. Animals like dogs and humans breathe through their lungs — we can observe the movement of their abdomen while resting. Plants respire through tiny pores called stomata present on the surface of their leaves.\n\n5. Excretion: Living beings remove waste products from their bodies. In animals, waste is removed as urine and sweat (which contains water and salts). In plants, excess water and minerals are excreted as small droplets on leaves, as seen in grasses and roses.\n\n6. Response to Stimuli: Living beings respond to changes in their surroundings. When a person steps on a thorn, they immediately pull their foot away — this is a response to the stimulus of pain. The touch-me-not (chhui-mui) plant folds its leaves when touched, and certain plants like the amla tree fold their leaves after sunset in response to the stimulus of darkness.\n\n7. Reproduction: All living beings produce new ones of their own kind to ensure continuity of life. Dogs give birth to puppies, and cats give birth to kittens. Plants produce seeds, which germinate into new plants.\n\n8. Death: Every living being eventually dies. When a living being can no longer show any of the above characteristics despite availability of all resources, it is said to be dead. This distinguishes living beings from non-living things, which were never alive to begin with.\n\nThese characteristics, taken together, help us identify and classify any object as living or non-living."
+    }
+  ],
+  "fromCache": false
+}

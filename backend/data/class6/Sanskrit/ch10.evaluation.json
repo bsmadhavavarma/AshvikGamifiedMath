@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 10,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "भोजनान्ते किं पेयं योग्यम् अस्ति?",
+      "themeWrapper": "O brave seeker of knowledge! The first riddle of the Quest stands before you. Answer it and prove your wisdom:",
+      "options": [
+        "A. जलम्",
+        "B. तक्रम्",
+        "C. दुग्धम्",
+        "D. फलरसम्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. तक्रम्"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "कुलालस्य गृहे अर्धं किम् आसीत्?",
+      "themeWrapper": "The Quest deepens, warrior of wisdom! This riddle from the potter's tale shall test your recall of the chapter. Choose wisely:",
+      "options": [
+        "A. घटः",
+        "B. कुम्भः",
+        "C. वृक्षः",
+        "D. फलम्"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. कुम्भः"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "नरः काश्यां किम् इच्छति?",
+      "themeWrapper": "Hero of the Quest! The third challenge of the scrolls awaits. What does a man desire in Kashi? Unveil the truth:",
+      "options": [
+        "A. धनम्",
+        "B. यशः",
+        "C. मृत्युम्",
+        "D. पुत्रम्"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. मृत्युम्"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "यस्य आदिः अन्तश्च 'न' अस्ति, मध्ये 'य' तिष्ठति, तत् किम्? पाठाधारेण उत्तरं लिखत।",
+      "themeWrapper": "Champion of the Quest! This ancient riddle from the chapter is your next trial. Decode it with the power of Sanskrit wisdom and write your answer:",
+      "sampleAnswer": "तस्य आदिः 'न' अस्ति, अन्तः अपि 'न' अस्ति, मध्ये 'य' तिष्ठति। तत् पदं 'नयनम्' (नेत्रम्) अस्ति। अर्थात् तव अपि अस्ति, मम अपि अस्ति — नयनम् एव उत्तरम्।"
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "षष्ठीविभक्तेः प्रयोगः कदा भवति? एकं उदाहरणं पाठात् लिखत।",
+      "themeWrapper": "O valiant scholar on the Quest! Grammar is your sword. Explain the rule of Shashthi Vibhakti and strike down confusion with an example from the chapter:",
+      "sampleAnswer": "यत्र सम्बन्धः भवति तत्र षष्ठी विभक्तिः भवति। यथा — 'विद्यालयस्य छात्रः' — अत्र छात्रस्य सम्बन्धः विद्यालयेन सह अस्ति, अतः 'विद्यालय' इति शब्दे षष्ठी विभक्तिः अस्ति। पाठे उदाहरणम् — 'कुलालस्य गृहे'।"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "पाठे दत्तानां पञ्चानां प्रहेलिकानाम् उत्तराणि लिखत तथा च प्रत्येकस्याः प्रहेलिकायाः संक्षिप्तं विवरणम् अपि स्वभाषया लिखत।",
+      "themeWrapper": "Greatest Quest of all, O Champion of Deepakam! Five riddles from the ancient scrolls of Chapter 11 lie before you. Solve each one, explain its secret, and claim the title of Pandit — for 'यः जानाति सः पण्डितः'!",
+      "sampleAnswer": "पाठे पञ्च प्रहेलिकाः सन्ति। प्रथमा प्रहेलिका — भोजनान्ते पेयं किम्? उत्तरम् — तक्रम् (छाछ)। भोजनस्य पश्चात् तक्रं पातुं योग्यं भवति। द्वितीया प्रहेलिका — यस्य आदिः अन्तश्च 'न' अस्ति मध्ये 'य' तिष्ठति, तत् किम्? उत्तरम् — नयनम्। तृतीया प्रहेलिका — वृक्षस्य अग्रे फलं, फलस्य अग्रे वृक्षः — अकारादि सकारान्तं पदं किम्? उत्तरम् — अनानसः (अनन्नास)। चतुर्थी प्रहेलिका — नरः काश्यां किम् इच्छति? उत्तरम् — मृत्युम् / जन्म। पञ्चमी प्रहेलिका — कुलालस्य गृहे अर्धं, हस्तिनापुरे अपरम् अर्धम्, द्वयं मिलित्वा लङ्कायाः पूर्वरूपं किम्? उत्तरम् — कुम्भः / घटः। एताः प्रहेलिकाः बुद्धेः तार्किकशक्तिं विकासयन्ति।"
+    }
+  ],
+  "fromCache": false
+}

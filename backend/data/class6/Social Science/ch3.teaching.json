@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "## Chapter",
+  "source": {
+    "classLevel": 6,
+    "subject": "Social Science",
+    "chapterTitle": "## Chapter"
+  },
+  "topics": [
+    "How we measure time in history",
+    "BCE and CE — understanding the calendar",
+    "Sources of history and how historians study the past"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 3,
+  "sections": [
+    {
+      "heading": "🗺️ The Quest Begins — What is History?",
+      "body": "Imagine you are a wizard trying to understand a magical realm. To do that, you need to know what happened there before you arrived! That is exactly what history is — the study of everything humans did in the past. Just like you remember your first day at school or your best Diwali, our whole world has memories too. Scientists called geologists, archaeologists, anthropologists, and palaeontologists help us dig up those memories — sometimes literally from under the ground!",
+      "keyPoints": [
+        "History is the study of the human past — it helps us understand why the world is the way it is today",
+        "Special experts like archaeologists dig up old tools, pots, bones and coins to find clues about the past",
+        "Palaeontologists study fossils — like ancient footprints frozen in rock — to learn about life millions of years ago"
+      ]
+    },
+    {
+      "heading": "⚔️ The Spell of Time — BCE and CE",
+      "body": "Think of a cricket scoreboard — it always shows which over you are in. History has its own scoreboard called a timeline! The whole world uses the Gregorian calendar. Years after the birth of Jesus are called CE (Common Era), and years before are called BCE (Before Common Era). So India's independence in 1947 is written as 1947 CE, and the great Buddha was born around 560 BCE — that is more than 2,500 years ago! Remember, there is no year zero, so when you calculate between BCE and CE dates, you add the two numbers and subtract 1.",
+      "keyPoints": [
+        "CE means Common Era — years counting forward from the birth of Jesus; BCE means Before Common Era — years counting backward",
+        "To find how long ago a BCE event was, add the BCE year and the current CE year, then subtract 1",
+        "India also has its own calendars like the Panchanga, which uses the sun and moon to track months and festivals"
+      ]
+    },
+    {
+      "heading": "🐉 Slaying Confusion — Centuries and Millenniums",
+      "body": "When a wizard measures the power of a spell, they do not count every single second — they measure in big chunks! Historians do the same. A century is 100 years, and a millennium is 1,000 years. We are living in the 21st century CE right now — that means the years 2001 to 2100. We are also in the 3rd millennium CE. Think of it like IPL seasons — each century is one big season of history!",
+      "keyPoints": [
+        "Century = 100 years; we are in the 21st century CE (2001–2100)",
+        "Millennium = 1,000 years; we are in the 3rd millennium CE (2001–3000)",
+        "A timeline is like a map of history — it shows events in the order they happened, so you can see what came first"
+      ]
+    },
+    {
+      "heading": "🔮 The Sources — Your Quest for Clues",
+      "body": "Imagine trying to solve a jigsaw puzzle where some pieces are missing — that is exactly how historians work! They gather clues from many different sources to rebuild the past. These sources include things like old coins, statues, buildings, ancient writings on copper plates or stone (called inscriptions), stories passed down by grandparents, old paintings, and even science like studying ancient DNA! When you found your family history by talking to your grandparents or looking at old photos, you were already being a mini historian on your own quest!",
+      "keyPoints": [
+        "Sources of history include archaeological finds (tools, pots, bones), literary sources (old books, poems), inscriptions, coins, paintings, and oral stories",
+        "Historians use as many sources as possible — sometimes sources agree with each other, sometimes they contradict, and historians have to decide which to trust",
+        "Modern science also helps — studying ancient climates, materials, and genetics gives fresh clues about the past"
+      ]
+    },
+    {
+      "heading": "🏆 Mastery Unlocked — Putting It All Together",
+      "body": "A true hero on a quest does not just collect one weapon — they gather all the power they can find! Great historians are the same. They combine clues from digs, old texts, coins, stories, and science to paint a full picture of the past. And just like every family has its own story hidden in old sarees, diaries, or festival traditions, every civilisation has left behind clues waiting for curious explorers like you to discover them!",
+      "keyPoints": [
+        "History is like a jigsaw puzzle — historians gather clues from many sources and try to fit them together",
+        "Some puzzle pieces are always missing, so historians must think carefully and honestly about what they know and what they do not",
+        "You too can explore history — by making a family tree, visiting a museum, or asking your elders about the past"
+      ]
+    }
+  ],
+  "summary": "In this chapter, young questers discovered that history is the study of the human past and that it helps us understand our present world. We learned how experts like archaeologists, geologists, and palaeontologists uncover clues hidden in the earth. We explored how time is measured using BCE and CE, and how to calculate years across those two eras. We also learned that 100 years make a century and 1,000 years make a millennium — both useful tools for thinking about long stretches of history. Finally, we discovered that historians use many types of sources — from old coins and buildings to ancient texts, inscriptions, paintings, and even modern science — to piece together the story of humanity, even when some pieces of the puzzle are missing. The quest to understand our past is one of the greatest adventures of all!",
+  "fromCache": false
+}

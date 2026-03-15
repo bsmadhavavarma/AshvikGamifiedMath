@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is the correct description of Virahānka numbers (also known as Fibonacci numbers) from Table 1?",
+      "themeWrapper": "⚔️ QUEST CHALLENGE 1 — The Riddle of the Ancient Sequence! A sage guards the gate and poses this riddle to the brave hero:",
+      "options": [
+        "A) Each number is the sum of the two preceding numbers: 1, 2, 3, 5, 8, 13, 21, ...",
+        "B) Each number is double the previous number: 1, 2, 4, 8, 16, 32, ...",
+        "C) Each number is the square of its position: 1, 4, 9, 16, 25, ...",
+        "D) Each number is obtained by adding consecutive odd numbers: 1, 3, 6, 10, 15, ..."
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) Each number is the sum of the two preceding numbers: 1, 2, 3, 5, 8, 13, 21, ..."
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "What is the sum of the first 10 odd numbers? Choose the correct answer based on the pattern discovered in the chapter.",
+      "themeWrapper": "🛡️ QUEST CHALLENGE 2 — The Shield of Odd Numbers! The hero must unlock the magic shield by answering correctly:",
+      "options": [
+        "A) 55",
+        "B) 81",
+        "C) 100",
+        "D) 121"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) 100. The sum of the first n odd numbers is always n². For the first 10 odd numbers, the sum = 10² = 100."
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In the shape sequence of Complete Graphs (K2, K3, K4, K5, K6...), how many lines does K5 have?",
+      "themeWrapper": "🗺️ QUEST CHALLENGE 3 — The Map of Complete Graphs! To cross the enchanted bridge, the hero must decode the network of connections:",
+      "options": [
+        "A) 5",
+        "B) 8",
+        "C) 10",
+        "D) 12"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) 10. In a complete graph Kn, every point connects to every other point. K5 has 5 points, and the number of lines = 1+2+3+4 = 10, which follows the triangular number sequence."
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why are the numbers 1, 3, 6, 10, 15, 21, 28, ... called triangular numbers? Explain using a pictorial or visual reasoning, and write the next two terms after 28 in this sequence.",
+      "themeWrapper": "📜 QUEST SCROLL 1 — The Triangle Temple! The hero discovers an ancient scroll inside the Triangle Temple. To claim its wisdom, the hero must explain the secret of triangular numbers:",
+      "sampleAnswer": "Triangular numbers are called so because the dots representing each number can be arranged in the shape of an equilateral triangle. For example, 1 dot is a single point-triangle, 3 dots form a triangle with 2 rows (1+2), 6 dots form a triangle with 3 rows (1+2+3), 10 dots form a triangle with 4 rows (1+2+3+4), and so on. Each new triangular number is obtained by adding the next counting number to the previous triangular number. The next two terms after 28 are: 28 + 8 = 36, and 36 + 9 = 45."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "The chapter states that adding up pairs of consecutive triangular numbers gives the square numbers. Verify this with THREE examples using numbers from the triangular number sequence (1, 3, 6, 10, 15, 21, 28, ...) and explain why this happens.",
+      "themeWrapper": "🔮 QUEST SCROLL 2 — The Oracle of Sequences! The Oracle challenges the hero to prove their understanding of the hidden relationship between triangular and square numbers:",
+      "sampleAnswer": "Three examples: (1) 1 + 3 = 4 = 2²; (2) 3 + 6 = 9 = 3²; (3) 6 + 10 = 16 = 4². This happens because the nth triangular number is n(n+1)/2 and the (n-1)th triangular number is (n-1)n/2. Adding them gives [n(n+1)/2] + [n(n-1)/2] = n[(n+1)+(n-1)]/2 = n[2n]/2 = n². Pictorially, two consecutive triangular dot-arrangements can be fit together to form a perfect square grid, explaining why their sum is always a perfect square."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The chapter discusses how mathematics is both an art and a science, and how patterns underpin everything from gravity to genome research. (a) In your own words, explain what a 'number sequence' is, giving TWO examples from Table 1 with their rules. (b) Explain with a diagram or step-by-step reasoning why the sum of the first n odd numbers always equals n² (the square of n). (c) Describe ONE real-life situation (beyond the examples in the chapter) where recognising a mathematical pattern could be useful, and explain how the pattern helps.",
+      "themeWrapper": "🏆 THE GRAND QUEST — The Final Trial of the Pattern Realm! The hero stands before the Grand Council of Mathematics. To be crowned Champion of Patterns, the hero must demonstrate mastery across three realms of knowledge — definition, proof, and real-world application. Answer with the courage and clarity of a true mathematical warrior!",
+      "sampleAnswer": "(a) A number sequence is an ordered list of numbers that follows a specific rule or pattern. Example 1: Odd numbers — 1, 3, 5, 7, 9, 11, ... Rule: Start at 1 and keep adding 2 each time. Example 2: Powers of 2 — 1, 2, 4, 8, 16, 32, ... Rule: Start at 1 and keep multiplying by 2 each time. (b) To show that 1 + 3 + 5 + ... (first n odd numbers) = n²: Imagine an n×n square grid of dots. We can carve this square into L-shaped layers (called gnomons). The outermost L-shape of a 1×1 square has 1 dot. Expanding to 2×2 adds 3 new dots in an L-shape. Expanding to 3×3 adds 5 new dots, and so on. Each L-shape has an odd number of dots (1, 3, 5, 7, ...), and together they fill the entire n×n square, which has n² dots. Therefore, 1 + 3 + 5 + ... + (2n−1) = n². For example, first 5 odd numbers: 1+3+5+7+9 = 25 = 5². (c) Real-life example: Predicting population growth. If a city's population doubles every 10 years, it follows the pattern of Powers of 2 (multiplied by the initial population). Recognising this exponential pattern helps city planners predict future housing needs, school requirements, and water supply demands, allowing them to plan infrastructure well in advance rather than reacting to crises. The pattern transforms raw data into actionable foresight."
+    }
+  ],
+  "fromCache": false
+}

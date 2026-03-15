@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following best describes 'biodiversity' as encountered during the nature walk?",
+      "themeWrapper": "⚔️ QUEST CHALLENGE — The Oracle poses this riddle to the brave explorer: Identify the true meaning of the sacred term 'biodiversity' from the scrolls of knowledge!",
+      "options": [
+        "A) The number of trees in a single forest",
+        "B) The variety of plants and animals found in a particular region",
+        "C) The number of birds that can be identified by their chirp",
+        "D) The grouping of animals based on what they eat"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) The variety of plants and animals found in a particular region"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "During the nature walk, Dr Raghu said that each bird has a unique chirp. What concept does this illustrate?",
+      "themeWrapper": "🏹 QUEST TRIAL — The Forest Guardian challenges you: Among the four ancient tablets below, which one holds the TRUE lesson that Dr Raghu revealed to the young explorers?",
+      "options": [
+        "A) All birds belong to the same species",
+        "B) Birds communicate only through movement",
+        "C) Diversity exists even within the same group of animals",
+        "D) Sounds in nature are only produced by birds"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Diversity exists even within the same group of animals"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "When students grouped plants by height in Activity 2.3 while others grouped them by presence of flowers, what does this tell us about grouping?",
+      "themeWrapper": "🛡️ QUEST RIDDLE — The Sage of Classification guards the path forward. Answer correctly: What truth about the art of grouping do the scholars' different methods reveal?",
+      "options": [
+        "A) Grouping can only be done in one correct way",
+        "B) Grouping is useless if everyone uses different features",
+        "C) Plants cannot be grouped at all",
+        "D) Grouping can be done in multiple valid ways depending on the feature chosen"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D) Grouping can be done in multiple valid ways depending on the feature chosen"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any two features that make plants different from one another, as observed during the nature walk. Also give one example of how plants and animals depend on each other.",
+      "themeWrapper": "📜 QUEST SCROLL — Young Hero, the Ancient Manuscript of Nature demands your wisdom! Inscribe your answer to prove you are worthy of advancing to the next realm of knowledge.",
+      "sampleAnswer": "Two features that make plants different: (1) Height and type of stem — some plants have soft/thin stems like grass while others have hard/thick stems like neem. (2) Leaf shape and arrangement — tulsi has leaves in opposite pairs while grass has single leaves alternating on the stem. Example of interdependence: Trees provide food and shelter to birds, and animals help spread seeds by eating fruits and moving to different places."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why did Madam Sulekha advise students to carry a notebook and pen on the nature walk? How does recording observations help in studying diversity?",
+      "themeWrapper": "⚗️ QUEST MISSION — The Keeper of the Grand Archive asks: Why must every true explorer carry the twin weapons of notebook and pen? Defend your answer with the wisdom of a science champion!",
+      "sampleAnswer": "Madam Sulekha advised students to carry a notebook and pen so they could record their observations of plants and animals during the walk. Recording observations helps in studying diversity because: (1) It allows students to note details about features like stem type, leaf shape, flower colour, and animal movements which might be forgotten later. (2) Written records can be compared and discussed to identify similarities and differences among living organisms. (3) It forms the basis for grouping and understanding the variety of living things in a region."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the importance of grouping plants and animals. Using examples from the chapter, explain at least two different ways in which plants can be grouped and two different ways in which animals can be grouped. Why is it necessary to observe without disturbing living creatures?",
+      "themeWrapper": "🏰 THE GRAND QUEST — You stand before the Final Chamber of the Living World! The Dragon of Knowledge demands a full and heroic answer. Prove your mastery of Diversity in the Living World and claim your place among the legendary scholars of science!",
+      "sampleAnswer": "Importance of Grouping: Grouping makes it easier to understand and study plants and animals based on their similarities and differences. When we organize living things into groups, we can identify patterns, compare features, and gain deeper knowledge about the natural world — just as organizing books in a bag helps us find them quickly.\n\nTwo ways to group plants:\n1. Based on height and stem type — Plants can be grouped into herbs (short plants with soft/green stems like grass and tulsi), shrubs (medium-height plants with slightly hard stems), and trees (tall plants with hard and thick stems like neem and hibiscus/gudhal). \n2. Based on presence or absence of flowers — Plants can be grouped into flowering plants (like hibiscus and tulsi which produce flowers) and non-flowering plants (like ferns or mosses which do not produce flowers).\n\nTwo ways to group animals:\n1. Based on where they live — Some animals live on land (like cows), some live on trees (like birds), some live in water (like fish), and some live both on land and in water (like frogs).\n2. Based on what they eat — Animals can be grouped by their diet: insects (like ants eat leaves, seeds, and insects), herbivores (like cows that eat grasses and leaves), and omnivores (like crows that eat insects and other food).\n\nWhy observe without disturbing: Dr Raghu emphasized respecting all living creatures and observing them without disturbing because every organism plays a unique role in its ecosystem. Disturbing animals can cause them stress, interrupt their natural behaviour, or harm them. Similarly, plucking leaves and flowers damages plants. Responsible observation helps maintain the balance of biodiversity and teaches students to value and protect all forms of life."
+    }
+  ],
+  "fromCache": false
+}

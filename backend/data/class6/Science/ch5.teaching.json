@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "Chapter 6",
+  "source": {
+    "classLevel": 6,
+    "subject": "Science",
+    "chapterTitle": "Chapter 6"
+  },
+  "topics": [
+    "What materials are and how to identify them",
+    "How to group and classify materials",
+    "Properties of materials like lustre and hardness"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 5,
+  "sections": [
+    {
+      "heading": "⚔️ Quest Begins: What is a Material?",
+      "body": "Every brave wizard knows their tools! Everything around you — your pencil, your water bottle, your school bag — is made from something. That 'something' is called a material. For example, your notebook is made from paper, and your steel glass is made from metal. Different objects are made from different materials depending on what job they need to do.",
+      "keyPoints": [
+        "A material is any substance used to make an object — like wood, plastic, glass, or cloth",
+        "The same object can be made from different materials — like a tumbler can be made of steel, plastic, or clay",
+        "We choose a material based on what the object needs to do — a cooking pot must handle heat, so we don't make it from paper!"
+      ]
+    },
+    {
+      "heading": "🧙 The Wizard's Spell: Grouping Materials",
+      "body": "A good wizard sorts their magical items — and you can sort materials too! This sorting is called classification. You can group objects by their colour, shape, hardness, softness, or what they are made of. For example, in your kitchen, steel plates are kept together and plastic boxes are kept together — that is classification in real life!",
+      "keyPoints": [
+        "Classification means putting objects into groups based on a shared property",
+        "One object can belong to more than one group — a red plastic ball is both 'red' and 'plastic'",
+        "Even your local kirana shop uncle classifies! He keeps spices in one corner and pulses in another"
+      ]
+    },
+    {
+      "heading": "✨ Lustre Power: Shiny vs Dull Materials",
+      "body": "Some materials have a special power — they shine and glow like treasure in a dragon's realm! This shine is called lustre. Metals like iron, copper, gold, and aluminium are lustrous — they look shiny, especially on a freshly cut surface. But paper, wood, rubber, and jute are non-lustrous — they look dull. Be careful though — not everything that shines is a metal! Some plastic items are coated to look shiny.",
+      "keyPoints": [
+        "Lustrous materials have a shiny surface — most metals like gold, iron, and copper are lustrous",
+        "Non-lustrous materials look dull — like wood, paper, rubber, and jute",
+        "Metals can lose their shine when exposed to air and moisture — like old iron turning rusty and dull"
+      ]
+    },
+    {
+      "heading": "🐉 Dragon's Test: Hard vs Soft Materials",
+      "body": "In the realm of materials, some are as tough as a dragon's scales and some are as soft as cotton! If you press a stone, it does not squish — it is hard. But if you press an eraser, it squeezes easily — it is soft. You can also test hardness by scratching — a harder material can scratch a softer one. But remember, hardness is always compared — rubber is softer than iron but harder than sponge!",
+      "keyPoints": [
+        "Hard materials are difficult to compress or scratch — like stone, iron, and wood",
+        "Soft materials can be easily pressed or scratched — like chalk, eraser, and candle wax",
+        "Hardness is relative — rubber is harder than sponge but softer than iron, just like Virat Kohli is fast but not as fast as a bullet!"
+      ]
+    },
+    {
+      "heading": "🏆 Mastery Unlocked: Choosing the Right Material",
+      "body": "A true master of the quest knows which material to use for which job! A cricket ball must be hard and heavy to travel far when hit. A tennis ball must bounce high on a court. You cannot use a cloth tumbler to store water — it will just leak! The properties of a material — its hardness, lustre, softness — decide whether it is right for the job.",
+      "keyPoints": [
+        "Different sports use balls made of different materials because each sport needs different bounce and weight",
+        "We pick materials based on their properties and the purpose of the object",
+        "One object like a pen can be made from multiple materials — plastic body, metal tip, and ink inside"
+      ]
+    }
+  ],
+  "summary": "In this exciting quest, young wizards discovered that everything around us — from a steel dabba to a cricket bat — is made of materials like metal, wood, plastic, glass, or clay. We learned that materials can be classified into groups based on their properties. Some materials are lustrous (shiny) like metals — gold, iron, copper — while others are non-lustrous like paper and wood. Some materials are hard like stone and iron, while others are soft like sponge and eraser. The most important power we gained is knowing that we choose a material based on its properties and the purpose it serves — just like a wizard carefully picks the right spell for the right dragon!",
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which food component is described as a primary source of instant energy, as exemplified by glucose consumed by marathon runners?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Energy Rune: A brave warrior needs instant power to finish the race. Which food component grants this swift energy?",
+      "options": [
+        "A. Protein",
+        "B. Fat",
+        "C. Carbohydrate",
+        "D. Vitamin"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "According to the chapter, why does traditional food in any state of India usually differ from that of other states?",
+      "themeWrapper": "⚔️ Quest Challenge 2 — The Regional Map: A hero exploring India's lands notices each region has unique food. What is the PRIMARY reason for this diversity according to the text?",
+      "options": [
+        "A. People in each state have different religions",
+        "B. Traditional food is usually based on locally grown crops which depend on soil and climate",
+        "C. The government decides what food each state should eat",
+        "D. Modern transportation has brought different foods to each region"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In Case 2 described in the chapter, what measure was taken by the Government of India to combat the symptoms of swelling at the front of the neck observed in the Himalayan region?",
+      "themeWrapper": "⚔️ Quest Challenge 3 — The Healer's Decree: A wise council sought to vanquish a mysterious ailment spreading through northern lands. What was their heroic solution?",
+      "options": [
+        "A. Distributing vitamin C tablets to the population",
+        "B. Encouraging consumption of more pulses and proteins",
+        "C. Supplementing common salt with iodine to prepare iodised salt",
+        "D. Replacing all local crops with iron-rich vegetables"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any two plant sources and two animal sources of protein mentioned in the chapter. Why are protein-rich foods called 'body-building foods'?",
+      "themeWrapper": "🛡️ Quest Scroll 4 — The Builder's Arsenal: A young hero wishes to grow stronger. Identify the sources of the body-building nutrient and explain why it earns that heroic title.",
+      "sampleAnswer": "Plant sources of protein mentioned include pulses (such as gram, moong, tuar dal) and soya bean/peas/beans/nuts. Animal sources include milk/paneer, eggs, fish, and chicken/meat. Protein-rich foods are called 'body-building foods' because they help in the growth and repair of our body, just as builders construct and fix structures."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "The chapter mentions that culinary (cooking) practices have changed significantly over time. Name any two traditional tools that were used in cooking or food preparation in the past and the modern tools that have replaced them. What factors have driven these changes?",
+      "themeWrapper": "🛡️ Quest Scroll 5 — The Chronicles of the Kitchen: Heroes of the past used ancient tools to prepare their feasts. Name two such tools, their modern replacements, and the forces that brought about this transformation.",
+      "sampleAnswer": "1. Chulha (traditional stove) has been replaced by modern gas stoves. 2. Sil-batta (stone grinder) has been replaced by electrical grinders. These changes have been driven by factors such as technological development, improved transportation, and better communication, which made modern appliances widely available and accessible."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The chapter discusses the major components of food — carbohydrates, fats, and proteins. For each component: (a) explain its main role in our body, (b) provide at least two examples of food sources (plant or animal), and (c) explain why a balanced intake of all three is important for a healthy body. Use examples from the chapter to support your answer.",
+      "themeWrapper": "📜 Grand Quest — The Three Pillars of Nourishment: A legendary hero must master the three sacred nutrients to complete their quest for a healthy life. Describe each pillar in full, naming its role, its sources, and why all three must work together for true health and strength.",
+      "sampleAnswer": "Carbohydrates: (a) Carbohydrates are a primary source of energy for our body. They provide the fuel needed for daily activities and physical exertion. Glucose, a carbohydrate, gives instant energy — which is why marathon runners consume glucose water. (b) Sources include wheat, rice, maize, potato, sweet potato, banana, and sugarcane. Fats: (a) Fats serve as a source of stored energy. They also help keep the body warm, as seen in the example of laddoos with ghee eaten in winters, and in polar bears that survive hibernation using fat reserves. (b) Sources include groundnuts, walnuts, almonds, butter, coconut, sunflower seeds, and sesame seeds. Proteins: (a) Proteins are essential for growth and repair of the body — they are called 'body-building foods.' Sportspersons need larger quantities to build their muscles. (b) Plant sources include pulses (gram, moong, tuar dal, soya bean); animal sources include milk, paneer, eggs, fish, and chicken. Importance of balance: Each component serves a unique and irreplaceable role. Carbohydrates and fats ensure we have energy for all activities, while proteins repair and grow body tissues. A deficiency in any one component can lead to health problems, as shown in the chapter's cases on scurvy (likely vitamin-related) and iodine deficiency. Therefore, eating a variety of foods that collectively provide all these nutrients is essential for a healthy and strong body — echoing the chapter's theme of 'Mindful Eating.'"
+    }
+  ],
+  "fromCache": false
+}

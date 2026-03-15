@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 9,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In Bela's Building of Fun, the Toy Store is on Floor –1 and the Video Games shop is on Floor –2. A brave explorer starts at the Food Court (Floor +1) and presses –3 in the lift. Which floor does the explorer reach?",
+      "themeWrapper": "Quest Challenge 1 — The Lift Labyrinth: Descend through the floors and claim your answer!",
+      "options": [
+        "Floor –1",
+        "Floor –2",
+        "Floor +2",
+        "Floor 0"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Floor –2"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Hero Basant stands at the ground floor (Floor 0) and accidentally presses +3. To return to Floor 0 without moving, which button sequence must he press to cancel his mistake?",
+      "themeWrapper": "Quest Challenge 2 — The Inverse Enigma: Only the one who knows the inverse can undo the error and restore balance!",
+      "options": [
+        "Press +3 again",
+        "Press –3",
+        "Press –6",
+        "Press +6"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Press –3, because (+3) + (–3) = 0, returning him to the ground floor."
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In the realm of integers, which of the following comparisons is CORRECT?",
+      "themeWrapper": "Quest Challenge 3 — The Order of the Number Line: Arrange your knowledge and conquer the comparison!",
+      "options": [
+        "–3 > –1",
+        "–5 > +2",
+        "–4 < –3",
+        "0 < –7"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "–4 < –3, because Floor –4 is lower than Floor –3 in the Building of Fun, meaning –4 is a smaller number."
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "A daring adventurer is at the Art Centre (Floor +2) and wants to reach the Sports Centre (Floor +5). Using the subtraction expression — Target Floor minus Starting Floor equals Movement needed — what button press is required? Write the complete expression.",
+      "themeWrapper": "Quest Challenge 4 — The Subtraction Scroll: Decode the movement and chart your heroic path through the building!",
+      "sampleAnswer": "Target Floor – Starting Floor = Movement needed. So, (+5) – (+2) = +3. The adventurer must press +3, meaning they go three floors up to reach Floor +5."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Zero is a special number in the number kingdom. State whether zero is a positive number, a negative number, or neither, and explain what the 'inverse' of zero is. Give one example from Bela's Building of Fun to support your answer.",
+      "themeWrapper": "Quest Challenge 5 — The Secret of Zero: Uncover the mystery of the ground floor and reveal its true nature!",
+      "sampleAnswer": "Zero is neither positive nor negative — it has no '+' or '–' sign. The inverse of zero is zero itself, because 0 + 0 = 0. In the Building of Fun, Floor 0 is the Welcome Hall (ground floor). If Basant is at Floor 0 and presses 0 buttons, he stays at Floor 0, confirming zero is its own inverse."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Hero Gurmit starts at the Toy Store (Floor –1). He mistakenly presses +2, then corrects himself by pressing –4, and finally presses +1. (a) Write an addition expression showing all three button presses and the final floor he lands on. (b) Explain in your own words how combining button presses works as addition of integers. (c) Using the concept of subtraction of integers, find what single button press would have taken Gurmit directly from Floor –1 to his final destination floor.",
+      "themeWrapper": "Grand Quest — The Ultimate Floor Challenge: A true champion of integers must add, subtract, and conquer all three parts to claim victory in Bela's Building of Fun!",
+      "sampleAnswer": "(a) Starting at Floor –1, the presses are +2, –4, and +1. Expression: (–1) + (+2) + (–4) + (+1). Step by step: (–1) + (+2) = +1; (+1) + (–4) = –3; (–3) + (+1) = –2. Gurmit lands on Floor –2 (Video Games shop). (b) Combining button presses works exactly like adding integers. Each '+' press moves you up (positive direction) and each '–' press moves you down (negative direction). The total effect of all presses together is their sum. Positive numbers add floors and negative numbers subtract floors, just as on the number line, so combining them gives the net movement. (c) To find a single button press from Floor –1 to Floor –2: Target Floor – Starting Floor = Movement. (–2) – (–1) = –1. So a single press of –1 would have taken Gurmit directly from Floor –1 to Floor –2."
+    }
+  ],
+  "fromCache": false
+}

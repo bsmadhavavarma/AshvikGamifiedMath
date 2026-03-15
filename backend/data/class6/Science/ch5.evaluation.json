@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which of the following is the correct definition of 'material' as learned in Chapter 6?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Scroll of Definitions: A young hero must decode the ancient scroll. Which answer holds the true meaning of 'material'?",
+      "options": [
+        "A) Any object that has a definite shape and colour",
+        "B) Any substance that is used to create an object",
+        "C) Any living thing found in nature",
+        "D) Any substance that is heavier than water"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Any substance that is used to create an object"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A brave explorer notices that some metals lose their lustre over time. What causes metals to look dull or non-lustrous?",
+      "themeWrapper": "🛡️ Quest Challenge 2 — The Fading Shield: A warrior's once-gleaming shield has gone dull. Which force is responsible for this transformation?",
+      "options": [
+        "A) Exposure to sunlight and heat alone",
+        "B) Effect of air and moisture on them",
+        "C) Scratching the surface with hard objects",
+        "D) Painting the surface with wax"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Effect of air and moisture on them"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In the great Quest of Classification, how are 'hard' and 'soft' materials correctly described?",
+      "themeWrapper": "🗡️ Quest Challenge 3 — The Trial of Hardness: The guild tests its apprentices. Only one answer correctly describes hardness and softness of materials!",
+      "options": [
+        "A) Hard materials are always metals; soft materials are always non-metals",
+        "B) Hard materials are always heavier; soft materials are always lighter",
+        "C) Soft materials can be compressed or scratched easily; hard materials are difficult to compress or scratch",
+        "D) Hard materials always have lustre; soft materials are always dull"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Soft materials can be compressed or scratched easily; hard materials are difficult to compress or scratch"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why is it important to choose the right material for making an object? Give one example to support your answer.",
+      "themeWrapper": "📜 Quest Scroll 4 — The Craftsman's Wisdom: A heroic craftsman must justify to the king why material choice matters. Can you explain the craftsman's reasoning and back it with an example?",
+      "sampleAnswer": "We choose a material to make an object depending on its properties and the purpose for which the object is to be used. For example, a tumbler must be made of a material that can hold water, such as glass, plastic, or metal. Using cloth or paper would be unsuitable because such materials cannot hold water effectively."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "The ancient saying goes, 'All that glitters is not gold.' How does this relate to the concept of lustrous materials taught in Chapter 6?",
+      "themeWrapper": "✨ Quest Scroll 5 — The Deceiving Jewel: A hero is tricked by a shiny stone. Use your scientific knowledge to explain why not all shiny objects can be considered metals.",
+      "sampleAnswer": "According to Chapter 6, lustrous materials usually have shiny surfaces and are generally metals like iron, copper, gold, and aluminium. However, not all shiny materials are metals. Some non-metal materials are made to look shiny by polishing them or coating their surfaces with thin layers of plastic, wax, or other materials. Therefore, just because something shines does not mean it is a metal — the saying 'all that glitters is not gold' perfectly captures this scientific truth."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the concept of classification of materials. Why is classification important? Describe at least three properties based on which materials can be classified, giving examples of each.",
+      "themeWrapper": "🏆 The Grand Quest — The Hero's Final Trial: You stand before the Council of Scholars. To earn the title of Science Champion, you must explain the great system of classification — its meaning, its importance, and the three mighty properties used to sort materials. Rise, hero, and prove your mastery!",
+      "sampleAnswer": "Classification is the method of arranging objects or materials into groups based on a common property they share. It helps us organise and study materials more easily, just as a grocer keeps spices, pulses, and grains in separate sections for convenience.\n\nThree important properties used to classify materials are:\n\n1. Lustre (Appearance): Materials that have shiny surfaces are called lustrous materials, and they are usually metals, such as iron, copper, gold, and aluminium. Materials that do not have a shiny surface are called non-lustrous, such as paper, wood, rubber, and jute.\n\n2. Hardness and Softness: Materials that are difficult to compress or scratch are called hard materials (e.g., stone, iron), while materials that can be easily compressed or scratched are called soft materials (e.g., eraser, sponge). These properties are relative — for example, rubber is harder than sponge but softer than iron.\n\n3. Purpose-based Material Properties: Materials can also be grouped based on their suitability for specific uses. For example, materials that can hold water (glass, plastic, metal) are suitable for making tumblers, while materials like cloth or paper are not. Similarly, different balls used in sports are made of different materials depending on required bounce, weight, and texture.\n\nThus, classification helps us understand materials better and choose the right material for the right purpose."
+    }
+  ],
+  "fromCache": false
+}

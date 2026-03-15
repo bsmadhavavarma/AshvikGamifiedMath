@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 7,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is the name given to the fixed point at the center of a circle from which all points on the circle are equidistant?",
+      "themeWrapper": "🗺️ Quest Seeker, before you can draw the Circle of Power, you must identify its anchor! What is the name of the point from which every point on a circle is at an equal distance?",
+      "options": [
+        "Radius",
+        "Centre",
+        "Diameter",
+        "Circumference"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Centre"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A square PQRS can also be validly named QRSP. Which of the following is NOT a valid name for this square?",
+      "themeWrapper": "⚔️ Brave Adventurer, the Square Shield of Truth can only be named in certain heroic orders! Which of these labels is a forbidden name for square PQRS?",
+      "options": [
+        "QRSP",
+        "RSPQ",
+        "PQSR",
+        "SPQR"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "PQSR"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "A square piece of paper satisfying all square properties is rotated. Which of the following is TRUE about the rotated figure?",
+      "themeWrapper": "🏰 Guardian of Geometry, the Square Relic has been rotated by an enemy wizard! Which statement correctly describes the rotated figure?",
+      "options": [
+        "It is no longer a square because its orientation changed",
+        "It is still a square because all sides remain equal and all angles remain 90°",
+        "It becomes a rectangle because the angles change",
+        "It loses its equal sides after rotation"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "It is still a square because all sides remain equal and all angles remain 90°"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "When drawing a 'Wavy Wave' on a central line AB of 8 cm using half-circle waves, what should be the radius of the compass and what should be the length of AX (the first half of the wave)?",
+      "themeWrapper": "🌊 Wave Warrior, your mission is to construct the Wavy Wave artifact on an 8 cm central line AB. To complete your quest, state the correct radius for your compass and the length of segment AX for the first half-circle wave.",
+      "sampleAnswer": "Since the full 8 cm line is divided into two equal waves and each wave is a half circle, AX should be 4 cm. The radius of each half circle is half of AX, which is 2 cm. So the compass radius = 2 cm and AX = 4 cm."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What are the two key properties that every rectangle must satisfy? How does a square differ from a rectangle in terms of these properties?",
+      "themeWrapper": "🛡️ Shape Sentinel, the Vault of Rectangles and Squares is sealed by two sacred properties! Name both properties of a rectangle, then explain how a square's properties make it a special kind of rectangle.",
+      "sampleAnswer": "A rectangle must satisfy: R1) Opposite sides are equal in length, and R2) All angles are 90°. A square satisfies S1) All four sides are equal (not just opposite sides), and S2) All angles are 90°. Since a square has all sides equal, its opposite sides are certainly equal, making it a special rectangle where all sides happen to be equal."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe step-by-step how you would construct a rectangle that can be divided into exactly 3 identical squares. Include: (a) how you plan using a rough diagram, (b) how you determine the side lengths, (c) how you use a compass to transfer lengths without a ruler, and (d) how you verify the final figure satisfies the rectangle properties.",
+      "themeWrapper": "🏆 Master Architect of the Realm, your ultimate quest is to construct the Triple Square Rectangle — a powerful artifact that can be divided into exactly 3 identical squares. Chronicle your heroic construction journey step by step: plan with a rough map, determine the sacred dimensions, wield your compass to transfer lengths, and prove your figure is a true rectangle!",
+      "sampleAnswer": "(a) Planning with a rough diagram: Draw a rough sketch of a rectangle ACDF divided into 3 identical squares side by side (e.g., ABEF, BCGH, CDHI). Label all corners. Since the three squares are identical and share sides, all shorter sides are equal. Mark equal sides with '|' tick marks.\n\n(b) Determining side lengths: Let the side of each square = s. Then the width of the rectangle AF = s, and the length AC = 3s. For example, choose s = 3 cm, so AF = 3 cm and AC = 9 cm.\n\n(c) Using a compass to transfer lengths: Draw segment AF = 3 cm (or any chosen length). Open the compass to exactly the length AF. Without changing the compass opening, place the tip at A and mark point B on line AC such that AB = AF. Repeat from B to mark C, and from C to mark D (if needed). This way, exact equal lengths are transferred without re-measuring with a ruler each time.\n\n(d) Draw perpendiculars at A and C (or F and D) of appropriate length to complete the rectangle, then draw the dividing lines at B and between squares.\n\n(e) Verification: Check R1) Opposite sides are equal: AC = FD = 3s and AF = CD = s. ✓ Check R2) All angles = 90° by using a set square or the perpendicular construction. ✓ Also verify each smaller figure is a square by checking all four sides equal s and all angles 90°. ✓"
+    }
+  ],
+  "fromCache": false
+}

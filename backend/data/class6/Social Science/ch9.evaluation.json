@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 9,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which organ of the government is responsible for making new laws or updating existing ones?",
+      "themeWrapper": "Brave Seeker, to forge the rules that govern the realm, which mighty organ of the government wields that power?",
+      "options": [
+        "The Executive",
+        "The Judiciary",
+        "The Legislature",
+        "The Armed Forces"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "The Legislature"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In India's three-tier government structure, which level of government would primarily handle a massive flood affecting vast areas across multiple states?",
+      "themeWrapper": "Champion, when a great calamity threatens the entire land beyond the reach of local heroes, which tier of government rides forth to lead the rescue?",
+      "options": [
+        "Local Government",
+        "State Government",
+        "Central Government",
+        "The Judiciary"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "Central Government"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the purpose of the 'separation of powers' among the three organs of government?",
+      "themeWrapper": "Warrior of Wisdom, why do the three great organs of governance stand apart rather than unite under one banner?",
+      "options": [
+        "To slow down the process of law-making",
+        "To provide a system of checks and balances so no single organ exceeds its role",
+        "To ensure the President has supreme authority",
+        "To allow the judiciary to make new laws"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "To provide a system of checks and balances so no single organ exceeds its role"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is 'governance' and why do communities need it? Give two examples of rules from daily life that illustrate why governance is necessary.",
+      "themeWrapper": "Young Quest-bearer, define the sacred concept of governance and justify with two real-world examples why every community needs this guiding force to thrive.",
+      "sampleAnswer": "Governance is the process of taking decisions, organising society's life with different sets of rules, and ensuring those rules are followed. Communities need it because without rules there would be disorder and society would not be able to function. Examples: (1) Traffic rules ensure drivers do not cause accidents or chaos on the road. (2) School rules ensure discipline so that both teaching and learning can take place smoothly."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Who are the nominal and actual executive heads at the national level in India, and what does 'nominal' mean in this context?",
+      "themeWrapper": "Seeker of Truth, unveil the difference between the symbolic guardian and the true wielder of executive power at the national level of India's governance.",
+      "sampleAnswer": "At the national level, the President of India is the nominal executive head, while the Prime Minister is the actual executive head. 'Nominal' means the President holds the position in name and has certain powers under special circumstances but does not normally interfere in the day-to-day affairs of the Central Government. Real executive authority rests with the Prime Minister and the Council of Ministers."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Using the example of cybercrime described in the chapter, explain how all three organs of government — the Legislature, the Executive, and the Judiciary — work together. Also explain why keeping these organs separate is important for a healthy democracy.",
+      "themeWrapper": "Grand Champion of Grassroots Democracy, reconstruct the heroic battle against cybercrime to reveal how the three great pillars of governance act in concert, and then argue passionately why these pillars must stand apart to protect the realm of justice.",
+      "sampleAnswer": "In the cybercrime example, all three organs play distinct but connected roles: (1) The Legislature recognised the new threat posed by digital criminals and passed new laws specifically targeting cybercrime, giving legal authority to combat it. (2) The Executive, through the cyber police (an enforcement agency), implemented those laws by investigating crimes, tracking down criminals, and arresting them. (3) The Judiciary examined the evidence presented, determined whether the accused had indeed broken the law, and awarded appropriate punishment such as fines and imprisonment. Together they form a complete cycle — laws are made, enforced, and adjudicated. The separation of powers is essential because if one group controlled all three organs, there would be no checks on their authority. They could make unjust laws, enforce them selectively, and deliver biased judgements. The separation ensures that each organ can monitor the others — for instance, the judiciary can strike down an unfair law made by the legislature, or question an unlawful action by the executive. This balance protects citizens' rights and is a cornerstone of a fair and functioning democracy."
+    }
+  ],
+  "fromCache": false
+}

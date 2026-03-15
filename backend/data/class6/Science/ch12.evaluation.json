@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 12,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which textbook is published by NCERT for Science at Grade 6 under the new curriculum framework?",
+      "themeWrapper": "O brave young scholar, your first quest begins! Name the sacred tome of science gifted to Grade 6 warriors by NCERT:",
+      "options": [
+        "A) Wonder",
+        "B) Curiosity",
+        "C) Discovery",
+        "D) Inquiry"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "According to the foreword of 'Curiosity', which national policy advocates a shift from content-based to competency-based education?",
+      "themeWrapper": "Valiant seeker, a scroll of policy governs your learning quest! Which great decree calls for competency-based education over mere content memorisation?",
+      "options": [
+        "A) NEP 2015",
+        "B) NCF-SE 2019",
+        "C) NEP 2020",
+        "D) RTE 2009"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "How many chapters does the 'Curiosity' Textbook of Science for Grade 6 comprise?",
+      "themeWrapper": "Courageous adventurer, how many chambers of knowledge lie within the fortress of 'Curiosity'? Choose your answer wisely!",
+      "options": [
+        "A) Eight",
+        "B) Ten",
+        "C) Twelve",
+        "D) Fifteen"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is the purpose of the boxes labelled 'Do you know?', 'More to know!', 'Think it over!' and 'More to do!' in the 'Curiosity' textbook? Are these sections evaluative or non-evaluative?",
+      "themeWrapper": "Mighty explorer, your scroll bears special inscriptions labelled 'Do you know?' and 'Think it over!' — what heroic purpose do these markings serve in your quest for knowledge, and do they count toward your trial of assessment?",
+      "sampleAnswer": "These boxes are designed to sustain the interest of readers by presenting challenging ideas, additional information, poems, stories, strange facts, and other interesting materials. They are non-evaluative in nature, meaning they are not meant for formal assessment but to encourage learners to think and explore beyond the syllabus."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What integrated approach does the 'Curiosity' textbook follow at the Middle Stage, and which four scientific disciplines are woven together in its content?",
+      "themeWrapper": "Fearless champion of learning, the 'Curiosity' textbook unites the four elemental forces of science! Name the four disciplines combined in this integrated quest of the Middle Stage, and explain why this approach is used.",
+      "sampleAnswer": "The 'Curiosity' textbook follows an integrated approach at the Middle Stage that weaves together Biology, Chemistry, Physics, and Earth Science. This integrated approach is used to help learners appreciate the interrelations between these subjects, make sense of their observations and experiences, and develop fundamental capacities across all four disciplines. It also includes cross-cutting themes like environmental education, value education, inclusive education, and Indian Knowledge Systems (IKS)."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the overall structure and pedagogical approach of the 'Curiosity' Textbook of Science for Grade 6. How does the book attempt to shift from rote memorisation to experiential and competency-based learning? Mention the various features included in each chapter that support this approach.",
+      "themeWrapper": "Supreme hero of knowledge, you stand before the greatest trial! Reveal in full the architecture of the legendary tome 'Curiosity' — how is it forged to transform passive readers into active scientific explorers? Describe its features, its mission, and the pedagogy that makes it a weapon against mere memorisation.",
+      "sampleAnswer": "The 'Curiosity' Textbook of Science for Grade 6 is crafted in alignment with NEP 2020 and NCF-SE 2023 and comprises twelve chapters. Its core aim is to shift learners from rote memorisation to experiential, competency-based learning.\n\nPedagogical approach and features include:\n1. Real-life connections: Each chapter begins with stories related to real-life situations to capture learners' interest and connect them with prior knowledge.\n2. Hands-on activities: Creative, inclusive activities are embedded throughout each chapter to provide minds-on and hands-on experiences. Some activities require advance preparation by both teachers and students.\n3. Reflective questions: Following each activity, questions help learners assess their understanding. Thought-provoking questions encourage deep thinking, self-awareness, and critical analysis.\n4. Special boxes: Non-evaluative boxes like 'Do you know?', 'More to know!', 'Think it over!', and 'More to do!' present additional information, interesting facts, poems, and stories to sustain interest and encourage exploration beyond the syllabus.\n5. Know a scientist: Some chapters include brief biographies of Indian scientists related to the concept being studied, highlighting the historical and contemporary aspects of science.\n6. Keywords: At the end of each chapter, keywords summarise important ideas and scientific processes, guiding learners on how scientific knowledge is generated, tested, and applied.\n7. Summary: Each chapter includes a summary offering an overview of the main points.\n8. Integrated approach: The book integrates Biology, Chemistry, Physics, and Earth Science along with cross-cutting themes such as environmental education, value education, inclusive education, and Indian Knowledge Systems (IKS).\n9. Chapter 1 is non-evaluative and sets the tone by showcasing science as a way of thinking, observing, and questioning.\n\nOverall, the textbook treats students as active participants rather than passive recipients, fostering curiosity, critical thinking, and collaborative learning."
+    }
+  ],
+  "fromCache": false
+}

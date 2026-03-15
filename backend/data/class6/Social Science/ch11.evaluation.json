@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 11,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which urban local body governs a city with a population of more than 10 lakh people?",
+      "themeWrapper": "Hero of the Urban Realm, answer this: To lead a great city of more than 10 lakh souls, which governing body must rise?",
+      "options": [
+        "A. Nagar Panchayat",
+        "B. Municipal Council (Nagar Palika)",
+        "C. Municipal Corporation (Mahanagar Nigam)",
+        "D. Gram Panchayat"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Municipal Corporation (Mahanagar Nigam)"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which city holds the distinction of having the oldest municipal institution in India, established in 1688?",
+      "themeWrapper": "Champion of History, unearth this ancient quest: Which mighty city claims the oldest municipal institution in all of India?",
+      "options": [
+        "A. Mumbai",
+        "B. Kolkata",
+        "C. Indore",
+        "D. Chennai (Madras)"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D. Chennai (Madras)"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In urban governance, cities and towns are divided into smaller units called what?",
+      "themeWrapper": "Brave Seeker of Order, to understand how a city is divided for the purpose of local governance, you must identify these smaller units. What are they called?",
+      "options": [
+        "A. Gram Sabhas",
+        "B. Panchayat Samitis",
+        "C. Wards",
+        "D. Districts"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Wards"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What does 'decentralised' governance mean in the context of urban local bodies? Give one example of how ward committees function.",
+      "themeWrapper": "Valiant Questioner, your quest is to explain the power that lies close to the people: What does decentralised governance mean for urban local bodies, and how does a ward committee put this power into action?",
+      "sampleAnswer": "Decentralised governance means that instead of operating under a single central authority, local communities have a direct say in managing their own areas and the issues they face. For example, ward committees facilitate activities such as conducting health camps or organising campaigns against single-use plastics, and they report problems like blocked drains or water leaks to the authorities."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Name any four functions performed by urban local bodies, as described in the chapter.",
+      "themeWrapper": "Guardian of the City, prove your knowledge of civic duty: Name four noble tasks that urban local bodies carry out to protect and serve their citizens.",
+      "sampleAnswer": "Four functions performed by urban local bodies are: (1) helping take care of infrastructure such as roads and drains, (2) garbage collection and disposal, (3) collecting local taxes and fines, and (4) checking the implementation of government schemes. (Other valid answers include maintaining burial grounds and planning for economic and social development.)"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Compare and contrast the Panchayati Raj system in rural areas with urban local bodies. How are both systems examples of grassroots democracy, and why is citizen participation important in both?",
+      "themeWrapper": "Grand Champion of Democracy, face the ultimate quest: Compare the rural Panchayati Raj system with urban local bodies, and explain why both stand as shining pillars of grassroots democracy where every citizen's voice is a weapon of change.",
+      "sampleAnswer": "Both the Panchayati Raj system and urban local bodies are forms of grassroots democracy, meaning governance that starts from the ground level and involves ordinary people. Similarities: In both systems, representatives are elected by the local people to voice their concerns. Both aim to decentralise power so that communities can manage their own affairs. Both have a tiered structure — for example, Gram Sabha and Gram Panchayat in rural areas, and Ward Committees and Municipal Corporations in urban areas. Both are responsible for providing basic services and infrastructure to citizens. Differences: Rural governance through Panchayati Raj operates in villages where communities are smaller and people know each other personally, allowing for more direct participation. Urban local bodies govern larger, more complex and diverse populations in cities and towns. Urban bodies are categorised by population size — Nagar Panchayat, Municipal Council, and Municipal Corporation — whereas rural bodies follow the three-tier Panchayati Raj structure. Citizen Participation: In both systems, active citizen participation is crucial. In villages, citizens can directly attend Gram Sabha meetings and raise issues, as shown by the children who reported the dangerous electricity wire. In cities, residents must responsibly follow rules like waste segregation, report problems like water leaks, and cooperate with their ward committees. Without engaged and responsible citizens, even the best local body cannot function efficiently. This is the true meaning of participatory democracy — where governance is not just the duty of elected representatives but a shared responsibility of all citizens."
+    }
+  ],
+  "fromCache": false
+}

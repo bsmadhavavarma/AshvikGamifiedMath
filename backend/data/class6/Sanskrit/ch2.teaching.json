@@ -1,0 +1,68 @@
+{
+  "chapterTitle": "Chapter 3",
+  "source": {
+    "classLevel": 6,
+    "subject": "Sanskrit",
+    "chapterTitle": "Chapter 3"
+  },
+  "topics": [
+    "Three genders in Sanskrit (पुंलिङ्गम्, स्त्रीलिङ्गम्, नपुंसकलिङ्गम्)",
+    "Three numbers: Singular, Dual, Plural (एकवचनम्, द्विवचनम्, बहुवचनम्)",
+    "Pronouns and asking questions (एषः कः? एषा का? एतत् किम्?)",
+    "Action words / Verbs (क्रियापदानि)",
+    "Saying what something is NOT (negative sentences)"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 2,
+  "sections": [
+    {
+      "heading": "⚔️ Quest Power 1: Three Kinds of Words — The Three Realms!",
+      "body": "In Sanskrit, every noun — every person, animal, or thing — belongs to one of three realms called genders. The first realm is पुंलिङ्गम् — for male beings, like बालकः (boy) or गजः (elephant). The second realm is स्त्रीलिङ्गम् — for female beings, like बालिका (girl) or अजा (goat). The third realm is नपुंसकलिङ्गम् — for things that are neither, like पुस्तकम् (book) or फलम् (fruit). Think of it like cricket teams — Team Boys, Team Girls, and Team Things!",
+      "keyPoints": [
+        "पुंलिङ्गम् = male (boy, elephant, tree — बालकः, गजः, वृक्षः)",
+        "स्त्रीलिङ्गम् = female (girl, goat, doctor lady — बालिका, अजा, वैद्या)",
+        "नपुंसकलिङ्गम् = things (book, fruit, wheel — पुस्तकम्, फलम्, चक्रम्)"
+      ]
+    },
+    {
+      "heading": "🧙 Quest Power 2: One, Two, or Many — The Number Spell!",
+      "body": "Sanskrit has a special magic that English does not — it has THREE number forms, not just two! एकवचनम् means just ONE thing, like बालकः (one boy). द्विवचनम् means exactly TWO things, like बालकौ (two boys). बहुवचनम् means THREE or more, like बालकाः (many boys). It is like counting your laddoos at Diwali — one laddoo, two laddoos, or a whole plate full!",
+      "keyPoints": [
+        "एकवचनम् = 1 (बालकः — one boy, बालिका — one girl, फलम् — one fruit)",
+        "द्विवचनम् = exactly 2 (बालकौ — two boys, बालिके — two girls, फले — two fruits)",
+        "बहुवचनम् = 3 or more (बालकाः — many boys, बालिकाः — many girls, फलानि — many fruits)"
+      ]
+    },
+    {
+      "heading": "🐉 Quest Power 3: Ask the Dragon — Who? What? (एषः कः? एषा का? एतत् किम्?)",
+      "body": "A true quest hero always asks questions! In Sanskrit, you ask 'Who is this?' differently depending on the gender. For a boy or male thing nearby, you say एषः कः? (Who is this?). For a girl or female thing nearby, you say एषा का?. For a thing like a book or TV, you say एतत् किम्? (What is this?). The answer uses the same rule — सः (he/that male), सा (she/that female), तत् (that thing). Imagine pointing at your cricket bat — एतत् किम्? — एतत् दण्डः! (What is this? This is a bat!)",
+      "keyPoints": [
+        "एषः कः? — asking about a nearby male person or animal; answer with एषः/सः",
+        "एषा का? — asking about a nearby female person or animal; answer with एषा/सा",
+        "एतत् किम्? — asking about a nearby thing; answer with एतत्/तत्"
+      ]
+    },
+    {
+      "heading": "🔥 Quest Power 4: Action Words — Spells of Doing! (क्रियापदानि)",
+      "body": "Every hero needs action — and in Sanskrit, action words change their form based on how many people are doing the action. For ONE person doing something, we say पठति (reads), खादति (eats), गच्छति (goes). For TWO people, the spell changes to पठतः, खादतः. For MANY people, it becomes पठन्ति, खादन्ति. Think of it like a cricket match — one player bats, two players run between wickets, and all eleven players field — each group gets its own word!",
+      "keyPoints": [
+        "One person acting: पठति, पिबति, खादति, गच्छति, क्रीडति",
+        "Two people acting: पठतः, पिबतः, खादतः (notice the तः ending)",
+        "Many people acting: पठन्ति, पिबन्ति, खादन्ति (notice the न्ति ending)"
+      ]
+    },
+    {
+      "heading": "🌟 Quest Power 5: Say NO Like a Wizard — Negative Sentences!",
+      "body": "Even the mightiest wizard knows when to say NO. In Sanskrit, to say something is NOT happening, you simply add न before the verb. So सः पठति means 'He reads', but सः न पठति means 'He does NOT read.' And here is a hero's tip — after saying what someone is NOT doing, you add तु to tell what they ARE doing instead. Like: सः न भ्रमति, सः तु पाठयति — 'He does not wander, he teaches!' Just like when Maa says — 'तुम cricket नहीं खेलो, homework करो!' Same idea in Sanskrit!",
+      "keyPoints": [
+        "न + verb = negative sentence (सः न खादति = He does not eat)",
+        "Use तु after the negative to say what IS happening (सः न खादति, सः तु पठति — He does not eat, he reads)",
+        "This works for all three genders and all three number forms"
+      ]
+    }
+  ],
+  "summary": "In this quest chapter, young heroes learned to master three powerful realms of Sanskrit — the three genders (male, female, and things), the three number forms (one, two, and many), and the art of asking questions using एषः कः, एषा का, and एतत् किम्. You also learned action word spells that change form based on how many people are acting, and the mighty wizard trick of using न to say what is NOT happening, followed by तु to say what IS happening. With these powers unlocked, you can now describe people, animals, and things in Sanskrit — just like a true language wizard on a grand quest!",
+  "fromCache": false
+}

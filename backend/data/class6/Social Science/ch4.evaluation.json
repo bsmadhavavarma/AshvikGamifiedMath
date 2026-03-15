@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 4,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What does the term 'Sapta Sindhava' mean, as used in the Ṛig Veda?",
+      "themeWrapper": "Young Hero, your first quest begins! Decode the ancient scroll of the Ṛig Veda and claim the answer!",
+      "options": [
+        "A. Land of seven rivers",
+        "B. Land of the jamun tree",
+        "C. Land of the Bharatas",
+        "D. Land of the snowy mountains"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A. Land of seven rivers"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which ancient emperor used the term 'Jambudvīpa' in his inscriptions to describe the whole of India around 250 BCE?",
+      "themeWrapper": "The second trial calls you, brave explorer! Identify the mighty emperor who carved truth into stone!",
+      "options": [
+        "A. Chandragupta",
+        "B. Aśhoka",
+        "C. Vikramaditya",
+        "D. Harsha"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. Aśhoka"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "How did the ancient Greeks arrive at their name 'Indoi' or 'Indike' for India?",
+      "themeWrapper": "Warrior of Knowledge, trace the heroic journey of a word across civilisations and conquer this challenge!",
+      "options": [
+        "A. They adapted the Sanskrit word 'Bharata'",
+        "B. They borrowed it from Chinese texts",
+        "C. They adapted the Persian word 'Hindu' by dropping the initial 'h'",
+        "D. They invented it based on the Indus River directly"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. They adapted the Persian word 'Hindu' by dropping the initial 'h'"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Explain how the name 'Bhāratavarṣha' is described in the Viṣhṇu Purāṇa. What are the geographical boundaries mentioned for it?",
+      "themeWrapper": "Champion of Learning, unroll the ancient map and describe the sacred land of Bhārata as the sages saw it!",
+      "sampleAnswer": "The Viṣhṇu Purāṇa describes Bhāratavarṣha as the country that lies north of the ocean and south of the snowy mountains (the Himalayas). This means the land is bounded by the Himalayan mountains in the north and by the seas (Indian Ocean) in the south, covering the entire Indian Subcontinent."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Trace the journey of the word 'Sindhu' as it transformed into different names for India across Persian, Greek, and Chinese languages.",
+      "themeWrapper": "Bold Pathfinder, follow the trail of a single powerful word as it crosses mountain and sea to conquer the languages of the world!",
+      "sampleAnswer": "The word 'Sindhu' referred to the Indus River in ancient India. The Persians adapted it to 'Hindu' or 'Hidu' (as 's' became 'h' in Persian). The ancient Greeks, who had no 'h' sound, dropped it and called India 'Indoi' or 'Indike'. The Chinese borrowed the word through Persian and transformed it into 'Yindu' or 'Yintu'. Thus, one original word — Sindhu — gave rise to many different names for India across civilisations."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "India has been known by many names given both by its own people and by foreigners. Describe at least four names India has been called, explain their origins, and discuss what these names tell us about India's connections with the wider ancient world.",
+      "themeWrapper": "Greatest Hero of the Quest, the final and most glorious challenge awaits you! Weave together the stories of India's many names and reveal the grand tapestry of this ancient land's identity and legacy!",
+      "sampleAnswer": "India has been known by many remarkable names throughout history, each revealing a unique thread in the tapestry of the past.\n\n1. Sapta Sindhava: The Ṛig Veda, India's most ancient text, called the northwest region 'Sapta Sindhava', meaning 'land of the seven rivers'. This name highlights the importance of rivers — especially the Sindhu (Indus) — to the earliest inhabitants.\n\n2. Bhāratavarṣha / Bhārata: Used in the Mahābhārata and later the Viṣhṇu Purāṇa, this name means 'the country of the Bharatas'. It is defined as the land north of the ocean and south of the Himalayas. This name endures today as 'Bharat', the official name of India in the Constitution.\n\n3. Jambudvīpa: Meaning 'the island of the jamun tree', this name was used in the Mahābhārata and also by Emperor Aśhoka around 250 BCE to refer to the entire Subcontinent, including regions of modern-day Bangladesh, Pakistan, and Afghanistan.\n\n4. Hindu / Hind: The ancient Persians, who conquered the Indus region in the 6th century BCE, adapted 'Sindhu' into 'Hindu' or 'Hind' — a purely geographical term referring to India. This shows India's early contact with Persian civilisation.\n\n5. Indoi / Indike / India: The Greeks borrowed from the Persians and called India 'Indoi', eventually giving rise to the English name 'India'. This reflects the influence of Greek interactions and trade with the Subcontinent.\n\n6. Yindu / Tianzhu: The Chinese referred to India as 'Yindu' (also derived from Sindhu) and 'Tianzhu' (meaning 'heavenly master'), showing deep respect for India as the birthplace of Buddhism.\n\nThese names collectively tell us that India was not an isolated land. It was connected to Persia, Greece, China, and the Arab world through trade, religion, and cultural exchange. The fact that so many civilisations named India — often tracing back to the single word 'Sindhu' — shows how central India was to the ancient world."
+    }
+  ],
+  "fromCache": false
+}

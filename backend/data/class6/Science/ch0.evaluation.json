@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the chapter, what is the MOST important quality a young explorer of science must possess to begin their quest?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Gateway Riddle: Every great quest begins with a single trait. Answer correctly to unlock the first gate!",
+      "options": [
+        "A) Memorising facts and figures",
+        "B) Curiosity",
+        "C) Doing complex experiments",
+        "D) Reading many books"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Curiosity"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A brave young scientist's pen stops writing. She guesses the ink has finished, opens the pen, but finds the ink refill is NOT empty. What heroic step does she take NEXT according to the scientific method described in the chapter?",
+      "themeWrapper": "⚔️ Quest Challenge 2 — The Trial of the Broken Pen: The path is blocked! Only the one who knows the next step of the scientific method may pass!",
+      "options": [
+        "A) She gives up and uses a new pen",
+        "B) She accepts her first guess was correct",
+        "C) She makes a new guess, perhaps that the ink dried up, and tests it",
+        "D) She memorises all facts about pens"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) She makes a new guess, perhaps that the ink dried up, and tests it"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "The chapter compares science to a giant jigsaw puzzle. Which of the following BEST captures what this heroic comparison means?",
+      "themeWrapper": "⚔️ Quest Challenge 3 — The Puzzle of the Universe: Decode this mighty metaphor to claim your reward!",
+      "options": [
+        "A) Science has a limited number of discoveries to make, just like a puzzle has a fixed number of pieces",
+        "B) Every new discovery adds knowledge, but also raises more questions, and sometimes old ideas must be corrected",
+        "C) Science is only fun when done with friends, just like puzzles",
+        "D) Once the puzzle of science is complete, there will be nothing left to discover"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Every new discovery adds knowledge, but also raises more questions, and sometimes old ideas must be corrected"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "List the five steps of the scientific method described in the chapter in the correct order, as a hero follows a map — one step at a time.",
+      "themeWrapper": "🗺️ Quest Scroll 1 — The Hero's Map: Name the five sacred steps that every true scientist must follow on their quest for knowledge!",
+      "sampleAnswer": "The five steps of the scientific method as described in the chapter are: 1) Observe something interesting or something we do not understand. 2) Wonder about it and think of a question. 3) Guess a possible answer to that question. 4) Test the guess through experiments or more observations. 5) Analyse the results to see if it actually answers the question."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "The chapter says that a bicycle repair person, a cook, and an electrician can all be acting like scientists. Explain in your own words why the chapter makes this heroic claim — what do these everyday heroes have in common with scientists?",
+      "themeWrapper": "🗺️ Quest Scroll 2 — The Legend of Everyday Heroes: Mighty warriors of knowledge exist all around us! Prove you understand why by answering this challenge.",
+      "sampleAnswer": "The chapter claims that everyday people like a bicycle repair person, a cook, or an electrician act like scientists because they all follow the scientific method in their daily work. For example, the cook asks why the dal spilled out and guesses it may be due to too much water; the repair person looks for where the air leaked from the tyre; the electrician investigates whether the bulb or switch is faulty. In each case, they observe a problem, ask a question, make a guess, and test it — which is exactly what scientists do. Therefore, anyone who asks questions and finds answers using this process is working like a scientist."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The chapter introduces science as 'a way of thinking, observing and doing things.' Based on the chapter, describe what science is, what qualities a good science explorer needs, what topics this book will help you investigate, and why science is described as a never-ending quest rather than a subject with fixed answers. Use examples from the chapter to support your answer.",
+      "themeWrapper": "🏆 The Ultimate Quest — The Grand Scroll of Wisdom: Only the most heroic and thorough adventurer can complete this final challenge. Summon all your knowledge and write a mighty answer worthy of a true Champion of Curiosity!",
+      "sampleAnswer": "Science is described in the chapter as a way of thinking, observing, and doing things to understand the world we live in and to uncover the secrets of the universe. It is compared to a big adventure where we ask questions, explore the world, and try to understand how things work. The most important quality a science explorer needs is curiosity — the desire to wonder and ask 'how' and 'why' about everything around us. Keen observation of our surroundings is equally important. The chapter also highlights that science is rarely done alone; scientists work in large teams, and collaboration makes discovery more fun and effective. The book will help us explore a wide range of fascinating topics — from planet Earth, which is the only planet known to support life, to the amazing variety of plants and animals on it, to food and materials we use every day such as paper, metal, plastic, and rubber. It will also help us understand water, temperature, heat, cold, and even objects beyond Earth like the Sun, Moon, and stars. Science is described as a never-ending quest because it is compared to a giant jigsaw puzzle with no end. Every new discovery adds a piece to the puzzle but also raises more new questions. Sometimes, new discoveries even show that older ideas were wrong and must be corrected. For example, when a student's pen stops writing and one guess is proven wrong, a new guess must be made and tested — the quest for truth continues. This is why the chapter ends with the inspiring idea: 'To be a wise person, you must be a whys person!' Science is not about memorising facts but about following a step-by-step scientific method — observing, questioning, guessing, testing, and analysing — to keep exploring the infinite mysteries of the universe."
+    }
+  ],
+  "fromCache": false
+}

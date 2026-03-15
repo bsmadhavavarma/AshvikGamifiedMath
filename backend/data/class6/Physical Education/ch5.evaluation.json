@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which textbook has been designed for Grade 6 Physical Education and Well-being under NCERT's Khel Yatra series?",
+      "themeWrapper": "🗺️ Quest Scroll I — The Hero's First Step: Brave adventurer, before you embark on the Khel Yatra, identify the sacred tome that guides Grade 6 warriors on their physical education journey!",
+      "options": [
+        "A) Khel Utsav",
+        "B) Khel Yatra",
+        "C) Khel Sangam",
+        "D) Khel Pravesh"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Khel Yatra"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "How many units are there in the Grade 6 Khel Yatra textbook, and which two sports are introduced in Units 3 and 4?",
+      "themeWrapper": "🏆 Quest Scroll II — The Map of Challenges: The grand quest has many stages! A hero must know the total number of realms to conquer and the two great sport-battles introduced in the middle stages of this journey.",
+      "options": [
+        "A) 4 units — Kabaddi and Football",
+        "B) 6 units — Kho-Kho and Cricket",
+        "C) 5 units — Kho-Kho and Handball",
+        "D) 5 units — Volleyball and Badminton"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) 5 units — Kho-Kho and Handball"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to NCF-SE 2023, how many total periods are recommended for Physical Education and Well-being in Grade 6, and how many periods per week does the suggestive timetable assume?",
+      "themeWrapper": "⚔️ Quest Scroll III — The Battle of Time: Every great warrior must manage their training hours wisely! Decode the sacred time-table inscribed in the Khel Yatra chronicles for Grade 6 heroes.",
+      "options": [
+        "A) 100 periods total, 4 periods per week",
+        "B) 120 periods total, 5 periods per week",
+        "C) 150 periods total, 6 periods per week",
+        "D) 120 periods total, 4 periods per week"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) 120 periods total, 5 periods per week"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name the five units covered in the Grade 6 Khel Yatra textbook and briefly state the focus of the Yoga unit.",
+      "themeWrapper": "📜 Quest Scroll IV — The Five Realms of the Hero: A worthy adventurer must chart all five realms of their training quest! Name each realm and describe what the mystical realm of Yoga seeks to bestow upon the young warrior.",
+      "sampleAnswer": "The five units are: 1) Understanding the importance of Physical Education, 2) Motor Fitness, 3) Introduction to Kho-Kho, 4) Introduction to Handball, and 5) Yoga. The Yoga unit focuses on holistic well-being by teaching Yama (social discipline), Niyama (personal discipline), Sūkshma Vyāyāma (loosening exercises), Āsana, Prānāyāma (breathing practices), Dhārana (single-pointed concentration), and Dhyāna (meditation). These practices build flexibility, strength, balance, improved concentration, and deep inner peace, laying the foundation for a long and healthy life."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is 'circle time' in the context of Khel Yatra classes, and why is it considered important?",
+      "themeWrapper": "🌟 Quest Scroll V — The Council of Champions: After every great battle, heroes gather in a sacred circle to reflect and grow! Explain what this special gathering is in Khel Yatra and why the quest-masters (teachers) consider it essential.",
+      "sampleAnswer": "Circle time is a dedicated period held after physical activities or games during Physical Education and Well-being sessions. It is a time when students come together to discuss, reflect upon, and reinforce the values and dispositions learned during play — such as teamwork, courtesy, respect, fair play, and helping each other. It is considered important because the inculcation of these life values happens partly during physical activities and partly through reinforcement during circle time. The textbook emphasises that sufficient time must be allocated for circle time during every Physical Education and Well-being period."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The Khel Yatra textbook is described as promoting 'holistic development' in students. Explain in detail how each of the five units in Grade 6 Khel Yatra contributes to the physical, mental, social, and value-based development of a student.",
+      "themeWrapper": "🏰 Quest Scroll VI — The Ultimate Hero's Trial: The mightiest quest demands the mightiest answer! Great champion, demonstrate your mastery of the entire Khel Yatra — explain how each of its five realms forges a student into a complete, well-rounded warrior of life, nurturing their body, mind, social bonds, and inner values.",
+      "sampleAnswer": "Khel Yatra promotes holistic development through its five carefully designed units:\n\n1. Unit 1 — Understanding Physical Education: This unit establishes the foundation by helping students explore the connection between physical education and overall well-being. Students learn how physical activity positively impacts personal and social behaviour, the importance of a healthy lifestyle, and critical safety measures to minimise injury risks. This builds mental awareness and social responsibility from the very beginning.\n\n2. Unit 2 — Motor Fitness: Students learn about key fitness components — endurance, strength, flexibility, and balance. Understanding how each component contributes to overall health builds physical competence. Practising these components regularly develops a student's body systematically and instils the value of consistent hard work and self-discipline.\n\n3. Unit 3 — Introduction to Kho-Kho: This indigenous Indian sport develops agility, speed, and teamwork. Students discover the cultural heritage of India through this game. The emphasis on team cohesion, inclusivity, and enjoyment develops social skills, cooperation, and a sense of shared identity, while the physical demands build endurance and motor skills.\n\n4. Unit 4 — Introduction to Handball: Handball introduces students to a globally played team sport, developing skills like throwing, catching, and coordination. It promotes strategic thinking (cognitive development), teamwork, empathy, and resilience. Students learn to accept both victories and defeats graciously, building emotional maturity.\n\n5. Unit 5 — Yoga: This unit addresses mental and spiritual dimensions of holistic development. Through Yama and Niyama, students develop positive social and personal habits. Āsana practices build physical strength, flexibility, and balance. Prānāyāma strengthens respiratory health and calms the mind. Dhārana and Dhyāna deepen concentration and bring inner peace, preparing students for life's challenges with tranquility and bliss.\n\nOverall, Khel Yatra fulfils the vision of NCF-SE 2023 by nurturing the five planes of human existence (pañchakośhas), making each student physically fit, mentally sharp, socially responsible, value-driven, and spiritually aware — a true all-round champion of life."
+    }
+  ],
+  "fromCache": false
+}

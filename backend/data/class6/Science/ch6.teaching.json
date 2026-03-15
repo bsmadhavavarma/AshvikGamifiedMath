@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 7",
+  "source": {
+    "classLevel": 6,
+    "subject": "Science",
+    "chapterTitle": "Chapter 7"
+  },
+  "topics": [
+    "Hot and Cold — can we always trust our touch?",
+    "What is Temperature?",
+    "Thermometers and how to use them",
+    "Temperature Scales — Celsius, Fahrenheit and Kelvin"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 6,
+  "sections": [
+    {
+      "heading": "⚔️ Quest Level 1 — Can Your Hand Be a Wizard?",
+      "body": "Imagine you just came back from playing cricket in hot sun and dip your hand in a bucket of water. It feels super cool! But your friend who was sitting in an AC room dips their hand in the same bucket — it feels warm to them! Same water, different feelings. This is the problem — our hands are not reliable wizards for measuring hotness or coldness. They get tricked by what they felt just before. So we cannot always trust our sense of touch to tell us exactly how hot or cold something is.",
+      "keyPoints": [
+        "Our hands can be fooled — they judge temperature based on what they felt before",
+        "Two people can feel the same water differently — one says warm, one says cool",
+        "We need a better tool than our touch to measure hotness or coldness"
+      ]
+    },
+    {
+      "heading": "🔥 Quest Level 2 — Unlocking the Power of Temperature",
+      "body": "Temperature is like a score that tells us exactly how hot or cold something is — no guessing, no tricks! A hot cup of chai has a higher temperature than a glass of cold nimbu paani. The bigger the difference in temperature between two things, the more we can understand which one is hotter. To measure this score, we use a magical tool called a thermometer. It gives us the exact number so we never get confused.",
+      "keyPoints": [
+        "Temperature is the true and reliable measure of hotness or coldness",
+        "A hotter body always has a higher temperature number",
+        "A thermometer is the device that measures temperature"
+      ]
+    },
+    {
+      "heading": "🧙 Quest Level 3 — The Thermometer Spell",
+      "body": "There are two main types of thermometers on your quest. The first is the clinical thermometer — this is the one Phiban used to check if Lambok had fever! It is a digital thermometer that runs on a battery and shows numbers on a small screen. You place its tip under the tongue and wait for a beep — just like waiting for a cricket umpire's signal! The second type is a laboratory thermometer, which is used to measure temperatures of other things like water or air — not the human body. The clinical thermometer can only measure body temperature range, so it cannot measure boiling water or ice.",
+      "keyPoints": [
+        "Clinical thermometer measures human body temperature — wash the tip before and after use",
+        "Digital clinical thermometers use heat sensors and are safer than old mercury ones",
+        "Laboratory thermometers are used for measuring temperatures beyond the body range"
+      ]
+    },
+    {
+      "heading": "🐉 Quest Level 4 — The Three Realms of Temperature Scales",
+      "body": "In the realm of temperature, there are three kingdoms — Celsius, Fahrenheit, and Kelvin! Most thermometers in India use the Celsius scale, written as °C. The normal healthy body temperature is 37.0°C. Some thermometers show 98.6°F — that is the same temperature on the Fahrenheit scale, used in some countries. Scientists across the world use the Kelvin scale, where the unit is just called kelvin (K) — and here the normal body temperature would be about 310 K. All three scales are named after the great scientist-wizards who created them!",
+      "keyPoints": [
+        "Celsius (°C) is used in everyday life in India — normal body temp is 37.0°C",
+        "Fahrenheit (°F) shows the same normal body temp as 98.6°F",
+        "Kelvin (K) is the scale used in science — add 273.15 to Celsius to get Kelvin"
+      ]
+    },
+    {
+      "heading": "🏆 Quest Level 5 — The Mastery of Body Temperature",
+      "body": "Here is a hero's secret — not every healthy person has exactly 37.0°C! That number is just the average of many healthy people. Your temperature can change based on your age, the time of day, or even how active you have been — like after running in a race at school! Children usually have slightly higher temperatures than adults. Old people may have slightly lower temperatures. A healthy body stays between 35°C and 42°C — going too far beyond this range means something is wrong and we need a doctor.",
+      "keyPoints": [
+        "Normal body temperature of 37.0°C is an average — slight differences are okay",
+        "Age, time of day, and activity can all change your body temperature a little",
+        "Human body temperature stays between 35°C and 42°C when healthy"
+      ]
+    }
+  ],
+  "summary": "Young hero, you have completed the Temperature Quest! You discovered that our sense of touch can be tricked, so we cannot always trust it to judge hot and cold — just like how your hand feels different after being in warm or cold water. That is why we use a thermometer, a powerful tool that gives us the exact temperature. Clinical thermometers help us check if we have fever — the normal body temperature is around 37.0°C, but small differences are totally fine. You also unlocked the three realms of temperature scales — Celsius for daily life in India, Fahrenheit used in some countries, and Kelvin used by scientists worldwide. You now have the mastery to measure temperature wisely and safely, just like a true science wizard!",
+  "fromCache": false
+}

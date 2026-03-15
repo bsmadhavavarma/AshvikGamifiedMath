@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the Kho-Kho sitting stance (FSA-1), how should a player balance their body weight?",
+      "themeWrapper": "Young Warrior, before you charge into battle on the Kho-Kho court, you must master the foundational stance! Answer this challenge:",
+      "options": [
+        "A) Only on the toes, with hands raised above the head",
+        "B) Balanced on both the toes and hands, with fingers forming a bridge",
+        "C) On the heels, with palms flat on the ground",
+        "D) Entirely on the knees, leaning backward"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Balanced on both the toes and hands, with fingers forming a bridge"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "When a chaser gives a 'Kho' signal, which of the following correctly describes the technique?",
+      "themeWrapper": "Hero of the Chase, the sacred signal of Kho must be delivered with precision! Identify the correct technique:",
+      "options": [
+        "A) Only shouting 'Kho' loudly without any physical touch",
+        "B) Tapping the teammate's back and shouting 'Kho' simultaneously, with at least one leg behind the cross lane",
+        "C) Tapping the teammate's shoulder and whispering 'Kho', with both legs in front of the cross lane",
+        "D) Waving a hand and saying 'Kho', while standing fully outside the cross lane"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Tapping the teammate's back and shouting 'Kho' simultaneously, with at least one leg behind the cross lane"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following best describes the 'Pole Turn' skill in Kho-Kho?",
+      "themeWrapper": "Brave Pivot-Master, the Pole Turn is your weapon to outmanoeuvre foes at the boundary! Choose the correct description:",
+      "options": [
+        "A) The chaser jumps over the pole and continues running in the same direction",
+        "B) The chaser plants the inner foot near the pole, pivots the body, swings the free leg around, and then pushes off in the new direction",
+        "C) The chaser stops completely at the pole and waits for a 'Kho' signal before turning",
+        "D) The defender holds the pole to stop the chaser from making a turn"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) The chaser plants the inner foot near the pole, pivots the body, swings the free leg around, and then pushes off in the new direction"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe TWO dodging techniques a defender can use in Kho-Kho to escape chasers, as described in FSA-5.",
+      "themeWrapper": "Cunning Defender on the Quest of Survival — your knowledge of evasion arts is tested! Describe two ways you would outwit the chasers using dodging techniques from your training scrolls.",
+      "sampleAnswer": "A defender in Kho-Kho can use the following two dodging techniques: (1) Leaning — The defender leans their body in one direction but runs in another direction, misleading the chaser about their intended path and creating an opening to slip past. (2) Quick Turns — The defender makes rapid turns and pivots to change direction swiftly, making it difficult for the chasers to anticipate their movement."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is 'Covering Chase' in Kho-Kho, and how does a chaser coordinate their movements during this skill?",
+      "themeWrapper": "Strategic Commander of the Kho-Kho Quest — explain the art of Covering Chase to your fellow warriors so they may deploy it wisely on the battlefield!",
+      "sampleAnswer": "Covering Chase is an offensive strategy in Kho-Kho where the chaser understands and coordinates their movement with other players to effectively pursue the defender. In this skill, the chaser gets up and walks toward the defender in a straight line. Whenever an opportunity arises, the chaser moves toward the defender by making a straight, left, or right move. This involves reading the defender's actions and adjusting the approach accordingly to successfully tag or tap them."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Kho-Kho requires a blend of multiple fundamental skills to be played effectively. Describe in detail at least FOUR fundamental skills covered in Unit 3 (FSA-1 to FSA-8), explaining how each skill contributes to making a player effective in the game. Also mention the physical qualities that Kho-Kho helps develop.",
+      "themeWrapper": "Grand Champion of the Kho-Kho Quest, you have journeyed through all eight FSA trials! Now prove your mastery by crafting a heroic account of the fundamental skills you have conquered and how each one arms you for glory on the court. The Council of Warriors awaits your complete wisdom!",
+      "sampleAnswer": "Kho-Kho is a thrilling Indian sport that develops agility, speed, leg strength, and teamwork. Unit 3 introduces eight fundamental skills (FSAs) that together make a player well-rounded and effective:\n\n1. Sitting Stance (FSA-1): This is the foundational position in Kho-Kho. A player sits on their toes inside a designated block, places hands on the ground forming a bridge with fingers and thumb, and leans slightly forward with body weight balanced on both toes and hands. This stance allows players to spring into action quickly, developing lower body strength and readiness.\n\n2. Chasing (FSA-2): The chaser starts from the sitting stance and initiates running by leading with the left leg when going left and the right leg when going right. The chaser maintains an upright posture, swings arms naturally, and keeps eyes focused on the defender. Correct footwork and running technique allow the chaser to pursue the defender efficiently.\n\n3. Giving Kho (FSA-3): A Kho is given by tapping the back of a teammate and shouting 'Kho' simultaneously. At least one leg must be behind the cross lane during this action. There are three types: simple touch kho, early kho, and late kho. This skill is critical for team coordination and seamless transition of chasing roles.\n\n4. Dodging (FSA-5): A key defensive skill, dodging involves leaning the body in one direction while moving in another (wrong footing) and making quick turns and pivots to change direction suddenly. This confuses chasers and helps the defender survive longer in the game.\n\n5. Zig-Zag Running (FSA-6): This involves two types — straight and sidewards. Players begin slowly, focus on footwork and direction changes, gradually increase speed, and practice lateral movements. This skill improves agility, reaction time, and coordination, making players unpredictable on the field.\n\n6. Pole Turn (FSA-7): Used by chasers to change direction quickly around the poles. The chaser plants the inner foot, pivots the body, swings the free leg around the pole, and pushes off in the desired direction. Flexing the elbows during the turn adds speed and balance.\n\nOverall, Kho-Kho develops physical qualities such as speed, agility, leg strength, stamina, coordination, and teamwork. By mastering these skills, a player becomes a versatile, effective, and strategic contributor to their team."
+    }
+  ],
+  "fromCache": false
+}

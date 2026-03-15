@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "मम नाम गणेशः। अहं ________।",
+      "themeWrapper": "O brave Scholar, step forth! Choose the correct word to complete this warrior's introduction:",
+      "options": [
+        "A. छात्रः",
+        "B. चिकित्सकः",
+        "C. शिक्षकः",
+        "D. सैनिकः"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. शिक्षकः"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "युवां कौ ? आवां ________ स्वः। Which word correctly fills the blank when two people say 'We two are singers' (masculine)?",
+      "themeWrapper": "Champion of Grammar, the Quest demands you identify the correct dual form. Which word completes the battle cry of two singers?",
+      "options": [
+        "A. गायकाः",
+        "B. गायकौ",
+        "C. गायिका",
+        "D. गायकः"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. गायकौ"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In Sanskrit grammar, 'अहम्, आवाम्, वयम्' are pronouns of which Purusha (person)?",
+      "themeWrapper": "The ancient scroll of grammar reveals three powerful words — Seeker, can you name the realm they belong to?",
+      "options": [
+        "A. प्रथमपुरुषः (Third Person)",
+        "B. मध्यमपुरुषः (Second Person)",
+        "C. उत्तमपुरुषः (First Person)",
+        "D. None of the above"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. उत्तमपुरुषः (First Person)"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Fill in the blanks using the correct pronoun: (क) ________ शिक्षकौ स्वः। (ब) ________ छात्राः स्थ। (ग) ________ सैनिकः असि। Also write the meaning of 'तन्त्रज्ञः' and 'आरक्षकः' in Hindi.",
+      "themeWrapper": "Valiant Quester, the Temple of Pronouns challenges you! Complete these sacred sentences and decode the meaning of two noble professions to prove your mastery.",
+      "sampleAnswer": "(क) आवाम् शिक्षकौ स्वः। (ब) यूयम् छात्राः स्थ। (ग) त्वम् सैनिकः असि। 'तन्त्रज्ञः' means तन्त्रज्ञ (Computer Engineer) and 'आरक्षकः' means आरक्षक (Policeman)."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Write the rule for using 'अनुस्वारः' in place of 'म्' as taught in this chapter, and give two examples from the lesson.",
+      "themeWrapper": "O Scholar-Warrior, unlock the secret rule of the Anusvara — the hidden dot that holds great power in Sanskrit script! State the law and prove it with two examples from the Quest chapter.",
+      "sampleAnswer": "The rule states: When 'म्' (m with halanta) appears before a consonant or at the end of a word (पदान्त), it is written as अनुस्वारः (ं). Example 1: पुस्तकं नास्ति (instead of पुस्तकम् नास्ति). Example 2: अहं पठामि (instead of अहम् पठामि)."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Using the pattern taught in Chapter 4 (अहं च त्वं च), write six sentences introducing yourself and five other people with different professions — using all three numbers (एकवचन, द्विवचन, बहुवचन) and both genders (पुंलिङ्ग and स्त्रीलिङ्ग). Also explain the difference between मध्यमपुरुष and उत्तमपुरुष pronouns with examples from the chapter.",
+      "themeWrapper": "O Grand Champion of the Sanskrit Quest, you have reached the Final Trial! The Realm of Pronouns and Professions calls upon your full knowledge. Demonstrate your heroic command of number, gender, and person — craft your answer like a true warrior of language!",
+      "sampleAnswer": "Sentences using different numbers and genders: (1) एकवचन पुंलिङ्ग — अहं शिक्षकः असि। (2) द्विवचन पुंलिङ्ग — आवां सैनिकौ स्वः। (3) बहुवचन पुंलिङ्ग — वयं चिकित्सकाः स्मः। (4) एकवचन स्त्रीलिङ्ग — अहं नर्तकी असि। (5) द्विवचन स्त्रीलिङ्ग — युवां गायिके स्थः। (6) बहुवचन स्त्रीलिङ्ग — यूयं शिक्षिकाः स्थ। Explanation: मध्यमपुरुष pronouns (त्वम्, युवाम्, यूयम्) are used when speaking TO someone (second person), e.g., त्वं छात्रः असि — 'You are a student.' उत्तमपुरुष pronouns (अहम्, आवाम्, वयम्) are used when speaking ABOUT oneself (first person), e.g., अहं शिक्षकः असि — 'I am a teacher.' The verb forms also change accordingly: असि for मध्यमपुरुष एकवचन, and असि/स्मि for उत्तमपुरुष."
+    }
+  ],
+  "fromCache": false
+}

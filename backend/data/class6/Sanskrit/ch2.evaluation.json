@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In Sanskrit, what is the correct plural (बहुवचनम्) form of 'बालकः'?",
+      "themeWrapper": "⚔️ Quest Challenge I — A young warrior must identify the correct battle formation! Choose the plural form of 'बालकः' to advance:",
+      "options": [
+        "A) बालकौ",
+        "B) बालकाः",
+        "C) बालिकाः",
+        "D) बालके"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) बालकाः"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which pronoun is used in Sanskrit for a single neuter gender (नपुंसकलिङ्गम्) object nearby, as in 'This is a television'?",
+      "themeWrapper": "🏹 Quest Challenge II — The hero must name the correct pronoun to unlock the treasure chest! Which pronoun correctly replaces 'this' for a nearby neuter noun?",
+      "options": [
+        "A) सः",
+        "B) एषः",
+        "C) एतत्",
+        "D) सा"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) एतत्"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following verb forms correctly means 'they all (plural) go' in Sanskrit?",
+      "themeWrapper": "🛡️ Quest Challenge III — The army must march together! Choose the correct verb form meaning 'they (plural) go' to lead the battalion forward:",
+      "options": [
+        "A) गच्छति",
+        "B) गच्छतः",
+        "C) गच्छन्ति",
+        "D) गच्छामि"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) गच्छन्ति"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "In Sanskrit, what are the three genders (लिङ्ग) taught in this chapter? Give one example word for each gender.",
+      "themeWrapper": "📜 Scroll of Knowledge — The wise sage asks the brave seeker: Name the three genders of Sanskrit nouns and provide one example word each to prove your mastery!",
+      "sampleAnswer": "The three genders are: 1) पुंलिङ्गम् (Masculine) — e.g., बालकः (boy); 2) स्त्रीलिङ्गम् (Feminine) — e.g., बालिका (girl); 3) नपुंसकलिङ्गम् (Neuter) — e.g., फलम् (fruit)."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "How do you form a negative sentence in Sanskrit? Using the chapter's examples, write a negative sentence for 'सा खादति' (She eats).",
+      "themeWrapper": "🗡️ Riddle of the Guardian — The gatekeeper blocks your path and demands: Show how you turn a positive statement into a negative one in Sanskrit, using 'सा खादति' as your example!",
+      "sampleAnswer": "In Sanskrit, 'न' (na) is placed before the verb to make a sentence negative. So 'सा खादति' becomes 'न, सा न खादति। सा तु _______ (another action)।' For example: 'न, सा न खादति। सा तु पठति।' (No, she does not eat. She rather reads.)"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the concept of vachanam (वचनम्) in Sanskrit as taught in Chapter 3. Describe एकवचनम्, द्विवचनम्, and बहुवचनम् with examples from all three genders (पुंलिङ्गम्, स्त्रीलिङ्गम्, नपुंसकलिङ्गम्). Also write three Sanskrit sentences using the pronouns सः/सा/तत् correctly.",
+      "themeWrapper": "🏆 The Grand Quest — The final dragon guards the kingdom's greatest treasure! To defeat it, the hero must demonstrate complete mastery of Sanskrit number forms. Explain all three वचनम् forms across all three genders with examples, and compose three Sanskrit sentences using correct pronouns. Only a true Sanskrit warrior can pass this ultimate test!",
+      "sampleAnswer": "In Sanskrit, 'वचनम्' refers to grammatical number — how many objects or people are being referred to. There are three numbers:\n\n1. एकवचनम् (Singular) — refers to one person/thing.\n   - पुंलिङ्गम्: बालकः (one boy), गजः (one elephant)\n   - स्त्रीलिङ्गम्: बालिका (one girl), अजा (one goat)\n   - नपुंसकलिङ्गम्: फलम् (one fruit), पुस्तकम् (one book)\n\n2. द्विवचनम् (Dual) — refers to exactly two persons/things.\n   - पुंलिङ्गम्: बालकौ (two boys), गजौ (two elephants)\n   - स्त्रीलिङ्गम्: बालिके (two girls), अजे (two goats)\n   - नपुंसकलिङ्गम्: फले (two fruits), पुस्तके (two books)\n\n3. बहुवचनम् (Plural) — refers to three or more.\n   - पुंलिङ्गम्: बालकाः (many boys), गजाः (many elephants)\n   - स्त्रीलिङ्गम्: बालिकाः (many girls), अजाः (many goats)\n   - नपुंसकलिङ्गम्: फलानि (many fruits), पुस्तकानि (many books)\n\nThree sentences using pronouns:\n1. सः बालकः पठति। (He is a boy. He reads.) — masculine singular\n2. सा शिक्षिका पाठयति। (She is a teacher. She teaches.) — feminine singular\n3. तत् फलम् अस्ति। (That is a fruit.) — neuter singular"
+    }
+  ],
+  "fromCache": false
+}

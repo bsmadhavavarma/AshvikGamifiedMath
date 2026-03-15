@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "During the execution of a handball pass, at what angle should the elbow be bent when the throwing arm is brought back behind the head?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Angle of Power! A warrior must know the precise angle to unleash their throw. Choose wisely:",
+      "options": [
+        "A. 45 degrees",
+        "B. 60 degrees",
+        "C. 90 degrees",
+        "D. 120 degrees"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. 90 degrees"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the lead-up activity 'Monkey in the Middle', what happens when the monkey successfully disrupts a pass?",
+      "themeWrapper": "🏆 Quest Challenge 2 — The Rule of the Arena! Every hero must know the laws of the battlefield. Which fate befalls the one who fails?",
+      "options": [
+        "A. The monkey scores a point and the game restarts",
+        "B. The player who made the unsuccessful pass becomes the new monkey",
+        "C. The monkey gets an extra turn inside the circle",
+        "D. The game stops and a new monkey is chosen by the teacher"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. The player who made the unsuccessful pass becomes the new monkey"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "While dribbling a handball, at what height should the ball generally be maintained to make it difficult for defenders to grab it?",
+      "themeWrapper": "🛡️ Quest Challenge 3 — The Shield of Dribbling! A skilled warrior keeps their weapon guarded. At what level must the ball be kept?",
+      "options": [
+        "A. Above the head",
+        "B. At chest level",
+        "C. Below the waist level",
+        "D. At shoulder level"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Below the waist level"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe the correct hand position and body stance required for catching a handball, including how the follow-through helps prevent the ball from bouncing back.",
+      "themeWrapper": "📜 Quest Scroll 1 — The Warrior's Grip! A true champion masters the art of receiving. Describe the sacred technique of catching to prove your knowledge:",
+      "sampleAnswer": "For catching a handball, the player should stand with feet shoulder-width apart and knees slightly bent, leaning slightly forward with weight on the feet. The fingers should be spread widely apart to maximise the surface area, with hands positioned in front of the torso and elbows slightly bent. Eyes must stay fixed on the ball throughout. The catch is made using a loose wrist, firm fingers, and the pad of the palm. During follow-through, the player steps closer to the ball, bends the elbows, and brings the hands slightly back towards the body to absorb the force and prevent the ball from bouncing back."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Explain the key points of dribbling technique in handball, specifically focusing on hand position and the importance of using both hands.",
+      "themeWrapper": "📜 Quest Scroll 2 — The Two-Handed Warrior! A legendary hero fights with both arms. Explain the dribbling technique that makes a player unstoppable on the court:",
+      "sampleAnswer": "In handball dribbling, the ball should be held with the fingertips rather than the palm, with fingers gently spread across the ball's surface. The wrist and forearm should be in line, and the hand should be maintained on top of the ball. The body should be lowered with knees slightly bent, head up, and back straight for a clear court vision. Developing the ability to dribble with both hands is essential — practising with the non-dominant hand greatly enhances overall ball-handling ability. This makes the player unpredictable and harder to defend against."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe in detail the complete technique for shooting the ball in handball — covering grip, stance, execution, and follow-through. Also explain how the 'Blindfolded Shooter' lead-up activity helps improve shooting performance, and what the instructor and shooter do differently to succeed.",
+      "themeWrapper": "🌟 The Final Quest — The Ultimate Strike! The greatest warrior saves their mightiest skill for last. Demonstrate your mastery by explaining every step of the handball shooting technique, and reveal how teamwork between the shooter and instructor unlocks peak performance:",
+      "sampleAnswer": "Shooting in handball involves four key phases. In Grip, the player holds the ball firmly with fingers spread for optimal control and spin. In Stance, the feet are placed shoulder-width apart; the body is positioned sideways towards the goal with the non-throwing shoulder facing the target; knees are bent, body weight is transferred forward on the toes, and the player prepares for a high jump. During Execution, the throwing arm's elbow is extended in the air, the forearm is raised high, and the shoulder is extended at approximately 90° behind the head. The non-throwing arm indicates the target. The player jumps and brings the elbow forward with a swift motion of the forearm, wrist, shoulder and torso. At the peak of the jump, the ball is released forcefully downward towards the goal, right in front of the forehead. In Follow-through, after releasing the ball, the arm continues its forward motion, which improves accuracy and directs the ball towards the goal. In the 'Blindfolded Shooter' activity, the shooter is blindfolded and relies entirely on verbal guidance from the instructor to locate and aim at the goal. The shooter must listen carefully and trust their partner, while the instructor must give clear, precise verbal directions. This activity builds communication, trust, spatial awareness, and muscle memory, improving overall shooting accuracy and teamwork on the court."
+    }
+  ],
+  "fromCache": false
+}

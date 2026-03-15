@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 8,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "A line that cuts a figure into two parts that exactly overlap when folded along that line is called:",
+      "themeWrapper": "⚔️ QUEST CHALLENGE — The Gate of Reflection stands before you! Answer correctly to pass:",
+      "options": [
+        "A line of symmetry",
+        "A diagonal",
+        "A perpendicular bisector",
+        "A radius"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A line of symmetry"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A square piece of paper is folded vertically, horizontally, and along both diagonals. How many lines of symmetry does a square have in total?",
+      "themeWrapper": "🛡️ QUEST TRIAL — The Ancient Square Shield reveals its secrets. How many axes of power does it possess?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "4"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "A paper windmill is rotated about its centre. At which angle does it first look exactly the same as its original position (other than 360°)?",
+      "themeWrapper": "🌀 QUEST SPIN — The Enchanted Windmill of Rotational Power is before you! At what angle does it first reveal its hidden symmetry?",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "90°"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is the difference between line symmetry and rotational symmetry? Give one example of a shape that has rotational symmetry but NO line of symmetry.",
+      "themeWrapper": "📜 QUEST SCROLL — The Twin Tomes of Symmetry lie before the young hero. Decipher the difference between the two ancient arts and name a shape that wields only one of them!",
+      "sampleAnswer": "Line symmetry (reflection symmetry) means a figure can be folded along a line so that both halves overlap exactly. Rotational symmetry means a figure looks exactly the same after being rotated by a certain angle (less than 360°) about a fixed centre point. A paper windmill (pinwheel) is an example of a shape that has rotational symmetry (angles of symmetry: 90°, 180°, 270°, 360°) but has no line of symmetry, because folding it does not produce two overlapping halves."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "When an ink blot is created by folding a paper, spilling ink on one half, and pressing the halves together, the resulting figure is symmetric. Where is the line of symmetry in such a figure, and why does this method always produce a symmetric figure?",
+      "themeWrapper": "🔮 QUEST RIDDLE — The Ink Blot Oracle speaks! Brave adventurer, explain why the Oracle's method always conjures a perfectly symmetric pattern and where its line of power lies.",
+      "sampleAnswer": "The line of symmetry in the ink blot figure is the fold line of the paper. This method always produces a symmetric figure because the ink on one half is pressed onto the other half, creating an exact mirror image. The fold acts as the line of reflection — whatever shape appears on one side is perfectly mirrored on the other side, making both halves identical. Therefore, the fold line is always the line of symmetry."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "A regular hexagon (a hexagon with all equal sides and equal angles) is given to you. (a) How many lines of symmetry does a regular hexagon have? Describe where each line of symmetry is located. (b) What are all the angles of rotational symmetry for a regular hexagon? (c) Is the diagonal of a rectangle (that is NOT a square) a line of symmetry? Explain why or why not using the concept of mirror halves.",
+      "themeWrapper": "🏆 FINAL QUEST — The Grand Symmetry Citadel has three sealed doors. Only the mightiest mathematical hero who can answer all three parts will unlock the treasure within. Draw upon your knowledge and conquer!",
+      "sampleAnswer": "(a) A regular hexagon has 6 lines of symmetry. Three lines pass through opposite vertices (corner to corner), and three lines pass through the midpoints of opposite sides (mid-side to mid-side). Each line divides the hexagon into two mirror halves that overlap exactly when folded. (b) The angles of rotational symmetry for a regular hexagon are: 60°, 120°, 180°, 240°, 300°, and 360°. This is because the hexagon has 6 equal parts, and 360° ÷ 6 = 60°, so every multiple of 60° is an angle of symmetry — giving 6 angles in total. (c) The diagonal of a rectangle that is NOT a square is NOT a line of symmetry. When we fold the rectangle along its diagonal, the two parts do not overlap each other completely — one triangular part extends beyond the other. This is because the length and width of a non-square rectangle are different, so the two triangular halves created by the diagonal are not mirror images of each other. Only if the rectangle were a square (where length equals width) would the diagonal serve as a line of symmetry."
+    }
+  ],
+  "fromCache": false
+}

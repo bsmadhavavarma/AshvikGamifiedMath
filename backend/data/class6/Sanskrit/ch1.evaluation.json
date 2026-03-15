@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Sanskrit",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "संयुक्त-व्यञ्जनं किं भवति?",
+      "themeWrapper": "O brave seeker of Sanskrit knowledge! Answer this challenge: When two or more consonants (व्यञ्जन) combine together, what is formed?",
+      "options": [
+        "A single vowel (एकः स्वरः)",
+        "A conjunct consonant (संयुक्त-व्यञ्जनम्)",
+        "A new letter (नवीनः वर्णः)",
+        "A sentence (वाक्यम्)"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "A conjunct consonant (संयुक्त-व्यञ्जनम्)"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following is the correct वर्ण-वियोगः (letter analysis) of the word 'क्रीडा'?",
+      "themeWrapper": "Warrior of words, decode the syllable-shield! Identify the correct breakdown of 'क्रीडा' as taught in the chapter:",
+      "options": [
+        "क् + र् + ई + ड् + आ",
+        "क् + री + ड् + आ",
+        "क + र + ई + ड + आ",
+        "क् + ऋ + ड् + आ"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "क् + र् + ई + ड् + आ"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the meaning of the word 'जाह्नवी' as given in the chapter's vocabulary (शब्दार्थाः)?",
+      "themeWrapper": "Quest champion, consult the sacred word-treasury of Deepakam! What does 'जाह्नवी' mean?",
+      "options": [
+        "A celestial weapon of Indra",
+        "Rishi Jahnu's daughter — the Ganga river",
+        "The group of seven great sages",
+        "A type of auspicious symbol"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "Rishi Jahnu's daughter — the Ganga river (जह्नु ऋषेः पुत्री – गङ्गा)"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Do वर्ण-संयोगः for the following: Write the complete word formed from these letters — म् + अ + ञ् + ज् + उ + ल् + अ + ः",
+      "themeWrapper": "Hero of Sanskrit, forge these letter-fragments into a mighty word! Combine the given वर्णाः and write the resulting शब्दः along with its meaning from the chapter.",
+      "sampleAnswer": "The combined word is 'मञ्जुलः', which means lovely or charming (सुन्दरः / रमणीयः)."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Perform वर्ण-वियोगः (letter analysis) of the word 'ब्रह्मचारी' and write each component वर्णः separately.",
+      "themeWrapper": "O fearless explorer of Deepakam! Unsheathe your analytical sword and break down the word 'ब्रह्मचारी' into its individual वर्णाः, as shown by the examples in Chapter 2.",
+      "sampleAnswer": "ब्रह्मचारी = ब् + र् + अ + ह् + म् + अ + च् + आ + र् + ई — This word contains the conjunct consonant 'ह्म' (ह् + म्) as well as 'ब्र' (ब् + र्)."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 2 of Deepakam focuses on संयुक्त-व्यञ्जनानि (conjunct consonants). (a) Explain in your own words how conjunct consonants are formed. (b) Give any five examples of conjunct consonants from the chapter along with their वर्ण-वियोगः. (c) Write the meanings (in Hindi or English) of any three words from the chapter's शब्दार्थाः section that contain conjunct consonants.",
+      "themeWrapper": "Grand Quest Champion, this is your ultimate trial! Demonstrate your mastery of संयुक्त-व्यञ्जनानि — the combined consonant warriors of Sanskrit. Answer all three parts to claim full glory!",
+      "sampleAnswer": "(a) Conjunct consonants (संयुक्त-व्यञ्जनानि) are formed when two or more consonants (व्यञ्जनाः) combine together without any vowel in between. They are not new letters but a special writing style of combining individual consonants. For example, क् + ष् = क्ष, and ज् + ञ् = ज्ञ. (b) Five examples with वर्ण-वियोगः: 1. क्षा (कक्षा) = क् + ष् + आ; 2. पत्रम् = प् + अ + त् + र् + अ + म्; 3. ज्ञानम् = ज् + ञ् + आ + न् + अ + म्; 4. विद्या = व् + इ + द् + य् + आ; 5. राष्ट्रम् = र् + आ + ष् + ट् + र् + अ + म्. (c) Three word meanings: 1. वज्रम् — Indra's weapon / Diamond (इन्द्रस्य आयुधम् / हीरकम्); 2. ब्रह्म — Ultimate Reality / Supreme God (परमात्मा / परमेश्वर); 3. संयमः — Self-control (आत्मानुशासनम्)."
+    }
+  ],
+  "fromCache": false
+}

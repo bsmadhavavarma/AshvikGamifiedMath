@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Physical Education",
+  "chapterIndex": 4,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "From which Sanskrit word is the term 'Yoga' derived, and what does it mean?",
+      "themeWrapper": "O brave Seeker, before you may wield the power of Yoga, you must know its true name and origin! Answer this to advance on your Quest:",
+      "options": [
+        "A) 'Yuj' meaning to unite or integrate",
+        "B) 'Yog' meaning to meditate",
+        "C) 'Yukt' meaning to breathe",
+        "D) 'Yuj' meaning to strengthen"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following correctly lists all eight limbs of Ashtāṅga Yoga as compiled by Mahārṣi Patanjali?",
+      "themeWrapper": "Warrior of Wisdom, the eight sacred limbs are the pillars of your Quest! Choose the path that names all eight correctly:",
+      "options": [
+        "A) Yama, Niyama, Āsana, Prānāyāma, Pratyāhāra, Dhārana, Dhyāna, Samādhi",
+        "B) Yama, Niyama, Āsana, Prānāyāma, Dhārana, Dhyāna, Samādhi, Krīḍā",
+        "C) Ahimsa, Satya, Āsana, Prānāyāma, Pratyāhāra, Dhārana, Dhyāna, Samādhi",
+        "D) Yama, Niyama, Āsana, Sūkshma, Pratyāhāra, Dhārana, Dhyāna, Samādhi"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which Yama is demonstrated when a student feels the urge to claim a friend's idea as their own during a class discussion but chooses not to do so?",
+      "themeWrapper": "Noble Hero, your integrity is tested on this Quest! Which sacred Yama guides this act of honesty and fairness?",
+      "options": [
+        "A) Ahimsa",
+        "B) Brahmacharya",
+        "C) Asteya",
+        "D) Aparigraha"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What are the five Yamas described in Ashtāṅga Yoga? Write the name and one-line meaning of each.",
+      "themeWrapper": "Courageous Questor, to unlock the Gate of Social Discipline, name the five sacred Yamas and reveal the power each one holds!",
+      "sampleAnswer": "The five Yamas are: 1) Ahimsa – being kind and not hurting any living being; 2) Satya – always telling the truth and being honest; 3) Asteya – not taking things that do not belong to you; 4) Brahmacharya – using energy wisely and having self-control; 5) Aparigraha – not being greedy and being happy with what you have."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is the meaning of the Opening Prayer (Om Saha Nāvavatu) recited at the start of a Yoga session, and why is it important?",
+      "themeWrapper": "Seeker of Inner Light, before any great Quest begins, a sacred invocation is chanted. Decode the meaning and importance of the Opening Prayer to earn your first scroll of wisdom!",
+      "sampleAnswer": "The Opening Prayer means: 'May we both (Guru and Śiśya/teacher and student) be protected. May we both be nourished. May we practise with great vigour and energy. Let our studies be fruitful and enlightening. May we not hate each other.' It is important because it celebrates the sacred bond between a student and teacher, sets a positive and focused tone for the session, and invokes divine protection and wisdom for both."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the concept of Aparigraha with reference to the story of Lal Bahadur Shastri. How can students of your age practise Aparigraha in their daily lives? Also explain how Aparigraha connects to overall well-being as described in the principles of Yoga.",
+      "themeWrapper": "Champion of the Quest, the mightiest virtue is not strength of arms but mastery over greed! Unfold the tale of the great leader, explain the principle of Aparigraha, and chart a heroic path for young warriors like yourself to practise it every day!",
+      "sampleAnswer": "Aparigraha is one of the five Yamas in Ashtāṅga Yoga. It means not being greedy, letting go of the desire to accumulate more than what is needed, and being grateful and content with what one already has. It promotes simple living and generosity. The story of Lal Bahadur Shastri illustrates Aparigraha beautifully. Even as Prime Minister of India, Shastri went to buy a saree for his wife but chose one that fit his budget rather than accepting expensive gifts or using his powerful position for personal gain. He politely declined the shopkeeper's offer of free sarees, saying he could only accept what he could afford. This shows deep contentment, honesty and freedom from greed. Students can practise Aparigraha in daily life by: not demanding the latest gadgets or toys if they already have enough; sharing stationery and books with classmates who need them; being satisfied with simple meals rather than wasting food; not hoarding things they rarely use; and being thankful for what they have rather than constantly wanting more. In the context of Yoga, Aparigraha contributes to overall well-being by reducing stress and dissatisfaction caused by endless desires. When the mind is free from greed, it becomes calmer and more focused, which supports the practice of other limbs of Ashtāṅga Yoga such as Dhārana (concentration) and Dhyāna (meditation). Thus, Aparigraha helps a person move towards inner peace and happiness, which is the ultimate goal of Yoga — Samādhi."
+    }
+  ],
+  "fromCache": false
+}

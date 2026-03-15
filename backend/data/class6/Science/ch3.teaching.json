@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 4",
+  "source": {
+    "classLevel": 6,
+    "subject": "Science",
+    "chapterTitle": "Chapter 4"
+  },
+  "topics": [
+    "Magnetic and Non-magnetic Materials",
+    "Poles of a Magnet",
+    "Finding Directions with Magnets",
+    "The Magnetic Compass"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 3,
+  "sections": [
+    {
+      "heading": "⚔️ The Quest Begins — What is a Magnet?",
+      "body": "Long ago, brave sailors on the sea needed a special power to find their way. That power came from magnets! Magnets are objects that can pull certain things towards them — like magic! You have already seen this power in your pencil box that snaps shut, or fridge stickers that stick to the door. These are all artificial magnets made by people. But the very first magnets were natural stones called lodestones, found in the ground long ago.",
+      "keyPoints": [
+        "Magnets have a special pulling power called magnetic force",
+        "Natural magnets are called lodestones; the ones we make are called artificial magnets",
+        "Magnets come in many shapes — bar, U-shaped, ring, and more"
+      ]
+    },
+    {
+      "heading": "🧲 The Spell of Attraction — Magnetic vs Non-magnetic Materials",
+      "body": "Not everything bows to the magnet's spell! Only certain materials get attracted to a magnet. Iron is the most famous magnetic material — like the iron in your tiffin box or a steel spoon. Nickel and cobalt are also magnetic. But wood, rubber, plastic, and glass? They have no power against the magnet — they simply do not get attracted at all. We call them non-magnetic materials.",
+      "keyPoints": [
+        "Magnetic materials like iron, nickel, and cobalt are attracted to magnets",
+        "Non-magnetic materials like wood, rubber, plastic, and glass are NOT attracted to magnets",
+        "You can test any object by bringing a magnet close to it and watching what happens"
+      ]
+    },
+    {
+      "heading": "🏰 The Two Realms — North Pole and South Pole",
+      "body": "Every magnet has two powerful ends called poles — the North Pole and the South Pole. Think of it like two team captains on a cricket field, one at each end! If you sprinkle tiny iron pieces near a magnet, most of them will crowd near the two ends — the poles are the strongest! Here is the most amazing thing: even if you break a magnet into tiny pieces, each piece will still have BOTH a North and a South pole. You can never have just one pole alone.",
+      "keyPoints": [
+        "Every magnet has two poles — North Pole and South Pole — at its two ends",
+        "The poles are the strongest parts of a magnet",
+        "A magnet always has both poles together; a single pole can never exist alone"
+      ]
+    },
+    {
+      "heading": "🧭 The Wizard's Compass — Finding Directions",
+      "body": "Here is the greatest power of a magnet — it always knows where North is! If you hang a magnet freely on a thread, it will always stop and point in the North-South direction. This happens because our Earth itself is like a giant magnet! The end pointing North is called the North pole of the magnet. Sailors used this magical trick to find directions even during storms when the sky was dark and stars were hidden.",
+      "keyPoints": [
+        "A freely hanging magnet always comes to rest pointing in the North-South direction",
+        "Earth behaves like a giant magnet, which is why this happens",
+        "This is how we can tell if a metal piece is a real magnet — only a magnet always points North-South"
+      ]
+    },
+    {
+      "heading": "🚢 The Hero's Tool — The Magnetic Compass",
+      "body": "The magnetic compass is the wizard's greatest gift to explorers! It is a small round box with a freely spinning needle made of a magnet inside it. The needle always points North-South, so you always know your direction — on land or sea! The red-painted end of the needle points North. To use it, you simply place it flat, let the needle settle, then match the dial to the needle — and all four directions are revealed! You can even make your own compass by stroking an iron needle with a magnet 30-40 times and floating it on a cork in water.",
+      "keyPoints": [
+        "A magnetic compass has a freely spinning magnetic needle that always points North",
+        "The red end of the needle points towards the North direction",
+        "You can make a homemade compass using a magnetised needle, a cork, and water"
+      ]
+    }
+  ],
+  "summary": "In this exciting quest, we discovered the amazing world of magnets! We learned that magnets attract only certain materials like iron, nickel, and cobalt — called magnetic materials — while things like wood, plastic, and rubber are non-magnetic. Every magnet has two strong ends called the North Pole and the South Pole, and no matter how small you break a magnet, it will always have both poles. The most heroic power of a magnet is that when hung freely, it always points in the North-South direction because Earth itself is a giant magnet. This incredible property was used by ancient sailors to build the magnetic compass — a small device with a spinning magnetic needle that always shows directions, helping brave explorers navigate the seas even during the darkest storms!",
+  "fromCache": false
+}

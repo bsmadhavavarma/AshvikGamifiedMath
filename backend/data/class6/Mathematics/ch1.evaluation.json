@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "How many lines can pass through two distinct points?",
+      "themeWrapper": "⚔️ Quest of the Twin Beacons: Two mighty beacons (points) are fixed on the map. How many roads (lines) can a hero draw that pass through BOTH beacons at the same time?",
+      "options": [
+        "Infinitely many lines",
+        "Exactly one unique line",
+        "Exactly two lines",
+        "No line can pass through both"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "A ray OA starts at point O and passes through point A, and also through point B (which lies beyond A on the same path). Which of the following statements is TRUE?",
+      "themeWrapper": "🏹 The Archer's Path: A brave archer fires an arrow from fortress O, and the arrow passes through watchtower A and then beyond to outpost B. Which declaration about this arrow-ray holds TRUE?",
+      "options": [
+        "The ray can be named OB because B lies on the ray beyond A",
+        "The ray must only be named OA and cannot be called OB",
+        "The ray can be named AO because A is on the ray",
+        "The ray has two starting points: O and A"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What determines the SIZE of an angle?",
+      "themeWrapper": "🌀 The Riddle of the Rotating Shield: A warrior spins one arm of a shield from its starting position to its final resting place. What mystical force determines how BIG the angle formed truly is?",
+      "options": [
+        "The length of the two arms forming the angle",
+        "The amount of rotation or turn needed to move one ray to the other",
+        "The distance between the tips of the two arms",
+        "The thickness of the lines drawn for the arms"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Explain the difference between a line segment, a ray, and a line. Give one real-life example of each.",
+      "themeWrapper": "📜 The Cartographer's Challenge: A royal mapmaker must explain three sacred paths to the young explorer — the bounded path, the one-way eternal road, and the infinite highway. Prove your mastery by describing each and naming one example from the real world.",
+      "sampleAnswer": "A LINE SEGMENT has two fixed end points and a definite length — for example, the edge of a ruler or a crease formed by folding paper. A RAY has one starting point (initial point) and extends infinitely in only one direction — for example, a beam of light from a torch or rays of sunlight. A LINE has no endpoints and extends infinitely in BOTH directions — it cannot be fully drawn. A stretched taut thread imagined endlessly in both directions models a line. Key distinction: Line segment is bounded, ray is half-bounded, line is fully unbounded."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "∠APC is formed at vertex P with arms PA and PC. A student writes this angle as ∠P. Why is this labelling incorrect? When is it acceptable to name an angle using just the vertex letter?",
+      "themeWrapper": "🛡️ The Naming Ceremony: At the Hall of Angles, every angle must be correctly named or the gates remain sealed. A young knight wrote '∠P' on the scroll — but the gate did not open! Explain the mistake and tell the knight when using only the vertex letter IS allowed.",
+      "sampleAnswer": "Labelling the angle as ∠P is incorrect when MORE THAN ONE angle is formed at point P. In the given figure, point P is the vertex of multiple angles — for example ∠APC and ∠APB are both at vertex P. Writing just ∠P creates ambiguity because it does not tell us which of the several angles at P is being referred to. To name an angle precisely, we must write one point from each arm along with the vertex in the MIDDLE — so ∠APC clearly identifies the angle whose arms are PA and PC. Using only the vertex letter is acceptable ONLY when there is exactly ONE angle formed at that vertex, leaving no possibility of confusion."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Mark four points A, B, C, D on paper such that no three points are on the same line. (a) Draw all possible lines through pairs of these points and count how many lines you get. Name them all. (b) List ALL angles that can be named using the points A, B, C, D as vertex or arm-points. (c) Explain the method of superimposition and how you would use it to compare any two of these angles without measuring with a protractor.",
+      "themeWrapper": "🗺️ The Grand Quest of Four Kingdoms: Four kingdoms — A, B, C, D — are positioned so that no three lie on the same royal road. As the Grand Strategist, you must: (a) map ALL possible roads between kingdoms and count them, (b) catalogue EVERY angle formed at the crossroads of these roads, and (c) describe the heroic technique of SUPERIMPOSITION to judge which angle reigns supreme — all without the aid of a measuring instrument!",
+      "sampleAnswer": "(a) LINES THROUGH PAIRS OF FOUR POINTS: The number of lines through pairs of 4 points (no three collinear) = 4C2 = 6 lines. The six lines are: AB, AC, AD, BC, BD, and CD. \n\n(b) ANGLES USING A, B, C, D: An angle requires a vertex and one point on each arm. For each point as vertex, the arms are formed by rays going to the other three points, giving C(3,2)=3 angles per vertex. With 4 vertices: 4 × 3 = 12 angles. Named angles include — At vertex A: ∠BAC, ∠BAD, ∠CAD; At vertex B: ∠ABC (∠ABD... wait, ∠ABD meaning arms BA and BD), i.e., ∠ABС, ∠ABD, ∠CBD; At vertex C: ∠ACB, ∠ACD, ∠BCD; At vertex D: ∠ADB, ∠ADC, ∠BDC. Total = 12 distinct angles. \n\n(c) METHOD OF SUPERIMPOSITION TO COMPARE ANGLES: To compare, say, ∠BAC and ∠BDC without a protractor — (i) Trace one angle, say ∠BAC, carefully on a transparent sheet. (ii) Place the traced angle over ∠BDC so that their VERTICES overlap exactly. (iii) Align one arm of the traced angle with one arm of ∠BDC. (iv) Observe where the second arm of the traced angle falls relative to the second arm of ∠BDC. If the second arm of the traced angle lies INSIDE ∠BDC, then ∠BAC is SMALLER. If it lies OUTSIDE, ∠BAC is LARGER. If both arms overlap perfectly, the angles are EQUAL. This method works because the size of an angle is purely the AMOUNT OF ROTATION between its arms — it does not depend on the length of the arms or where the angle is located on the page."
+    }
+  ],
+  "fromCache": false
+}

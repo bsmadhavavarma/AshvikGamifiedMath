@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "Perimeter and Area",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "Perimeter and Area"
+  },
+  "topics": [
+    "Perimeter of rectangles, squares and triangles",
+    "Perimeter of regular polygons",
+    "Area of rectangles and squares"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 5,
+  "sections": [
+    {
+      "heading": "⚔️ Quest 1: What is Perimeter? Your First Spell!",
+      "body": "Imagine you are a wizard drawing a magic circle around your kingdom to protect it from a dragon. The total distance you walk around the boundary of any closed shape — that is called the perimeter! Think of it like putting a fence around your house, or drawing a rangoli border during Diwali. For any shape made of straight sides, you simply add up all the side lengths to find the perimeter.",
+      "keyPoints": [
+        "Perimeter = total distance along the outer boundary of a shape",
+        "For any polygon, add up all the side lengths to get the perimeter",
+        "Real-life example: the length of wire needed to border a photo frame"
+      ]
+    },
+    {
+      "heading": "🏏 Quest 2: Perimeter Formulas — Unlock the Power!",
+      "body": "Now you gain real wizard power with special spells for common shapes! For a rectangle (like a cricket pitch), opposite sides are equal, so the perimeter is 2 × (length + breadth). If the pitch is 12 m long and 8 m wide, the perimeter is 2 × (12 + 8) = 40 m! For a square (like a carrom board), all 4 sides are equal, so the perimeter is simply 4 × one side. For a triangle, just add all 3 sides together.",
+      "keyPoints": [
+        "Rectangle perimeter = 2 × (length + breadth)",
+        "Square perimeter = 4 × side length",
+        "Triangle perimeter = side 1 + side 2 + side 3"
+      ]
+    },
+    {
+      "heading": "🌟 Quest 3: Regular Polygons — Master the Realm of Shapes!",
+      "body": "A regular polygon is a shape where ALL sides are equal AND all angles are equal — like an equilateral triangle or a regular pentagon. This is like a perfectly shaped chakra in a rangoli! The mastery trick here is simple: multiply the length of one side by the total number of sides. So an equilateral triangle with side 5 cm has perimeter 3 × 5 = 15 cm. A regular hexagon with side 4 cm has perimeter 6 × 4 = 24 cm!",
+      "keyPoints": [
+        "Regular polygon = all sides equal, all angles equal",
+        "Perimeter of any regular polygon = number of sides × length of one side",
+        "Examples: equilateral triangle, square, regular pentagon, regular hexagon"
+      ]
+    },
+    {
+      "heading": "🐉 Quest 4: Area — Conquer the Dragon's Territory!",
+      "body": "Perimeter is the boundary, but area is the region INSIDE the shape — like the size of a dhurrie mat covering your floor, or how much land a farmer owns. To find the area of a rectangle, multiply its length by its breadth. For a square, multiply the side by itself. If your room is 5 m long and 4 m wide, its area is 5 × 4 = 20 square metres. That tells you how much space is inside!",
+      "keyPoints": [
+        "Area = the amount of space enclosed inside a closed shape",
+        "Area of rectangle = length × breadth (answer is always in square units)",
+        "Area of square = side × side"
+      ]
+    },
+    {
+      "heading": "🏆 Quest 5: Using Area in Real Life — True Mastery!",
+      "body": "Now use your powers to solve real problems like a true wizard! If a floor is 5 m × 4 m and a square carpet of side 3 m is placed on it, the uncarpeted area = floor area − carpet area = 20 − 9 = 11 sq m. You can also split tricky shapes into smaller rectangles, find each area separately, and add them up. This is like breaking a big dragon fight into smaller battles — tackle one piece at a time!",
+      "keyPoints": [
+        "To find leftover area, subtract the smaller area from the bigger area",
+        "Complex shapes can be split into rectangles and solved step by step",
+        "Always write area answers in square units like sq m or sq cm"
+      ]
+    }
+  ],
+  "summary": "In this quest, young wizard, you discovered two mighty spells — Perimeter and Area! Perimeter is the total distance around a shape, and you learned quick formulas: 2 × (length + breadth) for rectangles, 4 × side for squares, and sum of all sides for triangles and other polygons. Regular polygons made it even easier — just multiply one side by the number of sides! Then you conquered Area, which tells you how much space is inside a shape — length × breadth for rectangles, and side × side for squares. With these powers, you can now solve real-life problems like fencing a park, laying a carpet, or planning a garden — you have truly earned mastery over the Realm of Perimeter and Area!",
+  "fromCache": false
+}

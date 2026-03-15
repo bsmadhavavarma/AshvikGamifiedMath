@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "Chapter 1",
+  "source": {
+    "classLevel": 6,
+    "subject": "Social Science",
+    "chapterTitle": "Chapter 1"
+  },
+  "topics": [
+    "Why we study Social Science",
+    "The five big themes of Social Science",
+    "What is a map and its types",
+    "Parts of a map: scale, direction, symbols"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 0,
+  "sections": [
+    {
+      "heading": "🧙 The Quest Begins — Why Social Science?",
+      "body": "Welcome, young wizard! Before any great quest, you must understand WHY you are going on it. Social Science is your spell book for understanding the world around you — people, places, history, money, and government. Just like you need to know the rules before playing cricket, you need Social Science to understand how the world works and how to make it better. The world has big problems — wars, pollution, poverty — and Social Science helps us find answers!",
+      "keyPoints": [
+        "Social Science helps us understand human society — people, places, and how we live together",
+        "It asks big questions like: How do we live in peace? How do we protect our Earth?",
+        "It is not like Physics or Chemistry — it studies people and societies, which are always changing"
+      ]
+    },
+    {
+      "heading": "🗺️ Five Realms of Social Science",
+      "body": "In this quest, you will explore five mighty realms! Think of each theme like a different level in your favourite video game. Theme A is about the land — mountains, rivers, oceans and how they shaped India. Theme B is about the past — like reading old stories of kings and kingdoms to avoid their mistakes. Theme C is about India's amazing culture — our festivals, traditions, and knowledge. Theme D is about how our country is governed — like who makes the rules of the game. Theme E is about money and work — how families and countries earn and survive.",
+      "keyPoints": [
+        "Theme A: Land and geography — how rivers and mountains shaped India's story",
+        "Theme B: History — learning from the past so we don't repeat mistakes",
+        "Themes C, D, E: Culture, Governance, and Economy — the full power of understanding society"
+      ]
+    },
+    {
+      "heading": "🔮 The Magic Scroll — What is a Map?",
+      "body": "A map is like a magic scroll in your quest — it shows you where to go and what lies ahead! Imagine you land in a new city like Mumbai for the first time. A map helps you find the railway station, the market, or a hospital without getting lost. A map is a drawing of any area — seen from the top, like a bird flying above. You can have a map of your school, your city, your state, or even the whole world! A big book of maps is called an atlas.",
+      "keyPoints": [
+        "A map is a top-view drawing of any area — small like a village or big like a country",
+        "There are three types: Physical maps (mountains, rivers), Political maps (states, cities), Thematic maps (special information)",
+        "An atlas is a collection of many maps bound together like a book"
+      ]
+    },
+    {
+      "heading": "⚔️ The Three Powers of a Map — Scale, Direction, Symbols",
+      "body": "Every wizard's map has three secret powers! First is Scale — this is how a huge country like India fits on a small piece of paper. If 1 cm on the map equals 500 km on the ground, that is the scale. It is like zooming out on Google Maps! Second is Direction — maps show North, South, East, West so you never get lost, just like knowing which end of the cricket ground the stumps are on. Third is Symbols — little pictures or colours that stand for real things, like blue for water or a small square for a building.",
+      "keyPoints": [
+        "Scale tells us how much real distance each centimetre on the map represents",
+        "Direction (N, S, E, W) helps us find the right path — like a compass in a jungle",
+        "Symbols are small signs used on maps to show roads, rivers, forests, buildings, and more"
+      ]
+    },
+    {
+      "heading": "🌟 Mastery Unlocked — Social Science is Your Adventure!",
+      "body": "You have taken your first step on this great quest, young explorer! Social Science is not just a school subject — it is an adventure to understand your world. Just like a dragon-slayer needs to know the realm before the battle, you need Social Science to become a smart, responsible citizen of India. Every chapter will ask Big Questions, and your job is to think, explore, and find answers. The best wizards always ask the right questions first!",
+      "keyPoints": [
+        "Social Science mixes geography, history, culture, politics, and economics together — just like life does!",
+        "Asking the right questions is the first step to finding the right answers",
+        "The goal is to help you become a better, more aware citizen of India and the world"
+      ]
+    }
+  ],
+  "summary": "Young hero, your quest has begun! In this chapter, you discovered that Social Science is the ultimate spell book for understanding our world — how people live, how countries are governed, how the past shapes the present, and how the land around us tells stories. You explored five great realms: Land and People, the Tapestry of the Past, Cultural Heritage, Governance, and Economic Life. You also learned that a map is a powerful tool — a magic scroll that shows any area from above, using three great powers: scale (to fit big places on small paper), direction (to find your path), and symbols (to understand what everything means). Every question you ask is a step forward on this quest for mastery!",
+  "fromCache": false
+}

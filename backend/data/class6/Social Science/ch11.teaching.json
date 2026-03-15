@@ -1,0 +1,66 @@
+{
+  "chapterTitle": "## Chapter",
+  "source": {
+    "classLevel": 6,
+    "subject": "Social Science",
+    "chapterTitle": "## Chapter"
+  },
+  "topics": [
+    "Urban Local Bodies and their functions",
+    "Types of urban local bodies based on city size",
+    "Citizens' duties in urban democracy"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 11,
+  "sections": [
+    {
+      "heading": "🏙️ The Quest Begins — What are Urban Local Bodies?",
+      "body": "Imagine your city is a big kingdom in our quest. Just like a kingdom needs wizards and helpers to keep it running smoothly, a city needs a special team called an Urban Local Body. This is the local government for towns and cities — it takes care of roads, drains, water, garbage, and more. Instead of one big ruler deciding everything from far away, the people living in the area get a say in how their own neighbourhood is managed. This is called decentralised governance — power stays close to the people!",
+      "keyPoints": [
+        "Urban Local Bodies are local governments that manage cities and towns",
+        "They are decentralised — meaning local communities have direct power over their area",
+        "They handle roads, water supply, garbage, taxes, and health services"
+      ]
+    },
+    {
+      "heading": "🗺️ Wards — The Smaller Realms Inside a City",
+      "body": "Just like a big cricket ground is divided into fielding positions, a city is divided into smaller areas called wards. Each ward has a ward committee — like a small team of heroes — who look after that part of the city. They organise health camps, report broken roads or blocked drains, and run campaigns like stopping the use of plastic bags. Think of it like your colony's RWA (Residents' Welfare Association) but with real government powers!",
+      "keyPoints": [
+        "Cities are divided into smaller units called wards",
+        "Ward committees manage local issues like health camps, drainage problems, and cleanliness drives",
+        "Each ward has elected members who represent the people living there"
+      ]
+    },
+    {
+      "heading": "⚔️ Three Levels of Power — Which Body Rules Your City?",
+      "body": "Not all cities are the same size, so not all have the same type of urban local body — just like in a quest, different levels need different powers! A big city like Mumbai or Chennai with more than 10 lakh people has a Municipal Corporation (also called Mahanagar Nigam) — the most powerful body. Cities with 1 to 10 lakh people have a Municipal Council or Nagar Palika. Smaller towns have a Nagar Panchayat. The Greater Chennai Corporation is India's oldest — it started way back in 1688!",
+      "keyPoints": [
+        "Cities with over 10 lakh people → Municipal Corporation (Mahanagar Nigam)",
+        "Cities with 1–10 lakh people → Municipal Council (Nagar Palika)",
+        "Smaller towns → Nagar Panchayat"
+      ]
+    },
+    {
+      "heading": "🧙 The Wizard's Spell — What Do Urban Local Bodies Actually Do?",
+      "body": "Urban Local Bodies cast many important spells to keep city life going! They collect garbage, fix roads, supply clean water, give trade licences to shops, collect property tax, and even provide ambulances and funeral services. Look at Indore — it has won the title of India's cleanest city seven years in a row! This happened because the Municipal Corporation and the citizens worked together like a true team of heroes. When you pay for services or follow rules like waste segregation, you help the local body do its job better.",
+      "keyPoints": [
+        "Urban local bodies provide services like water supply, garbage collection, road repair, and fire services",
+        "They collect taxes and fees to fund all these activities",
+        "Indore Municipal Corporation is a great example of excellent urban governance"
+      ]
+    },
+    {
+      "heading": "🦸 Your Quest — Be a Responsible Citizen!",
+      "body": "In this quest, YOU are also a hero! Urban local bodies can only work well when citizens help them. If you see a leaking water pipe on your street — like the one in the chapter's activity — report it! If your family separates wet and dry garbage before throwing it, the garbage collectors' job becomes much easier. Just like young Sameer in the story reported a dangerous electric wire and got it fixed, every citizen — even a child — can make a difference in their city.",
+      "keyPoints": [
+        "Citizens must report problems like water leaks, broken roads, or dangerous wires to local bodies",
+        "Following rules like waste segregation helps urban local bodies work more efficiently",
+        "Democracy works best when every citizen — young or old — actively participates"
+      ]
+    }
+  ],
+  "summary": "In this chapter of our great quest, we discovered that cities and towns in India are governed by Urban Local Bodies — special local governments that manage everything from roads and water to garbage and health services. Cities are divided into smaller realms called wards, each with a ward committee to handle local problems. Depending on a city's size, it may have a Municipal Corporation, Municipal Council, or Nagar Panchayat as its ruling body. These bodies are funded through taxes and service fees, and they work best when citizens — the true heroes of democracy — actively participate by following rules, reporting problems, and caring for their neighbourhood. Just like in a quest, every hero has a role to play, and together, citizens and local bodies can build a clean, safe, and happy city!",
+  "fromCache": false
+}

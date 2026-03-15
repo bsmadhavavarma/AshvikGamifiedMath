@@ -1,0 +1,63 @@
+{
+  "chapterTitle": "## Chapter",
+  "source": {
+    "classLevel": 6,
+    "subject": "Social Science",
+    "chapterTitle": "## Chapter"
+  },
+  "topics": [
+    "Oceans and their names",
+    "Continents and their sizes",
+    "How oceans affect life on Earth"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 1,
+  "sections": [
+    {
+      "heading": "🌊 The Blue Planet — Your Quest Begins!",
+      "body": "Young wizard, look at the Earth from space — it looks mostly BLUE! That is because about three-fourths of our planet is covered with water. Imagine if your cricket ground was mostly a swimming pool with just a small patch of grass to stand on — that is what Earth is like! Those giant water bodies are called oceans, and the big chunks of land are called continents.",
+      "keyPoints": [
+        "Almost 3/4 of Earth is covered with water — that is why Earth is called the 'Blue Planet'",
+        "The big water bodies are called oceans and the large land areas are called continents"
+      ]
+    },
+    {
+      "heading": "🐋 The Five Oceans — Realm of Water Power",
+      "body": "Our planet has five mighty oceans — the Pacific, Atlantic, Indian, Arctic, and Southern Ocean. Think of them like five giant dabbawalas who are all connected and share their tiffins! The Pacific Ocean is the biggest — the boss of all oceans. The Indian Ocean is special for us because India sits right in the middle of it, with the Arabian Sea on one side and the Bay of Bengal on the other, like two big brothers protecting us.",
+      "keyPoints": [
+        "Five oceans: Pacific (biggest), Atlantic, Indian, Southern, and Arctic (smallest)",
+        "India is surrounded by the Arabian Sea to the west and the Bay of Bengal to the east",
+        "All oceans are connected — water flows freely between them"
+      ]
+    },
+    {
+      "heading": "🌍 The Seven Continents — Seven Dragon Realms",
+      "body": "Just like India has many states, our Earth has big land areas called continents. Most people use a list of seven continents — Asia, Africa, North America, South America, Antarctica, Europe, and Australia. Asia is the largest — like the captain of the cricket team! Australia is the smallest continent. Europe and Asia actually touch each other and share land, just like Delhi and Haryana share a border.",
+      "keyPoints": [
+        "Seven continents: Asia (largest), Africa, North America, South America, Antarctica, Europe, Australia (smallest continent)",
+        "Europe and Asia together form one big landmass sometimes called 'Eurasia'"
+      ]
+    },
+    {
+      "heading": "🌧️ Oceans Give Life — But Also Bring Danger",
+      "body": "Oceans are not just pretty blue water — they are the power source of all life on Earth! The monsoon rains that help farmers grow wheat and rice in India come from the ocean. Without the ocean, there would be no rain, no crops, and no food on your thali! But oceans can also be dangerous — they create cyclones with super-strong winds and tsunamis, which are giant waves caused by earthquakes under the sea. A terrible tsunami in 2004 affected India and 13 other countries, taking more than two lakh lives.",
+      "keyPoints": [
+        "Monsoon rains that feed India's farms come from the Indian Ocean",
+        "Oceans can cause disasters like cyclones and tsunamis",
+        "India is part of an Indian Ocean Tsunami Warning System to save lives early"
+      ]
+    },
+    {
+      "heading": "🏝️ Islands — The Hidden Gems of the Realm",
+      "body": "Not all land on Earth is part of a big continent. Some small pieces of land are completely surrounded by water — these are called islands, like a little fortress in the middle of the sea! India has two famous island groups — the Andaman and Nicobar Islands in the Bay of Bengal, and the Lakshadweep Islands in the Arabian Sea. There are lakhs of such islands across the world's oceans.",
+      "keyPoints": [
+        "Islands are small pieces of land surrounded by water on all sides",
+        "India's islands include Andaman & Nicobar Islands and Lakshadweep Islands"
+      ]
+    }
+  ],
+  "summary": "Young explorer, you have completed a mighty quest through the realm of oceans and continents! You discovered that Earth is called the Blue Planet because three-fourths of it is water, spread across five great oceans — Pacific, Atlantic, Indian, Southern, and Arctic. The remaining land is divided into seven continents, with Asia being the largest and Australia the smallest. Our own India sits proudly between the Arabian Sea and the Bay of Bengal. Oceans are the wizards behind our monsoon rains and all life on Earth, but they also cast dangerous spells through cyclones and tsunamis. Tiny islands dot the oceans like scattered jewels. With this knowledge, your mastery of Earth's land and water has truly begun!",
+  "fromCache": false
+}

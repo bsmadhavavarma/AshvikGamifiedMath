@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Social Science",
+  "chapterIndex": 8,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is a joint family?",
+      "themeWrapper": "A brave adventurer must know the terrain of family structures before embarking on the Quest of Society! Choose the correct answer:",
+      "options": [
+        "A family with only a couple and their children",
+        "A family with several generations living together including grandparents, parents, uncles, aunts, and cousins",
+        "A family with only one parent and children",
+        "A family that lives in a joint house but is not related"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "What is the name of the Bhil community tradition of coming together to support individuals or families in times of crisis?",
+      "themeWrapper": "The Quest leads you to the heart of tribal wisdom! Identify the sacred tradition that united the Bhil community to fight the water crisis in Jhabua:",
+      "options": [
+        "Sevā",
+        "Tyāga",
+        "Halma",
+        "Dāna"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following values does the story of Shalini best illustrate?",
+      "themeWrapper": "A true Quest hero recognises virtue in action! From Shalini's story of the Onam festival, which family value shines the brightest?",
+      "options": [
+        "Competition among family members",
+        "Individual desires over family needs — tyāga and sevā",
+        "Sacrifice and support — giving up personal desires for the family's well-being",
+        "Saving money for future expenses"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why do most Indian languages lack a separate word for 'cousin', and what does this reveal about Indian family values?",
+      "themeWrapper": "Seeker of Knowledge, the Quest now challenges you to decode the language of bonds! Explain in 3–4 sentences why 'cousin' has no direct translation in most Indian languages and what deeper truth this reveals about Indian families.",
+      "sampleAnswer": "In most Indian languages, there is no separate word for 'cousin' because cousins are simply referred to as 'brothers' and 'sisters'. This reflects the deep bonds and closeness that exist among all children within a family. It shows that Indian culture does not draw a sharp boundary between immediate siblings and extended family children. This linguistic choice emphasises the value of togetherness, equality, and strong family relationships in Indian society."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is a community, and how does it function differently in rural and urban settings? Give one example from the chapter for each.",
+      "themeWrapper": "The Quest advances — now you must map the territory of Community! Describe what a community is and compare its role in a village versus a city, using examples from the chapter.",
+      "sampleAnswer": "A community is a group of connected families and people who come together for various reasons such as festivals, weddings, agricultural work, and sharing natural resources. In rural settings, communities like the Bhil tribe in Jhabua work together through traditions like halma — planting trees and digging trenches to conserve water without expecting payment. In urban settings, community action looks different; for example, during the Chennai floods of 2015, spiritual and religious organisations came together to cook and distribute food to people in need. Both settings show that communities unite for the common good."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Using the stories of Shalini (Kerala) and Tenzing (Meghalaya) from the chapter, explain how family roles, responsibilities, and values are practised in Indian families. Also discuss the advantages and disadvantages of joint and nuclear families.",
+      "themeWrapper": "Champion of the Quest, you have reached the Final Trial — the most heroic challenge of all! Draw upon the wisdom of both Shalini's and Tenzing's families to write a detailed account of how Indian families practise their roles and values. Then weigh the strengths and weaknesses of joint versus nuclear families like a true scholar-warrior.",
+      "sampleAnswer": "The stories of Shalini and Tenzing beautifully illustrate how Indian families practise values of cooperation, sacrifice, interdependence, and shared responsibility.\n\nIn Shalini's family in Kerala, when her uncle Chittappa lost his job, her parents chose to buy new Onam clothes for the entire family — including Chittappa, Chitti, and Chinni — even though it meant Shalini received a simpler dress than expected. Shalini accepted this gracefully, learning the value of tyāga (sacrifice) and dāna (giving). This shows how joint families support each other during difficult times and share resources.\n\nIn Tenzing's family in Meghalaya, roles are shared thoughtfully. His father helps with household chores after his mother became busy with the handicraft cooperative, demonstrating that responsibilities are not fixed by gender but by need. His grandfather helps with homework and social work in the colony, while his grandmother provides wisdom and storytelling. His parents consult each other for major financial decisions, showing mutual respect and cooperation. These practices reflect values like sevā (service) and ahimsa.\n\nJoint families offer several advantages: emotional support, shared financial burdens, care for the elderly and children, and transmission of cultural traditions. However, they can sometimes lead to conflicts over decisions, less personal privacy, and difficulty adapting to modern lifestyles.\n\nNuclear families offer more independence, privacy, and easier decision-making. However, they may lack the support system of a larger family, and children may miss out on learning traditions and values from grandparents.\n\nIn conclusion, both family types have their strengths, and the key is to maintain the core values of love, responsibility, and cooperation regardless of family structure."
+    }
+  ],
+  "fromCache": false
+}

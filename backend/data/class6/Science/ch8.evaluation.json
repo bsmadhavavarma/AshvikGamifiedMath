@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 8,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which method of separation is best suited when components of a solid-solid mixture have different sizes?",
+      "themeWrapper": "⚔️ Quest Challenge 1: The Hero faces a pile of mixed grains and bran. Which weapon of separation shall they wield?",
+      "options": [
+        "A) Winnowing",
+        "B) Handpicking",
+        "C) Sieving",
+        "D) Sedimentation"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Sieving"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the process of winnowing, what property of the components allows them to be separated by wind or blowing air?",
+      "themeWrapper": "🏹 Quest Challenge 2: The Hero must understand the ancient force of wind. What secret difference between grains and husk grants the wind its power to separate them?",
+      "options": [
+        "A) Difference in colour",
+        "B) Difference in weight — heavier and lighter components",
+        "C) Difference in shape",
+        "D) Difference in solubility"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Difference in weight — heavier and lighter components"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "When Dada left the tea undisturbed and gently poured the liquid into a cup, which two processes were demonstrated in sequence?",
+      "themeWrapper": "🛡️ Quest Challenge 3: The Elder Sage demonstrates two ancient arts of separation at tea time. Can the Hero name both in the correct order?",
+      "options": [
+        "A) Filtration followed by sieving",
+        "B) Handpicking followed by winnowing",
+        "C) Sedimentation followed by decantation",
+        "D) Evaporation followed by filtration"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Sedimentation followed by decantation"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why is handpicking considered a convenient method of separation, and what properties of particles make it possible?",
+      "themeWrapper": "📜 Quest Scroll 1: The Hero must write their wisdom — explain why the ancient art of handpicking works and the conditions under which it is the chosen method.",
+      "sampleAnswer": "Handpicking is convenient when the particles to be removed are present in small quantities and can easily be distinguished and picked by hand. It works based on differences in the size, colour, and shape of the particles in a mixture. For example, picking small stones or black pepper from rice or pulao by hand is easy because these components look visibly different from the rest."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "How is common salt obtained from seawater, and what separation process is involved? Also explain why white patches appear on dark-coloured clothes during hot summers.",
+      "themeWrapper": "📜 Quest Scroll 2: The Hero visits the shores of knowledge. Unravel the mystery of salt from the sea and the white marks left upon a warrior's dark cloak in summer.",
+      "sampleAnswer": "Common salt is obtained from seawater by keeping the seawater in shallow pits and exposing it to sunlight and air. Over a few days, the water evaporates completely, leaving behind a solid mixture from which common salt is obtained by further purification. The process involved is evaporation. Similarly, during hot summers, sweat (which contains dissolved salts) falls on dark-coloured clothes. As the water in the sweat evaporates due to the heat, the dissolved salts are left behind on the cloth, forming white patches."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe any FOUR methods of separation discussed in this chapter. For each method, explain: (a) what kind of mixture it is used for, (b) the principle on which it works, and (c) one real-life example.",
+      "themeWrapper": "🏆 The Grand Quest: The Hero must compile the sacred scrolls of separation! Present four mighty methods learned on the journey across India, detailing their purpose, their power, and their use in the real world.",
+      "sampleAnswer": "1. Handpicking: Used for solid-solid mixtures where unwanted particles are present in small amounts. It works on the basis of visible differences in size, colour, and shape of particles. Example: Removing small stones or black pepper from rice or pulao by hand.\n\n2. Winnowing: Used to separate heavier and lighter components of a mixture (typically grains from husk). It works on the principle that wind or blowing air carries away lighter particles while heavier ones fall straight down. Example: Farmers using a bamboo tray (soop) to separate wheat grains from husk in open fields.\n\n3. Sieving: Used for solid-solid mixtures where the components have different sizes. It works on the principle that smaller particles pass through the holes of a sieve while larger particles are retained on it. Example: Separating bran and small stones from wheat flour in the kitchen, or separating sand from pebbles at a construction site.\n\n4. Sedimentation and Decantation: Used to separate an insoluble heavier solid from a liquid. Sedimentation works on the principle that heavier insoluble particles settle at the bottom of a liquid when left undisturbed. Decantation is the process of gently pouring the liquid away after sedimentation. Example: Leaving tea in a saucepan undisturbed so tea leaves settle at the bottom, then pouring the tea into a cup.\n\n5. Filtration (bonus): Used to completely separate insoluble solid particles from a liquid. It uses a filter (strainer, cloth, or filter paper) with fine pores to hold back solid particles. Example: Pouring tea through a strainer to separate tea leaves from the liquid tea."
+    }
+  ],
+  "fromCache": false
+}

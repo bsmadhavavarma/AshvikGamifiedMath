@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the 'taller neighbours' game, a child standing at the END of a line can say at most which number?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — The Line of Warriors: Five children of different heights stand in a line, each declaring the count of taller neighbours. A brave hero at the END of the line raises their banner. What is the HIGHEST number they can possibly declare?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following correctly describes a SUPERCELL in a single-row table?",
+      "themeWrapper": "🏰 Quest Challenge 2 — The Supercell Citadel: A row of number-kingdoms lies before you. Only the mightiest cell earns the title of SUPERCELL. Which law correctly crowns a cell as a Supercell in a single-row arrangement?",
+      "options": [
+        "A cell whose number is smaller than both its neighbours",
+        "A cell whose number is larger than ALL its neighbouring cells",
+        "A cell that contains the largest number in the entire table",
+        "A cell whose number equals the sum of its neighbours"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the Kaprekar constant — the magical number that 4-digit numbers (with at least two different digits) always reach when you repeatedly subtract the smallest arrangement from the largest?",
+      "themeWrapper": "🔮 Quest Challenge 3 — The Oracle of Kaprekar: A legendary mathematician discovered a magic number that traps all 4-digit numbers (with at least two different digits) in its eternal loop. Heroes, name this Kaprekar constant to unlock the Oracle's secret!",
+      "options": [
+        "1729",
+        "6174",
+        "4176",
+        "9801"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is a palindromic number? Give TWO examples of 3-digit palindromes using only the digits 1, 2, and 3. Also, write the smallest number whose digit sum is 14.",
+      "themeWrapper": "📜 Quest Challenge 4 — The Scroll of Palindromes: Ancient scrolls speak of numbers that read the same forwards and backwards — true mirrors of themselves! Brave scholar, define this property, name two such 3-digit mirror-numbers using only the digits 1, 2, and 3, and reveal the SMALLEST number whose digits add up to 14.",
+      "sampleAnswer": "A palindromic number reads the same from left to right and from right to left. Examples using digits 1, 2, 3: 121 and 212 (other valid answers: 111, 131, 232, 313, 323, 333, etc.). The smallest number with digit sum 14 is 59 (5+9=14)."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Five children of ALL different heights stand in a line. Is the sequence 1, 1, 1, 1, 1 (every child says '1') possible? Explain your reasoning clearly.",
+      "themeWrapper": "🗡️ Quest Challenge 5 — The Riddle of the Five Warriors: Five warriors of completely different heights stand in a formation. Each calls out the number of taller warriors beside them. A mysterious sage claims ALL five warriors will shout '1'. Can this ever happen? Prove your answer with heroic reasoning!",
+      "sampleAnswer": "No, the sequence 1,1,1,1,1 is NOT possible. The tallest child among the five has NO taller neighbours, so the tallest child must always say '0'. Since all five children have different heights, there will always be one who is the tallest, and that person cannot say '1'. Therefore, at least one child must say '0', making the all-ones sequence impossible."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the concept of 'digit sum' with examples. Then: (a) Find the digit sums of all numbers from 50 to 60 and describe any pattern you notice. (b) Find the smallest and largest 5-digit numbers with a digit sum of 14. (c) Explain what happens when you calculate digit sums of 3-digit numbers with consecutive digits (like 345, 456, 567). Do you see a pattern? Will it continue?",
+      "themeWrapper": "🌟 Grand Quest — The Digit Sum Dragon: The most fearsome dragon in the realm guards the Secret of Digit Sums! To slay the dragon and claim glory, you must master this ancient art. Define digit sums, map the numbers from 50 to 60, forge the smallest and largest 5-digit numbers with digit sum 14, and uncover the hidden pattern within consecutive-digit numbers. Only a true mathematical hero can complete all parts of this Grand Quest!",
+      "sampleAnswer": "DIGIT SUM: The digit sum of a number is the sum of all its individual digits. For example, digit sum of 68 = 6+8 = 14; digit sum of 176 = 1+7+6 = 14; digit sum of 545 = 5+4+5 = 14. Numbers with the same digit sum share this property.\n\n(a) Digit sums from 50 to 60:\n50→5, 51→6, 52→7, 53→8, 54→9, 55→10, 56→11, 57→12, 58→13, 59→14, 60→6.\nPattern: From 50 to 59, digit sums increase by 1 each time (5,6,7,8,9,10,11,12,13,14). At 60, it resets to 6 because the tens digit increases and units digit resets to 0.\n\n(b) Smallest 5-digit number with digit sum 14: To make the smallest number, use fewer digits and push larger digits to the right. The smallest 5-digit number is 10000, but digit sum=1. We need digit sum 14 in 5 digits: use digits that sum to 14 with the leading digit as small as possible. Answer: 10049 (1+0+0+4+9=14) — but checking smaller: 10049, 10058, 10094, 10085... The smallest is 10049. Largest 5-digit number with digit sum 14: push largest digits to the left. 95000 → 9+5=14, so 95000 (9+5+0+0+0=14). Answer: Smallest = 10049, Largest = 95000.\n\n(c) 3-digit consecutive digit numbers: 123→1+2+3=6; 234→2+3+4=9; 345→3+4+5=12; 456→4+5+6=15; 567→5+6+7=18; 678→6+7+8=21; 789→7+8+9=24. Pattern: Each time, the digit sum increases by 3. This is because each consecutive group of three digits is 3 more than the previous group (each digit increases by 1, and there are 3 digits). Yes, this pattern continues as long as we have valid consecutive digits."
+    }
+  ],
+  "fromCache": false
+}

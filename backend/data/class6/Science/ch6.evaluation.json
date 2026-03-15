@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Science",
+  "chapterIndex": 6,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is the normal temperature of a healthy human body on the Celsius scale?",
+      "themeWrapper": "⚔️ Quest Challenge I — The Body's Vital Sign: A brave healer must know the standard temperature of a healthy human body. Which value is correct?",
+      "options": [
+        "A) 35.0 °C",
+        "B) 37.0 °C",
+        "C) 42.0 °C",
+        "D) 98.6 °C"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) 37.0 °C"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Why are mercury thermometers being replaced by digital thermometers in modern times?",
+      "themeWrapper": "⚔️ Quest Challenge II — The Safer Weapon: A wise warrior always chooses the safer tool. Which reason best explains why digital thermometers are favoured over mercury thermometers?",
+      "options": [
+        "A) Digital thermometers are cheaper to manufacture",
+        "B) Mercury is an extremely toxic substance and poses risks if the thermometer breaks",
+        "C) Digital thermometers measure higher temperatures than mercury ones",
+        "D) Mercury thermometers cannot measure body temperature at all"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Mercury is an extremely toxic substance and poses risks if the thermometer breaks"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "During Activity 7.1, a hand that was in warm water is placed into tap water. What does that hand feel about the tap water?",
+      "themeWrapper": "⚔️ Quest Challenge III — The Illusion of the Senses: A cunning foe can deceive even the bravest. What trick does the hand that was in warm water experience when moved to tap water?",
+      "options": [
+        "A) The tap water feels warm",
+        "B) The tap water feels the same as before",
+        "C) The tap water feels cool",
+        "D) The tap water feels boiling hot"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) The tap water feels cool"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is the SI unit of temperature, and how does it relate to the Celsius scale?",
+      "themeWrapper": "🗡️ Short Quest I — The Universal Measure: Every great hero must speak the universal language of science. Name the SI unit of temperature and explain how it connects to the Celsius scale.",
+      "sampleAnswer": "The SI unit of temperature is the kelvin (K). It is related to the Celsius scale by the formula: Temperature in Kelvin = Temperature in Celsius + 273.15. For example, the normal body temperature of 37.0 °C equals 310.15 K."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "State two precautions that must be taken while using a digital clinical thermometer.",
+      "themeWrapper": "🗡️ Short Quest II — The Code of the Healer: A responsible hero never misuses a vital instrument. Recall and state two important precautions for using a digital clinical thermometer correctly.",
+      "sampleAnswer": "Two precautions while using a digital clinical thermometer are: (1) The tip of the thermometer must be washed with soap and water before and after each use to maintain hygiene. (2) While washing the thermometer, the digital display portion must be kept out of water to prevent damage to the electronic components."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain why we cannot always rely on our sense of touch to determine how hot or cold a body is, and describe how temperature and thermometers solve this problem. Also mention the different types of thermometers and the scales used to measure temperature.",
+      "themeWrapper": "🏆 The Grand Quest — Master of Temperature: You have journeyed far, brave scholar! Now prove your mastery. Explain the limitations of touch as a measure of hotness or coldness, and describe how science equips us with better tools — thermometers and temperature scales — to conquer this challenge.",
+      "sampleAnswer": "Our sense of touch is not a reliable way to determine whether a body is hot or cold. Activity 7.1 demonstrates this clearly: when one hand is kept in warm water and the other in ice-cold water, and both are then placed in tap water, the hand from warm water perceives the tap water as cool, while the hand from ice-cold water perceives the same tap water as warm. This shows that our perception of temperature depends on the prior condition of our hand, making it subjective and unreliable.\n\nTo overcome this limitation, scientists use the concept of temperature — a reliable, objective measure of hotness or coldness. A hotter body has a higher temperature and a colder body has a lower temperature. The instrument used to measure temperature is called a thermometer.\n\nThere are two common types of thermometers:\n1. Clinical thermometers — Used to measure human body temperature. Modern clinical thermometers are digital and use heat sensors. They are safer than older mercury thermometers because mercury is toxic. Some are non-contact (infrared) thermometers that can measure temperature from a distance, as used during COVID-19.\n2. Laboratory thermometers — Used for measuring temperatures in experiments and other purposes beyond the human body range.\n\nTemperature is measured on different scales:\n- Celsius scale (°C): Commonly used in clinical thermometers. Normal human body temperature is 37.0 °C.\n- Fahrenheit scale (°F): The same temperature equals 98.6 °F. Not widely used in science anymore.\n- Kelvin scale (K): The SI unit of temperature. Kelvin = Celsius + 273.15. Used in scientific work.\n\nThermometers thus provide an accurate, standardised and objective measurement of temperature, replacing the unreliable judgement of touch."
+    }
+  ],
+  "fromCache": false
+}

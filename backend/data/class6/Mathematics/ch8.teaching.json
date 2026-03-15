@@ -1,0 +1,61 @@
+{
+  "chapterTitle": "Symmetry",
+  "source": {
+    "classLevel": 6,
+    "subject": "Mathematics",
+    "chapterTitle": "Symmetry"
+  },
+  "topics": [
+    "Line of Symmetry",
+    "Reflection Symmetry",
+    "Rotational Symmetry"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Mathematics",
+  "chapterIndex": 8,
+  "sections": [
+    {
+      "heading": "⚔️ Quest Begins: What is Symmetry?",
+      "body": "Young wizard, look at a butterfly or a rangoli during Diwali. Both sides look exactly the same! That matching, balanced pattern is called symmetry. It is like a magic spell that makes shapes look beautiful and balanced. Clouds have no such pattern, so they are NOT symmetrical. A figure is symmetrical when one part of it repeats in a neat, definite pattern.",
+      "keyPoints": [
+        "Symmetry means a part of a figure repeats in a neat pattern",
+        "A butterfly, flower, Taj Mahal, and rangoli are symmetrical — clouds are not"
+      ]
+    },
+    {
+      "heading": "🗡️ First Power: Line of Symmetry",
+      "body": "Imagine folding a chapati in half. If both halves sit perfectly on top of each other, the fold line is called the Line of Symmetry. It is a magic line that cuts a shape into two mirror halves. A square has FOUR such lines — you can fold it top-to-bottom, left-to-right, and along both diagonals. But a rectangle that is not a square has only TWO lines — its diagonal does NOT work as a line of symmetry!",
+      "keyPoints": [
+        "A line of symmetry folds a shape into two exactly matching halves",
+        "A square has 4 lines of symmetry; a rectangle has 2; some shapes have none"
+      ]
+    },
+    {
+      "heading": "🪄 Wizard Spell: Reflection Symmetry",
+      "body": "Stand in front of a mirror. Your left hand appears on the right side and your right hand appears on the left — that is reflection! When a shape has a line of symmetry, one side is a mirror image of the other side. It is as if the line of symmetry is a magical mirror in the middle of the figure. Ink blot art works the same way — fold paper, drop ink, press it, and open — you get a perfectly reflected shape!",
+      "keyPoints": [
+        "Reflection symmetry means one half is the mirror image of the other half",
+        "Folding paper and cutting, or making ink blots, creates reflection symmetry"
+      ]
+    },
+    {
+      "heading": "🐉 Dragon Spin: Rotational Symmetry",
+      "body": "Now, young hero, imagine a cricket bat spinning like a pinwheel. Some shapes, when you spin or rotate them around a centre point, look exactly the same before a full spin is complete. A square looks the same after a quarter turn (90°), a half turn (180°), three-quarter turn (270°), and a full turn (360°). The angle at which a shape looks the same during rotation is called the angle of rotational symmetry. A windmill has 4 such angles, just like a square!",
+      "keyPoints": [
+        "Rotational symmetry means a shape looks the same when rotated before a full 360° turn",
+        "The fixed point in the centre is called the centre of rotation; the matching angles are called angles of symmetry"
+      ]
+    },
+    {
+      "heading": "🏆 Mastery Unlocked: Both Symmetries Together",
+      "body": "A true master wizard knows that some shapes have BOTH line symmetry AND rotational symmetry. A square is the champion — it has 4 lines of symmetry AND 4 angles of rotational symmetry. But a windmill shape has rotational symmetry with NO line of symmetry. And some shapes like a simple scalene triangle have neither! Every shape in the realm has its own magical symmetry powers waiting to be discovered.",
+      "keyPoints": [
+        "Some shapes have both line symmetry and rotational symmetry, like a square",
+        "Some shapes have one type but not the other, and some shapes have neither"
+      ]
+    }
+  ],
+  "summary": "In this quest, young wizard, you explored the magical realm of Symmetry! You learned that symmetry is when parts of a figure repeat in a neat pattern — like a butterfly's wings or Diwali rangoli. A Line of Symmetry is a fold-line that creates two perfect mirror halves, and a square holds the record with 4 such lines. Reflection Symmetry is like looking in a mirror — one side perfectly copies the other. Then you discovered Rotational Symmetry, where spinning a shape around a centre point makes it look the same before completing a full turn — like a square at 90°, 180°, 270°, and 360°. With this mastery of symmetry, you can now spot the hidden magic of balance and pattern all around you — in temples, kolams, flowers, and even your cricket bat!",
+  "fromCache": false
+}
