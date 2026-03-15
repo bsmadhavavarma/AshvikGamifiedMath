@@ -19,18 +19,6 @@ h2 { font-size: 1.8rem; margin-bottom: 32px; }
   h3 { font-size: 1.1rem; color: rgba(255,255,255,0.6); margin-bottom: 16px; }
 }
 
-.theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
-
-.theme-card {
-  background: rgba(255,255,255,0.04); border: 2px solid rgba(255,255,255,0.08);
-  border-radius: 16px; padding: 20px; cursor: pointer; text-align: center; transition: all 0.2s;
-  .theme-icon { font-size: 40px; margin-bottom: 10px; }
-  strong { display: block; margin-bottom: 8px; }
-  p { font-size: 0.82rem; color: rgba(255,255,255,0.5); margin: 0; }
-  &:hover { border-color: rgba(79,142,247,0.5); transform: translateY(-2px); }
-  &.selected { border-color: #4f8ef7; background: rgba(79,142,247,0.1); }
-}
-
 .subject-grid { display: flex; flex-wrap: wrap; gap: 10px; }
 
 .subject-card {

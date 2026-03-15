@@ -29,6 +29,7 @@ tr.app-proc { background: rgba(79,142,247,0.04); }
 .log-line { padding: 2px 0; color: rgba(255,255,255,0.7); white-space: pre-wrap; word-break: break-all; &.log-err { color: #fca5a5; } &.log-warn { color: #f59e0b; } }
 
 .hint { font-size: 0.85rem; color: rgba(255,255,255,0.4); margin: 0 0 12px; }
+.hint-sub { font-size: 0.78rem; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 8px; }
 .muted { color: rgba(255,255,255,0.3); font-size: 0.85rem; }
 
 // Test results

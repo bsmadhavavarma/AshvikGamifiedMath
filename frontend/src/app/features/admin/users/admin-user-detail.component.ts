@@ -99,13 +99,12 @@ interface Progress { class_level: number; subject: string; chapter_index: number
           <p class="muted">No sessions yet.</p>
         } @else {
           <table class="data-table">
-            <thead><tr><th>Subject</th><th>Ch</th><th>Theme</th><th>Status</th><th>Questions</th><th>Avg Score</th><th>Date</th></tr></thead>
+            <thead><tr><th>Subject</th><th>Ch</th><th>Status</th><th>Questions</th><th>Avg Score</th><th>Date</th></tr></thead>
             <tbody>
               @for (s of sessions(); track s.id) {
                 <tr>
                   <td>{{ s.subject }}</td>
                   <td>{{ s.chapter_index + 1 }}</td>
-                  <td>{{ s.theme_slug }}</td>
                   <td><span class="status-chip" [class]="'s-' + s.status">{{ s.status }}</span></td>
                   <td>{{ s.attempt_count }}</td>
                   <td>{{ s.avg_score ? (s.avg_score | number:'1.0-1') + '%' : '—' }}</td>

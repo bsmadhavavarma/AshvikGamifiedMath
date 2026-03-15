@@ -107,11 +107,21 @@
     <section class="panel">
       <h2>⚡ Content Cache</h2>
       <p class="hint">Each cached entry saves an AI API call for that chapter+theme combination.</p>
+      <p class="hint-sub">Teaching</p>
       <table class="data-table">
-        <thead><tr><th>Class</th><th>Subject</th><th>Theme</th><th>Teaching Cached</th></tr></thead>
+        <thead><tr><th>Class</th><th>Subject</th><th>Chapters Cached</th></tr></thead>
         <tbody>
           @for (row of $any(c['contentCache']); track row) {
-            <tr><td>{{ row.class_level }}</td><td>{{ row.subject }}</td><td>{{ row.theme_slug }}</td><td>{{ row.chapters_cached }}</td></tr>
+            <tr><td>{{ row.class_level }}</td><td>{{ row.subject }}</td><td>{{ row.chapters_cached }}</td></tr>
+          }
+        </tbody>
+      </table>
+      <p class="hint-sub" style="margin-top:16px">Evaluation</p>
+      <table class="data-table">
+        <thead><tr><th>Class</th><th>Subject</th><th>Chapters Cached</th></tr></thead>
+        <tbody>
+          @for (row of $any(c['evaluationCache']); track row) {
+            <tr><td>{{ row.class_level }}</td><td>{{ row.subject }}</td><td>{{ row.chapters_cached }}</td></tr>
           }
         </tbody>
       </table>
