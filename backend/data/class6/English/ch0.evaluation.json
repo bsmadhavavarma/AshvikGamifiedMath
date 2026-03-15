@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What was Rama Natha's unusual belief that kept him from looking after his land?",
+      "themeWrapper": "Brave Seeker, your first quest begins! Identify the false treasure that led Rama Natha astray.",
+      "options": [
+        "A. He believed that hard work alone could create gold.",
+        "B. He believed there was a magic potion that could turn any object into gold.",
+        "C. He believed the sage would give him gold directly.",
+        "D. He believed that banana plants grew gold coins."
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "What task did sage Mahipati assign to Rama Natha in order to prepare the so-called magic potion?",
+      "themeWrapper": "The sage sets a mighty challenge! Champion, choose the correct mission he assigned.",
+      "options": [
+        "A. Dig a well and collect five litres of rainwater.",
+        "B. Climb the Himalayas and bring back melted snow.",
+        "C. Plant banana plants, water them himself, collect morning dew and store five litres of it.",
+        "D. Buy five litres of dew from the market and bring it to him."
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "When Rama Natha sprinkled dew drops on the copper vessel and nothing turned to gold, what did the sage reveal as the true source of their wealth?",
+      "themeWrapper": "The moment of revelation is upon you, Hero! Uncover the real treasure the sage had hidden all along.",
+      "options": [
+        "A. The magic words the sage had chanted were not powerful enough.",
+        "B. Rama Natha had not collected exactly five litres of dew.",
+        "C. The sage confessed he had stolen the gold coins from the Himalayas.",
+        "D. It was the six years of hard work on the banana plantation and Madhumati selling the fruits that created their wealth."
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why was Madhumati worried about her husband Rama Natha, and how did she contribute to building their banana plantation?",
+      "themeWrapper": "Steadfast Warrior, recall the role of the unsung hero of this tale. Answer with courage and clarity!",
+      "sampleAnswer": "Madhumati was worried because Rama Natha was spending a lot of money chasing the idea of a magic potion and she feared they would soon be left without any money. She contributed to the banana plantation by helping tend the plants alongside Rama Natha, gathering the banana crop and taking it to the market where she sold it at a good price. Over six years her efforts helped them build a huge plantation and accumulate a box full of gold coins."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Why did sage Mahipati play a trick on Rama Natha instead of simply telling him the value of hard work directly?",
+      "themeWrapper": "Quest of Wisdom! Decode the sage's hidden strategy and prove your understanding, noble scholar.",
+      "sampleAnswer": "Sage Mahipati played the trick because he knew that Rama Natha was so obsessed with the idea of a magic potion that he would not have listened to straightforward advice about hard work. By giving him the task of collecting dew, the sage cleverly made Rama Natha work on his own land for six years. Only after experiencing the results of his own labour firsthand was Rama Natha ready to understand and accept the true wisdom that hard work, not magic, creates real wealth."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Trace the journey of Rama Natha from being a lazy dreamer to a hardworking farmer. How did the sage's plan bring about this transformation, and what is the central message of the story 'A Bottle of Dew'?",
+      "themeWrapper": "Grand Quest of Reflection! You have journeyed through the entire tale. Now, Hero, craft a thorough account of Rama Natha's transformation and reveal the timeless lesson hidden within this story.",
+      "sampleAnswer": "At the beginning of the story, Rama Natha is a man who has inherited large tracts of land from his father but refuses to work on them. He is consumed by a fantasy — the belief that a magic potion exists that can turn any object into gold. He wastes money on people who promise to reveal its secret, and his wife Madhumati grows increasingly worried about their financial future. When the famous sage Mahipati visits their town, Rama Natha eagerly asks him about the potion. The sage, instead of dismissing the idea outright, cleverly devises a plan. He tells Rama Natha to plant banana plants, care for them personally, collect the morning dew from their leaves every winter and store five litres of it. This task requires years of personal effort and patience. Rama Natha, driven by the hope of gold, follows the instructions sincerely. He clears his neglected fields, plants hundreds of banana plants and tends to them with dedication. Madhumati sells the banana crops in the market, earning good money. After six long years, he collects the five litres of dew and brings it to the sage. The sage performs a mock ritual but nothing magical happens. When Rama Natha feels cheated, the sage reveals Madhumati and the box of gold coins earned through their honest labour. He then explains the truth: there is no magic potion. The real transformation is complete — Rama Natha finally understands that consistent hard work, not shortcuts or fantasy, is what creates true wealth. The central message of the story is that there are no magical shortcuts to success. Diligence, perseverance and honest effort are the only genuine paths to prosperity. The sage's wisdom lies in teaching this lesson not through words but through lived experience."
+    }
+  ],
+  "fromCache": false
+}

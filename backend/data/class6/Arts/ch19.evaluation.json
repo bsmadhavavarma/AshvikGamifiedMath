@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 19,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In 'The Grand Finale' project, what is the first step a student must complete before designing costumes or planning the stage?",
+      "themeWrapper": "Brave Quester, to begin your Grand Finale quest, you must know the correct order of the theatrical journey. Which sacred first step must every hero-playwright complete?",
+      "options": [
+        "A. Design the stage using the cardboard model",
+        "B. Write a simple conversation/script based on one emotion",
+        "C. Cut out costume designs and paste sticks to make puppets",
+        "D. Present the performance to the class"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. Write a simple conversation/script based on one emotion"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "How can a student switch from performing a play to puppetry using the same materials prepared for the project?",
+      "themeWrapper": "O Versatile Adventurer, the quest offers a secret path! If the stage performance feels too daunting, what clever trick does the chapter reveal to transform your theatrical armour into puppets?",
+      "options": [
+        "A. By drawing new characters on fresh paper and hanging them from strings",
+        "B. By cutting out the costume design pictures, pasting a stick on one end, and using the same cardboard stage model as a puppetry frame",
+        "C. By using shadow lighting behind a white cloth stretched across the stage",
+        "D. By recording the performance on video and playing it for the class"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. By cutting out the costume design pictures, pasting a stick on one end, and using the same cardboard stage model as a puppetry frame"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "During the Discussion and Feedback session after a performance, which of the following is listed as a key question regarding the script?",
+      "themeWrapper": "Wise Champion, after the Grand Finale battle is fought on stage, the Council of Feedback convenes! Which of these judgements belongs specifically to evaluating the script's power?",
+      "options": [
+        "A. Were the design and props well used on stage?",
+        "B. Was the costume neat and did it add to the character?",
+        "C. Did the audience understand the story, and was the conflict and resolution clear?",
+        "D. Was the puppetry frame stable and well-constructed?"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Did the audience understand the story, and was the conflict and resolution clear?"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "The chapter encourages students to take both positive and negative feedback with the 'same approach'. Why is this attitude important for an artiste, according to the chapter?",
+      "themeWrapper": "Resilient Hero, every great quest involves both praise from allies and critique from wise elders. Explain why the chapter urges you to receive both kinds of feedback with equal courage and what benefit it brings.",
+      "sampleAnswer": "The chapter emphasises that taking both positive and negative feedback with the same calm and open approach is important because it helps the artiste learn from their mistakes. By not being defensive about criticism, they avoid repeating the same errors in future performances. Negative feedback highlights what needs improvement while positive feedback reinforces what worked well, together making the artiste grow stronger and more skilled with each performance."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Name the four main steps of 'The Grand Finale' project in the correct order, and briefly describe what each step involves.",
+      "themeWrapper": "Valiant Quester, the Grand Finale is a four-stage dungeon! Can you name all four chambers of this theatrical adventure in the order they must be conquered, and describe the treasure hidden in each?",
+      "sampleAnswer": "The four steps in order are: 1. Script — Writing a simple conversation between two or three characters based on one chosen emotion, ensuring the emotion is central to the dialogue. 2. Make-up and Costume — Designing the appearance and clothing for each character in the script, just as practised in Act 2. 3. Stage Design — Using the cardboard stage model to plan the set and props for the performance. 4. Switch to Puppetry — Cutting out the costume design pictures, pasting a stick on each to create stick puppets, and using the same cardboard stage model as a puppetry frame if the student chooses not to perform the play directly."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Imagine you are planning your own 'Grand Finale' project. Choose one emotion, write a brief outline of your script idea, describe the costume and make-up for your main character, and explain how you would set up your stage. Also explain what you would do if you decided to switch to puppetry instead of performing the play live. Finally, reflect on why the chapter says theatre helps build 'crucial life skills'.",
+      "themeWrapper": "Supreme Creator and Hero of the Grand Finale, your ultimate quest has arrived! Design your very own theatrical adventure from start to finish. Choose your emotion-weapon, craft your story-armour, build your stage-fortress, and if needed, call upon the puppet-allies. Then reveal to the Council why this entire journey — inspired by the ancient Natyashastra — forges the life skills of a true champion!",
+      "sampleAnswer": "Emotion chosen: Joy. Script outline: The scene involves two friends — Meera and Arjun — who discover that their school project has won first prize. Their conversation bubbles with excitement, laughter, and gratitude towards each other and their teacher. The conflict is a brief moment when Arjun worries the announcement was a mistake, and the resolution comes when the teacher confirms the win. The emotion of joy remains dominant throughout. Costume and Make-up: The main character, Meera, wears a bright yellow kurta symbolising happiness. Her face has rosy cheeks painted on to show excitement and bright, wide-open eyes drawn with kohl to express joy. Stage design: Using the cardboard model, centre stage has two school desks and chairs as props. A notice board cut-out is placed at the back with 'First Prize' written on it. Stage left has a door through which the teacher enters. Switch to Puppetry: The costume design picture of each character is carefully cut out and a wooden stick is pasted at the bottom. The cardboard stage model is then held upright as the puppetry frame, and the stick puppets are moved behind it to enact the script, making it just as engaging as a live performance. Life Skills: The chapter rightly states, drawing from the Natyashastra, that theatre builds crucial life skills. Writing a script develops creativity and language skills. Performing teaches confidence, expression, and communication. Designing costumes and sets builds planning and problem-solving abilities. Most importantly, accepting feedback — both positive and negative — with the same spirit teaches emotional resilience, humility, and the growth mindset essential not just on stage but throughout life."
+    }
+  ],
+  "fromCache": false
+}

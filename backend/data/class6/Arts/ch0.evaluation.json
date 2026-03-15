@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 0,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the ancient text Vishnudharmottara Purana, how many 'limbs' (Shadanga) does the art of painting have?",
+      "themeWrapper": "O brave seeker of artistic wisdom! Before you can wield the brush of a true artist, you must know the sacred count of the six limbs of art as described in the ancient scrolls. How many limbs does the Shadangam declare?",
+      "options": [
+        "A. Four",
+        "B. Five",
+        "C. Six",
+        "D. Eight"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the flipbook activity, on which page should you draw your first object, and where on the page should it be placed?",
+      "themeWrapper": "Champion of creativity, the flipbook quest demands precision! To breathe life and movement into your drawings, you must know the correct starting position. On which page and where must the hero-object first appear?",
+      "options": [
+        "A. First page, close to the left edge",
+        "B. Last page, close to the right edge",
+        "C. Middle page, at the centre",
+        "D. First page, close to the right edge"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following best describes what a 'still life' artwork is?",
+      "themeWrapper": "Warrior of observation, the realm of still life holds great power! To master it, you must first understand its true nature. Which of the following descriptions correctly defines a still life artwork?",
+      "options": [
+        "A. A painting that depicts moving animals in nature",
+        "B. A portrait of a famous person sitting still",
+        "C. An artwork depicting arranged inanimate objects like fruits, tools and household items",
+        "D. A landscape painting of mountains and rivers"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is 'perspective' in drawing, and why is it important when drawing objects like furniture?",
+      "themeWrapper": "Young quest-bearer, your mission is to explain the artistic power of 'perspective'! An artist who understands this skill can make flat drawings leap into a three-dimensional world. Describe what perspective is and its importance in drawing furniture.",
+      "sampleAnswer": "Perspective is the technique used in drawing to convey a sense of dimension and depth around an object, making it appear three-dimensional as though the viewer is seeing it in real space. It is important when drawing furniture because furniture has length, width and height, and without perspective, it would look flat and unrealistic. By using correct lines, angles and shapes, perspective helps the drawing look as it would appear in front of us."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Name at least four things a student is expected to observe when studying objects for a still life drawing, as described in the chapter.",
+      "themeWrapper": "Hero of observation, your quest now calls upon your sharpest senses! The chapter arms you with the tools of careful looking. Name at least four things you must observe when studying objects before creating a still life drawing.",
+      "sampleAnswer": "When studying objects for a still life drawing, a student should observe: (1) The shape and form of the objects; (2) The material each object is made of; (3) How light falls on the objects, creating shades and shadows; (4) The shape and direction of the shadows; (5) How objects overlap when seen from different angles; (6) The compositional arrangement of objects in the space around them."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the life and contribution of Amrita Sher-Gil to Indian art. How do the concepts of 'light and shade' and 'still life' apply to her painting discussed in the chapter? Also explain in your own words how observing everyday objects can help a student develop their artistic skills.",
+      "themeWrapper": "Grand champion of the Visual Arts Quest, you have reached the ultimate challenge! Draw upon all the knowledge you have gathered in your heroic journey through Chapter 1. Honour the legacy of a great artist, connect her work to the techniques you have learned, and reflect on how the simple act of observation can forge a true artist. Let your answer be as rich and detailed as a master's canvas!",
+      "sampleAnswer": "Amrita Sher-Gil (1913) was one of the most important modern Indian women artists. Born to a Hungarian mother and an Indian father, she studied art in Paris. At the age of 21, she returned to India and travelled to smaller towns and villages, carrying her canvases, oil paints and brushes. She was deeply moved by the lives and conditions of common Indian people, and her paintings reflect these themes. Her work is known for its rich, earthy colours. Her still life painting discussed in the chapter shows a beautiful arrangement of objects with careful attention to light, shade and shadows, which bring the composition to life.\n\nIn terms of 'light and shade', Sher-Gil's painting demonstrates how the fall of light on objects creates areas of brightness and darkness, giving them a three-dimensional quality. The shadows add depth and realism to the composition. In terms of 'still life', her painting showcases a thoughtful arrangement of inanimate objects that are given a new 'life' through the artist's observation and skill.\n\nFor a student, observing everyday objects is a powerful way to develop artistic skills. By looking at objects from different angles, noticing their shapes, the materials they are made of, how light falls on them and how shadows form, a student trains their eyes to see more carefully. This careful observation helps in drawing accurate shapes, adding realistic tones of light and dark, and understanding proportion. Each drawing deepens the student's perception, making them more aware of the world around them and helping them express it creatively through art."
+    }
+  ],
+  "fromCache": false
+}

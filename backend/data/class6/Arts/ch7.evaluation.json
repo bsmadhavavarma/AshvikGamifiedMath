@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 7,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the great rhythm kingdom of Hindustani music, how many matras (beats) does Teen Taal contain?",
+      "themeWrapper": "Brave Rhythm Seeker, decode the structure of the most famous taal in the land!",
+      "options": [
+        "A. 6",
+        "B. 8",
+        "C. 12",
+        "D. 16"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D. 16"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the Carnatic talam quest, which angam consists of only ONE clap and is represented by the symbol U?",
+      "themeWrapper": "Hero of the Tala Realm, identify this lone warrior among the three angams!",
+      "options": [
+        "A. Laghu",
+        "B. Dhrutam",
+        "C. Anudhrutam",
+        "D. Avartanam"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Anudhrutam"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Pandit Vishnu Narayan Bhatkhande, the legendary champion who documented Hindustani classical music, compiled compositions in a famous series. What is that series called?",
+      "themeWrapper": "Quest Keeper, recall the mighty tome that preserved the treasures of Indian music!",
+      "options": [
+        "A. Geetam Sagara",
+        "B. Kramik Pustak Maalika",
+        "C. Raga Ratnavali",
+        "D. Swarmalika Sangrah"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. Kramik Pustak Maalika"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Heroic Scholar, explain what a 'raga' is and what the term 'rasa' means in the context of Indian classical music.",
+      "themeWrapper": "The ancient scrolls await your wisdom — uncover the soul of melody and emotion!",
+      "sampleAnswer": "A raga is a scale decorated with gamakas (ornamentations), special phrases, and important notes. The word 'raga' in Sanskrit means something that colours the mind. Every raga evokes certain emotional responses in the listener, and this emotional quality is called 'rasa'."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Brave Carnatic Champion, describe the structure of Adi Talam. How many beats does it have, what are its angams, and how is it represented?",
+      "themeWrapper": "The Tala Fortress challenges you — name its gates and count its guards!",
+      "sampleAnswer": "Adi Talam consists of one laghu followed by two dhrutams. It is a cycle of eight beats (4 + 2 + 2). The laghu has four beats (chaturashra jaati) and each dhrutam has two beats. It is represented as | O O."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Grand Music Explorer, compare Hindustani classical music and Carnatic classical music. In your answer, discuss the instruments used, the languages of composition, the terms used for raga and rhythm, and name at least two composers or musicians associated with each tradition.",
+      "themeWrapper": "The Great Musical Map is spread before you — chart both kingdoms of Indian classical music with heroic detail!",
+      "sampleAnswer": "Hindustani classical music (North Indian) and Carnatic classical music (South Indian) are the two great traditions of Indian classical music. Hindustani music uses instruments like the tanpura, sitar, sarod, sarangi, santoor, tabla, and pakhawaj. Its compositions are mostly in Hindi, Sanskrit, and Brijbhasha. In Hindustani music, the rhythmic cycle is called 'taal' and melody is called 'raga'. Compositions are called 'bandish' and the ascending scale is 'aroha' while descending is 'avaroha'. Pandit Vishnu Narayan Bhatkhande is a celebrated figure who documented Hindustani music. Carnatic music uses instruments like the veena, violin, flute, nadaswaram, mridangam, ghatam, kanjira, and morsing. Its compositions are mostly in Sanskrit, Telugu, Kannada, Malayalam, and Tamil. In Carnatic music, the rhythm is called 'talam' and melody is called 'ragam'. Compositions are called 'kritis'. The Trinity of Carnatic Music — Tyagaraja, Muthuswami Dikshitar, and Shyama Shastri — are pioneer composers of this tradition. Palghat Mani Iyer was a legendary mridangam maestro. Both traditions share concepts like gamaka/gamakam (ornamentation) and laya/layam (tempo), reflecting their shared roots in Indian classical music."
+    }
+  ],
+  "fromCache": false
+}

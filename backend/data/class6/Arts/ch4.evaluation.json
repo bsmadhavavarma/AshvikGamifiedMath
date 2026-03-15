@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 4,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What information can seals give us clues about?",
+      "themeWrapper": "Brave Seeker, your first quest scroll asks: Ancient seals are powerful relics of knowledge. What kind of information do they reveal about people and societies?",
+      "options": [
+        "A) Lives, routines, social positions and beliefs of individuals and societies",
+        "B) Only the names of kings and rulers",
+        "C) Weather patterns and agricultural records",
+        "D) Only the language and script of a civilization"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In the process of hand block printing for making Ajrakh textiles, which part of the wooden block transfers the pattern onto the cloth?",
+      "themeWrapper": "Champion of Craft, decode this mystery: When a wooden block is pressed onto fabric, which part of the block creates the printed design?",
+      "options": [
+        "A) The hollowed or carved-out portions",
+        "B) The raised portions of the pattern",
+        "C) The flat unpatterned edges of the block",
+        "D) The entire surface of the block equally"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Where is the traditional textile art of Ajrakh block printing practiced?",
+      "themeWrapper": "Heroic Explorer, a great textile tradition calls to you! In which region of India is the magnificent art of Ajrakh hand block printing carried out?",
+      "options": [
+        "A) Varanasi, Uttar Pradesh",
+        "B) Mysuru, Karnataka",
+        "C) Kutchh, Gujarat",
+        "D) Jaipur, Rajasthan"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Why is it important to keep your seal design simple, and why must all portions of the seal's surface be even when making it?",
+      "themeWrapper": "Artisan Warrior, your quest demands wisdom: Explain the two key principles — simplicity of design and evenness of surface — that ensure a seal creates a clear and successful impression.",
+      "sampleAnswer": "Keeping the design simple ensures that it is easy to carve, recognisable when stamped, and creates a clean impression. If the design is too complex, it becomes difficult to carve accurately and the printed result may be unclear. All portions of the seal's surface must be even so that when it is inked and pressed onto paper or fabric, every part of the design makes equal contact with the surface, resulting in a clear and complete print. Uneven surfaces would cause parts of the design to be missing or faint in the final impression."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Describe the coin rubbing experiment mentioned in the chapter. What does this experiment help you understand about how seals and printing work?",
+      "themeWrapper": "Young Hero of Discovery, recall your training: Describe the coin rubbing experiment and explain the insight it gives you about the process of seals creating impressions.",
+      "sampleAnswer": "In the coin rubbing experiment, a coin is placed under a piece of paper, and a pencil is rubbed over the paper's surface above the coin. As you rub, the raised design of the coin gradually appears on the paper as visible markings. This experiment helps us understand that a raised or textured surface can transfer its pattern onto another surface through pressure. It connects to the concept of seals and block printing, where a carved or raised design is pressed onto paper or fabric to leave behind an impression or print of that design."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the complete process of making your own seal as outlined in the chapter, from designing it to testing it. How does this process connect to the larger tradition of hand block printing seen in Ajrakh textiles?",
+      "themeWrapper": "Master Artisan, your ultimate quest has arrived! Walk us through the heroic journey of creating a personal seal — from the first spark of design to the final triumphant print — and explain how this creative adventure mirrors the ancient and noble tradition of Ajrakh block printing.",
+      "sampleAnswer": "The process of making a personal seal involves four steps. In Step 1, you test with found objects by pressing buttons, bottle caps, leaves, coins, and similar objects onto flat, damp clay to observe the impressions they make. This helps you understand which shapes create clearer impressions and why. In Step 2, you design your seal by sketching a personal symbol — something simple that represents you, such as a face, leaf, animal, letter, or icon — that conveys recognisable qualities or values important to you. In Step 3, you make the seal using materials like cardboard, clay, jute rope, sponge, or rubber. You flatten the surface, carve or shape your design using safe tools, and ensure all parts of the design are at an even level so the print will be clear. If the design is too complex, you simplify it. In Step 4, you test the seal by either pressing it into wet clay (if rounded) or applying paint or ink and stamping it on paper (if flat). Based on the results, you refine and improve the seal until you get the desired impression. This process directly mirrors the tradition of Ajrakh hand block printing. In Ajrakh, a skilled wood carver crafts a wooden block with raised patterns, just as students carve their seal designs. The block is inked and carefully pressed onto fabric repeatedly to create continuous, beautiful patterns — exactly like how a personal seal can be stamped multiple times to create a repeating pattern on paper or fabric. Both processes rely on the same fundamental principle: a raised inked surface transfers its design onto another surface through pressure, connecting a simple classroom activity to a centuries-old artistic tradition from Kutchh, Gujarat."
+    }
+  ],
+  "fromCache": false
+}

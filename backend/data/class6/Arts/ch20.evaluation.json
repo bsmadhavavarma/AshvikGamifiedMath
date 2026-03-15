@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 20,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the story of the two friends who found a mystery seal, which art form is directly connected to the act of making the seal itself?",
+      "themeWrapper": "Brave Explorer, decode this clue! The mystery seal in the story connects to which art form you practised as an activity in your book?",
+      "options": [
+        "A. Music",
+        "B. Visual Arts",
+        "C. Theatre",
+        "D. Dance"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "According to the chapter, Pancha Tattva refers to five basic elements. Which of the following is NOT one of the Pancha Tattva (Pancha Bhuta)?",
+      "themeWrapper": "Mighty Quester, the ancient scroll of Pancha Tattva reveals five sacred elements. Can you spot the impostor among these choices?",
+      "options": [
+        "A. Earth",
+        "B. Water",
+        "C. Wood",
+        "D. Space"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "During the group activity's chit-picking game described in the chapter, how many sets of chits are made and what does each set represent?",
+      "themeWrapper": "Champion of Knowledge, the game of chits holds the key to integration! How many sets of chits are forged for the group quest, and what power does each set carry?",
+      "options": [
+        "A. Four sets, each representing one element of nature",
+        "B. Five sets, each associated with activities of a particular art form",
+        "C. Three sets, representing earth, water and fire",
+        "D. Two sets, one for individual and one for group activities"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "The chapter suggests that art is not merely a skill to develop. What greater purpose does it serve, according to the chapter? Name any two ways art can impact society.",
+      "themeWrapper": "Heroic Thinker, your quest goes beyond brushes and beats! Reveal the higher calling of art as described in this chapter — how can it shape the world around us?",
+      "sampleAnswer": "According to the chapter, art has the potential to make social changes and reforms. It also brings sensitivity and awareness in us about everything, as we start appreciating small things, beauty and changes around us. For example, art can be used to campaign against soil pollution through posters or motivate people through songs, helping bring positive change in society."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In the group activity, each group must choose either 'Earth' or 'Water' as their theme. After picking chits from five sets, how does the 'Values' chit help the group in their integrated project?",
+      "themeWrapper": "Valiant Scholar, the chit of Values holds a secret power! Explain its role in uniting all art forms within the group's grand creative quest.",
+      "sampleAnswer": "The 'Values' chit serves as a unifying theme that brings together all the art forms in the integrated project. Once each group has one activity each from Theatre, Music, Visual Art and Dance, the Values chit provides a central idea or moral — such as Sustainability, Swachhta or Cultural Sensitivity — that connects all these art forms meaningfully and gives the project a common purpose and message."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Using the story of the two friends in the jungle as a model, explain how all four art forms — Visual Arts, Music, Dance and Theatre — were woven into that single story. Then, imagine your own short story based on the theme 'Earth and Water' and describe how you would integrate at least three art forms into it, giving specific examples of activities from the chapter's activity table.",
+      "themeWrapper": "Greatest Champion of the Arts Quest! The ultimate challenge awaits you. Decode how the jungle story united all art forms, and then forge your own epic tale of Earth and Water, weaving the powers of at least three art forms into your heroic narrative. Let your imagination conquer this final quest!",
+      "sampleAnswer": "In the story of the two friends, all four art forms are beautifully integrated. The mystery seal they found connects to Visual Arts, as making seals was an activity in the Visual Arts chapter. When the children encounter indigenous people dancing in front of their God, this represents Dance, including local and regional folk dances learnt in the Dance periods. The emotions of fear, surprise and joy experienced by the children — being lost, getting caught and finally making friends — connect to Theatre, where expressions and dialogues for such emotions were practised. The local and regional songs sung by the indigenous people link to Music, reflecting the regional music learning. \n\nMy own story based on 'Earth and Water': Two children discover that the pond near their village is being polluted by plastic waste. Determined to save it, they rally their friends. In this story, Visual Arts could be used to create posters and artwork using water colours or upcycled materials like bottles to spread awareness about water pollution (from the Visual Art column — 'Upcycle discarded materials'). Theatre could be used to perform a short nukkad natak with characters discussing the problem, using a script with conversation (from the Theatre column — 'Write a script with characters and a conversation'). Music could involve composing a motivational song about saving water, perhaps using instruments to create emotions related to water (from the Music column — 'Use any instrument to create emotion related to the element'). Together, these art forms create a powerful integrated project that not only tells a story but also inspires the community to protect their natural water sources, demonstrating that art can indeed drive social change."
+    }
+  ],
+  "fromCache": false
+}

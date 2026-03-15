@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 3,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is the art of folding paper called, and where did it originate?",
+      "themeWrapper": "O Brave Seeker! Before you may cross the Bridge of Crafts, answer truly: What is the ancient art of paper folding called, and from which land did it first arise?",
+      "options": [
+        "Sanjhi, India",
+        "Origami, Japan",
+        "Weaving, China",
+        "Buntings, Europe"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Sanjhi is a traditional paper-cutting art form practiced in which region of India?",
+      "themeWrapper": "Valiant Quester! The Map of Indian Arts lies before you. Point your sword at the correct answer: In which region is the traditional art of Sanjhi paper cutting practiced?",
+      "options": [
+        "Jaipur and Rajasthan",
+        "Mathura and its surrounding regions in Uttar Pradesh",
+        "Varanasi in Bihar",
+        "Mysuru in Karnataka"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What do the terms 'warp and weft' refer to in the context of paper weaving?",
+      "themeWrapper": "Champion of the Crafts Quest! Decode the ancient language of weaving: What does 'warp and weft' describe?",
+      "options": [
+        "The folding and unfolding of paper",
+        "The cutting and pasting of paper pieces",
+        "The tightly criss-crossed threads or strips in weaving",
+        "The colouring and painting of paper"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe the story of Sadako and the Thousand Paper Cranes. What symbol have paper cranes become because of her story?",
+      "themeWrapper": "Heroic Learner! A legend echoes through time — recount the brave tale of Sadako and explain what paper cranes represent to the world today.",
+      "sampleAnswer": "Sadako was an 11-year-old Japanese girl who developed an incurable disease due to the effects of the atomic bombing of Hiroshima in 1945. While in the hospital, she learned a legend that making 1000 paper cranes could grant a wish or extend one's life. She began folding cranes with the hope of surviving, but sadly passed away after completing 644 cranes. Her story inspired people worldwide, and even today, paper cranes are sent to the Children's Peace Monument in Japan. Paper cranes have become a symbol of peace."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What are buntings, and how can paper-cutting techniques make them more decorative?",
+      "themeWrapper": "Seeker of Festive Wisdom! Festivals are incomplete without colour and decoration. Tell the Quest Council: What are buntings, and how does the art of paper cutting enhance them?",
+      "sampleAnswer": "Buntings are paper, cloth, or plastic decorations that are hung on strings during festivals and special occasions. They are often very colourful. By using paper-cutting techniques to cut out various shapes and patterns on the buntings, they can be made even more decorative and visually appealing."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 4 introduces three major paper craft techniques: paper folding (origami), paper cutting (Sanjhi), and paper weaving. Explain each technique in detail, mention their cultural significance or origin, and describe how you could use each one to create something meaningful or decorative.",
+      "themeWrapper": "Greatest Champion of the Paper Crafts Quest! You have journeyed through all three realms of this chapter. Now, in a grand proclamation worthy of a hero, explain all three paper craft techniques — their origins, cultural roots, and how you would wield each one to create something beautiful and meaningful. Prove your mastery!",
+      "sampleAnswer": "Chapter 4 explores three exciting paper craft techniques, each with its own unique character and cultural roots.\n\n1. Paper Folding (Origami): Origami is the art of folding paper without cutting or gluing. It originated in Japan and has spread across the world. The story of Sadako and the Thousand Paper Cranes shows how powerful this art can be — paper cranes have become a global symbol of peace and hope. Using origami, one could create a decorative mobile of paper cranes to hang in a classroom or gift to someone as a symbol of good wishes.\n\n2. Paper Cutting (Sanjhi): Sanjhi is a traditional Indian art form practiced in Mathura and surrounding regions of Uttar Pradesh. Originally, these intricately cut paper stencils were used to make rangoli designs. Today, they are crafted in a variety of beautiful patterns. One could use Sanjhi-inspired paper cuts to create lanterns, window decorations, or greeting cards. These paper cuts can also be used to make buntings for festivals by cutting colourful shapes and threading them together.\n\n3. Paper Weaving: Paper weaving is inspired by the way cloth is made — through a criss-cross of threads called warp and weft. By cutting strips of paper and weaving them together, one can create a mat or a decorative placemat. This activity also encourages exploring other natural materials like jute, bamboo, cotton, and wool for weaving, connecting the craft to broader traditions of textile making.\n\nTogether, these three techniques show that paper is a versatile and magical medium that connects creativity, culture, and everyday life."
+    }
+  ],
+  "fromCache": false
+}

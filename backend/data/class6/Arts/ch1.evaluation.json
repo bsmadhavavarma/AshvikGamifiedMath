@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is the correct formula to create a colour TINT in art?",
+      "themeWrapper": "Young Quester, a riddle blocks your path! Answer truly to proceed: Which ancient formula unlocks the secret of colour tints?",
+      "options": [
+        "A) Colour + Black",
+        "B) Colour + White",
+        "C) Colour + Yellow",
+        "D) Colour + Water"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following is described in the chapter as a natural binder used to help colour stick to a surface?",
+      "themeWrapper": "Brave Adventurer, the Keeper of Pigments demands you name one of the ancient binding agents before you may pass!",
+      "options": [
+        "A) Lemon juice",
+        "B) Coconut oil only",
+        "C) Gum arabic (sap from the bark of a babul tree)",
+        "D) Salt water"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following surfaces has been used by artists since pre-historic times to create artwork, as mentioned in Chapter 2?",
+      "themeWrapper": "Hero of the Ages, the Ancient Scroll challenges you — identify the surfaces that carried art across centuries!",
+      "options": [
+        "A) Plastic sheets and glass panels",
+        "B) Rocks, cave walls, palm leaves, and cloth",
+        "C) Cardboard and printed paper only",
+        "D) Canvas and synthetic fibre only"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any THREE natural sources from which colours can be made, as discussed in Chapter 2. Also name ONE spice mentioned in the chapter that gives colour when used in cooking.",
+      "themeWrapper": "Daring Seeker, the Forest Oracle grants passage only to those who can name the treasures of nature that hold colour within them. Speak your answer with courage!",
+      "sampleAnswer": "Three natural sources of colour mentioned in the chapter include: soil, stones/minerals, and flowers (also vegetables/fruits/roots are acceptable). The spice mentioned is turmeric, which gives dal its yellow colour."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is the difference between a colour TINT and a colour SHADE? Give one real-life example from nature that shows how colours change from light to dark or bright to dull.",
+      "themeWrapper": "Gallant Quest-Keeper, the twin guardians of Light and Shadow challenge you to explain their differences before you may enter the Hall of Colours!",
+      "sampleAnswer": "A colour TINT is created by adding white to any colour, making it lighter. A colour SHADE is created by adding black to any colour, making it darker. A real-life example from nature is the sky during sunrise or sunset, where colours shift from soft, pale tints to deeper, darker shades. Another example is how clothes fade from bright to dull over time due to sunlight and washing."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 2 encourages you to observe nature like an artist and create artwork inspired by your surroundings. Describe in detail: (a) What kinds of things would you observe during a nature walk and what elements of art (shape, colour, texture, pattern) would you notice? (b) How would you make your own natural colour, explaining the step-by-step process? (c) Why does the chapter say 'the picture should be through your eyes'? What does this mean for you as a young artist?",
+      "themeWrapper": "Champion of the Creative Quest, you have reached the Final Trial! The Grand Keeper of the Arts demands a full account of your journey — from observing the world around you, to crafting colours from the Earth, to painting your own unique vision. Prove your mastery and claim your place among the great artist-adventurers!",
+      "sampleAnswer": "(a) During a nature walk, I would observe: the sky's vastness and cloud shapes, the colour and texture of soil, pebbles and rocks (smooth, rough, bumpy, grainy), the textures of leaves, stems, barks and flowers, the different shapes and patterns of leaves, and the forms of animals, birds or insects. The elements of art I would notice include shapes of leaves and clouds, colours of the sky, soil and plants, textures of rocks and bark, and patterns seen in leaf veins and animal markings.\n\n(b) To make natural colour step-by-step: Step 1 — Source raw materials from nature such as soil, minerals, vegetables, flowers, fruit, roots, or charcoal. Step 2 — The sourced pigments are finely powdered and filtered to remove impurities. Step 3 — A natural binder (such as gum arabic from babul tree sap, oil, milk, or egg white/yolk) is added in the correct proportion so the colour sticks to the surface. Step 4 — The prepared colour is then applied to the artwork on whichever surface is chosen.\n\n(c) 'The picture should be through your eyes' means that each artist sees the world in their own unique way. No two people have exactly the same experiences, imagination or observations. The chapter encourages students not to copy a typical or stereotyped image of nature (like just a mountain or river) but to choose what represents nature from their own immediate surroundings and personal experiences. For me as a young artist, this means I am free to paint what I truly notice and feel — a tree in my schoolyard, a stone I found, or a colour in the sky I saw this morning — making my artwork genuinely mine and unique."
+    }
+  ],
+  "fromCache": false
+}

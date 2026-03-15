@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 17,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which was the very first Parsi theatre company, and what was the name of their first play performed in 1853?",
+      "themeWrapper": "Brave Questor, to unlock the Gate of Origins, you must identify the pioneering company that lit the first torch of Parsi theatre in India!",
+      "options": [
+        "A) Surabhi Theatre; Keechaka Vadha",
+        "B) Parsi Natak Mandali; Roostum Zabooli and Sohrab",
+        "C) Gubbi Company; Sadharame",
+        "D) Karnataka Nataka Mandali; Kichaka"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which unique distinction did the Gubbi Company (Shree Channabasaweshwara Nataka Mandali) hold among theatre companies in Karnataka?",
+      "themeWrapper": "Champion of the Stage, answer this riddle to claim the Shield of Firsts — what barrier did the Gubbi Company heroically break that changed theatre history?",
+      "options": [
+        "A) It was the first company to perform in multiple languages simultaneously",
+        "B) It was the first troupe to allow women to act",
+        "C) It was the first company to use proscenium-style productions",
+        "D) It was the first to perform outside India"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following is NOT listed as a reason for the decline of company theatres in India after Independence?",
+      "themeWrapper": "Seeker of Fallen Legacies, to honour the lost companies, you must identify which force did NOT contribute to their downfall!",
+      "options": [
+        "A) Poor financial management of most companies",
+        "B) Competition from the cinema industry",
+        "C) A government ban on theatre performances",
+        "D) Content becoming less family friendly due to unhealthy humour"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What made a company theatre troupe 'self-sufficient'? Name at least four types of people who were part of such a troupe.",
+      "themeWrapper": "Valiant Explorer, the ancient scrolls speak of mighty troupes that needed no outside help. Describe what made them a complete world unto themselves!",
+      "sampleAnswer": "A company theatre troupe was self-sufficient because it included all the professionals needed both for performances and daily life. It had make-up men, costume tailors, set designers, painters, light technicians, actors, dancers, singers, writers, cooks, managers, and accountants — all living and working together. Entire families, including children, were often part of the troupe, making them completely independent in their professional and personal requirements."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Surabhi Theatre has survived for over 138 years. Name any three plays it currently showcases and briefly describe what each play is about.",
+      "themeWrapper": "Heroic Chronicler, the flame of Surabhi still burns bright across centuries! Prove your knowledge by recounting the tales told on its legendary stage.",
+      "sampleAnswer": "Three plays currently showcased by Surabhi Theatre are: 1) Sri Krishna Leelalu — this play depicts the exploits and adventures of little Krishna. 2) Bhakta Prahlada — this tells the tale of Prahlada, a devoted child known for his unshakeable faith. 3) Maya Bazar — this play narrates the tale of the demon King Ghatothkacha. All these plays are rooted in Hindu tradition and history, which is the hallmark of Surabhi Theatre."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the concept of Company Theatre in India — its origins, the roles people played within it, prominent companies across different regions, and the reasons for its eventual decline. What does the existence of such troupes tell us about the value communities placed on the performing arts?",
+      "themeWrapper": "Grand Hero of the Quest, you have journeyed through the entire saga of Company Theatre! Now stand before the Council of Knowledge and narrate the full epic — from the glorious rise of these theatrical legions to their bittersweet twilight. Show the Council the depth of your understanding!",
+      "sampleAnswer": "Company Theatre refers to professional companies of artists who lived and performed theatrical productions together. These troupes existed as early as the 1700s in Kolkata and were entirely self-sufficient, containing make-up artists, costume tailors, set designers, painters, light technicians, actors, dancers, singers, writers, cooks, managers, and accountants. Entire families including children were part of these troupes, and they spent their whole lives performing, travelling, and living together.\n\nThe earliest travelling troupes were the Parsi Theatre Companies of Bombay, which performed across India from the 1850s to the 1930s. The first, Parsi Natak Mandali, performed Roostum Zabooli and Sohrab in 1853. By 1860, over 20 Parsi theatre groups existed in Mumbai. Their proscenium-style productions inspired theatrical traditions across Maharashtra, Karnataka, and Andhra Pradesh.\n\nProminent companies included Surabhi Theatre (Sri Venkateshwara Natya Mandali) founded in 1885 in Andhra Pradesh, which still performs today after 138 years. Karnataka had Karnataka Nataka Mandali (1874), Halasangi Nataka Mandali, and the most celebrated Gubbi Company, which was the first troupe to allow women to act and launched the careers of legendary personalities like Dr Rajkumar and director BV Karanth.\n\nAfter Independence, company theatres declined due to poor financial management, the powerful competition from cinema, content that became less family friendly, and the growing popularity of amateur or Havyasi theatre.\n\nThe existence of company theatres reflects how deeply communities valued the performing arts — people dedicated their entire lives to storytelling, families bonded over performance, and rulers like the Maharajas of Mysore even provided patronage. These troupes were not just entertainment but a living cultural institution that preserved mythology, history, and human emotion for generations."
+    }
+  ],
+  "fromCache": false
+}

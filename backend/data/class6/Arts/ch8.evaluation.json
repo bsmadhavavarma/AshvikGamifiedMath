@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 8,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is Vanchipattu traditionally associated with in Kerala?",
+      "themeWrapper": "Bold adventurer, your first quest: identify the cultural treasure! What is the Vanchipattu traditionally associated with in Kerala?",
+      "options": [
+        "A. Temple festivals",
+        "B. Traditional boat races",
+        "C. Harvest celebrations",
+        "D. Wedding ceremonies"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B. Traditional boat races"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which famous musician from Assam was widely known as 'Sudha Kontho' and received the Bharat Ratna?",
+      "themeWrapper": "A legendary hero of music awaits your recognition, brave seeker! Which renowned musician from Assam, born in Sadiya in 1926, was called 'Sudha Kontho' and received the Bharat Ratna?",
+      "options": [
+        "A. Ravi Shankar",
+        "B. Bhimsen Joshi",
+        "C. Bhupen Hazarika",
+        "D. Guru Nanak"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Bhupen Hazarika"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "During which festival is Garba, the traditional music and folk dance form from Gujarat, often performed?",
+      "themeWrapper": "Valiant warrior of knowledge, name the festival during whose celebration the rhythmic Garba of Gujarat comes alive!",
+      "options": [
+        "A. Diwali",
+        "B. Holi",
+        "C. Navaratri",
+        "D. Pongal"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C. Navaratri"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any three types of devotional music mentioned in Chapter 9 and briefly state what each one represents or where it is performed.",
+      "themeWrapper": "Champion of diversity, your quest demands wisdom! Name three forms of devotional music from Chapter 9 and describe each one briefly.",
+      "sampleAnswer": "The three devotional forms are: (1) Kirtan – a devotional composition performed as an abhang, exemplified by Saint Tukaram's work sung by Bhimsen Joshi, conveying empathy and the presence of God in compassionate hearts; (2) Shabad – a song sung in Gurudwaras, as composed by Guru Nanak, advising disciples not to worry excessively and to have faith in divine will; (3) Hymns – sung in churches, such as 'Give me oil in my lamp', which praises and worships Jesus Christ as the king of kings and asks for sustained devotion."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is the central message of the Sufi song 'Mo Mina Ma', and who originally wrote the poem it is based on?",
+      "themeWrapper": "Seeker of deeper truths, unveil the sacred message hidden in the Sufi song 'Mo Mina Ma' and name the legendary poet behind its words!",
+      "sampleAnswer": "The central message of 'Mo Mina Ma' is that all faithful souls are united by one divine spirit. When we look beyond the barriers of our physical bodies, we realise that the life force — the soul — driving each of us is the same. The poem 'The Faithful are One Soul' is from the Masnavi, written in Persian by Jalal ud-Din Muhammad Balkhi, also known as Rumi."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 9 is titled 'Melodies of Diversity'. Using examples of at least four songs or music forms from different regions of India discussed in the chapter, explain how music reflects the culture, traditions, and values of each region. Also discuss the instruments and themes associated with these forms.",
+      "themeWrapper": "Greatest hero of this quest, your final challenge has arrived! Prove your mastery by explaining how India's musical tapestry — as described in Chapter 9 — weaves together the cultures, traditions, and values of its diverse regions. Use at least four regional examples and include details about instruments and themes to complete your epic scroll of knowledge!",
+      "sampleAnswer": "Chapter 9, 'Melodies of Diversity', beautifully demonstrates how music is a living mirror of India's rich and varied culture. Each song from a different region reflects the unique heritage, values, and natural surroundings of that area.\n\n1. Manipuri Song – 'Ha Urit Napanghi': This song from Manipur describes a bird called Urit who does not respond to its mother's or father's calls. It reflects the close bond between humans and nature in Northeastern culture, and shows how folk songs in the region use imagery from the natural world.\n\n2. Vanchipattu from Kerala – 'Kuttanadan Punchayile': This boat song from Kerala is deeply connected to the famous snake boat races held in the backwaters of Kerala. It depicts the beauty of the Kuttanad region and expresses joy in natural surroundings. The rhythmic and lively nature of the song mirrors the energetic spirit of the boat races, which are an integral part of Kerala's cultural festivities.\n\n3. Garba from Gujarat – 'Taari Baanki Re': This traditional folk dance and music form from Gujarat is performed during Navaratri. Instruments like dhol, tabla, dholak, harmonium, and flute accompany the performance, along with body percussion such as clapping, stomping, and tapping with dandiya sticks. The song celebrates devotion to Lord Krishna (Kanuda), reflecting the region's deep spiritual and festive traditions.\n\n4. Marathi Song – 'Kshatriya Kulavatsana': This song pays homage to Chhatrapati Shivaji Maharaj, praising his lineage, courage, and leadership. It reflects the pride and reverence of Maharashtra's people for their historical heroes and their warrior tradition.\n\n5. Devotional Music – Kirtan, Shabad, and Hymns: Across India, devotional music takes different forms. Kirtan (Marathi), Shabad (Punjabi Gurudwara), and Hymns (Christian churches) all reflect the dominant spiritual theme of Indian music — Bhakti or devotion. Each form, though unique in language and style, shares the universal value of faith and compassion.\n\nIn conclusion, by learning these songs, we understand that India's musical diversity is not just about different languages or melodies — it is a reflection of different ways of living, worshipping, celebrating, and belonging. Music connects us to our roots and to one another, making the title 'Melodies of Diversity' truly meaningful."
+    }
+  ],
+  "fromCache": false
+}

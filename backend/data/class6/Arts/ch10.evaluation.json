@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 10,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Who composed India's national anthem, and in which language was it originally written?",
+      "themeWrapper": "O Brave Seeker, the first quest tests your knowledge of the anthem that unites our great land! Identify its creator and the tongue in which it was forged!",
+      "options": [
+        "A) Mahatma Gandhi, in Hindi",
+        "B) Rabindranath Tagore, in Sanskritised Bangla",
+        "C) Swami Vivekananda, in Sanskrit",
+        "D) Jawaharlal Nehru, in English"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Rabindranath Tagore, in Sanskritised Bangla"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "What does the term 'stereotype' mean as described in Chapter 11?",
+      "themeWrapper": "A wise hero knows their enemy! What is the nature of the foe called 'stereotype' that music can sometimes create?",
+      "options": [
+        "A) A new musical instrument invented in ancient India",
+        "B) A preconceived idea or generalisation based on culture, race, colour, gender or other factors",
+        "C) A type of classical song from the Vedic period",
+        "D) A method of composing national anthems"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) A preconceived idea or generalisation based on culture, race, colour, gender or other factors"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "The verse 'Uthishtha Jaagrata' from the Kathopanishad was a favourite of which great Indian leader and thinker?",
+      "themeWrapper": "The Quest Scrolls reveal that this powerful verse inspired a mighty champion of India. Name the hero who held it dear!",
+      "options": [
+        "A) Rabindranath Tagore",
+        "B) Mahatma Gandhi",
+        "C) Swami Vivekananda",
+        "D) Jawaharlal Nehru"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Swami Vivekananda"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "How was music used as a powerful weapon during India's freedom struggle? Explain with at least one purpose it served.",
+      "themeWrapper": "Courageous Quester, history reveals that music was once a mighty sword! Describe how the heroes of India's freedom struggle wielded it to fight oppression.",
+      "sampleAnswer": "During the freedom struggle, music was used by our leaders as a tool for social messaging and unity. Songs were composed and sung to unite people from diverse backgrounds against British rule. Music stirred emotions, built a sense of shared identity, and inspired people to join the movement for independence, making it a powerful non-violent weapon in the fight for freedom."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In the song 'Babua Ki Murgi,' what stereotype does the original version reinforce, and how does the alternative version offered in the chapter challenge it?",
+      "themeWrapper": "A true hero does not accept injustice! Reveal the hidden bias in the original song and explain how the brave new version reforges it into something empowering.",
+      "sampleAnswer": "The original version of 'Babua Ki Murgi' reinforces a gender stereotype — it portrays the hen (symbolising a girl/woman) as silent, upset, and powerless, while the rooster (symbolising a boy/man) is shown as proud and dominant simply because he has a plume or crown. This reflects the unfair idea that males are superior. The alternative version challenges this by celebrating the hen's contribution — she gives eggs — and portrays her as happy and valuable. This reframes the narrative to highlight that every individual has worth regardless of gender."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Music can both unite people and reinforce harmful stereotypes. Using examples from Chapter 11, discuss how music serves as a force for social unity and how it can also spread stereotypes. How can young people, like you, use music responsibly to bring about positive change in society?",
+      "themeWrapper": "The Grand Final Quest has arrived, Mighty Champion! You must now demonstrate deep wisdom. Reflect upon music's double-edged power — as a force of unity and a carrier of bias — and chart the heroic path forward for a young changemaker like yourself!",
+      "sampleAnswer": "Music is one of humanity's most powerful tools for communication, and Chapter 11 shows us both its positive and negative sides.\n\nMusic as a Force for Unity: India's national anthem, composed by Rabindranath Tagore in Sanskritised Bangla, beautifully celebrates the country's vast geographical and cultural diversity. It evokes a sense of pride and togetherness among all Indians regardless of their language, religion, or region. During the freedom struggle, leaders used songs and music to unite millions of people from different backgrounds against British rule. Music broke barriers and created a shared sense of purpose and identity. Similarly, the Vedic verse 'Uthishtha Jaagrata' from the Kathopanishad, a favourite of Swami Vivekananda, inspires people to arise, awake, and not stop until the goal is reached — it is music and verse used to motivate and uplift.\n\nMusic Reinforcing Stereotypes: On the other hand, music can also spread harmful stereotypes. The song 'Babua Ki Murgi' in its original form subtly suggests that the hen (representing a woman) should stay quiet and lacks status, while the rooster (representing a man) is celebrated. Songs like 'Gudiya Raani Bitiya Raani' suggest that a girl's ultimate destiny is to be taken away by a prince, limiting her aspirations. Another example, 'Radha Kyon Gori Main Kyon Kala,' promotes colourism by implying that being fair is desirable. These preconceived ideas, repeated through popular music, gradually shape the way society thinks about gender, colour, and roles.\n\nHow Young People Can Bring Change: Young people hold tremendous power to reshape musical culture. We can listen critically to songs and identify stereotypes hidden within their lyrics. We can create or learn alternative versions of such songs — just as the chapter rewrites 'Babua Ki Murgi' to celebrate the hen's contribution. We can teach empowering songs to our friends, compile books of motivating music, and use creativity to write new lyrics that celebrate equality, kindness, and diversity. By being conscious of the messages in the music we share, young people can use this powerful art form to build a fairer and more united society."
+    }
+  ],
+  "fromCache": false
+}

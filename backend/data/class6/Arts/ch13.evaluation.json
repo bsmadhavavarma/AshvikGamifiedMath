@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 13,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which unique wind instrument, made of buffalo horn, is used in the Bihu dance of Assam?",
+      "themeWrapper": "O Brave Seeker of Cultural Wisdom! To unlock the first gate of this Quest, identify the sacred wind instrument of Assam's Bihu dance:",
+      "options": [
+        "Tabla",
+        "Pepa",
+        "Sitar",
+        "Mridangam"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Dance drama, also called Natya, uses which of the following to convey dialogues primarily?",
+      "themeWrapper": "Warrior of the Arts! The second trial of your Quest demands you identify the primary language of expression used in Natya to deliver dialogue:",
+      "options": [
+        "Written scripts only",
+        "Spoken words loudly",
+        "Hastamudras (hand gestures)",
+        "Facial paint alone"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to the chapter, which three key qualities are required for a successful dance drama performance?",
+      "themeWrapper": "Champion of Harmony! The third riddle of your Quest asks you to name the three pillars that hold up the mighty dance drama. Choose wisely:",
+      "options": [
+        "Speed, Height and Strength",
+        "Coordination, Expression and Collaboration",
+        "Costumes, Props and Make-up",
+        "Rhythm, Language and Instruments"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is a 'script' in the context of dance drama (Natya), and what elements does it contain?",
+      "themeWrapper": "Valiant Explorer on the Quest of Knowledge! The fourth challenge asks you to reveal the sacred scroll of Natya — explain what a script is and what it holds within its pages.",
+      "sampleAnswer": "A script is a written document used for the performance or presentation of a dance drama (Natya). It contains dialogues, songs, action, and directions for the performance. In dance drama, dialogues are mostly conveyed through hastamudras, though words can also be used."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Name any two traditional dances mentioned in the chapter and identify the instrument or prop associated with each.",
+      "themeWrapper": "Fearless Hero of the Cultural Quest! The fifth trial calls upon your memory — name two traditional dances from the chapter and match each with its special instrument or prop to prove your mastery.",
+      "sampleAnswer": "1. Bihu (Assam) — uses the dhol (drum) and pepa (a wind instrument made of buffalo horn). 2. Sidi Dhamal (Gujarat) — uses big drums during the performance."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the concept of Dance Drama (Natya) as described in the chapter. What are its key elements, how is it created, and why is practice considered the key to its success? Also mention the role of choreography in bringing a Natya performance to life.",
+      "themeWrapper": "O Greatest Champion of the Quest for Harmony in Motion! You have reached the Final Fortress. Only the mightiest warrior can answer this ultimate challenge — describe the full journey of creating a Natya, from concept to curtain call, and explain why every element matters in this grand artistic adventure.",
+      "sampleAnswer": "Dance Drama or Natya is a creative art form that combines dance and drama to tell a story or convey a message. Performers use steps, body movements, and hastamudras (hand gestures), often set to songs and music, to enact narratives. The key elements of Natya include: (1) Coordination among performers to move in harmony; (2) Expression through facial expressions, gestures and body language; (3) Collaboration, where all performers work together for a unified outcome. To create a Natya, students first choose a story related to nature, social issues or moral values. A script is then written containing dialogues (through hastamudras), characters, costumes, props and stage requirements. Rhythmic patterns using bols (like 'tha ka dhi mi') and sargams are incorporated into the performance. Facial expressions, postures and movements are practised. In the choreography stage, performers arrange all these elements — dance beats, rhythmic music, dialogues, props and costumes — into a complete performance. Practice is considered the key to success because it allows performers to handle props comfortably, refine their movements, synchronise with each other and build confidence before performing on stage. After choreography and rehearsal on the stage, the Natya is performed in front of an audience. Thus, Natya beautifully unites movement, music, storytelling and teamwork into one powerful art form."
+    }
+  ],
+  "fromCache": false
+}

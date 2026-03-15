@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 11,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the ancient Sanskrit shloka given at the start of the chapter, what follows when the mind becomes concentrated during dance?",
+      "themeWrapper": "Brave Seeker, decipher the ancient wisdom inscribed at the gateway of this Quest! The shloka holds a sacred chain of connections. What arises when the mind is focused?",
+      "options": [
+        "A) The eyes follow the hand",
+        "B) Rasa permeates directly",
+        "C) Emotion (Bhava) arises",
+        "D) The body bends into Tribhanga"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Emotion (Bhava) arises"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which of the following correctly matches the classical dance form with its place of origin?",
+      "themeWrapper": "Champion, the Map of India's Dance Heritage lies before you! Match the sacred art to its homeland to claim your next Quest token!",
+      "options": [
+        "A) Kathakali — Tamil Nadu",
+        "B) Sattriya — Assam",
+        "C) Odissi — Manipur",
+        "D) Kuchipudi — Kerala"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Sattriya — Assam"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In Indian classical dance, what is the term used for joining multiple dance phrases together to make a complete dance?",
+      "themeWrapper": "Valiant Creator, you have gathered all the scattered steps and gestures of your Quest! What is the name of the heroic act of weaving them all into one complete dance?",
+      "options": [
+        "A) Abhinaya",
+        "B) Bhava",
+        "C) Choreography",
+        "D) Navarasa"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Choreography"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any five of the nine Navarasas described in the chapter. Also mention the correct breathing technique to follow while expanding or stretching the body during dance.",
+      "themeWrapper": "Brave Explorer of Emotions, your Quest now calls you to name five of the nine great emotional powers (Navarasas) that dwell within every dancer, and reveal the sacred breath rule that guards the body during movement!",
+      "sampleAnswer": "Five of the nine Navarasas are: Shringara (beauty/love), Hasya (humour), Karuna (grief and compassion), Veera (bravery), and Bhayanaka (fearful). The other four are Raudra (anger), Veebhatsa (disgust), Adbhuta (wonder), and Shanta (calm). The breathing rule is: breathe in (inhale) while expanding or stretching the body, and breathe out (exhale) while contracting or bending the body."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What are hastamudras, and from which ancient texts are they referenced in this chapter? Mention any two hastamudras and one usage of each.",
+      "themeWrapper": "Seeker of the Sacred Gesture, your Quest demands you unlock the mystery of hand signals used by great dancers of ancient India! Name the sources and demonstrate your knowledge of two gestures and their meanings!",
+      "sampleAnswer": "Hastamudras are hand gestures used in Indian classical dance, both to embellish the dance and for Abhinaya (storytelling). They are referenced from the Natyashastra written by Bharatamuni, and a famous book called Abhinaya Darpana. Two examples: (1) Pataka — used to indicate 'stop', giving a boon, or clapping. (2) Suchi — used for pointing at others, indicating the number one, or calling someone. Hastamudras are also noted to share similarities with Indian Sign Language, highlighting inclusivity."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the eight classical dance forms of India mentioned in the chapter. For each, mention its place of origin and the body posture (Bhanga) associated with it. Also explain what 'Bhanga' means in the context of Indian classical dance, and why body awareness and correct posture are considered important in dance.",
+      "themeWrapper": "Grand Champion of the Dance Quest, you have reached the Final Citadel! Your ultimate challenge is to unfold the complete Map of India's Eight Classical Dances — naming each form, its homeland, and its sacred posture (Bhanga). Then reveal why posture and body awareness are the true weapons of every dancer!",
+      "sampleAnswer": "In Indian classical dance, 'Bhanga' refers to the different bents or curves of the body's central vertical line, creating various postures that give each dance form its unique visual identity. The eight classical dance forms are: (1) Bharatanatyam — Place of Origin: Tamil Nadu; Posture: Dwibhanga (a double bend of the body). (2) Kathakali — Place of Origin: Kerala; Posture: Samabhanga (straight, balanced posture). (3) Odissi — Place of Origin: Odisha; Posture: Tribhanga (a triple bend at neck, torso, and knees). (4) Kathak — Place of Origin: Northern India; Posture: Samabhanga. (5) Mohiniyattam — Place of Origin: Kerala; Posture: Atibhanga (an extreme bend). (6) Sattriya — Place of Origin: Assam; Posture: Abhanga (a slight bend, off-centre balance). (7) Manipuri — Place of Origin: Manipur; Posture: Abhanga. (8) Kuchipudi — Place of Origin: Andhra Pradesh and Telangana; Posture: the male dancer uses Samabhanga and the female dancer uses Tribhanga. Body awareness is important because knowing how each joint moves and how the spine bends allows a dancer to perform postures correctly and safely. The middle vertical line of the body serves as the reference for all bends. Additionally, coordinating breath with movement — inhaling during expansion and exhaling during contraction — promotes physical wellness and helps the dancer maintain control, grace, and stamina throughout the performance."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 6,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which two instruments accompany the song 'Shyamale Meenakshi' in the first audio track?",
+      "themeWrapper": "Brave Questor, name the two sonic warriors that stand alongside 'Shyamale Meenakshi' in the first audio battle!",
+      "options": [
+        "A) Piano and drums",
+        "B) Violin and mridangam",
+        "C) Sitar and tabla",
+        "D) Flute and shehnai"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Violin and mridangam"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "The Jaltarang can be classified under which two instrument categories?",
+      "themeWrapper": "A mighty riddle stands before you, Champion! The Jaltarang bears two banners — which dual allegiance does it claim in the realm of instrument families?",
+      "options": [
+        "A) String and Solid (Ghana)",
+        "B) Wind and Percussion (Avanaddha)",
+        "C) Melody and String (Tata)",
+        "D) Solid (Ghana) and String (Tata)"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Wind and Percussion (Avanaddha)"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Ustad Bismillah Khan was awarded the Bharat Ratna and is celebrated for which instrument?",
+      "themeWrapper": "Among the legendary heroes of Indian music, one warrior wielded a woodwind instrument and was honoured with the nation's highest civilian award. Who is he and what instrument did he champion?",
+      "options": [
+        "A) Sitar",
+        "B) Tabla",
+        "C) Shehnai",
+        "D) Veena"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Shehnai"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name the four main families of musical instruments as classified in Chapter 7, and give one example instrument for each family.",
+      "themeWrapper": "Valiant Explorer, the Map of Musical Kingdoms reveals four great realms. Name each realm and one brave instrument that guards it!",
+      "sampleAnswer": "The four families are: 1) String (Tata) — e.g., Veena or Violin; 2) Wind (Sushira) — e.g., Flute or Shehnai; 3) Percussion (Avanaddha) — e.g., Tabla or Dhol; 4) Solid (Ghana) — e.g., Khartal or Morsing. Instruments are classified this way based on how they produce sound."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "How does adding musical instruments change the experience of singing a song? Use your activity with 'Shyamale Meenakshi' as a reference.",
+      "themeWrapper": "Noble Seeker, reflect upon your quest with 'Shyamale Meenakshi' — how did the arrival of instrumental allies transform your musical journey compared to singing alone?",
+      "sampleAnswer": "When singing alone or using only body percussion like clapping and stamping, the song feels simpler and the rhythm depends entirely on the singer. When instruments like violin and mridangam are added, they provide melody support and a steady rhythmic base, making the song richer and more layered. A different set like piano and drums gives the same song a completely different mood and texture, showing that instruments deeply shape the emotional and aesthetic experience of a musical piece."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the complete classification of musical instruments as described in Chapter 7. In your answer, discuss the difference between melody and rhythm instruments, describe the four main instrument families with examples, and explain why an instrument like the Jaltarang can belong to more than one category.",
+      "themeWrapper": "Greatest Champion of the Musical Quest, the final trial demands your fullest wisdom! Unroll the entire scroll of instrument knowledge — speak of melody and rhythm warriors, name the four great instrument clans with their champions, and reveal the secret of the Jaltarang that lets it serve two kingdoms at once!",
+      "sampleAnswer": "Musical instruments in Chapter 7 are classified in two major ways — by their function and by how they produce sound.\n\n**Melody vs Rhythm Instruments:** Melody instruments produce musical notes and tunes, e.g., Veena, Violin, Harmonium, Santoor, Shehnai, and Flute. Rhythm instruments keep the beat and tempo of a composition, e.g., Tabla, Dhol, Ghatam, Khartal, and Morsing.\n\n**Four Instrument Families:**\n1. **String (Tata):** Sound is produced by vibrating strings. Examples include Veena (plucked with fingernails), Violin (played with a bow), Sitar, and Santoor (played with sticks/hammers).\n2. **Wind (Sushira):** Sound is produced by air vibrating within a tube or chamber. Examples include Flute (mouth-blown, without reeds), Shehnai (with reeds), Harmonium (bellow-operated), and Shankh (natural).\n3. **Percussion (Avanaddha):** Sound is produced by striking a stretched membrane. Examples include Tabla and Dhol (played with palms and fingers).\n4. **Solid (Ghana):** Sound is produced by striking solid materials made of wood, metal, or clay. Examples include Khartal (wood), Morsing (metal), and Ghatam (clay).\n\n**The Jaltarang's Dual Nature:** The Jaltarang is made of glass, metal, or clay bowls filled with varying levels of water. The artist strikes the rim of each bowl with a wooden stick. It is considered a **wind instrument** because the air column above the water vibrates to produce the sound. It is also a **percussion instrument** because sound is generated by striking a surface (the rim of the bowl). Additionally, it serves as both a melody and rhythm instrument. This shows that classification of instruments is flexible — an instrument can display characteristics of more than one family depending on its method of sound production, demonstrating the rich and layered nature of musical science."
+    }
+  ],
+  "fromCache": false
+}

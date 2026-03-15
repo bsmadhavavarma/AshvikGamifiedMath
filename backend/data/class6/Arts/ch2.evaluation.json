@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 2,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In Activity 1, when drawing a portrait of your partner, which set of facial features are you instructed to carefully observe?",
+      "themeWrapper": "⚔️ Quest Challenge I — The Eye of the Observer: A true hero notices every detail! Which set of features must the brave artist observe while portraying their companion?",
+      "options": [
+        "A) Eyes, eyebrows, nose, lips, chin, ears",
+        "B) Only the eyes and nose",
+        "C) Hair colour and skin tone only",
+        "D) Hands, feet, and fingers"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) Eyes, eyebrows, nose, lips, chin, ears"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "The Buddha images shown in Activity 2 belong to different art styles. Which of the following is NOT one of the styles mentioned in the chapter?",
+      "themeWrapper": "⚔️ Quest Challenge II — The Ancient Scroll: Legends of art echo through time! Which style does NOT appear among the sacred depictions of Buddha described in the chapter?",
+      "options": [
+        "A) Gandhar style",
+        "B) Mathura style",
+        "C) Mughal style",
+        "D) Thanka style"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Mughal style"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In Activity 4, students are asked to draw a farmer and then discuss their choices. What is one key question asked to challenge assumptions about the farmer's identity?",
+      "themeWrapper": "⚔️ Quest Challenge III — The Mirror of Truth: A hero questions what they assume! What vital question does the chapter pose to challenge the warrior-artist's assumptions about a farmer?",
+      "options": [
+        "A) What is the farmer's favourite crop?",
+        "B) If they changed their clothes, would they stop being a farmer?",
+        "C) How many animals does the farmer own?",
+        "D) What time does the farmer wake up?"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) If they changed their clothes, would they stop being a farmer?"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is a 'portrait' as described in Activity 2, and what parts of a person does it typically focus on?",
+      "themeWrapper": "🗡️ Hero's Riddle I — The Art of Seeing Souls: A portrait is a window to a person's essence. Describe what a portrait is and what it usually captures, as explained in Chapter 3.",
+      "sampleAnswer": "A portrait is a way of depicting people in which the focus is on the face, head, neck, and shoulders of a person. However, it might also include other parts of the body. Artists create portraits to capture the likeness and individuality of a person."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In Activity 4, after drawing a farmer, students are asked to draw three people in different roles around them and then imagine other roles those same people may have. What is the lesson behind this two-step drawing exercise?",
+      "themeWrapper": "🗡️ Hero's Riddle II — Beyond the Armour: Even a knight is more than their armour! What deeper truth does the two-step drawing exercise in Activity 4 teach young artists about people and their roles?",
+      "sampleAnswer": "The two-step drawing exercise teaches that a person's identity and capabilities are not limited by the clothes they wear or the role they are seen in. By first drawing someone in a known role and then in a completely different role wearing the same clothes, students understand that people can play many roles and should not be stereotyped based on their appearance or clothing. It encourages open-mindedness and seeing each person as unique and multi-dimensional."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 3 guides students through creating individual portraits and then assembling them into a class group portrait (Activity 1). Describe all the steps involved in this process. Additionally, explain why observing details like the space between the eyes, the distance from the hairline to the eyebrow, and the shape of the face is important when drawing a portrait. What does this activity teach us about human individuality?",
+      "themeWrapper": "🏆 The Grand Quest — The Portrait of Champions: Every great hero is unique! Describe the full journey of creating a class portrait from start to finish, and explain why careful observation of facial details is the hallmark of a true artist-hero. What does this epic group creation reveal about human individuality?",
+      "sampleAnswer": "The steps to create individual and group portraits are as follows:\n\nStep 1: Observe your partner's face and draw the shape of the face — whether it is circular, oval, egg-shaped, or a rounded rectangle.\nStep 2: Draw other facial features such as the shape and size of the eyes, nose, eyebrows, lips, chin, and ears. Pay close attention to the space between the eyes, the distance between the hairline and eyebrow, and the length of the ears.\nStep 3: Think about the colours to use for the portrait.\nStep 4: Complete the portrait and share it with peers, discussing similarities and differences in facial features.\nStep 5: Cut out the portraits along their edges.\nStep 6: Prepare a large surface by joining many sheets of paper or other material.\nStep 7: Gather all portraits and decide on an arrangement for a group portrait of the whole class.\nStep 8: Paste each portrait in the decided arrangement to complete the class group portrait.\n\nObserving specific details like the space between the eyes, the distance from the hairline to the eyebrow, and the shape of the face is important because these subtle differences are what make each person's face unique. Even though all human faces have the same features — eyes, nose, mouth, ears, and hair — the proportions and sizes differ from person to person, giving each individual their distinct appearance.\n\nThis activity teaches us that although we are all human and share the same basic features, every individual is unique and different. The group portrait visually celebrates this diversity by bringing together many different faces into one collective artwork, symbolising how a community is made up of unique individuals who together form a beautiful whole."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,62 @@
+{
+  "chapterTitle": "Visual Arts",
+  "source": {
+    "classLevel": 6,
+    "subject": "Arts",
+    "chapterTitle": "Visual Arts"
+  },
+  "topics": [
+    "Still Life Drawing",
+    "Light and Shadow",
+    "Perspective and Depth",
+    "Flipbook Animation"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 0,
+  "sections": [
+    {
+      "heading": "🧙 The Wizard's Six Powers of Art",
+      "body": "Long ago, a wise wizard wrote down six magical spells for making great art — knowing how things look, getting sizes right, showing feelings, making it beautiful, making it look real, and using your colours and tools well. These six powers come from an ancient Indian book called the Vishnudharmottara Purana. Every great artist in India used these six spells on their quest to create amazing artwork!",
+      "keyPoints": [
+        "The six limbs of art include proportion, emotion, beauty, similarity, and skillful use of tools",
+        "These art secrets come from ancient India — our land has always valued art as a superpower!"
+      ]
+    },
+    {
+      "heading": "🏰 The Realm of Still Life",
+      "body": "Imagine placing your tiffin box, a mango, and your water bottle together on a table — and then drawing them exactly as they look. That is still life! Artists arrange everyday objects like fruits, flowers, pots, and tools and then draw or paint them. A famous Indian artist called Amrita Sher-Gil was a master of this quest. Even though the objects do not move, the artist gives them a new life through art!",
+      "keyPoints": [
+        "Still life means drawing objects that are not moving — like fruits, bottles, or household things",
+        "You can arrange objects in different ways — touching, overlapping, or spread out — to make interesting compositions"
+      ]
+    },
+    {
+      "heading": "🐉 Taming the Dragon of Light and Shadow",
+      "body": "Have you noticed how on a sunny afternoon your shadow falls on one side? Objects have shadows too! When light falls on a mango, one side looks bright and the other side looks dark. In drawing, we use a pencil to press lightly for bright areas and press harder for dark areas. This skill of showing light and dark is called shading, and it is the dragon every young artist must tame to make drawings look real and three-dimensional.",
+      "keyPoints": [
+        "Light areas need soft, gentle pencil strokes and dark areas need heavier, stronger strokes",
+        "Always observe which side the light is coming from — the shadow falls on the opposite side"
+      ]
+    },
+    {
+      "heading": "⚔️ The Spell of Perspective",
+      "body": "Have you seen how railway tracks look like they meet far away, even though they never really do? That magical trick is called perspective! When you draw a desk or a door, you make the far edges slightly smaller than the near edges. This gives your drawing depth — it looks like you can almost walk into it! Drawing furniture like chairs, windows, and fans is a great quest to practise this powerful spell.",
+      "keyPoints": [
+        "Perspective makes a flat drawing look deep and three-dimensional, like you can see into it",
+        "Look carefully at angles and lines in furniture — far things look smaller, near things look bigger"
+      ]
+    },
+    {
+      "heading": "✨ Mastery Unlocked — The Flipbook Quest",
+      "body": "Here is the most exciting quest of all — making a flipbook! Cut a sheet into eight small pieces, staple them together, and draw the same object on each page with a tiny change each time. When you flip the pages fast, your drawing comes alive and moves — just like a cartoon! This is the same magic that makes your favourite animated movies. You have now used your art mastery to bring still objects to life!",
+      "keyPoints": [
+        "Each page of the flipbook shows the object in a slightly different position to create movement",
+        "More pages mean smoother and more exciting animation — keep adding pages to level up!"
+      ]
+    }
+  ],
+  "summary": "In this chapter, young art heroes began their quest into the world of Visual Arts by learning the six ancient powers of great art from India's own wisdom. They explored the realm of still life — drawing everyday objects like fruits, bottles, and tools arranged together — and learnt to observe them from different angles. They tamed the dragon of light and shadow using pencil shading, and cast the powerful spell of perspective to make flat drawings look deep and real. Finally, they unlocked true mastery by creating flipbooks that magically bring still objects to life with movement. Every activity in this chapter sharpens your eyes, your hands, and your imagination — the three greatest weapons of any art wizard!",
+  "fromCache": false
+}

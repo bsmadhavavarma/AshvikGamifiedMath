@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 9,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In the realm of songwriting, what is the primary purpose of descriptive writing?",
+      "themeWrapper": "Bold Adventurer, your first quest challenge awaits! Answer this to prove your mastery of the lyrical arts:",
+      "options": [
+        "A) To create a clear picture in the mind of the reader or listener",
+        "B) To make the song as long as possible",
+        "C) To copy another songwriter's style exactly",
+        "D) To focus only on how something sounds"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) To create a clear picture in the mind of the reader or listener"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Brave Scholar, identify the correct rhyme scheme for a verse where the first and third lines rhyme and the second and fourth lines rhyme!",
+      "themeWrapper": "The Oracle of Melody poses this riddle to test your knowledge of lyrical patterns:",
+      "options": [
+        "A) AABB",
+        "B) ABBA",
+        "C) ABAB",
+        "D) AAAA"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) ABAB"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is a 'Nottuswaram' in the context of Carnatic music, as revealed in the Chapter of Songs?",
+      "themeWrapper": "A great musical treasure is locked behind this question, Hero! Unlock it with your knowledge:",
+      "options": [
+        "A) A type of Indian folk dance",
+        "B) Compositions by Muthuswami Dikshitar based on western melodies, combining 'note' and 'swaram'",
+        "C) A classical Hindustani raga performed at sunrise",
+        "D) A percussion instrument used in South Indian music"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Compositions by Muthuswami Dikshitar based on western melodies, combining 'note' and 'swaram'"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Valiant Lyricist, explain why rhyming is considered an important part of a song or poem. Give at least two reasons from the chapter.",
+      "themeWrapper": "The Songwriting Citadel demands you prove your understanding of the power of rhyme before you may pass:",
+      "sampleAnswer": "Rhyming is important in a song or poem for two key reasons. First, rhymes help our ears understand where the line changes, acting as a guide through the song. Second, rhymes help highlight the central idea or message that the song is trying to convey. Additionally, people tend to listen more carefully when words rhyme, making the song more engaging and memorable."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Heroic Creator, what does the Songwriting Tip in the chapter say about feedback? Why is sharing your writing considered an important part of the creative process?",
+      "themeWrapper": "The Guild of Songwriters tests your wisdom on the spirit of collaboration — answer to earn your badge:",
+      "sampleAnswer": "The Songwriting Tip encourages writers to think of writing as collaboration, not competition. It advises being constructive and positive while leaving feedback for others. Sharing your writing is an important part of the creative process because it helps you get better at writing by opening yourself to feedback from others. Reading other people's writing also helps you learn different perspectives, which further strengthens your own creative skills."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Champion of Expression, imagine you are writing a song about your favourite season. Using the principles of descriptive writing and rhyming taught in Chapter 10, write a verse of at least four lines for your song. Then explain: (a) what senses you used in your description, (b) what rhyme scheme you followed, and (c) how you ensured your writing creates a clear picture for the listener.",
+      "themeWrapper": "The Ultimate Quest of the Songwriting Saga is here! Unleash your creativity and demonstrate mastery over all the skills learned in this legendary chapter:",
+      "sampleAnswer": "Sample Verse (about Monsoon): 'The raindrops fall on the muddy ground (A), / The thunder roars with a mighty sound (A), / The earth smells fresh and the rivers run wide (B), / As dark grey clouds roll in from the side (B).' — Rhyme Scheme: AABB. (a) Senses used: hearing (thunder roars, raindrops fall), smell (earth smells fresh), sight (dark grey clouds, rivers run wide), and touch (implied through the feeling of rain). (b) The rhyme scheme followed is AABB, where the first two lines rhyme with each other and the next two lines rhyme with each other. (c) A clear picture is created by using vivid, specific details — describing the sound of thunder, the smell of wet earth, the movement of rivers, and the appearance of clouds — so the listener can almost experience the monsoon season without being there. Descriptive writing engages multiple senses to make the imagery feel real and immersive."
+    }
+  ],
+  "fromCache": false
+}

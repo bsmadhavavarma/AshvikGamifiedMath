@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 5,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the ancient text Sangeet Ratnakar, which three art forms together form 'Sangeet'?",
+      "themeWrapper": "O Brave Seeker of Musical Knowledge! The ancient sages have left a clue in the Sangeet Ratnakar. Can you decode their wisdom and name the three pillars of Sangeet?",
+      "options": [
+        "A) Geet (song), Vadya (musical instruments), and Nritya (dance)",
+        "B) Raga, Tala, and Bhava",
+        "C) Hindustani, Carnatic, and Folk music",
+        "D) Pitch, Rhythm, and Dynamics"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) Geet (song), Vadya (musical instruments), and Nritya (dance)"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In Indian classical music, which two swaras are called 'Achal Swaras' because they have NO variations?",
+      "themeWrapper": "Hero of Harmony! Among the seven sacred swaras, two stand firm and unchanging like pillars of a great fortress. Which two swaras earn the title of 'Achal' — the immovable ones?",
+      "options": [
+        "A) Re (R) and Ga (G)",
+        "B) Ma (M) and Dha (D)",
+        "C) Sa (S) and Pa (P)",
+        "D) Ga (G) and Ni (N)"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Sa (S) and Pa (P)"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the musical element that tells us how HIGH or LOW a note is?",
+      "themeWrapper": "Warrior of Sound! Every note in music occupies a position in the landscape of melody — soaring high like an eagle or rumbling low like thunder. What is the name of the musical element that describes this quality?",
+      "options": [
+        "A) Dynamics",
+        "B) Rhythm",
+        "C) Pitch",
+        "D) Tempo"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Pitch"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What is 'music evoked memory'? Give one example from your own life where a song brought back a memory or a feeling.",
+      "themeWrapper": "Champion of Emotion! Music is a time machine that carries us back to precious moments. Explain the power known as 'music evoked memory' and share a personal example to prove you have unlocked this understanding!",
+      "sampleAnswer": "Music evoked memory is the phenomenon where listening to a particular song triggers memories of past events and the people associated with them. For example, hearing a festival song like a Diwali bhajan might remind us of celebrating the festival with our family, filling us with warmth and happiness. The melody acts as a bridge between the present and the past."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "Name any four genres of Indian music mentioned in the chapter. Also name the instrument that was used in Activity 3 to demonstrate how a single instrument can convey diverse emotions.",
+      "themeWrapper": "Quest Champion! India's musical landscape is vast and rich with many genres. Prove your knowledge by naming four genres and identifying the brave instrument that showed us the full range of human emotion in Activity 3!",
+      "sampleAnswer": "Four genres of Indian music mentioned in the chapter are: Classical (Hindustani and Carnatic), Folk music, Devotional music, and Film music. Other genres mentioned include semi-classical and patriotic music. The instrument used in Activity 3 to demonstrate diverse emotions through different sounds was the Violin."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe in detail how music influences human emotions, using examples from the chapter. Also explain what 'pitch', 'dynamics', and 'rhythm' mean, and how these musical elements help in expressing emotions. Finally, explain with an example how even animals use sounds to communicate emotions.",
+      "themeWrapper": "Grand Quest Hero! You have journeyed through the entire realm of Music and Emotions. Now is the moment to prove your mastery! Weave together your understanding of how music stirs the soul, how its key elements work, and how this power of sound extends even into the animal kingdom. Let your answer shine like a warrior's brightest triumph!",
+      "sampleAnswer": "Music has a remarkable power to influence human thoughts, moods, and emotions. As explored in the chapter, listening to music can bring us joy, peace, excitement, or sadness. For example, the Malayalam song 'Kuttanadan Punjayile' demonstrates that even without understanding the lyrics, a listener can feel the emotion conveyed through the melody and rhythm of the music.\n\nThe key musical elements that help express emotions are:\n1. Pitch: Pitch refers to how high or low a musical note is. Just as our voice rises when we are excited and drops when we are sad, musical compositions use high and low pitches to communicate different feelings. The Swara Song set to Raga Shankarabharanam/Raga Bilawal uses variations in pitch effectively.\n2. Dynamics: Dynamics refers to how loud or soft a piece of music is. A loud, energetic piece might inspire excitement or courage, while a soft, gentle melody might create a sense of calm and peace. For instance, the Nakkara instrument has a loud volume while the Ghumat has a deep resonance, both creating different emotional impacts.\n3. Rhythm: Rhythm is the pattern of symmetrical beats played with a song. It is present everywhere in life — even in our heartbeats and the way we walk. A fast rhythm can make us want to dance and feel energetic, while a slow rhythm can feel soothing and calm.\n\nJust like humans, animals also use sounds to communicate emotions and messages. Birds use chirps to communicate with each other. The Ganges river dolphin, India's national aquatic animal, is blind and uses a mixture of clicks and whistles to share messages. Male humpback whales are famous for their long and intricate songs. These examples show that the language of sound and emotion is universal, connecting all living beings across nature."
+    }
+  ],
+  "fromCache": false
+}

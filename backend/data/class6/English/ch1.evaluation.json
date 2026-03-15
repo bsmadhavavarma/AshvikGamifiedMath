@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "English",
+  "chapterIndex": 1,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Why was Gajaraj sad despite living in the best booth of the royal stables?",
+      "themeWrapper": "⚔️ Quest Challenge 1 — Uncover the Hidden Sorrow! A mighty elephant dwelt in a palace of comfort, yet grief weighed upon his heart. Brave Seeker, reveal the truth!",
+      "options": [
+        "A) The mahout was cruel to him",
+        "B) He had no friends to play with",
+        "C) He was not given enough food",
+        "D) The king had forgotten about him"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) He had no friends to play with"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "How did Gajaraj show his happiness when Buntee returned to the stable?",
+      "themeWrapper": "⚔️ Quest Challenge 2 — Decode the Sign of Joy! When a lost companion returned, the great Gajaraj expressed his delight in a powerful way. Heroic Scholar, identify the correct deed!",
+      "options": [
+        "A) He trumpeted loudly and ran in circles",
+        "B) He picked up Buntee with his trunk and gave him a joyous swing",
+        "C) He splashed water on Buntee from the pond",
+        "D) He offered Buntee all his food immediately"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) He picked up Buntee with his trunk and gave him a joyous swing"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following correctly uses 'neither...nor' as shown in the story?",
+      "themeWrapper": "⚔️ Quest Challenge 3 — Wield the Power of Words! Grammar is the weapon of a true language warrior. Choose the sentence that correctly uses 'neither...nor' and claim your victory!",
+      "options": [
+        "A) Neither the farmer or the mahout noticed the friends were in tears",
+        "B) Neither the farmer nor the mahout noticed that the two friends were in tears",
+        "C) Neither the farmer noticed nor the mahout did not notice",
+        "D) The farmer neither nor the mahout noticed the friends crying"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Neither the farmer nor the mahout noticed that the two friends were in tears"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "How did the mahout realise that Gajaraj was missing Buntee? What did Gajaraj do that worried the mahout?",
+      "themeWrapper": "🗺️ Quest Scroll 4 — Read the Signs of a Loyal Heart! A wise caretaker sensed something was wrong with his beloved elephant. Brave Explorer, describe the clues that led the mahout to understand Gajaraj's grief!",
+      "sampleAnswer": "Gajaraj stopped eating his food completely. Even when the mahout served him his favourite food, it remained untouched for two consecutive days and nights. When the mahout checked Gajaraj's stomach and found nothing physically wrong, he wondered if the elephant was missing his friend Buntee. This made the mahout realise that Gajaraj's sadness was caused by the absence of his companion."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What does the phrase 'unlikely friends' mean in the context of this story? Why were Gajaraj and Buntee considered unlikely friends?",
+      "themeWrapper": "🗺️ Quest Scroll 5 — Unmask the Mystery of an Unlikely Bond! Not all friendships are expected, and yet they become the most extraordinary ones. Courageous Seeker, explain why this friendship surprised the world!",
+      "sampleAnswer": "The word 'unlikely' means something that is not expected to happen. Gajaraj and Buntee were considered unlikely friends because they were very different animals — one was a large, royal elephant living in the king's stables, and the other was a small stray dog. Normally, such different animals would not be expected to form a deep bond of friendship. Yet they became the best of friends, showing that true friendship goes beyond differences in size, species, or background."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "The story 'The Unlikely Best Friends' shows that true friendship is built on care, joy, and selflessness. Using events from the story, explain how both Gajaraj and Buntee, as well as the farmer and the mahout, demonstrated the qualities of true friendship.",
+      "themeWrapper": "🏆 The Grand Quest — Champion the Meaning of True Friendship! You have journeyed through the tale of Gajaraj and Buntee. Now, O Mighty Scholar, rise to the final challenge! Prove your deep understanding by exploring how friendship — in all its forms — shone through every character in this heroic story!",
+      "sampleAnswer": "The story beautifully illustrates that true friendship is built on care, selflessness, and joy, as seen through multiple relationships.\n\nFirstly, Gajaraj and Buntee showed the purest bond of friendship. When the hungry and tired stray dog arrived, Gajaraj generously shared his own food without hesitation, showing care and kindness. Together they enjoyed bathing in the pond — Gajaraj playfully splashing water and giving Buntee a ride on his back — showing the joy of companionship. When they were separated, both stopped eating, proving how deeply they valued each other. Their grief and their eventual joyous reunion showed that their friendship was genuine and selfless.\n\nSecondly, the farmer demonstrated a selfless kind of love. Even though Buntee was his own dog, he could not bear to see him suffer. Recognising that Buntee's heart belonged with Gajaraj, the farmer made the difficult but loving decision to remove the rope and free Buntee to return to his friend. This act showed that true care sometimes means letting go for the happiness of someone you love.\n\nFinally, the mahout's friendship with the farmer blossomed naturally. United by their shared concern for Gajaraj and Buntee, the two men ended up hugging each other, discovering their own unexpected friendship.\n\nThus, the story teaches us that friendship transcends differences — of species, size, or background — and that its truest expression lies in putting the happiness of your friend before your own."
+    }
+  ],
+  "fromCache": false
+}

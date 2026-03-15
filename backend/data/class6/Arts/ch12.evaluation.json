@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 12,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which dance form from Odisha involved young boys dressing as girls and performing acrobatic movements for the public?",
+      "themeWrapper": "Brave Seeker, your first quest begins! Identify the sacred dance that broke the barrier of gender on the stages of Odisha!",
+      "options": [
+        "A. Mohiniyattam",
+        "B. Gotipua",
+        "C. Yakshagana",
+        "D. Lavani"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "The Bhakti movement, which influenced the development of regional classical dance forms, started around which century AD?",
+      "themeWrapper": "Champion of Knowledge, answer this riddle of time — when did the great Bhakti wave first rise to shape the destiny of Indian dance?",
+      "options": [
+        "A. Second or Third century AD",
+        "B. Fourth or Fifth century AD",
+        "C. Sixth or Seventh century AD",
+        "D. Ninth or Tenth century AD"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Which of the following dance forms was earlier performed ONLY by men but has undergone transformation by removing gender constraints in modern times?",
+      "themeWrapper": "Warrior of Arts, face this challenge — which mighty dance once belonged only to men but has now opened its gates to all?",
+      "options": [
+        "A. Mohiniyattam",
+        "B. Lavani",
+        "C. Kathakali",
+        "D. Gotipua"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Who were the Devadasis, Tevadichhis, and Maharis, and what was their role in the temples during the Bhakti period?",
+      "themeWrapper": "Courageous Explorer, your quest demands you uncover the sacred roles of the temple dancers who devoted their art to the divine during the Bhakti era!",
+      "sampleAnswer": "Devadasis and Tevadichhis were temple dancers of Southern India, while Maharis were temple dancers of Odisha. During the Bhakti period, they directly served the deity inside the temple by performing ritualistic dances as part of the pooja rituals, dedicating their art as an offering to the Lord."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "How does mathematics connect with dance? Give at least two examples of how geometrical shapes or arithmetic patterns are used in dance.",
+      "themeWrapper": "Hero of Dual Realms, prove your mastery by revealing how the world of numbers and rhythm unites with the world of movement and grace!",
+      "sampleAnswer": "Mathematics and dance complement each other in several ways. First, geometrical shapes like triangles, circles, squares, and rectangles can be formed using hands, arms, and legs during dance performances. Second, talas in dance are different permutations and combinations of rhythmic units, which are essentially arithmetic patterns — for example, 2 beats + 3 beats = 5 beats, or 3 beats + 4 beats = 7 beats. These show how rhythm and beat are simply arithmetical patterns used to create geometrical formations in choreography."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain how Indian dance traditions have broken barriers of gender over time. Refer to specific dance forms, historical practices, and personalities mentioned in Chapter 13 to support your answer.",
+      "themeWrapper": "Legendary Champion of the Arts Quest, your final and greatest challenge awaits! Weave together the heroic tales of dancers who defied convention and broke the barriers of gender to transform Indian dance forever. Prove your deep understanding and claim your glory!",
+      "sampleAnswer": "Indian dance traditions have a rich history of breaking gender barriers, both in classical and folk forms. In many traditional performances, a single dancer performs characters regardless of gender — for instance, men often play women's characters in several classical dance traditions.\n\nDuring the Bhakti period (6th–7th century AD), temple dancers like the Devadasis and Tevadichhis of South India and the Maharis of Odisha served the deity through ritualistic dance. The Gotipua dance of Odisha is a powerful example where young boys dressed as girls and performed acrobatic dances for the public in praise of Lord Jagannatha, while Maharis performed inside the temple.\n\nIn classical dance, Mohiniyattam was earlier performed only by women, while Kathakali and Yakshagana were performed only by men. In modern times, these gender constraints have been removed, and today dancers of all genders can learn and perform these forms.\n\nIn folk dances too, forms like Lavani (predominantly female) from Maharashtra and Purulia Chhau (originally only male) from West Bengal have evolved to become more inclusive. Today, both Lavani and Bhangra can be practiced by girls and boys alike.\n\nA path-breaking personality in this journey is Jogati Manjamma from Karnataka, who influenced the development of Jogati Dance by courageously breaking the barriers of gender identity.\n\nOverall, Indian dance teaches us that stances, gaits, and expressions are not strictly limited by gender. Dancers blend elements from various styles to create unique expressions, celebrating the concept of Ardhanareeshwara — the union of masculine and feminine as represented by Lord Shiva and Goddess Parvathi in a single form."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,67 @@
+{
+  "chapterTitle": "## Do You Know",
+  "source": {
+    "classLevel": 6,
+    "subject": "Arts",
+    "chapterTitle": "## Do You Know"
+  },
+  "topics": [
+    "Taal in Hindustani Music",
+    "Talam in Carnatic Music",
+    "Ragas in Indian Music",
+    "Famous Musicians and Notation"
+  ],
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 7,
+  "sections": [
+    {
+      "heading": "🥁 Quest of the Beat — Taal in Hindustani Music",
+      "body": "Imagine you are clapping along to a Diwali song. That clapping pattern is like a taal! In Hindustani music, a taal is a fixed rhythm cycle made of beats called matras. These beats are grouped into sections, and the first beat is the most powerful — it is called 'sam', like the captain of the team! Famous taals include Teen Taal with 16 beats, Keharwa with 8 beats, and Dadra with 6 beats — just like different cricket over lengths!",
+      "keyPoints": [
+        "Taal is a rhythm cycle made of beats called matras",
+        "The first and most important beat is called 'sam'",
+        "Teen Taal has 16 beats, Keharwa has 8, Dadra has 6"
+      ]
+    },
+    {
+      "heading": "🎵 The Southern Realm — Talam in Carnatic Music",
+      "body": "In South Indian classical music, the rhythm is called talam. One full round of a talam is called avartanam — like one lap around a race track! Talam is made of three building blocks called angams. Laghu is a clap plus finger counting, Dhrutam is a clap plus a wave, and Anudhrutam is just one single clap. By combining these blocks, musicians create beautiful rhythm spells like Adi Talam (8 beats) and Rupaka Talam (6 beats)!",
+      "keyPoints": [
+        "A full cycle of talam is called avartanam",
+        "Three parts (angams) are: Laghu, Dhrutam, and Anudhrutam",
+        "Adi Talam has 8 beats and Rupaka Talam has 6 beats"
+      ]
+    },
+    {
+      "heading": "🌈 The Magic Spell — What is a Raga?",
+      "body": "A raga is like a magical colour palette for music! It is based on a set of notes (swaras) that go up like a staircase — that is called arohana — and come back down, called avarohana. Just like how the smell of mom's biryani can make you feel happy, each raga creates a special feeling or mood, which is called rasa. If you add beautiful decorations called gamakas to a scale, it can become a full raga — like decorating a plain kurta for a festival!",
+      "keyPoints": [
+        "A raga uses notes going up (arohana) and down (avarohana)",
+        "Each raga creates a special mood or feeling called rasa",
+        "Gamakas are musical decorations that make a raga sound more beautiful"
+      ]
+    },
+    {
+      "heading": "🧙 The Great Wizards — Famous Musicians and Notation",
+      "body": "Every great quest has its heroes! Pandit Vishnu Narayan Bhatkhande was a wizard who created the writing system for Hindustani music — he travelled all across India to collect songs, just like a treasure hunter! He wrote everything down in six books called Kramik Pustak Maalika. Palghat Mani Iyer was a mridangam maestro who gave his first performance at just 10 years old — that is your age! The Trinity of Carnatic Music — Tyagaraja, Muthuswami Dikshitar, and Shyama Shastri — are the legendary composers who shaped South Indian classical music forever.",
+      "keyPoints": [
+        "Bhatkhande created the notation system for Hindustani music and documented it in 6 books",
+        "Palghat Mani Iyer was a mridangam genius who performed at age 10",
+        "The Carnatic Trinity — Tyagaraja, Dikshitar, and Shyama Shastri — are the greatest Carnatic composers"
+      ]
+    },
+    {
+      "heading": "🎼 Compositions — The Final Power Unlock",
+      "body": "In Indian classical music, a full song or piece is called a composition. In Hindustani music it is called a bandish, and in Carnatic music it is called a kriti or geetam. A swarmalika is a special composition sung using swaras (like Sa Re Ga Ma) instead of words — imagine singing a whole song using only the notes! Raga Yaman is one of the most loved ragas and its mood is love and romance — many of your favourite Bollywood songs are secretly based on it!",
+      "keyPoints": [
+        "Compositions are called bandish in Hindustani music and kriti or geetam in Carnatic music",
+        "A swarmalika is a composition sung using swaras instead of lyrics",
+        "Raga Yaman has a mood of love and is used in many popular film songs"
+      ]
+    }
+  ],
+  "summary": "In this quest through Indian classical music, you discovered that rhythm in Hindustani music is called taal and in Carnatic music it is called talam — both are fixed beat cycles that give music its heartbeat. You learned that a raga is a magical set of notes that goes up and down and creates a special mood called rasa. You met the great wizards of music — Bhatkhande who wrote down the notation system, Palghat Mani Iyer who mastered the mridangam, and the Carnatic Trinity who composed legendary songs. You also found out that compositions in Hindustani music are called bandish and in Carnatic music they are called kriti — and that every great song you hear could secretly be powered by an ancient raga!",
+  "fromCache": false
+}

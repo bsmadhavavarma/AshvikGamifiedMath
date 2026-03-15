@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 22,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Which four art forms are covered in the Kriti–I textbook for Grade 6?",
+      "themeWrapper": "🗺️ Quest of Knowledge: A brave explorer must name the four realms of art guarded within Kriti–I. Which answer reveals all four correctly?",
+      "options": [
+        "A) Visual Arts, Music, Dance and Theatre",
+        "B) Sculpture, Music, Poetry and Theatre",
+        "C) Visual Arts, Craft, Dance and Literature",
+        "D) Painting, Music, Drama and Film"
+      ],
+      "correctOption": 0,
+      "sampleAnswer": "A) Visual Arts, Music, Dance and Theatre"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In Kriti–I, each section is represented by a specific colour. Which colour represents the Theatre section?",
+      "themeWrapper": "🔮 The Colour Cipher: On your heroic journey through Kriti–I, you must decode the colour that guards the Theatre realm. Which hue unlocks its gate?",
+      "options": [
+        "A) Yellow",
+        "B) Blue",
+        "C) Pink",
+        "D) Purple"
+      ],
+      "correctOption": 3,
+      "sampleAnswer": "D) Purple"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to the NCF-SE 2023 quoted in Kriti–I, what does 'aesthetic sensibility' refer to?",
+      "themeWrapper": "⚔️ The Scholar's Trial: A wise guardian blocks your path and asks — what power does 'aesthetic sensibility' grant a true artist, as stated in Kriti–I? Choose your answer wisely!",
+      "options": [
+        "A) The ability to memorise famous artworks and replicate them precisely",
+        "B) The ability to perceive beauty, make considered judgements about the good and beautiful, and strive for refinement in art-making",
+        "C) The ability to use expensive materials and tools in creating art",
+        "D) The ability to perform on stage without any preparation or practice"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) The ability to perceive beauty, make considered judgements about the good and beautiful, and strive for refinement in art-making"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "What are the two types of knowledge that artistic work covers, as mentioned in the 'About the Book' section of Kriti–I? Give a brief explanation of what each means in the context of arts.",
+      "themeWrapper": "📜 The Twin Scrolls Quest: A legendary vault in Kriti–I holds two sacred scrolls of knowledge that every artist must master. Name both scrolls and describe the power each one holds!",
+      "sampleAnswer": "According to Kriti–I (quoting NCF-SE), artistic work covers: (1) Conceptual knowledge — the ideas, understanding, and mental frameworks behind creating art, such as understanding composition, colour theory, rhythm, or expression; and (2) Procedural knowledge — the practical skills and step-by-step techniques used to actually create art, such as how to mix colours, how to draw shapes, or how to perform a dance movement. Together, they ensure an artist both understands and can practise their craft."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "The Visual Arts section of Kriti–I emphasises sharpening observation skills in its first three chapters. Name any two specific techniques or activities introduced in those chapters to develop students' artistic skills.",
+      "themeWrapper": "🎨 The Artist's Arsenal: Young hero, the first three chapters of the Visual Arts realm forge your artistic weapons. Can you recall two such weapons — techniques or activities — that are introduced there to sharpen your creative power?",
+      "sampleAnswer": "The first three chapters of the Visual Arts section in Kriti–I introduce students to: (1) Making natural colours and colour mixing — students learn to create colours from natural sources and understand how colours blend to form new ones; and (2) Creating tints and shades — students explore how adding white or black to a colour changes its lightness or darkness. Other activities mentioned include drawing exercises, making seals, creating portraits, paper crafts, and flipbooks, all designed to develop observation and artistic skills."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Kriti–I states that 'the fact that it should nowhere become stressful for the child to learn or try something new has been kept in mind while developing the textbook.' In light of this philosophy, explain why the approach to arts education in Kriti–I is unique compared to traditional subject learning. How does the book encourage exploration, creativity, and inclusivity? Use specific examples from the textbook's description to support your answer.",
+      "themeWrapper": "🏰 The Grand Quest Saga: You have journeyed through the realm of Kriti–I and now stand before the Grand Council of Arts. They challenge you with the ultimate quest — explain, in heroic detail, how Kriti–I's philosophy makes arts education a joyful adventure rather than a fearful trial. Draw upon the powers of exploration, creativity, and inclusivity as your weapons, and cite specific features of the book to prove your mastery!",
+      "sampleAnswer": "Kriti–I adopts a unique, learner-centred philosophy that distinguishes arts education from traditional rote-based subject learning. Here is a detailed explanation supported by specific evidence from the book:\n\n1. Stress-free, Joyful Learning: Unlike traditional subjects that rely on memorisation and testing, Kriti–I ensures that the process of learning art is enjoyable. The developers consciously ensured the textbook does not create anxiety when students try new things. Each activity is designed to give a 'unique experience' rather than demand a perfect outcome.\n\n2. Encouragement of Exploration and Creativity: The Visual Arts section leaves students to 'explore and discover on their own,' introducing materials and techniques used over hundreds of years while giving open-ended creative opportunities. Activities like making natural colours, creating seals, portraits, flipbooks, and paper crafts spark curiosity. The Music and Dance sections similarly invite students to discover unfamiliar concepts while finding their personal connection to each art form.\n\n3. Use of Technology for Deeper Exploration: QR codes embedded throughout the book allow students to access additional digital resources, extending their learning beyond the textbook and connecting them to a wider world of art.\n\n4. Rooting in Indian Culture and Heritage: Kriti–I is deeply rooted in Indian Knowledge Systems, showcasing India's artistic and cultural heritage. Students are encouraged to explore art practices in their own region or state, making learning personally meaningful and culturally connected.\n\n5. Inclusivity: The book explicitly states that arts education is inherently inclusive, offering equal opportunity to all genders and students with special abilities. No student is left behind because every learner finds their own unique connection to the arts.\n\n6. Role of Teachers: Rather than 'forcing information,' teachers are encouraged to actively participate alongside students, acting as supportive guides on the artistic journey.\n\nIn conclusion, Kriti–I transforms arts education into a heroic quest of self-discovery — where every student, regardless of background or ability, is empowered to create, explore, and express themselves freely."
+    }
+  ],
+  "fromCache": false
+}

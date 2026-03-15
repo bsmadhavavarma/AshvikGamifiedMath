@@ -1,10 +1,55 @@
 import fs from 'fs';
+import path from 'path';
 import { ncertService } from '../ncert/ncert.service';
 import { contentCache } from './content.cache';
 import { callClaude, MODEL } from './ai.client';
 import { TeachingContent, EvaluationSet, EvaluationQuestion } from './content.types';
 import { AppError } from '../../shared/types/errors';
 import { queryOne } from '../../db/client';
+
+// Classes whose content is pre-generated as static JSON files in the repo.
+// Runtime NEVER calls the Claude API for these classes.
+const STATIC_CONTENT_CLASSES = [6, 9];
+const STATIC_DATA_DIR = path.join(__dirname, '../../../data');
+
+function safeReadJson<T>(filePath: string): T | null {
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, 'utf8')) as T;
+  } catch { return null; }
+}
+
+function staticTeachingPath(classLevel: number, subject: string, chapterIndex: number): string {
+  return path.join(STATIC_DATA_DIR, `class${classLevel}`, subject, `ch${chapterIndex}.teaching.json`);
+}
+
+function staticEvalPath(classLevel: number, subject: string, chapterIndex: number): string {
+  return path.join(STATIC_DATA_DIR, `class${classLevel}`, subject, `ch${chapterIndex}.evaluation.json`);
+}
+
+function getStaticTeaching(classLevel: number, subject: string, chapterIndex: number): TeachingContent | null {
+  if (!STATIC_CONTENT_CLASSES.includes(classLevel)) return null;
+  const data = safeReadJson<TeachingContent>(staticTeachingPath(classLevel, subject, chapterIndex));
+  return data ? { ...data, fromCache: true } : null;
+}
+
+function getStaticEvaluation(classLevel: number, subject: string, chapterIndex: number): EvaluationSet | null {
+  if (!STATIC_CONTENT_CLASSES.includes(classLevel)) return null;
+  const data = safeReadJson<EvaluationSet>(staticEvalPath(classLevel, subject, chapterIndex));
+  return data ? { ...data, fromCache: true } : null;
+}
+
+export function saveStaticTeaching(content: TeachingContent): void {
+  const filePath = staticTeachingPath(content.classLevel, content.subject, content.chapterIndex);
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
+}
+
+export function saveStaticEvaluation(evalSet: EvaluationSet): void {
+  const filePath = staticEvalPath(evalSet.classLevel, evalSet.subject, evalSet.chapterIndex);
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(evalSet, null, 2));
+}
 
 interface ThemeRow { style_guide: Record<string, string>; name: string; }
 
@@ -57,6 +102,10 @@ export const contentService = {
   async getTeachingContent(
     themeSlug: string, classLevel: number, subject: string, chapterIndex: number, userId?: string
   ): Promise<TeachingContent> {
+    // Class 6 and 9: always serve from pre-generated static files — never call the API
+    const staticContent = getStaticTeaching(classLevel, subject, chapterIndex);
+    if (staticContent) return staticContent;
+
     const cached = await contentCache.getTeaching(themeSlug, classLevel, subject, chapterIndex);
     if (cached) return cached;
 
@@ -146,6 +195,10 @@ Rules:
   async getEvaluationSet(
     themeSlug: string, classLevel: number, subject: string, chapterIndex: number, userId?: string
   ): Promise<EvaluationSet> {
+    // Class 6 and 9: always serve from pre-generated static files — never call the API
+    const staticEval = getStaticEvaluation(classLevel, subject, chapterIndex);
+    if (staticEval) return staticEval;
+
     const cached = await contentCache.getEvaluation(themeSlug, classLevel, subject, chapterIndex);
     if (cached) return cached;
 

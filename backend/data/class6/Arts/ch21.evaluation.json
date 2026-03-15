@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 21,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "In art education assessment, which of the following best describes why traditional 'tests' with question papers and written answers are NOT recommended?",
+      "themeWrapper": "Hero, you stand at the Gates of True Evaluation! Which truth about art assessment must you declare to pass?",
+      "options": [
+        "A) Because art students cannot write well",
+        "B) Because art assessment is primarily skill-based and does not depend on correct or wrong written answers",
+        "C) Because written tests are too expensive to conduct",
+        "D) Because students prefer oral exams over written ones"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Because art assessment is primarily skill-based and does not depend on correct or wrong written answers"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "On the 5-point assessment scale described in Chapter 22, which numerical score and grade correspond to a student at the 'Promising' level?",
+      "themeWrapper": "Brave Seeker, the Scroll of Scores lies before you! Decode the mark of the Promising Warrior!",
+      "options": [
+        "A) Score 2, Grade D",
+        "B) Score 4, Grade B",
+        "C) Score 3, Grade C",
+        "D) Score 5, Grade A"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Score 3, Grade C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "According to Chapter 22, what is the key difference between formative and summative assessment in art education?",
+      "themeWrapper": "Champion, two mighty shields of assessment stand before you — which warrior carries the mark of daily observation, and which one demands a full day's quest?",
+      "options": [
+        "A) Formative assessment uses only grades while summative uses only comments",
+        "B) Formative assessment is based on observations in every class, while summative assessment takes one whole day and requires spontaneous creation on the spot",
+        "C) Summative assessment happens every week while formative happens once a year",
+        "D) Both formative and summative assessments involve written question papers"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Formative assessment is based on observations in every class, while summative assessment takes one whole day and requires spontaneous creation on the spot"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any FOUR methods of assessment mentioned in Chapter 22 that can give insights into a student's unique artistic journey. Why is it important to combine both quantitative and qualitative assessment?",
+      "themeWrapper": "Adventurer, your Quest demands wisdom! Recall the four sacred methods of the assessment realm and explain why both numbers AND observations must march together in the army of evaluation!",
+      "sampleAnswer": "The four methods of assessment mentioned are: (1) Portfolios, (2) Performance reviews, (3) Project-based evaluations, and (4) Reflective self-assessments. It is important to combine both quantitative assessment (scores or grades based on rubrics) and qualitative assessment (teacher's observations on the child's behaviour, interest, progress and other aspects) because numbers alone cannot capture the full picture of a student's artistic growth. Qualitative observations reveal aspects such as enthusiasm, curiosity, and personal development that rubrics may not measure."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "In the summative assessment example for Visual Art in Chapter 22, students are asked to design a kite. List any THREE criteria on which this individual kite activity is assessed.",
+      "themeWrapper": "Valiant Creator, the Kite of Expression soars high! Name three worthy criteria by which the judges of the realm shall measure your masterpiece!",
+      "sampleAnswer": "Three criteria for assessing the individual kite activity are: (1) Personal expression of an everyday experience — the kite must reflect what the kite means to the student personally. (2) Imagination and creativity — the design should be original, in any regular or irregular shape, with images that make the student happy. (3) Chooses appropriate materials for their concept — the student must select suitable materials from their surroundings. (Other valid criteria include: applies suitable techniques and problem solving, and presentation.)"
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Chapter 22 outlines assessment criteria across Visual Arts, Music, Dance & Movement, and Theatre using Curricular Goals (CGs) and Competencies (C). Choose ANY TWO art forms from these four and, for each, describe: (a) one Specific Learning Outcome related to 'Imagination and Creativity' (C-2.2), and (b) one Specific Learning Outcome related to 'Use of Materials, Tools and Techniques' (C-3.1). Also explain, in your own words, why art education assessments focus on such a wide range of skills rather than simply testing memory or factual knowledge.",
+      "themeWrapper": "Grand Champion of the Arts Quest, the Final Challenge awaits you! Prove your mastery across the realms of creation — speak of two art forms, wield the twin powers of Imagination and Technique, and reveal the true purpose of the Assessment Kingdom!",
+      "sampleAnswer": "Art Form 1 — Visual Arts: (a) Imagination and Creativity (C-2.2): One specific learning outcome is that the student 'Creates own patterns and designs for paper crafts and seals' (Chapters 4 and 5). This outcome encourages students to think originally and express their unique ideas through design rather than copying existing patterns. (b) Use of Materials, Tools and Techniques (C-3.1): One specific learning outcome is that the student 'Creates light and shade with pencils' (Chapters 1 and 2). This shows technical skill in using a basic tool — the pencil — to create depth and dimension in drawings. Art Form 2 — Music: (a) Imagination and Creativity (C-2.2): One specific learning outcome is that the student 'Attempts to write simple songs based on a theme.' This encourages musical creativity and personal expression, pushing students beyond simply reproducing existing songs. (b) Use of Materials, Tools and Techniques (C-3.1): One specific learning outcome is that the student 'Identifies and when possible constructs musical instruments based on materials such as wood, metal, string and earthenware.' This hands-on outcome builds understanding of how sound is produced and how different materials affect musical quality. Why art education assessments cover a wide range of skills: Art education goes far beyond memorising facts. It nurtures creativity, critical thinking, technical proficiency, and expressive capabilities — skills that are deeply personal and cannot be judged as simply 'right' or 'wrong.' Every child's artistic journey is unique; one student may excel in expressing emotions through colour while another demonstrates brilliance in technical detail. A wide-ranging assessment — including portfolios, self-reflection, and performance reviews — respects this diversity and encourages exploration and self-expression rather than mere reproduction of knowledge. This approach ensures that assessment itself becomes a learning experience, helping students, teachers, and parents understand growth holistically."
+    }
+  ],
+  "fromCache": false
+}

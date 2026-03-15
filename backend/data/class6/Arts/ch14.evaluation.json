@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 14,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "During which festival is the Garba dance of Gujarat traditionally performed?",
+      "themeWrapper": "⚔️ Quest Challenge I — The Festival Scroll: A brave seeker must name the festival that awakens the spirit of Garba. Which festival is it?",
+      "options": [
+        "A. Diwali",
+        "B. Navaratri",
+        "C. Holi",
+        "D. Baisakhi"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which instruments accompany the Rouf dance of Kashmir?",
+      "themeWrapper": "🛡️ Quest Challenge II — The Instruments of the Valley: The hero must identify the sacred instruments that give rhythm to Kashmir's Rouf dance. Choose wisely!",
+      "options": [
+        "A. Dhol, tabla and dandia sticks",
+        "B. Pungi, dufli and been",
+        "C. Tumbaknari, rabab and harmonium",
+        "D. Nagara, flute and dhol"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "What is the purpose of the Nongkrem dance of Meghalaya?",
+      "themeWrapper": "🏹 Quest Challenge III — The Harvest Ritual: A quest scroll reveals the secret purpose of the mighty Nongkrem dance. Can you decode it?",
+      "options": [
+        "A. To celebrate the festival of Eid",
+        "B. To depict mythological stories during Holi",
+        "C. To please the powerful Goddess for plentiful harvest and prosperity",
+        "D. To worship Goddess Durga during Navaratri"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Describe the characteristics of Garba dance and the costumes worn by men and women during its performance.",
+      "themeWrapper": "📜 Quest Scroll I — The Dance of Circles: Brave explorer, unroll this scroll and describe the vibrant world of Garba — its movements and the costumes that make it magnificent!",
+      "sampleAnswer": "Garba dance is characterized by vibrant and energetic movements, rhythmic clapping, and circular patterns created by dancers moving in concentric circles. It is accompanied by traditional folk music using instruments like dhol (drum), tabla, and dandia sticks. Women wear Chaniya cholis (gagra) while men wear Kediyu-kafni, which is a type of dhoti and kurta."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "On what occasions is the Thiruvathira Kali dance of Kerala performed, and what makes it unique in style?",
+      "themeWrapper": "🌿 Quest Scroll II — The Graceful Rhythm of Kerala: The quest map leads you to Kerala's shores. Reveal the occasions and the distinctive style of Thiruvathira Kali to earn your badge!",
+      "sampleAnswer": "Thiruvathira Kali is performed on occasions such as Thiruvathira, Shivratri, Onam, and some other festivals. It is unique because it is performed exclusively by women and involves graceful rhythmic movements with claps accompanied by a folk song. The performers wear simple Kerala-style costumes consisting of Mundu and Vesthi along with traditional Kerala ornaments."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Compare and contrast the Kalbelia dance of Rajasthan with the Nongkrem dance of Meghalaya in terms of state, costumes, purpose, performers, and accompaniments. What does this comparison tell you about the diversity of dances in our country?",
+      "themeWrapper": "🏆 The Grand Quest — The Dance of Two Kingdoms: The greatest challenge awaits! The hero must travel across the land — from the desert sands of Rajasthan to the misty hills of Meghalaya — and present a heroic comparison of two mighty dance forms. Prove your mastery and claim the Champion's Crown!",
+      "sampleAnswer": "Kalbelia is a dance from Rajasthan, while Nongkrem belongs to Meghalaya. In terms of costume, Kalbelia women wear an upper body cloth (angrakhi), head cloth (odhani), and lower body garment (lehenga) embroidered with small mirrors. In Nongkrem, women wear traditional costumes while men are adorned with vibrant colours, holding swords and white yak hair whisks. Regarding purpose, Kalbelia is associated with rituals and often depicts mythological stories, with special performances during Holi, whereas Nongkrem is celebrated during autumn to please a powerful Goddess for a plentiful harvest and prosperity of the people. In terms of performers, Kalbelia has women dancing while men sing, but Nongkrem involves both men and women as performers. For accompaniments, Kalbelia uses traditional folk music with woodwind instruments like pungi, and percussion instruments like dufli, been, and khanjira, while Nongkrem uses traditional music including the drum and the wind instrument tangmuri. This comparison reveals the incredible diversity of India's dance heritage — each region has developed its own unique dance tradition rooted in local culture, religion, climate, and community life. Despite their differences, all these dances celebrate togetherness, nature, and spirituality, reflecting the rich and colourful tapestry of our nation."
+    }
+  ],
+  "fromCache": false
+}

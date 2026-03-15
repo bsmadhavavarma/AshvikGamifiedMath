@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 15,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "According to the Natyashastra, how many rasas (emotional essences) did the ancient rishis classify all human emotions into?",
+      "themeWrapper": "Brave Seeker, your first quest scroll is revealed! Answer this to unlock the Gates of Rasa:",
+      "options": [
+        "A. Seven",
+        "B. Eight",
+        "C. Nine",
+        "D. Twelve"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "In theatre class, what does the term 'bhava' mean?",
+      "themeWrapper": "Champion, the Oracle of Theatre challenges you! Choose the correct meaning of 'bhava' to advance:",
+      "options": [
+        "A. The resulting emotional experience felt in a situation",
+        "B. The dominant state of mind based on perception, thoughts and attitudes",
+        "C. A type of mask used in performances",
+        "D. A movement technique taught in Natyashastra"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "Who wrote the Natyashastra, the great ancient work on performing arts that is also called the Fifth Veda?",
+      "themeWrapper": "Hero, a riddle from the ancient archives stands before you! Who authored the legendary Natyashastra?",
+      "options": [
+        "A. Brahma",
+        "B. Valmiki",
+        "C. Bharata Muni",
+        "D. Narada"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "In the Hot Seat activity, two emotions can be felt at the same time. Give one example from your own life where you experienced two emotions together, and name both the emotions and the navrasas they belong to.",
+      "themeWrapper": "Valiant Explorer, your inner quest begins! Reach into your own heart and describe a moment of dual emotion — name both feelings and their matching navarasas to prove your mastery:",
+      "sampleAnswer": "Example: When my best friend won a prize that I also wanted, I felt happy for them (Hasya/Sringara) but also a little sad for myself (Karuna). The two emotions experienced together were joy and sadness — showing that a single situation can give rise to different rasas depending on one's bhava."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is 'Circle Time' in a theatre class? Why is it described as informal only for the child and not for the teacher?",
+      "themeWrapper": "Wise Adventurer, decipher the secret ritual of the Theatre Circle! Explain its purpose and the hidden role of the teacher within it:",
+      "sampleAnswer": "Circle Time is the last 10 minutes of a theatre class where all children and the teacher sit together for an informal reflection of thoughts and opinions. It is called informal for the child because there are no marks, grades or expectations — children can speak freely and openly. However, for the teacher it is not truly informal — the teacher carefully takes notes on what the children share, and uses this valuable information to improve the next lesson plan. It provides insights no test or exam can give."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Explain the story of Natyotpatti (the birth of performing arts) as told in the Natyashastra. What does this story tell us about the origins and importance of theatre? Also explain how the concept of rasa and bhava work together, using at least two examples from everyday life to support your answer.",
+      "themeWrapper": "Legendary Champion, the Grand Quest awaits you! Unfold the epic origin story of theatre, and then demonstrate your deep understanding of rasa and bhava with real-life examples. The realm of the arts bows to those who can articulate its soul:",
+      "sampleAnswer": "The story of Natyotpatti: Brahma, the God of all Devas, noticed that the Devas had become demotivated and lazy. To help them, he created a unique book called the Natya Veda, drawing dialogue from the Rigveda, movement from the Yajurveda, music from the Samaveda, and emotions from the Atharvaveda. However, the Devas could not understand it. So Brahma summoned the wise Rishi Bharata Muni and asked him to simplify the Natya Veda for all. Bharata Muni then wrote the Natyashastra and, with his 100 children, presented a performance. The Devas were thrilled and showered praise. This story tells us that theatre draws wisdom from all four Vedas, making it the 'Fifth Veda.' It is not merely entertainment but a holistic art that educates through actions, situations and emotions, as stated in Chapter I of the Natyashastra itself. Rasa and Bhava: Bhava is the dominant state of mind — our attitude, perception and thoughts. Rasa is the emotional experience (essence) that arises from a situation depending on one's bhava. They are connected: a person's bhava leads to a particular rasa. Example 1 — Watching a sports match: Two friends watch their team win. One feels thrilled (Veera/Adbhuta rasa) because the whole team won. The other feels only mildly happy (Hasya rasa) because his favourite player did not score — the same event, but different bhavas led to different rasas. Example 2 — Being bullied: A bully mocks two friends. One shrugs it off with irritation (Raudra rasa) while the other cries feeling deeply hurt (Karuna rasa). The difference in their inner bhava created two completely different emotional experiences from the same event. This shows that theatre, by exploring rasa and bhava, helps us understand ourselves and others more deeply — making it both an art form and a life skill."
+    }
+  ],
+  "fromCache": false
+}

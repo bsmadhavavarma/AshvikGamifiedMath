@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 16,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "Why is make-up necessary for stage actors, even if we don't wear it in everyday life?",
+      "themeWrapper": "Brave Questioner, your first trial on the Quest: Uncover the true purpose of stage make-up!",
+      "options": [
+        "A) To make actors look fashionable and trendy",
+        "B) To enhance visibility, project emotions, and balance stage lighting",
+        "C) To hide the actors' real identity from the audience",
+        "D) Because the director personally enjoys applying it"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) To enhance visibility, project emotions, and balance stage lighting"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which part of the proscenium stage is described as a large light blue or white fabric stretched across the back wall, used to create effects like sky and clouds?",
+      "themeWrapper": "Adventurer, decode the architecture of the stage realm and name this mysterious backdrop!",
+      "options": [
+        "A) Apron",
+        "B) Side Wings",
+        "C) Cyclorama",
+        "D) Proscenium Arch"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C) Cyclorama"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "When designing a costume for a character set in ancient India in the Himalayas, why would synthetic chiffon be an incorrect fabric choice?",
+      "themeWrapper": "Hero of Historical Accuracy, prove your wisdom: why does this fabric fail the test of time and terrain?",
+      "options": [
+        "A) Chiffon is too expensive for school productions",
+        "B) Chiffon did not exist in ancient India and would not suit cold Himalayan weather",
+        "C) Chiffon is only suitable for fantasy make-up characters",
+        "D) Chiffon cannot be dyed in natural colours"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B) Chiffon did not exist in ancient India and would not suit cold Himalayan weather"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any three categories a costume designer must consider when deciding what costume a character should wear on stage, and give a brief example for each.",
+      "themeWrapper": "Costume Champion, your quest demands you list three great pillars of costume design — prove you have studied the scrolls of this chapter!",
+      "sampleAnswer": "Three categories a costume designer considers are: (1) Age of the character — an elderly character may wear loose, modest clothing while a child wears bright, playful clothes; (2) Geographical location — traditional clothing of Karnataka differs from that of Bengal, so the setting determines the style; (3) Timeline of the play — a character in Maharaja Shivaji's era would not wear jeans and pants as those did not exist then. Other valid categories include gender, occupation, and features of the character."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is the difference between 'straight make-up' and 'character make-up' as described in the chapter? Give one example situation where each would be used.",
+      "themeWrapper": "Seeker of Stage Secrets, distinguish between these two make-up styles to unlock the next level of your quest!",
+      "sampleAnswer": "Straight make-up involves a simple, basic highlighting of facial features without major transformation — it would be used for a modern-day character who needs to look natural but visible under stage lights. Character make-up involves showing elements of age, profession, personality, and situation — for example, it would be used when an actor must appear elderly, or portray a specific profession like a soldier or a doctor, making the character convincing and authentic to the audience."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Imagine you are the stage designer for a play set in the court of Chandragupta Maurya. Describe in detail the make-up, costume, and stage layout choices you would make for the main character — the king — explaining the reasons behind each decision based on the concepts from Chapter 17.",
+      "themeWrapper": "Grand Hero of the Stage Realm, your ultimate quest has arrived! Design the royal production of Chandragupta Maurya's court using all the wisdom you have gathered from Chapter 17. Let your answer ring with knowledge and creativity!",
+      "sampleAnswer": "For the main character of King Chandragupta Maurya, I would make the following choices: MAKE-UP — I would use character make-up to reflect the strength and authority of a king. Bold, defined features such as sharp eyebrows, structured cheekbones, and a strong jawline would be highlighted. The colours would be earthy and natural tones like ochre and brown, suitable to the ancient Indian era. No neon or modern colours would be used as they would be historically inaccurate. Stage lighting can wash out natural skin tones, so the make-up would be slightly enhanced to ensure visibility from a distance. COSTUME — The king's costume would use natural fabrics like cotton or silk that existed in ancient India. The colour of the costume would feature rich, deep shades like deep red or royal blue to signify power and nobility, as bright or dark shades symbolise different aspects of character. Patterns and designs would reflect royalty, perhaps with golden borders or motifs exclusive to royal status. Styling would include a crown, royal jewellery, a sash, and footwear appropriate to the Mauryan period. No modern accessories like sunglasses or synthetic materials would be included. STAGE LAYOUT — The proscenium stage would be ideal. The cyclorama at the back could reflect golden or warm lighting to suggest an ancient royal court. Columns or draped fabric could represent pillars of the palace. The king could be positioned at Centre (C) or Up Centre (UC) to command attention and authority. Side wings would allow ministers and guards to make dramatic entries and exits. The apron could be used for foot lights to add a warm, regal glow to the scene. All these choices together would create a visually authentic and emotionally impactful portrayal of Chandragupta Maurya's court, proving that design is not just decoration but the soul of theatre."
+    }
+  ],
+  "fromCache": false
+}

@@ -1,0 +1,72 @@
+{
+  "themeSlug": "quest",
+  "classLevel": 6,
+  "subject": "Arts",
+  "chapterIndex": 18,
+  "questions": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "question": "What is puppetry?",
+      "themeWrapper": "Brave Quester, to begin your journey into the realm of Shadows and Strings, answer this first challenge: Which of the following best describes the art of puppetry?",
+      "options": [
+        "A) The art of painting inanimate figures on canvas",
+        "B) The art of using inanimate figures or representations to create a performance",
+        "C) The art of writing stories and scripts for stage plays",
+        "D) The art of making clay models of animals and people"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 1,
+      "type": "mcq",
+      "question": "Which Indian state is associated with the shadow puppet tradition called 'Tholu Bommalata'?",
+      "themeWrapper": "Hero of the Quest, the Map of Indian Puppetry lies before you! Identify the correct region to unlock the next gate: 'Tholu Bommalata' is the famous shadow puppet tradition of which state(s)?",
+      "options": [
+        "A) Odisha and West Bengal",
+        "B) Kerala and Tamil Nadu",
+        "C) Andhra Pradesh and Telangana",
+        "D) Karnataka and Maharashtra"
+      ],
+      "correctOption": 2,
+      "sampleAnswer": "C"
+    },
+    {
+      "index": 2,
+      "type": "mcq",
+      "question": "In shadow puppetry, why is a single pointed source of light important?",
+      "themeWrapper": "Shadow Warrior, as you set up your sacred stage of shadows, prove your knowledge: Why must the light used in shadow puppetry be a single, pointed source that does not spread too much?",
+      "options": [
+        "A) So that the audience can see the colours of the puppet clearly",
+        "B) So that the sharpness of the shadow is maintained and the outline is clear",
+        "C) So that the puppeteer can see the script behind the screen",
+        "D) So that the background picture is brightly lit for the audience"
+      ],
+      "correctOption": 1,
+      "sampleAnswer": "B"
+    },
+    {
+      "index": 3,
+      "type": "short_answer",
+      "question": "Name any three regional hand puppet traditions of India mentioned in the chapter and the states they belong to.",
+      "themeWrapper": "Valiant Explorer of India's Heritage, the ancient scroll of regional puppetry has been revealed to you! Name any three hand puppet traditions from across India and the states they come from, to prove your mastery of this cultural quest.",
+      "sampleAnswer": "The three regional hand puppet traditions mentioned in the chapter are: (1) Sakhi Kundei and Sakhi Nach from Odisha — these puppets are made of papier mache, wood or cloth with bright, cheerful faces; (2) Pavakathakali or Pavakoothu from Kerala — inspired by the Kathakali dance form, made of wood with intricate costumes and jewellery, often telling stories from the Ramayana and Mahabharata; (3) Putul Nach from Bengal — made of clay with a unique storytelling style, often narrating stories of Krishna and Radha as well as current events."
+    },
+    {
+      "index": 4,
+      "type": "short_answer",
+      "question": "What is voice modulation in puppetry and why is it important?",
+      "themeWrapper": "Champion of the Stage, your puppet is ready but it needs a voice! Answer this challenge to breathe life into your creation: What is voice modulation in puppetry, and why does a skilled puppeteer need to master it?",
+      "sampleAnswer": "Voice modulation in puppetry means giving the puppet different voices that match its feelings, personality, and the story it is telling. For example, a happy puppet can have a cheerful, high-pitched voice, while a spooky character may have a low, mysterious voice. It is important because it makes the puppet show more exciting and believable. When a puppeteer plays two characters at the same time, voice modulation ensures that both characters sound different from each other and from the puppeteer's own natural voice. Without voice modulation, the show would be boring and the audience would not be able to distinguish between characters."
+    },
+    {
+      "index": 5,
+      "type": "long_answer",
+      "question": "Describe the step-by-step process of making a sock puppet and setting up a shadow puppet show. Include details about the materials needed, how to prepare the stage, and why teamwork is essential for stick and shadow puppetry.",
+      "themeWrapper": "Grand Puppetmaster of the Quest, the final and mightiest challenge awaits you! Unroll the sacred scroll of puppetry knowledge and describe in detail how a young puppeteer can create a sock puppet, set up a shadow puppet stage, and rally a team of fellow adventurers to bring the story to life. Prove your worth as the true Champion of Shadows and Strings!",
+      "sampleAnswer": "Making a Sock Puppet: To make a sock puppet, take any sock you have at home and wear it firmly on your hand. Then, put an elastic band or rubber band around the four fingers and separately around the thumb to create the appearance of a mouth. Alternatively, you can cut open the mouth area and stick a piece of cardboard to give it a proper opening mouth. Next, add features like eyes, tongue, hair, nose, and any other details you like using craft materials. Give your puppet a name, a personality, and create a conversation for it to perform.\n\nSetting Up a Shadow Puppet Show: For a shadow puppet show, first prepare stick puppets by drawing and colouring characters on paper, cutting them out, and gluing them to sticks at least six inches long. Then, cut a rectangle out of cardboard big enough to fit all the characters — this is the puppet show frame. You can decorate the frame and add a backdrop such as a forest or street scene. To convert it into a shadow puppet stage, stretch a white cloth over the cardboard frame. Place a single, stable, pointed source of light such as a torch behind the puppets. The light must not spread too much, so that the shadows cast are sharp and clear. Since the colour and facial features are invisible in shadow puppetry, the outline of each puppet must be distinct enough for the audience to recognise the character.\n\nImportance of Teamwork: Unlike hand puppets and sock puppets which can be done individually, stick and shadow puppetry require a team of five to six members. Each team member takes responsibility for one character, and together they decide on the story, write a script with three to four characters, make all the puppets, manage the lighting, and deliver the performance. Teamwork ensures that the show runs smoothly, every character is voiced and moved properly, and the storytelling experience is rich and coordinated. Dividing tasks also allows each member to contribute their unique skills — some may be good at drawing, others at making props, and others at voice modulation."
+    }
+  ],
+  "fromCache": false
+}
