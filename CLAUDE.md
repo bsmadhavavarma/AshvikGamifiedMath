@@ -70,6 +70,17 @@ Remove ALL traces: the component/logic, the HTML template references, the CSS cl
 - Ask the user before continuing past a natural stopping point
 - Never run indefinitely without checking in
 
+### Before launching parallel tasks
+Check available CPU first:
+```bash
+python3 -c "import os; print(f'CPUs: {os.cpu_count()}, Load avg: {[round(x/os.cpu_count()*100,1) for x in os.getloadavg()]}')"
+```
+- Only launch parallel tasks if current CPU load is under 40% (leaving headroom to reach 60% under load)
+- If load is already 40–60%: run tasks sequentially instead
+- If load is above 60%: wait or ask the user before proceeding
+- Never saturate all cores — the Mac must stay responsive for the user at all times
+- It is fine to run multiple tasks in parallel, but always check capacity first
+
 ### Intent vs literal instruction
 Read the spirit of what the user asks, not just the literal words. Examples of past mistakes:
 - "store it so you don't need the API" → means static files committed to the repo, not a DB cache that still needs an API call on first use
